@@ -605,7 +605,18 @@ function initMap(){
   detailed.on("tileerror", () => { if (S.basemap === "detailed"){ setBasemap("relief"); toast(t("map.detailedFail")); } });
   map.on("zoomend", zoomClass);
   map.on("click", () => { if (S.view === "place" || S.view === "route") go("#/map"); });
-  map.fitBounds([[-22.9, -69.6], [-9.7, -57.5]], {padding:[10, 10]});
+  // The container can still be 0×0 on a cold load (styles not applied yet): frame the
+  // country once it has a real size, and keep Leaflet in sync with later resizes.
+  let framed = false;
+  const frame = () => {
+    const el = map.getContainer();
+    if (!el.clientWidth || !el.clientHeight) return;
+    map.invalidateSize();
+    if (!framed){ framed = true; map.fitBounds([[-22.9, -69.6], [-9.7, -57.5]], {padding:[10, 10], animate:false}); focusMap(); }
+  };
+  map.setView([-16.5, -64.5], 5);
+  if (window.ResizeObserver) new ResizeObserver(frame).observe(map.getContainer());
+  frame();
   zoomClass();
   relabelMap();
 }
