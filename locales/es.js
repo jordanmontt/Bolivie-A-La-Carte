@@ -103,6 +103,7 @@ BOL.locales.es = Object.assign(BOL.locales.es || {}, {ui: {
   "map.relief": "Relieve",
   "map.detailed": "Detallado",
   "map.detailedFail": "El mapa detallado no cargó. Volvemos al relieve.",
+  "map.loadFail": "El mapa no cargó. Revisa tu conexión y recarga la página.",
   "map.legend": "Líneas de trayecto",
   "map.lines": "Mostrar trayectos",
   "map.tipWx": "En {month}: {max}° de día, {min}° de noche",
@@ -120,6 +121,9 @@ BOL.locales.es = Object.assign(BOL.locales.es || {}, {ui: {
   "showOnMap": "Ver en el mapa",
   "back.places": "Todos los lugares",
   "back.routes": "Todos los trayectos",
+  "back.map": "Volver al mapa",
+  "preview.open": "Ver la ficha",
+  "close": "Cerrar",
 
   "photos.label": "Fotos de {name}",
   "photos.alt": "{name}, foto {i}",

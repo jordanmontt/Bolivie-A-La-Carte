@@ -53,7 +53,7 @@ p{margin:0}
 .site-head{position:sticky;top:0;z-index:1000;background:var(--indigo);color:var(--indigo-ink)}
 .site-head .bar{height:var(--head-h);display:flex;align-items:center;gap:20px;padding-left:max(20px,env(safe-area-inset-left));padding-right:max(20px,env(safe-area-inset-right))}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;font:700 18px/1 var(--f-display);white-space:nowrap}
-.brand svg{width:28px;height:28px;flex:none}
+.brand svg{width:34px;height:34px;flex:none}
 .mainnav{display:flex;gap:4px;margin-left:auto}
 .mainnav a{display:flex;align-items:center;gap:8px;padding:8px 14px;border-radius:999px;text-decoration:none;font-weight:600;color:var(--indigo-ink);opacity:.82}
 .mainnav a:hover{opacity:1;background:rgba(255,255,255,.08)}
@@ -375,6 +375,8 @@ details.more[open] summary::before{transform:rotate(45deg)}
 .calc-path{stroke:var(--ink);stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:.85;pointer-events:none}
 .pin-wrap{background:none;border:0}
 .pin{position:relative;width:16px;height:16px}
+.pin::before{content:"";position:absolute;inset:-12px}
+.pin.sub::before{inset:-8px}
 .pin i{position:absolute;inset:1px;background:var(--c);border:2px solid var(--panel);transform:rotate(45deg);border-radius:3px;box-shadow:0 1px 3px rgba(0,0,0,.35)}
 .pin span{position:absolute;left:19px;top:50%;transform:translateY(-50%);white-space:nowrap;font-size:12.5px;font-weight:700;color:var(--ink);text-shadow:0 0 3px var(--bg),0 0 3px var(--bg),0 0 2px var(--bg);pointer-events:none}
 .pin.major span{font-size:13.5px}
@@ -408,6 +410,19 @@ details.more[open] summary::before{transform:rotate(45deg)}
 .leaflet-control-attribution{background:color-mix(in srgb,var(--panel) 80%,transparent)!important;color:var(--muted)!important;font-size:10px!important}
 .leaflet-control-attribution a{color:var(--muted)!important}
 @media (max-width:860px){.mapctl.bl{bottom:84px}.leaflet-control-zoom{display:none}}
+
+/* Phone map: card for the tapped place */
+.sheet{position:absolute;left:12px;right:12px;bottom:16px;z-index:800}
+.sheet-card{position:relative;display:grid;grid-template-columns:112px minmax(0,1fr);gap:12px;background:var(--panel);border-radius:var(--r-l);padding:10px;box-shadow:0 12px 32px rgba(20,10,50,.35);border-top:5px solid var(--c)}
+.sheet-card img{width:112px;height:100%;min-height:120px;object-fit:cover;border-radius:var(--r-m)}
+.sheet-txt{display:flex;flex-direction:column;gap:6px;min-width:0;padding-right:28px}
+.sheet-txt .chip{align-self:flex-start}
+.sheet-txt h2{font-size:18px}
+.sheet-txt p{font-size:14px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.sheet-txt .row{margin-top:2px}
+.sheet-txt .addbtn{width:40px;height:40px}
+.sheet-close{position:absolute;top:6px;right:6px}
+body.has-sheet .viewtoggle,body.has-sheet .mapctl.bl{display:none}
 
 /* Loading */
 .boot{min-height:60vh;display:grid;place-items:center}

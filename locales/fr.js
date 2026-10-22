@@ -103,6 +103,7 @@ BOL.locales.fr = Object.assign(BOL.locales.fr || {}, {ui: {
   "map.relief": "Relief",
   "map.detailed": "Détaillée",
   "map.detailedFail": "La carte détaillée ne se charge pas. Retour au relief.",
+  "map.loadFail": "La carte ne se charge pas. Vérifiez votre connexion et rechargez la page.",
   "map.legend": "Lignes de trajet",
   "map.lines": "Afficher les trajets",
   "map.tipWx": "En {month} : {max}° le jour, {min}° la nuit",
@@ -120,6 +121,9 @@ BOL.locales.fr = Object.assign(BOL.locales.fr || {}, {ui: {
   "showOnMap": "Voir sur la carte",
   "back.places": "Tous les lieux",
   "back.routes": "Tous les trajets",
+  "back.map": "Retour à la carte",
+  "preview.open": "Voir la fiche",
+  "close": "Fermer",
 
   "photos.label": "Photos de {name}",
   "photos.alt": "{name}, photo {i}",

@@ -103,6 +103,7 @@ BOL.locales.en = Object.assign(BOL.locales.en || {}, {ui: {
   "map.relief": "Relief",
   "map.detailed": "Detailed",
   "map.detailedFail": "The detailed map didn't load. Back to relief.",
+  "map.loadFail": "The map didn't load. Check your connection and reload the page.",
   "map.legend": "Route lines",
   "map.lines": "Show routes",
   "map.tipWx": "In {month}: {max}° by day, {min}° at night",
@@ -120,6 +121,9 @@ BOL.locales.en = Object.assign(BOL.locales.en || {}, {ui: {
   "showOnMap": "Show on map",
   "back.places": "All places",
   "back.routes": "All routes",
+  "back.map": "Back to the map",
+  "preview.open": "See details",
+  "close": "Close",
 
   "photos.label": "Photos of {name}",
   "photos.alt": "{name}, photo {i}",

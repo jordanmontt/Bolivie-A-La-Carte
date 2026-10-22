@@ -3,14 +3,16 @@
 // Each language has two catalogues, loaded only when needed:
 //   locales/<lang>.js          interface strings  -> BOL.locales[lang].ui
 //   locales/<lang>.content.js  destination texts  -> BOL.locales[lang].places, .edges, ...
-// Lookups walk a fallback chain (active language, then English), so a missing
-// string shows the English text instead of breaking the page.
+// Only the active language is downloaded; tools/check-locales.mjs keeps every language
+// complete. Lookups still fall back to English when it happens to be loaded.
 //
 // Language choice: ?lang= in the URL, then the visitor's saved choice, then the
 // browser languages in order of preference, then English.
 (function(){
 "use strict";
 const SUPPORTED = ["fr", "en", "es"], DEFAULT = "en", STORE = "bolivia-lang";
+// Release number added to files loaded on demand, like the ?v= in index.html: bump both together.
+const RELEASE = "2";
 const NAMES = {fr:"Français", en:"English", es:"Español"};
 window.BOL = window.BOL || {};
 BOL.locales = BOL.locales || {};
@@ -28,15 +30,17 @@ function fromBrowser(){
   for (const l of list){ const m = match(l); if (m) return m; }
   return null;
 }
+const scripts = {};
 function inject(src){
-  return new Promise((resolve, reject) => {
+  if (scripts[src]) return scripts[src];
+  return scripts[src] = new Promise((resolve, reject) => {
     const s = document.createElement("script");
-    s.src = src; s.onload = resolve; s.onerror = () => reject(new Error("Cannot load " + src));
+    s.src = src; s.onload = resolve; s.onerror = () => { delete scripts[src]; reject(new Error("Cannot load " + src)); };
     document.head.appendChild(s);
   });
 }
 function load(lang){
-  if (!loading[lang]) loading[lang] = Promise.all([inject(`locales/${lang}.js`), inject(`locales/${lang}.content.js`)]);
+  if (!loading[lang]) loading[lang] = Promise.all([inject(`locales/${lang}.js?v=${RELEASE}`), inject(`locales/${lang}.content.js?v=${RELEASE}`)]);
   return loading[lang];
 }
 
@@ -72,11 +76,13 @@ I.initial = () => fromUrl() || fromStore() || fromBrowser() || DEFAULT;
 // Activate a language. persist = the visitor picked it explicitly.
 I.use = async (lang, persist) => {
   lang = match(lang) || DEFAULT;
-  await Promise.all([load(lang), load(DEFAULT)]);
+  await load(lang);
   I.lang = lang;
   document.documentElement.lang = lang;
   if (persist){ try { localStorage.setItem(STORE, lang); } catch(e){} }
 };
 
 BOL.i18n = I;
+BOL.loadScript = inject;
+BOL.release = RELEASE;
 })();

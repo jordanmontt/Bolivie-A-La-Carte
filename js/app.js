@@ -29,9 +29,13 @@ const pc = id => I.c("places", id) || {};
 const name = id => pc(id).name || id;
 const label = id => pc(id).label || name(id);
 const photos = id => B.photos[id] || [];
+// Every photo also exists 640 px wide in photos/sm/, for lists, cards and tooltips.
+const small = src => src ? src.replace("photos/", "photos/sm/") : "";
 const cover = id => (photos(id)[0] || {}).src || "";
 const catVar = c => `--c:var(--c-${c})`;
 const isPhone = () => matchMedia("(max-width:860px)").matches;
+// On touch screens a route line's tap area would swallow taps meant for nearby places.
+const coarse = matchMedia("(pointer:coarse)").matches;
 
 const fmtDays = d => t("days", {n:d, d:I.num(d)});
 const fmtAlt = a => t("alt", {a:I.num(a, 0)});
@@ -58,7 +62,9 @@ const ICON = {
   chev:'<path d="M6 9l6 6 6-6"/>'
 };
 const icon = (k, cls) => `<svg ${cls ? `class="${cls}" ` : ""}viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON[k]}</svg>`;
-const LOGO = '<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 1l15 15-15 15L1 16z" fill="#e2187b"/><path d="M16 6l10 10-10 10L6 16z" fill="#f5a300"/><path d="M16 10.5l5.5 5.5-5.5 5.5-5.5-5.5z" fill="#0f9d58"/><path d="M16 14l2 2-2 2-2-2z" fill="#fbefe0"/></svg>';
+// Logo: a chakana (Andean stepped cross) framing Illimani under the Altiplano sky, over woven stripes.
+// Ids are prefixed so the inline copy can't clash with other SVGs on the page.
+const LOGO = '<svg viewBox="-3 -3 46 46" aria-hidden="true"><defs><path id="lg-ck" d="M15 0h10v5h5v5h5v5h5v10h-5v5h-5v5h-5v5H15v-5h-5v-5H5v-5H0V15h5v-5h5V5h5z"/><clipPath id="lg-cc"><use href="#lg-ck"/></clipPath></defs><use href="#lg-ck" fill="none" stroke="#fbefe0" stroke-width="5.2"/><use href="#lg-ck" fill="#1f1747" stroke="#1f1747" stroke-width="2.6"/><g clip-path="url(#lg-cc)"><rect width="40" height="40" fill="#00a3b4"/><circle cx="24.5" cy="9" r="3.9" fill="#f5a300"/><path d="M-1 27.5L7 21l3 1.6 4.2-5.4 2.6 1.8 4.6-7.2 3.4 4.6 3-2.6 4.8 5.6L41 27.5z" fill="#1f1747"/><path d="M18.9 14.3l2.5-3.5 2.8 3.9-1.9-.9-1.3 1.4zM27.3 15.4l1.5-1.2 2 2.4-1.6-.5zM12.8 19.2l1.4-2 1.5 1-1.1.2z" fill="#fbefe0"/><rect y="27.5" width="40" height="3.6" fill="#e2187b"/><rect y="31.1" width="40" height="3.4" fill="#f5a300"/><rect y="34.5" width="40" height="6" fill="#0f9d58"/></g></svg>';
 function modeIcon(m){
   const dash = {train:"6 3", avion:"1 4", bateau:"4 4", tour:"7 4", velo:"2 3"}[m] || "";
   return `<svg class="mode-ico" viewBox="0 0 30 14" aria-hidden="true"><line class="m-${m}" x1="2" y1="7" x2="28" y2="7" ${dash ? `stroke-dasharray="${dash}"` : ""} ${m === "avion" ? 'stroke-linecap="round"' : ""}/></svg>`;
@@ -77,7 +83,9 @@ function toast(msg, actionLabel, action){
 const S = {
   view:"home", place:null, edge:null, q:"", region:"all", cats:new Set(CATS), month:-1,
   modes:new Set(["bus","train","bateau","tour","velo"]), basemap:"relief",
-  calc:{from:"", to:"", pref:"avion", show:false}
+  calc:{from:"", to:"", pref:"avion", show:false},
+  preview:null,   // place shown in the bottom card on the phone map
+  fromMap:false   // the open place was reached from the phone map, so "back" returns there
 };
 const savedUi = load("bolivia-ui", null);
 if (savedUi){
@@ -195,7 +203,9 @@ function route(){
     }
   }
   else S.view = "home";
-  document.body.classList.remove("show-map");
+  S.preview = null;
+  document.body.classList.toggle("show-map", S.view === "map" && S.fromMap && isPhone());
+  if (S.view !== "place") S.fromMap = false;
   render(true);
 }
 
@@ -243,11 +253,11 @@ function renderHome(){
       <p class="lead">${esc(t("home.lead", {n:B.places.length}))}</p>
       <div class="row"><a class="btn cta" href="#/map">${icon("map")}${esc(t("home.explore"))}</a><a class="btn on-dark" href="#/trip">${icon("trip")}${esc(t("home.plan"))}</a></div>
     </div>
-    <div class="mosaic">${HERO.map(id => `<figure><a href="#/place/${id}"><img src="${esc(cover(id))}" alt="${esc(name(id))}"></a><figcaption>${esc(label(id))}</figcaption></figure>`).join("")}</div>
+    <div class="mosaic">${HERO.map((id, i) => `<figure><a href="#/place/${id}"><img src="${esc(i ? small(cover(id)) : cover(id))}" alt="${esc(name(id))}" ${i ? "" : 'fetchpriority="high"'} decoding="async"></a><figcaption>${esc(label(id))}</figcaption></figure>`).join("")}</div>
   </div></section>
   <div class="weave thick"></div>
   <section class="section" aria-labelledby="h-reg"><header><div><h2 id="h-reg">${esc(t("home.regions"))}</h2><p>${esc(t("home.regionsLead"))}</p></div></header>
-    <div class="regions">${REGIONS.map(r => `<a class="region" href="#/map?region=${r}"><img src="${esc(cover(REGION_COVER[r]))}" alt="" loading="lazy"><div class="txt"><h3>${esc(t("region." + r))}</h3><p>${esc(t("regionDesc." + r))}</p><span class="n">${esc(t("places", {n:B.places.filter(p => p.region === r).length}))}</span></div></a>`).join("")}</div>
+    <div class="regions">${REGIONS.map(r => `<a class="region" href="#/map?region=${r}"><img src="${esc(small(cover(REGION_COVER[r])))}" alt="" loading="lazy" decoding="async"><div class="txt"><h3>${esc(t("region." + r))}</h3><p>${esc(t("regionDesc." + r))}</p><span class="n">${esc(t("places", {n:B.places.filter(p => p.region === r).length}))}</span></div></a>`).join("")}</div>
   </section>
   <section class="section" aria-labelledby="h-th"><header><div><h2 id="h-th">${esc(t("home.themes"))}</h2><p>${esc(t("home.themesLead"))}</p></div></header>
     <div class="themes">${CATS.map(c => `<a class="theme" href="#/map?cat=${c}" style="${catVar(c)}"><span class="dmd"></span><b>${esc(t("cat." + c))}</b><span>${esc(t("catDesc." + c))}</span><span>${esc(t("places", {n:count(c)}))}</span></a>`).join("")}</div>
@@ -280,7 +290,7 @@ function placeRow(p){
   const on = inTrip(p.id), ph = photos(p.id)[0], c = pc(p.id);
   const start = tripStart(), r = start && start !== p.id ? M.shortest(start, p.id, trip.pref) : null;
   return `<li class="pitem" style="${catVar(p.cat)}">
-    <a href="#/place/${p.id}">${ph ? `<img src="${esc(ph.src)}" alt="" loading="lazy">` : `<span class="noimg"></span>`}
+    <a href="#/place/${p.id}">${ph ? `<img src="${esc(small(ph.src))}" alt="" loading="lazy" decoding="async">` : `<span class="noimg"></span>`}
       <span style="min-width:0"><span class="nm">${esc(c.name)}</span><span class="meta"><span class="dmd"></span><span>${esc(t("cat." + p.cat))}</span><span>${esc(fmtAlt(p.alt))}</span>${r ? `<span>${esc(t("fromStart", {h:fmtH(r.hours), place:label(start)}))}</span>` : ""}${tempsHtml(p.id)}</span></span></a>
     <button type="button" class="addbtn ${on ? "on" : ""}" data-act="toggle" data-id="${p.id}" aria-pressed="${on}" aria-label="${esc(t(on ? "trip.removeNamed" : "trip.addNamed", {name:c.name}))}">${icon(on ? "check" : "plus")}</button>
   </li>`;
@@ -317,7 +327,7 @@ function panelMap(){
 /* ───── Panel: one place ───── */
 function galleryHtml(id){
   const ph = photos(id); if (!ph.length) return "";
-  return `<div class="gallery" id="gallery" tabindex="0" aria-label="${esc(t("photos.label", {name:name(id)}))}">${ph.map((x, i) => `<figure><img src="${esc(x.src)}" alt="${esc(t("photos.alt", {name:name(id), i:i + 1}))}" ${i ? 'loading="lazy"' : ""}><figcaption>${esc(t("photos.by"))} <a href="${esc(x.page)}" target="_blank" rel="noopener">${esc(x.artist || "Wikimedia Commons")}</a>${x.lic ? ", " + esc(x.lic) : ""}</figcaption></figure>`).join("")}</div>
+  return `<div class="gallery" id="gallery" tabindex="0" aria-label="${esc(t("photos.label", {name:name(id)}))}">${ph.map((x, i) => `<figure><img src="${esc(x.src)}" alt="${esc(t("photos.alt", {name:name(id), i:i + 1}))}" ${i ? 'loading="lazy"' : ""} decoding="async"><figcaption>${esc(t("photos.by"))} <a href="${esc(x.page)}" target="_blank" rel="noopener">${esc(x.artist || "Wikimedia Commons")}</a>${x.lic ? ", " + esc(x.lic) : ""}</figcaption></figure>`).join("")}</div>
   ${ph.length > 1 ? `<div class="galnav" aria-hidden="true">${ph.map((x, i) => `<i class="${i ? "" : "on"}"></i>`).join("")}</div>` : ""}`;
 }
 function edgeRow(e, from){
@@ -332,7 +342,7 @@ function panelPlace(id){
   const food = (B.food[id] || []).map(k => I.c("dishes", k)).filter(Boolean);
   const days = p.days[0] === p.days[1] ? fmtDays(p.days[1]) : t("daysRange", {a:I.num(p.days[0]), b:fmtDays(p.days[1])});
   return `<div class="in stack" style="${catVar(p.cat)}">
-    <a class="linkback" href="#/map">${icon("back")}${esc(t("back.places"))}</a>
+    <a class="linkback" href="#/map">${icon("back")}${esc(t(S.fromMap ? "back.map" : "back.places"))}</a>
     ${galleryHtml(id)}
     <div class="stack" style="gap:10px">
       <div class="row"><span class="chip c"><span class="d"></span>${esc(t("cat." + p.cat))}</span><a class="chip" href="#/map?region=${p.region}" style="text-decoration:none">${esc(t("region." + p.region))}</a></div>
@@ -555,6 +565,13 @@ function copyText(txt, okMsg){
 }
 
 /* ───── Map ───── */
+// Leaflet and the map geometry (~450 KB) only load when a map view is first opened.
+const LEAFLET_JS = "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js";
+let mapLoading = null;
+function ensureMap(){
+  if (!mapLoading) mapLoading = Promise.all([B.loadScript(LEAFLET_JS), B.loadScript("data/geo.js?v=" + B.release)]).then(initMap);
+  return mapLoading;
+}
 let map, markers = {}, edgeEls = {}, layers = {}, relief, detailed, baseGroup, geoLabels = [], subMarkers = [];
 const GEOLABELS = [["geo.peru",-12.6,-70.3,"country"],["geo.brazil",-11.6,-61.2,"country"],["geo.chile",-21.6,-69.6,"country"],["geo.argentina",-23.6,-64.2,"country"],["geo.paraguay",-21.4,-59.6,"country"],
   ["geo.titicaca",-15.95,-69.55,"water"],["geo.uyuni",-20.55,-67.55,"water"],["geo.coipasa",-19.35,-68.25,"water"],["geo.poopo",-18.75,-67.05,"water"],
@@ -580,7 +597,7 @@ function initMap(){
   map.attributionControl.setPrefix(false);
   map.zoomControl.setPosition("topleft");
   relief = L.imageOverlay("assets/relief.jpg", [[BASE.bounds[0], BASE.bounds[1]], [BASE.bounds[2], BASE.bounds[3]]], {className:"relief-img", interactive:false, attribution:"Terrain Tiles (SRTM), Natural Earth, OSRM / © OpenStreetMap"}).addTo(map);
-  detailed = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", {maxZoom:18, attribution:"Esri, HERE, Garmin, © OpenStreetMap contributors"});
+  detailed = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", {maxZoom:18, crossOrigin:true, attribution:"Esri, HERE, Garmin, © OpenStreetMap contributors"});
   baseGroup = L.layerGroup().addTo(map);
   const geo = (g, cls, fill) => L.geoJSON(g, {interactive:false, style:{className:cls, fill:!!fill, stroke:true}}).addTo(baseGroup);
   geo(BASE.mask, "mask", true); geo(BASE.rivers, "river"); geo(BASE.lakes, "lake", true); geo(BASE.salars, "salar", true);
@@ -590,7 +607,7 @@ function initMap(){
   B.edges.forEach(e => {
     const ll = edgeLine(e);
     const vis = L.polyline(ll, {className:`edge m-${e.mode}`, interactive:false});
-    const hit = L.polyline(ll, {className:"edge-hit", interactive:true, bubblingMouseEvents:false});
+    const hit = L.polyline(ll, {className:"edge-hit", interactive:!coarse, bubblingMouseEvents:false});
     hit.on("click", () => go("#/route/" + e.id));
     hit.on("mouseover", () => vis.getElement() && vis.getElement().classList.add("hl"));
     hit.on("mouseout", () => { if (S.edge !== e.id) vis.getElement() && vis.getElement().classList.remove("hl"); });
@@ -598,13 +615,19 @@ function initMap(){
   });
   B.places.forEach(p => {
     const m = L.marker([p.lat, p.lng], {icon:L.divIcon({className:"pin-wrap", html:"", iconSize:[16,16], iconAnchor:[8,8]}), riseOnHover:true, zIndexOffset:MAJOR.has(p.id) ? 500 : 0});
-    m.on("click", () => go("#/place/" + p.id));
+    m.on("click", () => {
+      if (isPhone() && document.body.classList.contains("show-map")) showPreview(p.id);
+      else go("#/place/" + p.id);
+    });
     markers[p.id] = m;
   });
   subMarkers = B.tourStops.map(s => L.marker([s.lat, s.lng], {icon:L.divIcon({className:"pin-wrap", html:"", iconSize:[9,9], iconAnchor:[4,4]}), zIndexOffset:-100}).on("click", () => go("#/place/salar")).addTo(map));
   detailed.on("tileerror", () => { if (S.basemap === "detailed"){ setBasemap("relief"); toast(t("map.detailedFail")); } });
   map.on("zoomend", zoomClass);
-  map.on("click", () => { if (S.view === "place" || S.view === "route") go("#/map"); });
+  map.on("click", () => {
+    if (S.preview) closePreview();
+    else if (!isPhone() && (S.view === "place" || S.view === "route")) go("#/map");
+  });
   // The container can still be 0×0 on a cold load (styles not applied yet): frame the
   // country once it has a real size, and keep Leaflet in sync with later resizes.
   let framed = false;
@@ -629,7 +652,7 @@ function relabelMap(){
     m.unbindTooltip();
     if (!matchMedia("(hover:none)").matches){
       const ph = photos(p.id)[0];
-      m.bindTooltip(() => { const w = S.month >= 0 ? M.climate(p.id, S.month) : null; return `${ph ? `<img src="${esc(ph.src)}" alt="">` : ""}<div>${esc(name(p.id))}<small>${esc(pc(p.id).short)}</small>${w ? `<small>${esc(t("map.tipWx", {month:I.month(S.month), max:w.max, min:w.min}))}</small>` : ""}</div>`; }, {direction:"top", offset:[0, -10], className:"ptip", opacity:1});
+      m.bindTooltip(() => { const w = S.month >= 0 ? M.climate(p.id, S.month) : null; return `${ph ? `<img src="${esc(small(ph.src))}" alt="">` : ""}<div>${esc(name(p.id))}<small>${esc(pc(p.id).short)}</small>${w ? `<small>${esc(t("map.tipWx", {month:I.month(S.month), max:w.max, min:w.min}))}</small>` : ""}</div>`; }, {direction:"top", offset:[0, -10], className:"ptip", opacity:1});
     }
   });
   subMarkers.forEach((m, i) => { const n = I.c("tour", B.tourStops[i].id); m.setIcon(L.divIcon({className:"pin-wrap", html:`<div class="pin sub"><i></i><span>${esc(n)}</span></div>`, iconSize:[9,9], iconAnchor:[4,4]})); });
@@ -653,7 +676,7 @@ function renderMapCtl(){
 const visible = p => S.cats.has(p.cat) || inTrip(p.id) || S.place === p.id;
 function drawMap(){
   if (!map) return;
-  const sel = S.place, selEdge = S.edge;
+  const sel = S.place || S.preview, selEdge = S.edge;
   B.places.forEach(p => {
     const m = markers[p.id], vis = visible(p);
     if (vis && !layers.markers.hasLayer(m)) layers.markers.addLayer(m);
@@ -708,6 +731,34 @@ function focusMap(){
 function fitRegion(){ const pts = B.places.filter(p => p.region === S.region).map(p => [p.lat, p.lng]); if (pts.length) map.fitBounds(pts, {padding:[60, 60], maxZoom:9}); }
 function fitCalc(){ const r = M.shortest(S.calc.from, S.calc.to, S.calc.pref); if (r && r.steps.length){ const all = []; r.steps.forEach(s => all.push(...edgeLine(s.e))); map.fitBounds(all, {padding:[50, 50], maxZoom:9}); } }
 
+/* ───── Phone map: bottom card for a tapped place ───── */
+function showPreview(id){
+  S.preview = id; renderSheet(); drawMap();
+  const p = byId[id], pt = map.latLngToContainerPoint([p.lat, p.lng]), h = map.getSize().y;
+  if (pt.y > h * 0.45) map.panBy([0, pt.y - h * 0.35]);
+}
+function closePreview(){ S.preview = null; renderSheet(); drawMap(); }
+function renderSheet(){
+  const el = $("#sheet"), id = S.preview;
+  document.body.classList.toggle("has-sheet", !!id);
+  if (!id){ el.hidden = true; el.innerHTML = ""; return; }
+  const p = byId[id], c = pc(id), on = inTrip(id), ph = photos(id)[0];
+  el.hidden = false;
+  el.innerHTML = `<article class="sheet-card" style="${catVar(p.cat)}" aria-label="${esc(c.name)}">
+    ${ph ? `<img src="${esc(small(ph.src))}" alt="">` : ""}
+    <div class="sheet-txt">
+      <span class="chip c"><span class="d"></span>${esc(t("cat." + p.cat))}</span>
+      <h2>${esc(c.name)}</h2>
+      <p>${esc(c.short)}</p>
+      <div class="row">
+        <a class="btn primary small" href="#/place/${id}" data-act="openFromMap">${esc(t("preview.open"))}</a>
+        <button type="button" class="addbtn ${on ? "on" : ""}" data-act="toggle" data-id="${id}" aria-pressed="${on}" aria-label="${esc(t(on ? "trip.removeNamed" : "trip.addNamed", {name:c.name}))}">${icon(on ? "check" : "plus")}</button>
+      </div>
+    </div>
+    <button type="button" class="icon-btn sheet-close" data-act="closePreview" aria-label="${esc(t("close"))}">${icon("x")}</button>
+  </article>`;
+}
+
 /* ───── Render ───── */
 function render(navigated){
   renderChrome();
@@ -716,7 +767,7 @@ function render(navigated){
   let title = t("brand");
   if (home){ renderHome(); title = t("brand") + ", " + t("home.titleShort"); }
   else {
-    if (!map){ initMap(); }
+    if (!map) ensureMap().then(() => { render(false); focusMap(); }, () => { mapLoading = null; toast(t("map.loadFail")); });
     const panel = $("#panel");
     const html = {map:panelMap, place:() => panelPlace(S.place), routes:panelRoutes, route:() => panelRoute(S.edge), trip:panelTrip}[S.view]();
     const scroll = navigated ? 0 : panel.scrollTop, winScroll = navigated ? 0 : window.scrollY;
@@ -727,9 +778,12 @@ function render(navigated){
     bindGallery();
     title = ({map:t("map.title"), place:name(S.place), routes:t("routes.title"), route:S.edge && `${label(edgeById[S.edge].a)} – ${label(edgeById[S.edge].b)}`, trip:t("trip.title")})[S.view] + " | " + t("brand");
     $("#viewToggle").innerHTML = document.body.classList.contains("show-map") ? icon("list") + esc(t(S.view === "place" ? "showPlace" : "showList")) : icon("map") + esc(t("showMap"));
-    map.invalidateSize();
-    drawMap();
-    if (navigated) focusMap();
+    renderSheet();
+    if (map){
+      map.invalidateSize();
+      drawMap();
+      if (navigated) focusMap();
+    }
   }
   document.title = title;
   if (navigated){
@@ -756,12 +810,14 @@ document.addEventListener("click", ev => {
     case "resetFilters": S.cats = new Set(CATS); S.region = "all"; S.q = ""; update(); break;
     case "mode": { const k = b.dataset.k; S.modes.has(k) ? S.modes.delete(k) : S.modes.add(k); saveUi(); renderMapCtl(); drawMap(); break; }
     case "basemap": setBasemap(b.dataset.v); break;
+    case "openFromMap": S.fromMap = true; break;
+    case "closePreview": closePreview(); break;
     case "showMap":
-      document.body.classList.add("show-map"); update(); map.invalidateSize();
-      if (S.view === "place"){ const p = byId[S.place]; map.setView([p.lat, p.lng], Math.max(map.getZoom(), 8)); }
+      document.body.classList.add("show-map"); update();
+      if (map && S.view === "place"){ map.invalidateSize(); const p = byId[S.place]; map.setView([p.lat, p.lng], Math.max(map.getZoom(), 8)); }
       break;
     case "toggleView":
-      document.body.classList.toggle("show-map"); update(); map.invalidateSize(); break;
+      document.body.classList.toggle("show-map"); S.preview = null; update(); if (map) map.invalidateSize(); break;
     case "idea": {
       const it = B.itineraries.find(x => x.id === b.dataset.id);
       replaceTrip(ideaTrip(it), t("toast.ideaLoaded", {name:t(`idea.${it.id}.name`)}));
@@ -775,7 +831,7 @@ document.addEventListener("click", ev => {
     case "rm": removeAt(i); break;
     case "leg": {
       const l = M.legs(trip)[i];
-      if (l && l.r){ const all = []; l.r.steps.forEach(st => all.push(...edgeLine(st.e))); if (isPhone()){ document.body.classList.add("show-map"); update(); } map.invalidateSize(); map.fitBounds(all, {padding:[40, 40], maxZoom:9}); }
+      if (map && l && l.r){ const all = []; l.r.steps.forEach(st => all.push(...edgeLine(st.e))); if (isPhone()){ document.body.classList.add("show-map"); update(); } map.invalidateSize(); map.fitBounds(all, {padding:[40, 40], maxZoom:9}); }
       break;
     }
     case "pref": trip.pref = b.dataset.v; saveTrip(); update(); break;
@@ -822,6 +878,8 @@ async function start(){
   try { await I.use(I.initial(), false); }
   catch(e){ $("#v-home").innerHTML = `<p style="padding:40px">Could not load the site texts. Please reload the page.</p>`; return; }
   $("#viewToggle").dataset.act = "toggleView";
+  // Cache for photos, map and libraries (see sw.js). Not available when opened as a file.
+  if ("serviceWorker" in navigator && location.protocol.startsWith("http")) navigator.serviceWorker.register("sw.js").catch(() => {});
   window.addEventListener("hashchange", route);
   route();
 }

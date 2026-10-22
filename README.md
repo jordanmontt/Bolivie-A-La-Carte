@@ -23,6 +23,18 @@ No build step: open `index.html` in a browser (it also works from the file syste
 | `js/model.js` | Route network, shortest paths, climate, trip maths |
 | `js/app.js` | Views, map and interactions |
 
+## Loading and cache
+
+The home page only loads the active language, the place data and the photos it shows.
+Leaflet and the map geometry load the first time a map view opens. Lists and cards use
+the 640 px copies in `photos/sm/` (regenerate them with `python3 tools/make-small-photos.py`
+after adding photos); place pages show the full photos.
+
+`sw.js` caches photos, the relief image, map tiles, fonts and libraries after their first
+download. Pages, code, data and texts are always fetched fresh. If you replace a photo
+while keeping its file name, bump `VERSION` in `sw.js` so visitors get the new one. On each
+release, bump the `?v=` number in `index.html` and `RELEASE` in `js/i18n.js`.
+
 ## Languages
 
 The language comes from `?lang=` in the URL, then the visitor's saved choice, then the
