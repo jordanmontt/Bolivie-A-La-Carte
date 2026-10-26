@@ -9,7 +9,8 @@ BOL.locales.en = Object.assign(BOL.locales.en || {}, {
   "torotoro":{"name":"Torotoro National Park","label":"Torotoro","short":"Dinosaur footprints, a spectacular canyon and the Umajalanta cave.","story":"Torotoro is a small village at the end of a mountain road, in a landscape that looks straight out of the age of dinosaurs, and with good reason: hundreds of giant footprints are still visible in the rock. You climb down a 300 m canyon to a waterfall and crawl through a real cave with an underground river and blind fish. One of the most spectacular adventures in the country, a few hours from Cochabamba.","todo":["Torotoro canyon and El Vergel waterfall","Umajalanta cave (easy caving, underground river)","Giant dinosaur footprints around the village","Ciudad de Itas (rock formations)"],"tips":"A guide is required in the park (you'll find one in the village). Plan two nights there."},
   "incallajta":{"name":"Incallajta","label":"Incallajta","short":"The largest Inca site in Bolivia, in a remote valley.","story":"Incallajta is the largest Inca city in Bolivia, built to defend the empire against the peoples of the east. You'll find a huge ceremonial hall with stone and earth walls, in an isolated valley with hardly anyone around. A visit for history lovers and fans of places off the beaten track.","todo":["The great kallanka (ceremonial hall) and the fortress","Nearby waterfall"],"tips":"Little public transport: best by car or on an organised trip from Cochabamba. Can be combined with Totora."},
   "totora":{"name":"Totora","label":"Totora","short":"A small, well-preserved colonial village on the old road to Santa Cruz.","story":"Totora is a colonial village frozen in time, with wooden balconies and cobbled lanes. You pass through it on the old road to Santa Cruz, and it makes a good break on that long mountain journey.","todo":["Cobbled streets and wooden balconies","A stop on the way to Samaipata"],"tips":"A good stop if you take the old Cochabamba to Samaipata road."},
-  "lapaz":{"name":"La Paz and El Alto","label":"La Paz","short":"The world's highest seat of government, in a bowl at the foot of Illimani.","story":"La Paz is like nowhere else: set in a bowl at 3,600 m below the snowy peak of Illimani, it's best seen from cable cars gliding over the rooftops. You'll pass cholitas in bowler hats, witches selling dried llama foetuses for good luck, and the famous cholita wrestling. Fascinating, chaotic and breathtaking, in every sense.","todo":["Mi Teleférico, the urban cable car network","Witches' Market and Calle Jaén","Cholita wrestling in El Alto (Thursdays and Sundays)","The Feria 16 de Julio market in El Alto (Thursdays and Sundays)","El Alto's cholet architecture"],"tips":"Arriving by road from a lower city (Cochabamba, Sucre) helps you acclimatise. Take the first day slowly, with coca tea."},
+  "lapaz":{"name":"La Paz","label":"La Paz","short":"The world's highest seat of government, in a bowl at the foot of Illimani.","story":"La Paz is like nowhere else: set in a bowl at 3,600 m below the snowy peak of Illimani, it's best seen from cable cars gliding over the rooftops. You'll pass cholitas in bowler hats and witches selling dried llama foetuses for good luck, between colonial churches and markets spilling onto the pavements. Fascinating, chaotic and breathtaking, in every sense.","todo":["Mi Teleférico, the urban cable car network","Witches' Market and Calle Jaén","Plaza Murillo and San Francisco church","Rodríguez market and the flavours of La Paz","Killi Killi viewpoint at sunset"],"tips":"Arriving by road from a lower city (Cochabamba, Sucre) helps you acclimatise. Take the first day slowly, with coca tea."},
+  "elalto":{"name":"El Alto","label":"El Alto","short":"The big Aymara city on the Altiplano, right above La Paz: a giant market, cholets and cholita wrestling.","story":"On the rim of the La Paz bowl, above 4,000 m, El Alto is a city in its own right, one of the largest in the country and the heart of urban Aymara culture. Ride up by cable car for the view over La Paz and Illimani, get lost in the Feria 16 de Julio, one of the biggest markets in South America, and discover the cholets, brightly coloured buildings inspired by Andean weaving. On Sundays, don't miss the cholita wrestling.","todo":["Feria 16 de Julio, a giant market (Thursdays and Sundays)","Cholita wrestling, mostly on Sundays","The cholets, Freddy Mamani's colourful architecture","The view over La Paz and Illimani from the cable car"],"tips":"It's colder than La Paz and you feel the altitude: avoid going up on the day you arrive. The market is very crowded, so keep your things close. La Paz's international airport is in El Alto."},
   "valleluna":{"name":"Valle de la Luna","label":"Valle de la Luna","short":"Moon-like clay formations in the southern suburbs of La Paz.","story":"Twenty minutes from central La Paz, erosion has carved hundreds of clay spires and chimneys that make you feel you're walking on another planet. An easy one-hour stroll, perfect for half a day.","todo":["Trails of 15 to 45 minutes","Combine with the Muela del Diablo"],"tips":"Half a day from La Paz (minibus or taxi)."},
   "chacaltaya":{"name":"Chacaltaya","label":"Chacaltaya","short":"A former ski area at 5,400 m: the highest view of the Cordillera Real.","story":"Chacaltaya was the world's highest ski resort until its glacier melted. Today a minibus takes you up to 5,300 m and you walk to the summit for an incredible view of the Cordillera Real, Huayna Potosí and, in the distance, Lake Titicaca. The highest point you can easily reach in Bolivia.","todo":["Walk to the summit from the refuge (30 min)","Views of Huayna Potosí and Lake Titicaca"],"tips":"Only after a few days of acclimatisation. Often combined with Valle de la Luna."},
   "huayna":{"name":"Huayna Potosí","label":"Huayna Potosí","short":"A 6,000 m peak known as one of the most accessible, with a guided 2 or 3-day climb.","story":"Huayna Potosí (6,088 m) is one of the most accessible 6,000 m peaks in the world: in two or three days with a guide, you stay at a refuge and then walk up the glacier to reach the summit at sunrise. A real expedition, only for people who are well acclimatised and fit.","todo":["Guided ascent (glacier, crampons)","Or just a day trip to the refuge and the Zongo glacier"],"tips":"Requires very good acclimatisation (at least a week at altitude). Use a reputable agency in La Paz."},
@@ -65,12 +66,13 @@ BOL.locales.en = Object.assign(BOL.locales.en || {}, {
   "cbba-totora":{"t":"4 h","how":"Bus to Totora, or a bus on the old Santa Cruz road.","road":"Ruta 7 (old Cochabamba to Santa Cruz road) via Epizana."},
   "totora-samaipata":{"t":"5 to 6 h","how":"Bus on the old road, or car.","road":"Ruta 7: Epizana, Comarapa, Mairana, Samaipata. Winding road, magnificent scenery."},
   "cbba-samaipata":{"t":"8 to 10 h","how":"Night bus to Santa Cruz on the old road (ask to get off in Samaipata), or car.","road":"Ruta 7 (“carretera antigua”): Cochabamba, Epizana, Comarapa, Mairana, Samaipata.","note":"Slower than the new road but far more beautiful, and it passes through Samaipata."},
-  "cbba-santacruz":{"t":"9 to 11 h","how":"Very frequent night buses (Cochabamba terminal to the Bimodal terminal in Santa Cruz).","road":"Ruta 4 through the Chapare (new road).","note":"The Chapare is often blocked at the moment: check the day before, or fly, or take the old road through Samaipata."},
+  "cbba-santacruz":{"t":"9 to 11 h","how":"Very frequent night buses (Cochabamba terminal to the Bimodal terminal in Santa Cruz).","road":"Ruta 4 through the Chapare (new road)."},
   "cbba-santacruz-avion":{"t":"55 min flight","how":"Daily BoA flights to Viru Viru airport."},
   "cbba-sucre":{"t":"9 to 11 h (overnight)","how":"Night bus from the Cochabamba bus terminal.","road":"Ruta 7 east, Ruta 23 south via Aiquile, then Ruta 5 via Puente Arce to Sucre.","note":"Long and winding: the 35-minute flight saves you a day."},
   "cbba-sucre-avion":{"t":"35 min flight","how":"BoA flights to Alcantarí airport."},
   "cbba-tarija-avion":{"t":"1 h flight","how":"Direct BoA flights on some days."},
   "cbba-trinidad-avion":{"t":"1 h flight","how":"BoA or TAM flights on some days."},
+  "lapaz-elalto":{"t":"15 to 30 min","how":"Mi Teleférico (red, yellow or blue lines from La Paz) or minibus.","note":"The cable car is the easiest way, with a superb view over the city."},
   "lapaz-valleluna":{"t":"30 to 45 min","how":"Minibus from the centre, or taxi.","road":"La Paz's Zona Sur (Calacoto, Mallasa)."},
   "lapaz-chacaltaya":{"t":"1 h 30","how":"Minibus tour from La Paz (often combined with Valle de la Luna).","road":"El Alto, then a mountain track."},
   "lapaz-huayna":{"t":"1 h 30","how":"Transport included in the guided climb.","road":"El Alto, Milluni, Zongo pass."},
@@ -233,7 +235,7 @@ BOL.locales.en = Object.assign(BOL.locales.en || {}, {
      "Foreign cards only work in hotels, some restaurants and supermarkets in the big cities, often with a surcharge. Markets, buses, taxis, villages and national park entrances: cash only.",
      "You'll see QR codes everywhere, even at street stalls. They are transfers between Bolivian banks: without an account at a Bolivian bank you can't use them. Just ask “¿En efectivo?”.",
      "Withdraw money in the cities: there are ATMs (cajeros) in La Paz, Santa Cruz, Cochabamba, Sucre and Uyuni. In villages (Torotoro, Sorata, the Titicaca islands, the Sud Lípez) there are none, or they are often empty. Leave with enough bolivianos for the whole stage.",
-     "Withdrawals with a foreign card are capped and charged. Many travellers bring US dollars or euros in clean, untorn notes and change them at a casa de cambio. The rate moves often, so compare before you change.",
+     "Withdrawing from an ATM with a foreign card works, but every withdrawal is charged and capped: it's better to travel with cash. Bring US dollars or euros (both change easily) in clean, untorn notes, and change them at a casa de cambio, where notes get a better rate. As a guide in October 2026: €1 ≈ 13 Bs, US$1 ≈ 12 Bs.",
      "Keep small notes and coins: drivers, markets and public toilets (1 to 2 Bs) often can't change a 100 or 200 Bs note."
     ]
    },
@@ -267,11 +269,22 @@ BOL.locales.en = Object.assign(BOL.locales.en || {}, {
    {
     "id": "taxi",
     "title": "Taxis and apps",
-    "lead": "Handy at night, or to go where the buses don't.",
+    "lead": "Taxis are cheap: a ride across town costs about 15 Bs, roughly one euro (about US$1.30).",
     "points": [
-     "Taxis have no meter: agree on the price before you get in.",
-     "At night, prefer a radio taxi called by your hotel or a restaurant, or a ride-hailing app (InDrive, Yango or Uber depending on the city).",
+     "The easiest option: the InDrive or Yango apps. They are taxis whose price is shown in the app before the ride, and you pay the driver in cash.",
+     "Street taxis have no meter: agree on the price before you get in. That's the custom here, and everyone is at ease.",
+     "At night, avoid hailing a taxi in the street: take one from a radio taxi stand, have your hotel or a restaurant call one, or use the app.",
      "For a site with no public transport (Incallajta, some lagoons), you can hire a car with a driver for the day: agree on a total price, including the return trip and waiting time."
+    ]
+   },
+   {
+    "id": "safety",
+    "title": "Travelling with peace of mind",
+    "lead": "Bolivia is a welcoming country. A few simple precautions, as in any big city, are enough.",
+    "points": [
+     "In the evening, avoid walking alone late in quiet streets: after dark, an app taxi or a radio taxi is easier and costs next to nothing.",
+     "In markets, bus terminals and crowds, keep your bag and phone close.",
+     "When crossing the street, take your time: cars don't always stop at crossings. Look both ways and cross with the locals."
     ]
    },
    {
@@ -358,9 +371,9 @@ BOL.locales.en = Object.assign(BOL.locales.en || {}, {
    ]
   ],
   "chapare": {
-   "title": "Why the Chapare isn't on this site",
-   "text": "The Chapare, the Cochabamba tropics around Villa Tunari, is a beautiful region of forests, rivers and nature parks. But it isn't recommended for travellers right now: political tension, frequent road blockades and drug trafficking. Several countries advise against going. We'll add it when the situation allows.",
-   "road": "The main road between Cochabamba and Santa Cruz crosses the Chapare: check before you leave, or fly, or take the old road through Totora and Samaipata."
+   "title": "Why the Chapare isn't on the site (yet)",
+   "text": "The Chapare, the Cochabamba tropics, is a beautiful region of forests, rivers and waterfalls. For now we'd rather not suggest staying there: around Villa Tunari and in a few nearby areas the situation is somewhat tense and road blockades are frequent. That isn't true of the whole region, and we hope to add it soon.",
+   "road": "The bus between Cochabamba and Santa Cruz crosses the Chapare: that journey is no problem."
   }
  }
 });

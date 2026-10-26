@@ -9,7 +9,8 @@ BOL.locales.es = Object.assign(BOL.locales.es || {}, {
   "torotoro":{"name":"Parque Nacional Torotoro","label":"Torotoro","short":"Huellas de dinosaurio, un cañón espectacular y la caverna de Umajalanta.","story":"Torotoro es un pueblito al final de un camino de montaña, en un paisaje que parece de la época de los dinosaurios… y con razón: cientos de huellas gigantes siguen marcadas en la roca. Se baja al fondo de un cañón de 300 m hasta una cascada y se gatea por una verdadera caverna con un río subterráneo y peces ciegos. Una de las aventuras más espectaculares del país, a pocas horas de Cochabamba.","todo":["Cañón de Torotoro y cascada El Vergel","Caverna de Umajalanta (espeleología fácil, río subterráneo)","Huellas de dinosaurio gigantes alrededor del pueblo","Ciudad de Itas (formaciones rocosas)"],"tips":"Guía obligatorio en el parque (se contrata en el pueblo). Cuenta dos noches."},
   "incallajta":{"name":"Incallajta","label":"Incallajta","short":"El sitio inca más grande de Bolivia, en un valle aislado.","story":"Incallajta es la ciudad inca más grande de Bolivia, construida para defender el imperio de los pueblos del oriente. Tiene una enorme sala ceremonial de muros de piedra y barro, en un valle aislado donde casi no hay nadie. Una visita para amantes de la historia y de los lugares poco conocidos.","todo":["La gran kallanka (sala ceremonial) y la fortaleza","Cascada cercana"],"tips":"Poco transporte público: mejor en auto o en excursión desde Cochabamba. Se puede combinar con Totora."},
   "totora":{"name":"Totora","label":"Totora","short":"Pueblito colonial muy bien conservado en la carretera antigua a Santa Cruz.","story":"Totora es un pueblo colonial detenido en el tiempo, con balcones de madera y callecitas empedradas. Se pasa por ahí en la carretera antigua a Santa Cruz y es una buena pausa en ese largo viaje de montaña.","todo":["Calles empedradas y balcones de madera","Parada en el camino a Samaipata"],"tips":"Buena parada si tomas la carretera antigua Cochabamba – Samaipata."},
-  "lapaz":{"name":"La Paz y El Alto","label":"La Paz","short":"La sede de gobierno más alta del mundo, en una hoyada al pie del Illimani.","story":"La Paz no se parece a ninguna otra ciudad: metida en una hoyada a 3600 m, con el Illimani nevado de fondo, se recorre en teleférico por encima de los techos. Te cruzas con cholitas de sombrero, con yatiris que venden fetos de llama para la suerte y con la famosa lucha libre de cholitas. Fascinante, caótica y que quita el aliento, en todos los sentidos.","todo":["Mi Teleférico, la red de teleféricos urbanos","Mercado de las Brujas y calle Jaén","Lucha de cholitas en El Alto (jueves y domingos)","Feria 16 de Julio en El Alto (jueves y domingos)","La arquitectura cholet de El Alto"],"tips":"Llegar por tierra desde una ciudad más baja (Cochabamba, Sucre) ayuda a aclimatarse. El primer día con calma y mate de coca."},
+  "lapaz":{"name":"La Paz","label":"La Paz","short":"La sede de gobierno más alta del mundo, en una hoyada al pie del Illimani.","story":"La Paz no se parece a ninguna otra ciudad: metida en una hoyada a 3600 m, con el Illimani nevado de fondo, se recorre en teleférico por encima de los techos. Te cruzas con cholitas de sombrero y con yatiris que venden fetos de llama para la suerte, entre iglesias coloniales y mercados que desbordan las veredas. Fascinante, caótica y que quita el aliento, en todos los sentidos.","todo":["Mi Teleférico, la red de teleféricos urbanos","Mercado de las Brujas y calle Jaén","Plaza Murillo y la iglesia de San Francisco","El mercado Rodríguez y los sabores paceños","Mirador Killi Killi al atardecer"],"tips":"Llegar por tierra desde una ciudad más baja (Cochabamba, Sucre) ayuda a aclimatarse. El primer día con calma y mate de coca."},
+  "elalto":{"name":"El Alto","label":"El Alto","short":"La gran ciudad aymara en el Altiplano, justo encima de La Paz: una feria gigante, cholets y lucha de cholitas.","story":"Al borde de la hoyada de La Paz, a más de 4000 m, El Alto es una ciudad con vida propia, una de las más grandes del país y el corazón de la cultura aymara urbana. Se sube en teleférico por la vista sobre La Paz y el Illimani, uno se pierde en la Feria 16 de Julio, uno de los mercados más grandes de Sudamérica, y se descubren los cholets, edificios de colores vivos inspirados en los tejidos andinos. Los domingos, no te pierdas la lucha de cholitas.","todo":["Feria 16 de Julio, una feria gigante (jueves y domingos)","Lucha de cholitas, sobre todo los domingos","Los cholets, la arquitectura colorida de Freddy Mamani","La vista de La Paz y el Illimani desde el teleférico"],"tips":"Hace más frío que en La Paz y la altura se siente: mejor no subir el día que llegas. En la feria hay mucha gente: lleva tus cosas cerca. El aeropuerto internacional de La Paz está en El Alto."},
   "valleluna":{"name":"Valle de la Luna","label":"Valle de la Luna","short":"Formaciones de arcilla lunares en la zona sur de La Paz.","story":"A veinte minutos del centro de La Paz, la erosión esculpió cientos de picos y chimeneas de arcilla que dan la impresión de caminar en otro planeta. Un paseo fácil de una hora, perfecto para medio día.","todo":["Senderos de 15 a 45 minutos","Combinable con la Muela del Diablo"],"tips":"Medio día desde La Paz (minibús o taxi)."},
   "chacaltaya":{"name":"Chacaltaya","label":"Chacaltaya","short":"Antigua pista de esquí a 5400 m: la vista más alta de la Cordillera Real.","story":"Chacaltaya fue la pista de esquí más alta del mundo, hasta que su glaciar se derritió. Hoy se sube en minibús hasta 5300 m y luego a pie hasta la cumbre, con una vista increíble de la Cordillera Real, el Huayna Potosí y, a lo lejos, el lago Titicaca. El punto más alto al que se llega fácilmente en Bolivia.","todo":["Subida a la cumbre desde el refugio (30 min)","Vista del Huayna Potosí y del lago Titicaca"],"tips":"Solo después de unos días de aclimatación. Se combina a menudo con el Valle de la Luna."},
   "huayna":{"name":"Huayna Potosí","label":"Huayna Potosí","short":"Un «seismil» conocido por ser accesible, con ascenso guiado en 2 o 3 días.","story":"El Huayna Potosí (6088 m) es uno de los seismiles más accesibles del mundo: en dos o tres días, con guía, se duerme en un refugio y luego se camina por el glaciar hasta la cumbre al amanecer. Una verdadera expedición, solo para quienes están bien aclimatados y en buena forma.","todo":["Ascenso guiado (glaciar, crampones)","O solo un día al refugio y al glaciar de Zongo"],"tips":"Exige una muy buena aclimatación (al menos una semana en la altura). Agencias serias en La Paz."},
@@ -65,12 +66,13 @@ BOL.locales.es = Object.assign(BOL.locales.es || {}, {
   "cbba-totora":{"t":"4 h","how":"Bus a Totora o bus de la carretera antigua a Santa Cruz.","road":"Ruta 7 (carretera antigua Cochabamba – Santa Cruz) por Epizana."},
   "totora-samaipata":{"t":"5 a 6 h","how":"Bus de la carretera antigua o auto.","road":"Ruta 7: Epizana, Comarapa, Mairana, Samaipata. Camino con muchas curvas y paisajes magníficos."},
   "cbba-samaipata":{"t":"8 a 10 h","how":"Bus nocturno a Santa Cruz por la carretera antigua (pide bajar en Samaipata) o auto.","road":"Ruta 7 (carretera antigua): Cochabamba, Epizana, Comarapa, Mairana, Samaipata.","note":"Más lenta que la carretera nueva pero mucho más linda, y pasa por Samaipata."},
-  "cbba-santacruz":{"t":"9 a 11 h","how":"Buses nocturnos muy frecuentes (Terminal de Cochabamba a la Terminal Bimodal de Santa Cruz).","road":"Ruta 4 por el Chapare (carretera nueva).","note":"El Chapare suele estar bloqueado en estos tiempos: infórmate la víspera, o toma el avión o el camino antiguo por Samaipata."},
+  "cbba-santacruz":{"t":"9 a 11 h","how":"Buses nocturnos muy frecuentes (Terminal de Cochabamba a la Terminal Bimodal de Santa Cruz).","road":"Ruta 4 por el Chapare (carretera nueva)."},
   "cbba-santacruz-avion":{"t":"55 min de vuelo","how":"Vuelos diarios de BoA al aeropuerto Viru Viru."},
   "cbba-sucre":{"t":"9 a 11 h (de noche)","how":"Bus nocturno desde la Terminal de Cochabamba.","road":"Ruta 7 al este, Ruta 23 al sur por Aiquile, y luego Ruta 5 por Puente Arce hasta Sucre.","note":"Largo y con muchas curvas: el avión (35 min) ahorra un día."},
   "cbba-sucre-avion":{"t":"35 min de vuelo","how":"Vuelos de BoA al aeropuerto de Alcantarí."},
   "cbba-tarija-avion":{"t":"1 h de vuelo","how":"Vuelos directos de BoA algunos días."},
   "cbba-trinidad-avion":{"t":"1 h de vuelo","how":"Vuelos de BoA o TAM algunos días."},
+  "lapaz-elalto":{"t":"15 a 30 min","how":"Mi Teleférico (líneas roja, amarilla o azul desde La Paz) o minibús.","note":"El teleférico es lo más fácil, y tiene una vista increíble de la ciudad."},
   "lapaz-valleluna":{"t":"30 a 45 min","how":"Minibús desde el centro o taxi.","road":"Zona Sur de La Paz (Calacoto, Mallasa)."},
   "lapaz-chacaltaya":{"t":"1 h 30","how":"Excursión en minibús desde La Paz (a menudo con el Valle de la Luna).","road":"El Alto y luego un camino de montaña."},
   "lapaz-huayna":{"t":"1 h 30","how":"Transporte incluido en el ascenso guiado.","road":"El Alto, Milluni, abra de Zongo."},
@@ -233,7 +235,7 @@ BOL.locales.es = Object.assign(BOL.locales.es || {}, {
      "Las tarjetas extranjeras solo funcionan en hoteles, algunos restaurantes y supermercados de las grandes ciudades, muchas veces con recargo. Mercados, buses, taxis, pueblos y entradas a parques nacionales: solo efectivo.",
      "Verás códigos QR por todas partes, hasta en los puestos de la calle. Son transferencias entre bancos bolivianos: sin cuenta en un banco boliviano no puedes usarlos. Basta con preguntar «¿En efectivo?».",
      "Saca dinero en las ciudades: hay cajeros en La Paz, Santa Cruz, Cochabamba, Sucre o Uyuni. En los pueblos (Torotoro, Sorata, las islas del Titicaca, el Sud Lípez) no hay, o suelen estar vacíos. Sal con bolivianos suficientes para toda la etapa.",
-     "Los retiros con tarjeta extranjera tienen límite y comisión. Muchos viajeros traen dólares o euros en billetes limpios y sin roturas, y los cambian en una casa de cambio. El tipo de cambio se mueve seguido: compara antes de cambiar.",
+     "Sacar dinero del cajero con una tarjeta extranjera funciona, pero cada retiro tiene comisión y límite: es mejor viajar con efectivo. Trae dólares o euros (los dos se cambian bien) en billetes limpios y sin roturas, y cámbialos en una casa de cambio, donde los billetes se pagan mejor. Como referencia, en octubre de 2026: 1 € ≈ 13 Bs, 1 $ ≈ 12 Bs.",
      "Ten billetes chicos y monedas: choferes, mercados y baños públicos (1 a 2 Bs) muchas veces no tienen cambio para 100 o 200 Bs."
     ]
    },
@@ -267,11 +269,22 @@ BOL.locales.es = Object.assign(BOL.locales.es || {}, {
    {
     "id": "taxi",
     "title": "Taxis y aplicaciones",
-    "lead": "Útiles de noche o para ir adonde no llegan los buses.",
+    "lead": "El taxi es barato: una carrera en la ciudad cuesta unos 15 Bs, más o menos un euro.",
     "points": [
-     "Los taxis no tienen taxímetro: acuerda el precio antes de subir.",
-     "De noche, mejor un radiotaxi pedido por tu alojamiento o un restaurante, o una aplicación (InDrive, Yango o Uber según la ciudad).",
+     "Lo más fácil: las aplicaciones InDrive o Yango. Son taxis cuyo precio aparece en la aplicación antes del viaje, y se le paga al chofer en efectivo.",
+     "Los taxis de la calle no tienen taxímetro: acuerda el precio antes de subir. Es la costumbre y así todos van tranquilos.",
+     "De noche, mejor no parar un taxi en la calle: tómalo en una parada de radiotaxis, pide que lo llamen en tu alojamiento o en un restaurante, o usa la aplicación.",
      "Para un lugar sin transporte público (Incallajta, algunas lagunas), se puede contratar un auto con chofer por el día: acuerda un precio total, con la vuelta y la espera incluidas."
+    ]
+   },
+   {
+    "id": "safety",
+    "title": "Viajar tranquilo",
+    "lead": "Bolivia es un país acogedor. Bastan algunas precauciones sencillas, como en cualquier ciudad grande.",
+    "points": [
+     "De noche, evita caminar solo hasta tarde por calles tranquilas: después del anochecer, un taxi de aplicación o un radiotaxi es más cómodo y cuesta muy poco.",
+     "En los mercados, las terminales de buses y entre la multitud, lleva la mochila y el celular cerca.",
+     "Al cruzar la calle, tómate tu tiempo: los autos no siempre paran en el paso de cebra. Mira bien a los dos lados y cruza junto a la gente del lugar."
     ]
    },
    {
@@ -358,9 +371,9 @@ BOL.locales.es = Object.assign(BOL.locales.es || {}, {
    ]
   ],
   "chapare": {
-   "title": "Por qué el Chapare no está en el sitio",
-   "text": "El Chapare, el trópico de Cochabamba alrededor de Villa Tunari, es una región preciosa de bosques, ríos y parques naturales. Pero ahora mismo no se recomienda para viajeros: tensiones políticas, bloqueos frecuentes y presencia del narcotráfico. Varios países aconsejan evitarlo. Lo agregaremos cuando la situación lo permita.",
-   "road": "La carretera principal entre Cochabamba y Santa Cruz cruza el Chapare: infórmate antes de salir, o toma el avión o el camino antiguo por Totora y Samaipata."
+   "title": "Por qué el Chapare no está (todavía) en el sitio",
+   "text": "El Chapare, el trópico de Cochabamba, es una región preciosa de bosques, ríos y cascadas. Por ahora preferimos no recomendar quedarse allí: alrededor de Villa Tunari y en algunas zonas cercanas la situación está algo tensa y los bloqueos son frecuentes. No es así en toda la región, y esperamos agregarlo pronto.",
+   "road": "El bus entre Cochabamba y Santa Cruz cruza el Chapare: ese viaje no tiene problema."
   }
  }
 });

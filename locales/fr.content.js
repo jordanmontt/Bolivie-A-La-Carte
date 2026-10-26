@@ -9,7 +9,8 @@ BOL.locales.fr = Object.assign(BOL.locales.fr || {}, {
   "torotoro":{"name":"Parc national Torotoro","label":"Torotoro","short":"Empreintes de dinosaures, canyon spectaculaire et grotte d'Umajalanta. Un incontournable depuis Cochabamba.","story":"Torotoro est un petit village perdu au bout d'une route de montagne, au milieu d'un paysage qui semble sorti du temps des dinosaures… et pour cause : des centaines d'empreintes géantes sont encore visibles dans la roche. On descend au fond d'un canyon de 300 m jusqu'à une cascade, on rampe dans une vraie grotte avec une rivière souterraine et des poissons aveugles. C'est l'une des aventures les plus spectaculaires du pays, à quelques heures de Cochabamba.","todo":["Canyon de Torotoro et cascade El Vergel","Grotte d'Umajalanta (spéléo facile, rivière souterraine)","Empreintes de dinosaures géantes autour du village","Ciudad de Itas (formations rocheuses)"],"tips":"Guide obligatoire dans le parc (on le trouve au village). Prévoir 2 nuits sur place."},
   "incallajta":{"name":"Incallajta","label":"Incallajta","short":"Le plus grand site inca de Bolivie, dans une vallée isolée.","story":"Incallajta est la plus grande cité inca de Bolivie, construite pour défendre l'empire contre les peuples de l'est. On y découvre une immense salle cérémonielle aux murs de pierre et de terre, dans une vallée isolée où il n'y a presque personne. Une visite pour les amateurs d'histoire et de lieux hors des sentiers battus.","todo":["Le grand kallanka (salle cérémonielle) et la forteresse","Cascade voisine"],"tips":"Peu de transports publics : mieux en voiture ou en excursion organisée depuis Cochabamba. Peut se combiner avec Totora."},
   "totora":{"name":"Totora","label":"Totora","short":"Petit village colonial très bien conservé sur l'ancienne route vers Santa Cruz.","story":"Totora est un village colonial resté figé dans le temps, avec ses balcons en bois et ses ruelles pavées. On le traverse si l'on prend l'ancienne route de Santa Cruz, et c'est une bonne pause sur ce long trajet de montagne.","todo":["Rues pavées et balcons en bois","Étape sur la route de Samaipata"],"tips":"Bonne étape si vous prenez l'ancienne route Cochabamba → Samaipata."},
-  "lapaz":{"name":"La Paz et El Alto","label":"La Paz","short":"La capitale la plus haute du monde, dans une cuvette au pied de l'Illimani.","story":"La Paz est une ville qui ne ressemble à aucune autre : posée dans une cuvette à 3 600 m, dominée par l'Illimani enneigé, elle se visite en téléphérique au-dessus des toits. On y croise des cholitas en chapeau melon, des sorcières qui vendent des fœtus de lama porte-bonheur et les fameux combats de catch des cholitas. Fascinante, chaotique, à couper le souffle (au sens propre).","todo":["Mi Teleférico : le réseau de téléphériques urbains","Mercado de las Brujas et calle Jaén","Combat de cholitas à El Alto (jeudi et dimanche)","Marché de la Feria 16 de Julio à El Alto (jeudi et dimanche)","Architecture cholet d'El Alto"],"tips":"Arriver par la route depuis une ville plus basse (Cochabamba, Sucre) aide à s'acclimater. Monter doucement le premier jour, mate de coca."},
+  "lapaz":{"name":"La Paz","label":"La Paz","short":"La capitale la plus haute du monde, dans une cuvette au pied de l'Illimani.","story":"La Paz est une ville qui ne ressemble à aucune autre : posée dans une cuvette à 3 600 m, dominée par l'Illimani enneigé, elle se visite en téléphérique au-dessus des toits. On y croise des cholitas en chapeau melon et des sorcières qui vendent des fœtus de lama porte-bonheur, entre églises coloniales et marchés qui débordent sur les trottoirs. Fascinante, chaotique, à couper le souffle (au sens propre).","todo":["Mi Teleférico : le réseau de téléphériques urbains","Mercado de las Brujas et calle Jaén","Plaza Murillo et l'église San Francisco","Le marché Rodríguez et les saveurs paceñas","Mirador Killi Killi au coucher du soleil"],"tips":"Arriver par la route depuis une ville plus basse (Cochabamba, Sucre) aide à s'acclimater. Monter doucement le premier jour, maté de coca."},
+  "elalto":{"name":"El Alto","label":"El Alto","short":"La grande ville aymara sur l'Altiplano, juste au-dessus de La Paz : marché géant, cholets et catch des cholitas.","story":"Au bord de la cuvette de La Paz, à plus de 4 000 m, El Alto est une ville à part entière, l'une des plus grandes du pays et le cœur de la culture aymara urbaine. On y monte en téléphérique pour la vue sur La Paz et l'Illimani, on se perd dans la Feria 16 de Julio, l'un des plus grands marchés d'Amérique du Sud, et on découvre les cholets, ces immeubles aux couleurs vives inspirés des tissages andins. Le dimanche, ne manquez pas le catch des cholitas.","todo":["Feria 16 de Julio, marché géant (jeudi et dimanche)","Catch des cholitas, surtout le dimanche","Les cholets, l'architecture colorée de Freddy Mamani","La vue sur La Paz et l'Illimani depuis le téléphérique"],"tips":"Il y fait plus froid qu'à La Paz et l'altitude se sent : évitez d'y aller le jour de votre arrivée. Au marché, il y a beaucoup de monde : gardez vos affaires près de vous. L'aéroport international de La Paz est à El Alto."},
   "valleluna":{"name":"Valle de la Luna","label":"Valle de la Luna","short":"Formations d'argile lunaires dans la banlieue sud de La Paz.","story":"À vingt minutes du centre de La Paz, l'érosion a sculpté des centaines de pics et de cheminées d'argile qui donnent l'impression de marcher sur une autre planète. Une balade facile d'une heure, parfaite pour une demi-journée.","todo":["Sentiers de 15 à 45 min","Combinable avec la Muela del Diablo"],"tips":"Demi-journée depuis La Paz (minibus ou taxi)."},
   "chacaltaya":{"name":"Chacaltaya","label":"Chacaltaya","short":"Ancienne station de ski à 5 400 m : la plus haute vue de la Cordillère Royale.","story":"Chacaltaya était la station de ski la plus haute du monde, jusqu'à ce que son glacier fonde. Aujourd'hui, on monte en minibus jusqu'à 5 300 m, puis à pied jusqu'au sommet, pour une vue incroyable sur la Cordillère Royale, le Huayna Potosí et, au loin, le lac Titicaca. Le point le plus haut que l'on peut atteindre facilement en Bolivie.","todo":["Montée au sommet depuis le refuge (30 min)","Vue sur le Huayna Potosí et le lac Titicaca"],"tips":"Seulement après quelques jours d'acclimatation. Souvent combiné avec la Valle de la Luna."},
   "huayna":{"name":"Huayna Potosí","label":"Huayna Potosí","short":"Un « 6 000 » réputé accessible, ascension guidée en 2 ou 3 jours.","story":"Le Huayna Potosí (6 088 m) est l'un des « 6 000 » les plus accessibles au monde : en deux ou trois jours, avec un guide, on passe par un refuge puis on marche sur le glacier jusqu'au sommet au lever du soleil. Une vraie expédition, réservée à ceux qui sont bien acclimatés et en bonne forme.","todo":["Ascension guidée (glacier, crampons)","Ou simple journée au refuge et au glacier de Zongo"],"tips":"Exige une très bonne acclimatation (au moins une semaine en altitude). Agences sérieuses à La Paz."},
@@ -65,12 +66,13 @@ BOL.locales.fr = Object.assign(BOL.locales.fr || {}, {
   "cbba-totora":{"t":"4 h","how":"Bus vers Totora ou bus de l'ancienne route de Santa Cruz.","road":"Ruta 7 (ancienne route Cochabamba – Santa Cruz) via Epizana."},
   "totora-samaipata":{"t":"5 à 6 h","how":"Bus de l'ancienne route ou voiture.","road":"Ruta 7 : Epizana → Comarapa → Mairana → Samaipata. Route sinueuse, paysages magnifiques."},
   "cbba-samaipata":{"t":"8 à 10 h","how":"Bus de nuit vers Santa Cruz par l'ancienne route (demander à descendre à Samaipata) ou voiture.","road":"Ruta 7 (« carretera antigua ») : Cochabamba → Epizana → Comarapa → Mairana → Samaipata.","note":"Plus lent que la nouvelle route mais bien plus beau, et passe par Samaipata."},
-  "cbba-santacruz":{"t":"9 à 11 h","how":"Bus de nuit très fréquents (Terminal de Cochabamba → Terminal Bimodal de Santa Cruz).","road":"Ruta 4 par le Chapare (nouvelle route).","note":"Le Chapare est souvent bloqué en ce moment : renseignez-vous la veille, ou prenez l'avion ou l'ancienne route par Samaipata."},
+  "cbba-santacruz":{"t":"9 à 11 h","how":"Bus de nuit très fréquents (Terminal de Cochabamba → Terminal Bimodal de Santa Cruz).","road":"Ruta 4 par le Chapare (nouvelle route)."},
   "cbba-santacruz-avion":{"t":"55 min de vol","how":"Vols quotidiens BoA, aéroport Viru Viru."},
   "cbba-sucre":{"t":"9 à 11 h (de nuit)","how":"Bus de nuit depuis la Terminal de Cochabamba.","road":"Ruta 7 vers l'est, Ruta 23 vers le sud par Aiquile, puis Ruta 5 par Puente Arce jusqu'à Sucre.","note":"Long et sinueux : l'avion (35 min) fait gagner une journée."},
   "cbba-sucre-avion":{"t":"35 min de vol","how":"Vols BoA, aéroport d'Alcantarí."},
   "cbba-tarija-avion":{"t":"1 h de vol","how":"Vols BoA directs selon les jours."},
   "cbba-trinidad-avion":{"t":"1 h de vol","how":"Vols BoA ou TAM selon les jours."},
+  "lapaz-elalto":{"t":"15 à 30 min","how":"Mi Teleférico (lignes rouge, jaune ou bleue depuis La Paz) ou minibus.","note":"Le téléphérique est le plus simple, et offre une vue superbe sur la ville."},
   "lapaz-valleluna":{"t":"30 à 45 min","how":"Minibus depuis le centre ou taxi.","road":"Zona Sur de La Paz (Calacoto, Mallasa)."},
   "lapaz-chacaltaya":{"t":"1 h 30","how":"Excursion en minibus depuis La Paz (souvent avec Valle de la Luna).","road":"El Alto puis piste de montagne."},
   "lapaz-huayna":{"t":"1 h 30","how":"Transport inclus dans l'ascension guidée.","road":"El Alto → Milluni → col de Zongo."},
@@ -233,7 +235,7 @@ BOL.locales.fr = Object.assign(BOL.locales.fr || {}, {
      "Les cartes étrangères ne passent que dans les hôtels, certains restaurants et les supermarchés des grandes villes, souvent avec un supplément. Marchés, bus, taxis, villages et entrées des parcs nationaux : cash uniquement.",
      "Vous verrez des QR codes partout, même chez les vendeuses de rue. Ce sont des virements entre banques boliviennes : sans compte dans une banque bolivienne, impossible de les utiliser. Il suffit de demander « ¿En efectivo? ».",
      "Retirez en ville : il y a des distributeurs (cajeros) à La Paz, Santa Cruz, Cochabamba, Sucre ou Uyuni. Dans les villages (Torotoro, Sorata, les îles du Titicaca, le Sud Lípez), il n'y en a pas ou ils sont souvent vides. Partez avec assez de bolivianos pour toute l'étape.",
-     "Les retraits avec une carte étrangère sont plafonnés et facturés. Beaucoup de voyageurs apportent des dollars ou des euros en billets propres et pas déchirés, et les changent dans une casa de cambio. Le taux bouge souvent : comparez avant de changer.",
+     "Retirer au distributeur avec une carte étrangère fonctionne, mais chaque retrait est facturé et plafonné : mieux vaut voyager avec des espèces. Apportez des dollars ou des euros (les deux se changent bien) en billets propres et pas déchirés, et changez-les dans une casa de cambio : les billets y sont mieux payés. Repère en octobre 2026 : 1 € ≈ 13 Bs, 1 $ ≈ 12 Bs.",
      "Gardez des petites coupures et des pièces : chauffeurs, marchés et toilettes publiques (1 à 2 Bs) n'ont souvent pas la monnaie sur 100 ou 200 Bs."
     ]
    },
@@ -267,11 +269,22 @@ BOL.locales.fr = Object.assign(BOL.locales.fr || {}, {
    {
     "id": "taxi",
     "title": "Taxis et applis",
-    "lead": "Pratiques le soir ou pour aller là où les bus ne vont pas.",
+    "lead": "Le taxi est bon marché : une course en ville coûte environ 15 Bs, soit à peu près 1 €.",
     "points": [
-     "Les taxis n'ont pas de compteur : mettez-vous d'accord sur le prix avant de monter.",
-     "Le soir, préférez un radio-taxi appelé par votre logement ou un restaurant, ou une appli de VTC (InDrive, Yango ou Uber selon la ville).",
-     "Pour un site sans transport public (Incallajta, certaines lagunes), on peut louer une voiture avec chauffeur à la journée : négociez un prix total, aller-retour et attente compris."
+     "Le plus simple : les applis InDrive ou Yango. Ce sont des taxis dont le prix s'affiche dans l'appli avant le trajet, et on paie le chauffeur en espèces.",
+     "Les taxis de rue n'ont pas de compteur : convenez du prix avant de monter, c'est l'usage ici et tout le monde est tranquille.",
+     "La nuit, évitez de héler un taxi dans la rue : prenez-le à un arrêt de radio-taxis, faites-le appeler par votre logement ou un restaurant, ou passez par l'appli.",
+     "Pour un site sans transport public (Incallajta, certaines lagunes), on peut louer une voiture avec chauffeur à la journée : convenez d'un prix total, aller-retour et attente compris."
+    ]
+   },
+   {
+    "id": "safety",
+    "title": "Voyager serein",
+    "lead": "La Bolivie est un pays accueillant. Quelques précautions simples, comme dans toute grande ville, suffisent.",
+    "points": [
+     "Le soir, évitez de marcher seul tard dans les rues calmes : après la tombée de la nuit, un taxi d'appli ou un radio-taxi est plus simple et ne coûte presque rien.",
+     "Dans les marchés, les terminales de bus et la foule, gardez votre sac et votre téléphone près de vous.",
+     "Pour traverser la rue, prenez votre temps : les voitures ne s'arrêtent pas toujours aux passages piétons. Regardez bien des deux côtés et traversez avec les gens du coin."
     ]
    },
    {
@@ -358,9 +371,9 @@ BOL.locales.fr = Object.assign(BOL.locales.fr || {}, {
    ]
   ],
   "chapare": {
-   "title": "Pourquoi le Chapare n'est pas sur le site",
-   "text": "Le Chapare, le tropique de Cochabamba autour de Villa Tunari, est une région superbe de forêts, de rivières et de parcs naturels. Il est pourtant déconseillé aux voyageurs en ce moment : tensions politiques, blocages de routes fréquents et présence du narcotrafic. Plusieurs pays recommandent de l'éviter. Nous l'ajouterons quand la situation le permettra.",
-   "road": "La route principale entre Cochabamba et Santa Cruz traverse le Chapare : renseignez-vous avant de partir, ou prenez l'avion ou l'ancienne route par Totora et Samaipata."
+   "title": "Pourquoi le Chapare n'est pas (encore) sur le site",
+   "text": "Le Chapare, le tropique de Cochabamba, est une très belle région de forêts, de rivières et de cascades. Pour l'instant, on préfère ne pas conseiller d'y séjourner : autour de Villa Tunari et dans quelques zones voisines, la situation est un peu tendue et les blocages de routes sont fréquents. Ce n'est pas le cas de toute la région, et on espère pouvoir l'ajouter bientôt.",
+   "road": "Le bus entre Cochabamba et Santa Cruz traverse le Chapare : ce trajet ne pose pas de problème."
   }
  }
 });

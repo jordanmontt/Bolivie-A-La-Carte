@@ -44,6 +44,8 @@ const coarse = matchMedia("(pointer:coarse)").matches;
 const fmtDays = d => t("days", {n:d, d:I.num(d)});
 const fmtAlt = a => t("alt", {a:I.num(a, 0)});
 // "Département de Potosí", with per-name exceptions such as "Département d'Oruro".
+// In menus: "Sorata · La Paz", so a little-known place can be located (not "Cochabamba · Cochabamba").
+const withDept = id => name(id) === byId[id].dept ? name(id) : `${name(id)} · ${byId[id].dept}`;
 const deptName = (d, key) => { const k = `${key || "dept.named"}.${d}`, v = t(k); return v === k ? t(key || "dept.named", {d}) : v; };
 function fmtH(h){
   if (h <= 0) return "—";
@@ -440,7 +442,7 @@ function panelPlace(id){
 function placeOptions(sel, firstLabel){
   const coll = I.collator();
   const sorted = B.places.slice().sort((a, b) => coll.compare(name(a.id), name(b.id)));
-  return (firstLabel ? `<option value="">${esc(firstLabel)}</option>` : "") + sorted.map(p => `<option value="${p.id}" ${p.id === sel ? "selected" : ""}>${esc(name(p.id))}</option>`).join("");
+  return (firstLabel ? `<option value="">${esc(firstLabel)}</option>` : "") + sorted.map(p => `<option value="${p.id}" ${p.id === sel ? "selected" : ""}>${esc(withDept(p.id))}</option>`).join("");
 }
 function pathHtml(r){
   if (!r) return `<div class="pathres"><p style="padding-top:8px"><strong>${esc(t("calc.none"))}</strong> ${esc(t("calc.tryFly"))}</p></div>`;
@@ -483,7 +485,8 @@ function panelRoute(id){
   return `<div class="in stack">
     <a class="linkback" href="#/routes">${icon("back")}${esc(t("back.routes"))}</a>
     <div class="stack" style="gap:8px"><div class="row">${modeIcon(e.mode)}<span class="muted small" style="font-weight:600">${esc(t("mode." + e.mode))}</span></div>
-      <h1 class="title" tabindex="-1" id="pageTitle">${esc(label(e.a))} – ${esc(label(e.b))}</h1></div>
+      <h1 class="title" tabindex="-1" id="pageTitle">${esc(label(e.a))} – ${esc(label(e.b))}</h1>
+      <p class="where">${icon("pin")}<span><b>${esc(a.dept === b.dept ? deptName(a.dept) : `${deptName(a.dept)} – ${deptName(b.dept)}`)}</b></span></p></div>
     <div class="facts">
       <div><b>${esc(et.t)}</b><span>${esc(t("fact.duration"))}</span></div>
       <div><b>${R && !e.straight ? esc(t("km", {k:I.num(R.km, 0)})) : "—"}</b><span>${esc(t("fact.distance"))}</span></div>
@@ -527,7 +530,7 @@ function legLine(l){
 function startOptions(sel, withEmpty){
   const used = new Set([...ENTRY_AIR, ...ENTRY_LAND]);
   const coll = I.collator();
-  const opt = id => `<option value="${id}" ${id === sel ? "selected" : ""}>${esc(name(id))}</option>`;
+  const opt = id => `<option value="${id}" ${id === sel ? "selected" : ""}>${esc(withDept(id))}</option>`;
   return (withEmpty ? `<option value="">${esc(t("trip.pickStart"))}</option>` : "")
     + `<optgroup label="${esc(t("trip.byAir"))}">${ENTRY_AIR.map(opt).join("")}</optgroup>`
     + `<optgroup label="${esc(t("trip.byLand"))}">${ENTRY_LAND.map(id => `<option value="${id}" ${id === sel ? "selected" : ""}>${esc(t("trip.border." + id, {place:name(id)}))}</option>`).join("")}</optgroup>`
@@ -571,7 +574,7 @@ function panelTrip(){
     const p = byId[s.id], d0 = Math.floor(day), d1 = Math.floor(day + Math.max(s.d, 1) - 1); day += s.d;
     return legHtml + `<li class="stop" style="${catVar(p.cat)}"><span class="num"><span>${i + 1}</span></span>
       <div style="min-width:0"><a class="nm" href="#/place/${p.id}">${esc(name(p.id))}</a>${i === 0 ? `<span class="tagstart">${esc(t("trip.startTag"))}</span>` : ""}
-        <div class="when">${esc(s.d ? dayLabel(d0, d1) : t("trip.passing"))}, ${esc(fmtAlt(p.alt))} ${tempsHtml(p.id)}</div></div>
+        <div class="when">${esc(s.d ? dayLabel(d0, d1) : t("trip.passing"))}, ${esc(deptName(p.dept, "dept.short"))}, ${esc(fmtAlt(p.alt))} ${tempsHtml(p.id)}</div></div>
       <div><span class="stepper"><button type="button" data-act="dec" data-i="${i}" aria-label="${esc(t("trip.lessDay", {name:label(p.id)}))}">−</button><output>${esc(fmtDays(s.d))}</output><button type="button" data-act="inc" data-i="${i}" aria-label="${esc(t("trip.moreDay", {name:label(p.id)}))}">+</button></span>
         <div class="stop-tools"><button type="button" class="icon-btn" data-act="up" data-i="${i}" ${i === 0 ? "disabled" : ""} aria-label="${esc(t("trip.up", {name:label(p.id)}))}">${icon("up")}</button><button type="button" class="icon-btn" data-act="down" data-i="${i}" ${i === trip.stops.length - 1 ? "disabled" : ""} aria-label="${esc(t("trip.down", {name:label(p.id)}))}">${icon("down")}</button><button type="button" class="icon-btn" data-act="rm" data-i="${i}" aria-label="${esc(t("trip.removeNamed", {name:label(p.id)}))}">${icon("x")}</button></div></div>
     </li>`;
