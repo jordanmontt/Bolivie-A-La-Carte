@@ -1,7 +1,8 @@
 # Bolivia à la carte
 
 Where to go in Bolivia: an interactive map of 49 places with photos, food, weather and
-routes, plus an optional trip planner. In French, English and Spanish.
+routes, practical tips (money, buses, road blockades), plus an optional trip planner.
+In French, English and Spanish.
 
 Live site: https://jordanmontt.github.io/Bolivie-A-La-Carte/
 
@@ -13,12 +14,12 @@ No build step: open `index.html` in a browser (it also works from the file syste
 
 | Path | What it holds |
 | --- | --- |
-| `data/places.js` | Places, travel links, climates and dishes per place (no text) |
+| `data/places.js` | Places (travel region and department), travel links, climates and dishes per place (no text) |
 | `data/itineraries.js` | Ready-made itinerary ideas |
 | `data/photos.js`, `photos/` | Wikimedia Commons photos with author and licence |
 | `data/geo.js`, `assets/relief.jpg` | Base map vectors, road geometry and relief image |
 | `locales/<lang>.js` | Interface strings |
-| `locales/<lang>.content.js` | Place descriptions, route details, dishes, climates |
+| `locales/<lang>.content.js` | Place descriptions, route details, dishes, climates, practical tips page |
 | `js/i18n.js` | Language choice and string lookup |
 | `js/model.js` | Route network, shortest paths, climate, trip maths |
 | `js/app.js` | Views, map and interactions |

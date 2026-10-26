@@ -65,7 +65,7 @@ BOL.locales.es = Object.assign(BOL.locales.es || {}, {
   "cbba-totora":{"t":"4 h","how":"Bus a Totora o bus de la carretera antigua a Santa Cruz.","road":"Ruta 7 (carretera antigua Cochabamba – Santa Cruz) por Epizana."},
   "totora-samaipata":{"t":"5 a 6 h","how":"Bus de la carretera antigua o auto.","road":"Ruta 7: Epizana, Comarapa, Mairana, Samaipata. Camino con muchas curvas y paisajes magníficos."},
   "cbba-samaipata":{"t":"8 a 10 h","how":"Bus nocturno a Santa Cruz por la carretera antigua (pide bajar en Samaipata) o auto.","road":"Ruta 7 (carretera antigua): Cochabamba, Epizana, Comarapa, Mairana, Samaipata.","note":"Más lenta que la carretera nueva pero mucho más linda, y pasa por Samaipata."},
-  "cbba-santacruz":{"t":"9 a 11 h","how":"Buses nocturnos muy frecuentes (Terminal de Cochabamba a la Terminal Bimodal de Santa Cruz).","road":"Ruta 4 por el Chapare (carretera nueva)."},
+  "cbba-santacruz":{"t":"9 a 11 h","how":"Buses nocturnos muy frecuentes (Terminal de Cochabamba a la Terminal Bimodal de Santa Cruz).","road":"Ruta 4 por el Chapare (carretera nueva).","note":"El Chapare suele estar bloqueado en estos tiempos: infórmate la víspera, o toma el avión o el camino antiguo por Samaipata."},
   "cbba-santacruz-avion":{"t":"55 min de vuelo","how":"Vuelos diarios de BoA al aeropuerto Viru Viru."},
   "cbba-sucre":{"t":"9 a 11 h (de noche)","how":"Bus nocturno desde la Terminal de Cochabamba.","road":"Ruta 7 al este, Ruta 23 al sur por Aiquile, y luego Ruta 5 por Puente Arce hasta Sucre.","note":"Largo y con muchas curvas: el avión (35 min) ahorra un día."},
   "cbba-sucre-avion":{"t":"35 min de vuelo","how":"Vuelos de BoA al aeropuerto de Alcantarí."},
@@ -221,5 +221,146 @@ BOL.locales.es = Object.assign(BOL.locales.es || {}, {
   "verde":"Laguna Verde",
   "villamar":"Villa Mar",
   "sancristobal":"San Cristóbal"
+ },
+ guide: {
+  "intro": "Lo que conviene saber antes del primer viaje: cómo pagar, cómo tomar un bus y las pequeñas reglas que facilitan la vida en Bolivia.",
+  "sections": [
+   {
+    "id": "money",
+    "title": "Dinero: lleva siempre efectivo",
+    "lead": "En Bolivia casi todo se paga en efectivo, en bolivianos (Bs). La tarjeta es la excepción.",
+    "points": [
+     "Las tarjetas extranjeras solo funcionan en hoteles, algunos restaurantes y supermercados de las grandes ciudades, muchas veces con recargo. Mercados, buses, taxis, pueblos y entradas a parques nacionales: solo efectivo.",
+     "Verás códigos QR por todas partes, hasta en los puestos de la calle. Son transferencias entre bancos bolivianos: sin cuenta en un banco boliviano no puedes usarlos. Basta con preguntar «¿En efectivo?».",
+     "Saca dinero en las ciudades: hay cajeros en La Paz, Santa Cruz, Cochabamba, Sucre o Uyuni. En los pueblos (Torotoro, Sorata, las islas del Titicaca, el Sud Lípez) no hay, o suelen estar vacíos. Sal con bolivianos suficientes para toda la etapa.",
+     "Los retiros con tarjeta extranjera tienen límite y comisión. Muchos viajeros traen dólares o euros en billetes limpios y sin roturas, y los cambian en una casa de cambio. El tipo de cambio se mueve seguido: compara antes de cambiar.",
+     "Ten billetes chicos y monedas: choferes, mercados y baños públicos (1 a 2 Bs) muchas veces no tienen cambio para 100 o 200 Bs."
+    ]
+   },
+   {
+    "id": "city",
+    "title": "En la ciudad: micros, minibuses y trufis",
+    "lead": "El transporte público es muy barato y llega a todas partes, pero no funciona como en Europa. Y no cuentes con Google Maps: la mayoría de las líneas no aparecen.",
+    "points": [
+     "Micros, minibuses y trufis (autos o minibuses colectivos) siguen rutas fijas, con un número o una letra. Las calles principales del recorrido van escritas en el parabrisas y muchas veces se gritan desde la puerta.",
+     "Casi no hay paradas: el minibús para donde alguien lo pide. Para tomarlo, haz una seña con la mano al borde de la calle.",
+     "Si dudas, pregunta al chofer antes de subir: «¿Pasa por la plaza principal?». La gente está acostumbrada y ayuda con gusto.",
+     "Para bajar, avisa en voz alta un poco antes: «¡Me quedo en la esquina!».",
+     "Se paga al chofer en efectivo, al subir o al bajar. El pasaje cuesta unos pocos bolivianos: ten el cambio listo.",
+     "En La Paz y El Alto, Mi Teleférico es la excepción: líneas claras, estaciones de verdad y la mejor vista de la ciudad."
+    ]
+   },
+   {
+    "id": "bus",
+    "title": "Entre ciudades: buses y terminales",
+    "lead": "El bus es la forma más común de viajar, de día y de noche.",
+    "points": [
+     "Los buses de larga distancia salen de la Terminal de Buses de cada ciudad. Compra el pasaje en la ventanilla de la empresa, un día antes para los buses nocturnos más solicitados.",
+     "Antes de subir se paga en la terminal una pequeña tasa de uso de unos pocos bolivianos. Guarda el boleto: te lo pedirán al embarcar.",
+     "Para viajes de noche, elige «cama» o «semi-cama»: asientos que se reclinan mucho más, por unos bolivianos más.",
+     "En el Altiplano los buses casi nunca tienen calefacción: lleva una prenda abrigada contigo. En tierras bajas, lo helado es el aire acondicionado.",
+     "El equipaje va en la bodega con un ticket. Lleva contigo documentos, dinero y aparatos.",
+     "Hacia los pueblos (Torotoro, Sorata, el Valle Alto…), suelen ser minibuses que salen cuando se llenan, desde una calle y no desde una terminal. Pregunta en tu alojamiento de dónde salen.",
+     "Igual que en la ciudad, el bus para en cualquier punto del camino. Dile al chofer dónde quieres bajar, por ejemplo «me deja en el cruce a…»."
+    ]
+   },
+   {
+    "id": "taxi",
+    "title": "Taxis y aplicaciones",
+    "lead": "Útiles de noche o para ir adonde no llegan los buses.",
+    "points": [
+     "Los taxis no tienen taxímetro: acuerda el precio antes de subir.",
+     "De noche, mejor un radiotaxi pedido por tu alojamiento o un restaurante, o una aplicación (InDrive, Yango o Uber según la ciudad).",
+     "Para un lugar sin transporte público (Incallajta, algunas lagunas), se puede contratar un auto con chofer por el día: acuerda un precio total, con la vuelta y la espera incluidas."
+    ]
+   },
+   {
+    "id": "blockades",
+    "title": "Bloqueos e imprevistos",
+    "lead": "Deja margen: en Bolivia un viaje no siempre sale como se planeó.",
+    "points": [
+     "Los bloqueos de caminos y los paros son parte de la vida en Bolivia. Un camino puede quedar cortado un día o una semana: guarda uno o dos días libres en tu viaje.",
+     "El día antes de un viaje largo, pregunta en la terminal, en tu alojamiento o revisa la prensa local («¿Hay bloqueo?»).",
+     "En época de lluvias (diciembre a marzo), los caminos de tierras bajas y de los Yungas pueden cortarse por barro o derrumbes. Entonces el avión suele ser la mejor opción."
+    ]
+   },
+   {
+    "id": "health",
+    "title": "Altura, agua y salud",
+    "lead": "Algunos hábitos para disfrutar del viaje sin enfermarse.",
+    "points": [
+     "No tomes agua del grifo: solo embotellada o filtrada. Cuidado con el hielo y las verduras crudas en los restaurantes pequeños.",
+     "Sube por etapas: unos días a unos 2500 m (Cochabamba, Sucre) antes de La Paz o Uyuni ayudan mucho. Toma mucha agua, come liviano y evita el alcohol los primeros días.",
+     "El sol de altura quema rápido, aunque haga frío: protector solar, sombrero y lentes de sol.",
+     "Para la Amazonía y las tierras bajas, infórmate antes de viajar sobre la vacuna contra la fiebre amarilla y los mosquitos (dengue)."
+    ]
+   },
+   {
+    "id": "phone",
+    "title": "Teléfono e internet",
+    "lead": "Para estar ubicable y no perderse.",
+    "points": [
+     "Un chip boliviano (Entel, Tigo o Viva) es barato y se compra en tienda con tu pasaporte. Entel tiene la mejor cobertura en el campo.",
+     "En el Sud Lípez, en algunas islas y en la selva no hay señal. Avisa a los tuyos antes de salir.",
+     "Descarga mapas sin conexión antes de viajar (Google Maps, Organic Maps…): los buses no aparecen, pero las calles sí."
+    ]
+   },
+   {
+    "id": "customs",
+    "title": "Idioma y costumbres",
+    "lead": "Lo que ayuda a sentirse bienvenido.",
+    "points": [
+     "Se habla castellano en todas partes, y también quechua, aymara o guaraní según la región. Fuera de los lugares turísticos poca gente habla inglés.",
+     "Pide permiso antes de fotografiar a alguien, sobre todo a las cholitas y en los mercados.",
+     "Se regatea en los mercados de artesanía, mucho menos en la comida o el transporte.",
+     "Los baños públicos cuestan 1 a 2 Bs y muchas veces no tienen papel: lleva siempre."
+    ]
+   },
+   {
+    "id": "arrival",
+    "title": "Llegar a Bolivia",
+    "lead": "En avión o por tierra.",
+    "points": [
+     "La mayoría de los vuelos internacionales llegan a Santa Cruz (Viru Viru) y a La Paz (El Alto, a 4000 m).",
+     "Por tierra se entra desde Perú por Copacabana, desde Chile por el Sud Lípez (Hito Cajón) o hacia La Paz (Tambo Quemado), y desde Argentina por Villazón.",
+     "Según tu nacionalidad puede pedirse visa: revisa las reglas antes de viajar."
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "¿En efectivo o con QR?",
+    "Te lo preguntarán al pagar: responde «en efectivo»."
+   ],
+   [
+    "¿Tiene cambio?",
+    "Antes de pagar con un billete grande."
+   ],
+   [
+    "¿Este micro pasa por…?",
+    "Antes de subir a un micro o minibús."
+   ],
+   [
+    "¡Me quedo en la esquina!",
+    "Para bajar del minibús."
+   ],
+   [
+    "¿A qué hora sale el bus a…?",
+    "En la ventanilla de la terminal."
+   ],
+   [
+    "¿Hay bloqueo?",
+    "La víspera de un viaje largo."
+   ],
+   [
+    "¿Cuánto es?",
+    "En el mercado o en el taxi, antes de subir."
+   ]
+  ],
+  "chapare": {
+   "title": "Por qué el Chapare no está en el sitio",
+   "text": "El Chapare, el trópico de Cochabamba alrededor de Villa Tunari, es una región preciosa de bosques, ríos y parques naturales. Pero ahora mismo no se recomienda para viajeros: tensiones políticas, bloqueos frecuentes y presencia del narcotráfico. Varios países aconsejan evitarlo. Lo agregaremos cuando la situación lo permita.",
+   "road": "La carretera principal entre Cochabamba y Santa Cruz cruza el Chapare: infórmate antes de salir, o toma el avión o el camino antiguo por Totora y Samaipata."
+  }
  }
 });

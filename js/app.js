@@ -6,6 +6,7 @@
 //   #/routes      "how to get from A to B" and every travel link
 //   #/route/<id>  one travel link
 //   #/trip        the optional trip planner (?t=<code> loads a shared trip)
+//   #/guide       practical tips: money, buses, blockades (?s=<section> scrolls to one)
 (function(){
 "use strict";
 const B = window.BOL, I = B.i18n, M = B.model, t = I.t;
@@ -13,8 +14,11 @@ const {byId, edgeById, adj} = M;
 
 const CATS = ["ville", "culture", "nature", "altiplano", "jungle", "aventure"];
 const MODES = ["bus", "train", "avion", "bateau", "tour", "velo"];
-const REGIONS = ["lapaz", "south", "colonial", "cbba", "santacruz", "chiquitania", "amazon"];
-const REGION_COVER = {lapaz:"isladelsol", south:"salar", colonial:"sucre", cbba:"torotoro", santacruz:"samaipata", chiquitania:"chochis", amazon:"pampas"};
+// Travel regions, in the order a visitor meets them going from the Andes down to the lowlands.
+const REGIONS = ["lapaz", "titicaca", "south", "colonial", "tarija", "cbba", "santacruz", "chiquitania", "serrania", "amazon"];
+const REGION_COVER = {lapaz:"lapaz", titicaca:"isladelsol", south:"salar", colonial:"sucre", tarija:"tarija", cbba:"torotoro", santacruz:"samaipata", chiquitania:"sanjavier", serrania:"chochis", amazon:"pampas"};
+// The nine departments (Pando has no place yet), west to east.
+const DEPTS = ["La Paz", "Oruro", "Potosí", "Chuquisaca", "Tarija", "Cochabamba", "Santa Cruz", "Beni", "Pando"];
 const MAJOR = new Set(["cbba","lapaz","sucre","potosi","uyuni","salar","santacruz","tarija","oruro","copacabana","rurrenabaque","samaipata","torotoro","tupiza","trinidad","sanignacio","robore","aguascalientes"]);
 const ENTRY_AIR = ["lapaz", "santacruz", "cbba"], ENTRY_LAND = ["copacabana", "uyuni", "tupiza"];
 const HERO = ["salar", "isladelsol", "torotoro"];
@@ -39,6 +43,8 @@ const coarse = matchMedia("(pointer:coarse)").matches;
 
 const fmtDays = d => t("days", {n:d, d:I.num(d)});
 const fmtAlt = a => t("alt", {a:I.num(a, 0)});
+// "Département de Potosí", with per-name exceptions such as "Département d'Oruro".
+const deptName = (d, key) => { const k = `${key || "dept.named"}.${d}`, v = t(k); return v === k ? t(key || "dept.named", {d}) : v; };
 function fmtH(h){
   if (h <= 0) return "—";
   const H = Math.floor(h), m = Math.round((h - H) * 60 / 5) * 5;
@@ -59,7 +65,9 @@ const ICON = {
   ext:'<path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 01-1 1H5a1 1 0 01-1-1V7a1 1 0 011-1h5"/>', link:'<path d="M10 14a4 4 0 005.7 0l3-3a4 4 0 00-5.7-5.7l-1 1M14 10a4 4 0 00-5.7 0l-3 3a4 4 0 005.7 5.7l1-1"/>',
   copy:'<rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V5a1 1 0 00-1-1H5a1 1 0 00-1 1v10a1 1 0 001 1h3"/>',
   list:'<path d="M9 6h11M9 12h11M9 18h11M4 6h.01M4 12h.01M4 18h.01"/>', sort:'<path d="M4 7h10M4 12h7M4 17h4M17 5v14M14 16l3 3 3-3"/>',
-  chev:'<path d="M6 9l6 6 6-6"/>'
+  chev:'<path d="M6 9l6 6 6-6"/>', info:'<circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 7.5h.01"/>',
+  pin:'<path d="M12 21s-6.5-5.6-6.5-11A6.5 6.5 0 0118.5 10c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/>',
+  arrow:'<path d="M5 12h14M13 6l6 6-6 6"/>'
 };
 const icon = (k, cls) => `<svg ${cls ? `class="${cls}" ` : ""}viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON[k]}</svg>`;
 // Logo: a chakana (Andean stepped cross) framing Illimani under the Altiplano sky, over woven stripes.
@@ -85,14 +93,19 @@ const S = {
   modes:new Set(["bus","train","bateau","tour","velo"]), basemap:"relief",
   calc:{from:"", to:"", pref:"avion", show:false},
   preview:null,   // place shown in the bottom card on the phone map
-  fromMap:false   // the open place was reached from the phone map, so "back" returns there
+  fromMap:false,  // the open place was reached from the phone map, so "back" returns there
+  group:"region", // places list grouped by travel region or by department
+  list:null,      // where the places list was scrolled when a place was opened: {panel, win, id}
+  canBack:false,  // the open place was reached from the list, so "back" is a history step
+  guideSec:null
 };
 const savedUi = load("bolivia-ui", null);
 if (savedUi){
   if (typeof savedUi.month === "number") S.month = savedUi.month;
   if (Array.isArray(savedUi.modes)) S.modes = new Set(savedUi.modes.filter(m => MODES.includes(m)));
+  if (savedUi.group === "dept") S.group = "dept";
 }
-const saveUi = () => store("bolivia-ui", {month:S.month, modes:[...S.modes]});
+const saveUi = () => store("bolivia-ui", {month:S.month, modes:[...S.modes], group:S.group});
 let trip = M.cleanTrip(load("bolivia-trip", null));
 const saveTrip = () => store("bolivia-trip", trip);
 const inTrip = id => trip.stops.some(s => s.id === id);
@@ -184,11 +197,17 @@ function route(){
   const [path, qs] = raw.split("?");
   const parts = path.split("/").filter(Boolean), q = new URLSearchParams(qs || "");
   const v = parts[0] || "";
-  S.place = null; S.edge = null;
+  const prev = S.view;
+  // Leaving the places list for a place: remember the scroll, to come back to the same spot.
+  if (prev === "map" && v === "place") S.list = {panel:$("#panel").scrollTop, win:window.scrollY, id:parts[1]};
+  S.place = null; S.edge = null; S.guideSec = null;
+  S.canBack = prev === "map" && v === "place";
   if (v === "place" && byId[parts[1]]){ S.view = "place"; S.place = parts[1]; }
   else if (v === "route" && edgeById[parts[1]]){ S.view = "route"; S.edge = parts[1]; }
+  else if (v === "guide"){ S.view = "guide"; S.guideSec = q.get("s"); }
   else if (v === "map"){
     S.view = "map";
+    if (prev !== "place" || q.has("region") || q.has("cat")) S.list = null;
     if (q.has("region")) S.region = REGIONS.includes(q.get("region")) ? q.get("region") : "all";
     if (q.has("cat") && CATS.includes(q.get("cat"))) S.cats = new Set([q.get("cat")]);
     if (q.has("region") || q.has("cat")) history.replaceState(null, "", "#/map");
@@ -212,8 +231,8 @@ function route(){
 /* ───── Chrome: header, tab bar ───── */
 function renderChrome(){
   const n = trip.stops.length;
-  const nav = [["home", "#/", "discover", t("nav.home")], ["map", "#/map", "map", t("nav.map")], ["routes", "#/routes", "route", t("nav.routes")], ["trip", "#/trip", "trip", t("nav.trip")]];
-  const cur = {home:"home", map:"map", place:"map", routes:"routes", route:"routes", trip:"trip"}[S.view];
+  const nav = [["home", "#/", "discover", t("nav.home")], ["map", "#/map", "map", t("nav.map")], ["routes", "#/routes", "route", t("nav.routes")], ["guide", "#/guide", "info", t("nav.guide")], ["trip", "#/trip", "trip", t("nav.trip")]];
+  const cur = {home:"home", map:"map", place:"map", routes:"routes", route:"routes", guide:"guide", trip:"trip"}[S.view];
   const link = ([k, href, ic, txt], withIcon) => `<a href="${href}" ${cur === k ? 'aria-current="page"' : ""}>${withIcon ? icon(ic) : ""}<span>${esc(txt)}</span>${k === "trip" ? `<span class="count" aria-label="${esc(t("nav.tripCount", {n}))}">${n || ""}</span>` : ""}</a>`;
   $("#head").innerHTML = `<div class="bar">
     <a class="brand" href="#/">${LOGO}<span>${esc(t("brand"))}</span></a>
@@ -265,14 +284,51 @@ function renderHome(){
   <section class="section" aria-labelledby="h-id"><header><div><h2 id="h-id">${esc(t("ideas.title"))}</h2><p>${esc(t("ideas.lead"))}</p></div></header>
     <div class="ideas">${B.itineraries.map(it => ideaCard(it, false)).join("")}</div>
   </section>
-  <section class="section" aria-labelledby="h-tips"><header><div><h2 id="h-tips">${esc(t("tips.title"))}</h2></div></header>
-    <div class="tips">${["altitude","seasons","transport","arrival"].map(k => `<div class="tip"><h3><span class="dmd"></span>${esc(t("tips." + k))}</h3><p>${esc(t("tips." + k + ".text"))}</p></div>`).join("")}</div>
+  <section class="section" aria-labelledby="h-tips"><header><div><h2 id="h-tips">${esc(t("tips.title"))}</h2></div><a class="btn" href="#/guide">${icon("info")}${esc(t("tips.more"))}</a></header>
+    <div class="tips">${[["money","money"],["transport","city"],["altitude","health"],["seasons",""]].map(([k, s]) => { const inner = `<h3><span class="dmd"></span>${esc(t("tips." + k))}</h3><p>${esc(t("tips." + k + ".text"))}</p>`; return s ? `<a class="tip" href="#/guide?s=${s}">${inner}</a>` : `<div class="tip">${inner}</div>`; }).join("")}</div>
   </section>
-  <footer class="site-foot"><div class="weave"></div><div class="in">
+  ${siteFoot()}`;
+}
+const siteFoot = () => `<footer class="site-foot"><div class="weave"></div><div class="in">
     <div><b>${esc(t("brand"))}</b><p>${esc(t("foot.about"))}</p></div>
     <div><p>${esc(t("foot.createdBy"))} <a href="https://github.com/jordanmontt" rel="author">jordanmontt</a></p><p class="small">${esc(t("foot.credits"))}</p></div>
   </div></footer>`;
+
+/* ───── Practical tips ───── */
+function renderGuide(){
+  const g = {sections:I.c("guide", "sections"), intro:I.c("guide", "intro"), phrases:I.c("guide", "phrases"), chapare:I.c("guide", "chapare")};
+  const num = i => String(i + 1).padStart(2, "0");
+  $("#v-home").innerHTML = `
+  <section class="pagehead"><div class="in">
+    <p class="kicker">${esc(t("guide.kicker"))}</p>
+    <h1 tabindex="-1" id="pageTitle">${esc(t("guide.title"))}</h1>
+    <p class="lead">${esc(g.intro)}</p>
+  </div></section>
+  <div class="weave thick"></div>
+  <div class="guide">
+    <nav class="toc" aria-label="${esc(t("guide.toc"))}">
+      <p>${esc(t("guide.toc"))}</p>
+      <ol>${g.sections.map(s => `<li><a href="#/guide?s=${s.id}">${esc(s.title)}</a></li>`).join("")}<li><a href="#/guide?s=phrases">${esc(t("guide.phrases"))}</a></li><li><a href="#/guide?s=chapare">${esc(g.chapare.title)}</a></li></ol>
+    </nav>
+    <div class="gbody">
+      ${g.sections.map((s, i) => `<section class="gsec" id="g-${s.id}" aria-labelledby="gh-${s.id}">
+        <span class="gnum" aria-hidden="true">${num(i)}</span>
+        <div><h2 id="gh-${s.id}">${esc(s.title)}</h2><p class="glead">${esc(s.lead)}</p>
+          <ul class="todo">${s.points.map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>
+      </section>`).join("")}
+      <section class="gsec" id="g-phrases" aria-labelledby="gh-phrases">
+        <span class="gnum" aria-hidden="true">${num(g.sections.length)}</span>
+        <div><h2 id="gh-phrases">${esc(t("guide.phrases"))}</h2><p class="glead">${esc(t("guide.phrasesLead"))}</p>
+          <dl class="phrases">${g.phrases.map(([es, tr]) => `<div><dt lang="es">${esc(es)}</dt><dd>${esc(tr)}</dd></div>`).join("")}</dl></div>
+      </section>
+      <section class="callout warn chapare" id="g-chapare" aria-labelledby="gh-chapare">
+        <h2 id="gh-chapare">${esc(g.chapare.title)}</h2><p>${esc(g.chapare.text)}</p><p>${esc(g.chapare.road)}</p>
+      </section>
+    </div>
+  </div>
+  ${siteFoot()}`;
 }
+const guideLink = () => `<a class="guidelink" href="#/guide">${icon("info")}<span>${esc(t("guide.link"))} <b>${esc(t("guide.linkCta"))}</b></span>${icon("arrow")}</a>`;
 const credit = () => `<p class="credit">${esc(t("foot.createdBy"))} <a href="https://github.com/jordanmontt" rel="author">jordanmontt</a>. ${esc(t("foot.credits"))}</p>`;
 
 /* ───── Panel: places list ───── */
@@ -289,17 +345,22 @@ function matches(p){
 function placeRow(p){
   const on = inTrip(p.id), ph = photos(p.id)[0], c = pc(p.id);
   const start = tripStart(), r = start && start !== p.id ? M.shortest(start, p.id, trip.pref) : null;
+  // Grouped by region, each row says its department (grouped by department, the heading does).
   return `<li class="pitem" style="${catVar(p.cat)}">
     <a href="#/place/${p.id}">${ph ? `<img src="${esc(small(ph.src))}" alt="" loading="lazy" decoding="async">` : `<span class="noimg"></span>`}
-      <span style="min-width:0"><span class="nm">${esc(c.name)}</span><span class="meta"><span class="dmd"></span><span>${esc(t("cat." + p.cat))}</span><span>${esc(fmtAlt(p.alt))}</span>${r ? `<span>${esc(t("fromStart", {h:fmtH(r.hours), place:label(start)}))}</span>` : ""}${tempsHtml(p.id)}</span></span></a>
+      <span style="min-width:0"><span class="nm">${esc(c.name)}</span><span class="meta"><span class="dmd"></span><span>${esc(t("cat." + p.cat))}</span>${S.group === "dept" ? "" : `<span>${esc(deptName(p.dept, "dept.short"))}</span>`}<span>${esc(fmtAlt(p.alt))}</span>${r ? `<span>${esc(t("fromStart", {h:fmtH(r.hours), place:label(start)}))}</span>` : ""}${tempsHtml(p.id)}</span></span></a>
     <button type="button" class="addbtn ${on ? "on" : ""}" data-act="toggle" data-id="${p.id}" aria-pressed="${on}" aria-label="${esc(t(on ? "trip.removeNamed" : "trip.addNamed", {name:c.name}))}">${icon(on ? "check" : "plus")}</button>
   </li>`;
 }
 function renderResults(){
   const list = B.places.filter(matches);
-  const regions = S.region === "all" ? REGIONS : [S.region];
-  const html = regions.map(r => [r, list.filter(p => p.region === r)]).filter(([, ps]) => ps.length)
-    .map(([r, ps]) => `<section class="zone"><h3>${esc(t("region." + r))}<span>${ps.length}</span></h3><ul class="plist">${ps.map(placeRow).join("")}</ul></section>`).join("");
+  const byDept = S.group === "dept";
+  const groups = byDept ? DEPTS.map(d => [d, deptName(d), list.filter(p => p.dept === d)])
+    : (S.region === "all" ? REGIONS : [S.region]).map(r => [r, t("region." + r), list.filter(p => p.region === r)]);
+  // The Chapare (Cochabamba tropics) is left out on purpose: say why, next to Cochabamba.
+  const chapare = `<a class="zone-note" href="#/guide?s=chapare">${icon("info")}${esc(t("chapare.short"))}</a>`;
+  const html = groups.filter(([, , ps]) => ps.length)
+    .map(([k, title, ps]) => `<section class="zone"><h3>${esc(title)}<span>${ps.length}</span></h3><ul class="plist">${ps.map(placeRow).join("")}</ul>${k === (byDept ? "Cochabamba" : "cbba") ? chapare : ""}</section>`).join("");
   $("#resultCount").textContent = t("results", {n:list.length});
   $("#results").innerHTML = html || `<div class="empty"><p>${esc(t("noResults"))}</p><p style="margin-top:10px"><button type="button" class="btn small" data-act="resetFilters">${esc(t("filter.reset"))}</button></p></div>`;
 }
@@ -318,7 +379,8 @@ function panelMap(){
         ${allCats ? "" : `<button type="button" class="fchip" data-act="allCats">${esc(t("filter.allCats"))}</button>`}
       </div>
     </div>
-    <p class="resultline" id="resultCount" aria-live="polite"></p>
+    <div class="row resultrow"><p class="resultline" id="resultCount" aria-live="polite"></p>
+      <div class="seg small" role="group" aria-label="${esc(t("group.label"))}"><span class="seg-label">${esc(t("group.label"))}</span><button type="button" data-act="group" data-v="region" aria-pressed="${S.group === "region"}">${esc(t("group.region"))}</button><button type="button" data-act="group" data-v="dept" aria-pressed="${S.group === "dept"}">${esc(t("group.dept"))}</button></div></div>
     <div id="results"></div>
     ${credit()}
   </div>`;
@@ -342,11 +404,12 @@ function panelPlace(id){
   const food = (B.food[id] || []).map(k => I.c("dishes", k)).filter(Boolean);
   const days = p.days[0] === p.days[1] ? fmtDays(p.days[1]) : t("daysRange", {a:I.num(p.days[0]), b:fmtDays(p.days[1])});
   return `<div class="in stack" style="${catVar(p.cat)}">
-    <a class="linkback" href="#/map">${icon("back")}${esc(t(S.fromMap ? "back.map" : "back.places"))}</a>
+    <a class="linkback" href="#/map" data-act="back">${icon("back")}${esc(t(S.fromMap ? "back.map" : "back.places"))}</a>
     ${galleryHtml(id)}
     <div class="stack" style="gap:10px">
-      <div class="row"><span class="chip c"><span class="d"></span>${esc(t("cat." + p.cat))}</span><a class="chip" href="#/map?region=${p.region}" style="text-decoration:none">${esc(t("region." + p.region))}</a></div>
+      <div class="row"><span class="chip c"><span class="d"></span>${esc(t("cat." + p.cat))}</span></div>
       <h1 class="title" tabindex="-1" id="pageTitle">${esc(c.name)}</h1>
+      <p class="where">${icon("pin")}<span><b>${esc(deptName(p.dept))}</b> · <a href="#/map?region=${p.region}">${esc(t("region." + p.region))}</a></span></p>
     </div>
     <p class="story">${esc(c.story || c.short)}</p>
     <div class="row">
@@ -357,7 +420,7 @@ function panelPlace(id){
     <div class="facts">
       <div><b>${esc(fmtAlt(p.alt))}</b><span>${esc(t("fact.alt"))}</span></div>
       <div><b>${esc(days)}</b><span>${esc(t("fact.days"))}</span></div>
-      ${r ? `<div><b>${esc(fmtH(r.hours))}</b><span>${esc(t("fact.from", {place:label(start)}))}</span></div>` : `<div><b>${esc(p.dept)}</b><span>${esc(t("fact.dept"))}</span></div>`}
+      ${r ? `<div><b>${esc(fmtH(r.hours))}</b><span>${esc(t("fact.from", {place:label(start)}))}</span></div>` : ""}
     </div>
     ${p.alt >= 3500 ? `<div class="callout warn"><strong>${esc(t("alt.warnTitle"))}</strong> ${esc(t("alt.warn"))}</div>` : ""}
     <section class="sec"><h2>${esc(t("place.todo"))}</h2><ul class="todo">${(c.todo || []).map(x => `<li>${esc(x)}</li>`).join("")}</ul></section>
@@ -368,6 +431,7 @@ function panelPlace(id){
     ${c.tips ? `<div class="callout"><strong>${esc(t("place.tip"))}</strong> ${esc(c.tips)}</div>` : ""}
     ${p.tour ? `<section class="sec"><h2>${esc(t("place.tourStops"))}</h2><p class="muted">${esc(I.list(B.tourStops.map(s => I.c("tour", s.id))))}</p></section>` : ""}
     <section class="sec"><h2>${esc(t("place.getThere"))}</h2><ul class="elist">${conns.map(e => edgeRow(e, id)).join("")}</ul></section>
+    ${guideLink()}
     ${credit()}
   </div>`;
 }
@@ -409,6 +473,7 @@ function panelRoutes(){
       ${groups.map(([m, es]) => `<details class="more" ${m === "bus" ? "" : ""}><summary>${modeIcon(m)} ${esc(t("mode." + m))} <span class="muted">(${es.length})</span></summary><ul class="elist" style="margin-top:6px">${es.map(e => edgeRow(e)).join("")}</ul></details>`).join("")}
       <p class="small muted">${esc(t("routes.disclaimer"))}</p>
     </section>
+    ${guideLink()}
     ${credit()}
   </div>`;
 }
@@ -652,7 +717,7 @@ function relabelMap(){
     m.unbindTooltip();
     if (!matchMedia("(hover:none)").matches){
       const ph = photos(p.id)[0];
-      m.bindTooltip(() => { const w = S.month >= 0 ? M.climate(p.id, S.month) : null; return `${ph ? `<img src="${esc(small(ph.src))}" alt="">` : ""}<div>${esc(name(p.id))}<small>${esc(pc(p.id).short)}</small>${w ? `<small>${esc(t("map.tipWx", {month:I.month(S.month), max:w.max, min:w.min}))}</small>` : ""}</div>`; }, {direction:"top", offset:[0, -10], className:"ptip", opacity:1});
+      m.bindTooltip(() => { const w = S.month >= 0 ? M.climate(p.id, S.month) : null; return `${ph ? `<img src="${esc(small(ph.src))}" alt="">` : ""}<div>${esc(name(p.id))}<small class="tip-where">${esc(deptName(p.dept))}</small><small>${esc(pc(p.id).short)}</small>${w ? `<small>${esc(t("map.tipWx", {month:I.month(S.month), max:w.max, min:w.min}))}</small>` : ""}</div>`; }, {direction:"top", offset:[0, -10], className:"ptip", opacity:1});
     }
   });
   subMarkers.forEach((m, i) => { const n = I.c("tour", B.tourStops[i].id); m.setIcon(L.divIcon({className:"pin-wrap", html:`<div class="pin sub"><i></i><span>${esc(n)}</span></div>`, iconSize:[9,9], iconAnchor:[4,4]})); });
@@ -749,6 +814,7 @@ function renderSheet(){
     <div class="sheet-txt">
       <span class="chip c"><span class="d"></span>${esc(t("cat." + p.cat))}</span>
       <h2>${esc(c.name)}</h2>
+      <p class="sheet-where">${esc(deptName(p.dept))}</p>
       <p>${esc(c.short)}</p>
       <div class="row">
         <a class="btn primary small" href="#/place/${id}" data-act="openFromMap">${esc(t("preview.open"))}</a>
@@ -762,10 +828,14 @@ function renderSheet(){
 /* ───── Render ───── */
 function render(navigated){
   renderChrome();
-  const home = S.view === "home";
-  $("#v-home").hidden = !home; $("#v-app").hidden = home;
+  // Home and the tips are plain pages; the other views are the list/detail panel next to the map.
+  const page = S.view === "home" || S.view === "guide";
+  $("#v-home").hidden = !page; $("#v-app").hidden = page;
+  // Back from a place to the list: return to the spot the visitor left, not to the top.
+  const restore = navigated && S.view === "map" ? S.list : null;
   let title = t("brand");
-  if (home){ renderHome(); title = t("brand") + ", " + t("home.titleShort"); }
+  if (S.view === "home"){ renderHome(); title = t("brand") + ", " + t("home.titleShort"); }
+  else if (S.view === "guide"){ renderGuide(); title = t("guide.title") + " | " + t("brand"); }
   else {
     if (!map) ensureMap().then(() => { render(false); focusMap(); }, () => { mapLoading = null; toast(t("map.loadFail")); });
     const panel = $("#panel");
@@ -773,7 +843,7 @@ function render(navigated){
     const scroll = navigated ? 0 : panel.scrollTop, winScroll = navigated ? 0 : window.scrollY;
     panel.innerHTML = html;
     if (S.view === "map") renderResults();
-    panel.scrollTop = scroll;
+    panel.scrollTop = restore ? restore.panel : scroll;
     if (!navigated) window.scrollTo(0, winScroll);
     bindGallery();
     title = ({map:t("map.title"), place:name(S.place), routes:t("routes.title"), route:S.edge && `${label(edgeById[S.edge].a)} – ${label(edgeById[S.edge].b)}`, trip:t("trip.title")})[S.view] + " | " + t("brand");
@@ -786,7 +856,16 @@ function render(navigated){
     }
   }
   document.title = title;
-  if (navigated){
+  if (!navigated) return;
+  const sec = S.guideSec && $("#g-" + S.guideSec);
+  if (restore){
+    window.scrollTo(0, restore.win);
+    const a = $(`#results a[href="#/place/${restore.id}"]`); if (a) a.focus({preventScroll:true});
+  } else if (sec){
+    sec.scrollIntoView();
+    requestAnimationFrame(() => sec.scrollIntoView());   // again once a cold load has laid out
+    const h = $("h2", sec); if (h){ h.tabIndex = -1; h.focus({preventScroll:true}); }
+  } else {
     window.scrollTo(0, 0);
     const h = $("#pageTitle"); if (h) h.focus({preventScroll:true});
   }
@@ -811,6 +890,9 @@ document.addEventListener("click", ev => {
     case "mode": { const k = b.dataset.k; S.modes.has(k) ? S.modes.delete(k) : S.modes.add(k); saveUi(); renderMapCtl(); drawMap(); break; }
     case "basemap": setBasemap(b.dataset.v); break;
     case "openFromMap": S.fromMap = true; break;
+    // Opened from the list: a real history step back, so the phone's back button agrees.
+    case "back": if (S.canBack){ ev.preventDefault(); history.back(); } break;
+    case "group": S.group = b.dataset.v; saveUi(); update(); break;
     case "closePreview": closePreview(); break;
     case "showMap":
       document.body.classList.add("show-map"); update();
@@ -878,6 +960,8 @@ async function start(){
   try { await I.use(I.initial(), false); }
   catch(e){ $("#v-home").innerHTML = `<p style="padding:40px">Could not load the site texts. Please reload the page.</p>`; return; }
   $("#viewToggle").dataset.act = "toggleView";
+  // The app puts the list back where it was itself (see render).
+  if ("scrollRestoration" in history) history.scrollRestoration = "manual";
   // Cache for photos, map and libraries (see sw.js). Not available when opened as a file.
   if ("serviceWorker" in navigator && location.protocol.startsWith("http")) navigator.serviceWorker.register("sw.js").catch(() => {});
   window.addEventListener("hashchange", route);

@@ -12,11 +12,16 @@ let problems = 0;
 const report = (msg) => { problems++; console.log(msg); };
 const ref = L.en;
 for (const l of langs){
-  for (const section of ["ui", "places", "edges", "dishes", "climates", "tour"]){
+  for (const section of ["ui", "places", "edges", "dishes", "climates", "tour", "guide"]){
     const a = Object.keys(ref[section] || {}), b = Object.keys(L[l][section] || {});
     a.filter(k => !b.includes(k)).forEach(k => report(`${l}: missing ${section}.${k}`));
     b.filter(k => !a.includes(k)).forEach(k => report(`${l}: extra ${section}.${k}`));
   }
+  const g = L[l].guide || {}, rg = ref.guide;
+  (rg.sections || []).forEach((s, i) => { const o = (g.sections || [])[i];
+    if (!o || o.id !== s.id) report(`${l}: guide section ${i} should be ${s.id}`);
+    else if (o.points.length !== s.points.length) report(`${l}: guide.${s.id} has ${o.points.length} points, en has ${s.points.length}`); });
+  if ((g.phrases || []).length !== rg.phrases.length) report(`${l}: guide.phrases has ${(g.phrases || []).length} entries, en has ${rg.phrases.length}`);
   for (const p of B.places){ const c = L[l].places[p.id]; if (!c) continue;
     for (const f of ["name", "label", "short", "story", "todo", "tips"]) if (!c[f] || !c[f].length) report(`${l}: ${p.id}.${f} empty`);
     if (c.todo.length !== ref.places[p.id].todo.length) report(`${l}: ${p.id}.todo has ${c.todo.length} items, en has ${ref.places[p.id].todo.length}`);

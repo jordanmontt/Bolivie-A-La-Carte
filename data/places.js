@@ -17,13 +17,13 @@ BOL.places = [
  {"id":"huayna","region":"lapaz","cat":"aventure","dept":"La Paz","lat":-16.263,"lng":-68.155,"alt":6088,"days":[3,3],"clim":"haute_montagne"},
  {"id":"condoriri","region":"lapaz","cat":"aventure","dept":"La Paz","lat":-16.17,"lng":-68.24,"alt":4650,"days":[1,3],"clim":"haute_montagne"},
  {"id":"tiwanaku","region":"lapaz","cat":"culture","dept":"La Paz","lat":-16.5547,"lng":-68.6733,"alt":3870,"days":[1,1],"clim":"altiplano"},
- {"id":"copacabana","region":"lapaz","cat":"altiplano","dept":"La Paz","lat":-16.1661,"lng":-69.0866,"alt":3841,"days":[1,2],"clim":"titicaca"},
- {"id":"isladelsol","region":"lapaz","cat":"altiplano","dept":"La Paz","lat":-16.03,"lng":-69.15,"alt":3900,"days":[1,2],"clim":"titicaca"},
- {"id":"isladelaluna","region":"lapaz","cat":"culture","dept":"La Paz","lat":-16.045,"lng":-69.07,"alt":3850,"days":[1,1],"clim":"titicaca"},
+ {"id":"copacabana","region":"titicaca","cat":"altiplano","dept":"La Paz","lat":-16.1661,"lng":-69.0866,"alt":3841,"days":[1,2],"clim":"titicaca"},
+ {"id":"isladelsol","region":"titicaca","cat":"altiplano","dept":"La Paz","lat":-16.03,"lng":-69.15,"alt":3900,"days":[1,2],"clim":"titicaca"},
+ {"id":"isladelaluna","region":"titicaca","cat":"culture","dept":"La Paz","lat":-16.045,"lng":-69.07,"alt":3850,"days":[1,1],"clim":"titicaca"},
  {"id":"sorata","region":"lapaz","cat":"nature","dept":"La Paz","lat":-15.7728,"lng":-68.6497,"alt":2700,"days":[2,3],"clim":"sorata"},
  {"id":"deathroad","region":"lapaz","cat":"aventure","dept":"La Paz","lat":-16.29,"lng":-67.8,"alt":3000,"days":[1,1],"clim":"yungas"},
  {"id":"coroico","region":"lapaz","cat":"nature","dept":"La Paz","lat":-16.1897,"lng":-67.7239,"alt":1750,"days":[1,2],"clim":"yungas"},
- {"id":"sajama","region":"lapaz","cat":"altiplano","dept":"Oruro","lat":-18.1386,"lng":-68.9786,"alt":4200,"days":[2,2],"clim":"sajama"},
+ {"id":"sajama","region":"south","cat":"altiplano","dept":"Oruro","lat":-18.1386,"lng":-68.9786,"alt":4200,"days":[2,2],"clim":"sajama"},
  {"id":"oruro","region":"south","cat":"ville","dept":"Oruro","lat":-17.9647,"lng":-67.106,"alt":3735,"days":[0,1],"clim":"altiplano"},
  {"id":"uyuni","region":"south","cat":"altiplano","dept":"Potosí","lat":-20.46,"lng":-66.825,"alt":3656,"days":[0,1],"clim":"uyuni"},
  {"id":"salar","region":"south","cat":"altiplano","dept":"Potosí","lat":-20.2422,"lng":-67.6258,"alt":3656,"days":[1,3],"clim":"lipez","tour":true},
@@ -32,8 +32,8 @@ BOL.places = [
  {"id":"sucre","region":"colonial","cat":"ville","dept":"Chuquisaca","lat":-19.0476,"lng":-65.2596,"alt":2810,"days":[2,3],"clim":"sucre"},
  {"id":"tarabuco","region":"colonial","cat":"culture","dept":"Chuquisaca","lat":-19.1817,"lng":-64.9156,"alt":3280,"days":[1,1],"clim":"sucre"},
  {"id":"maragua","region":"colonial","cat":"nature","dept":"Chuquisaca","lat":-18.96,"lng":-65.43,"alt":2900,"days":[1,2],"clim":"sucre"},
- {"id":"tarija","region":"colonial","cat":"ville","dept":"Tarija","lat":-21.5355,"lng":-64.7296,"alt":1866,"days":[2,3],"clim":"tarija"},
- {"id":"concepcionvalle","region":"colonial","cat":"culture","dept":"Tarija","lat":-21.7,"lng":-64.63,"alt":1700,"days":[1,1],"clim":"tarija"},
+ {"id":"tarija","region":"tarija","cat":"ville","dept":"Tarija","lat":-21.5355,"lng":-64.7296,"alt":1866,"days":[2,3],"clim":"tarija"},
+ {"id":"concepcionvalle","region":"tarija","cat":"culture","dept":"Tarija","lat":-21.7,"lng":-64.63,"alt":1700,"days":[1,1],"clim":"tarija"},
  {"id":"santacruz","region":"santacruz","cat":"ville","dept":"Santa Cruz","lat":-17.7833,"lng":-63.1821,"alt":416,"days":[1,2],"clim":"santacruz"},
  {"id":"lomas","region":"santacruz","cat":"nature","dept":"Santa Cruz","lat":-17.92,"lng":-63.14,"alt":400,"days":[1,1],"clim":"santacruz"},
  {"id":"samaipata","region":"santacruz","cat":"nature","dept":"Santa Cruz","lat":-18.1786,"lng":-63.8756,"alt":1650,"days":[2,3],"clim":"samaipata"},
@@ -49,10 +49,10 @@ BOL.places = [
  {"id":"madidi","region":"amazon","cat":"jungle","dept":"La Paz","lat":-14.43,"lng":-67.92,"alt":300,"days":[2,3],"clim":"amazonie"},
  {"id":"pampas","region":"amazon","cat":"jungle","dept":"Beni","lat":-14.07,"lng":-66.79,"alt":200,"days":[2,3],"clim":"amazonie"},
  {"id":"trinidad","region":"amazon","cat":"jungle","dept":"Beni","lat":-14.8333,"lng":-64.9,"alt":155,"days":[2,3],"clim":"amazonie"},
- {"id":"chochis","region":"chiquitania","cat":"nature","dept":"Santa Cruz","lat":-18.1494,"lng":-60.0307,"alt":400,"days":[1,1],"clim":"chiquitania"},
- {"id":"robore","region":"chiquitania","cat":"nature","dept":"Santa Cruz","lat":-18.3297,"lng":-59.7603,"alt":280,"days":[1,2],"clim":"chiquitania"},
- {"id":"santiago","region":"chiquitania","cat":"nature","dept":"Santa Cruz","lat":-18.3397,"lng":-59.5983,"alt":650,"days":[1,2],"clim":"chiquitania"},
- {"id":"aguascalientes","region":"chiquitania","cat":"nature","dept":"Santa Cruz","lat":-18.4527,"lng":-59.5038,"alt":200,"days":[1,1],"clim":"chiquitania"}
+ {"id":"chochis","region":"serrania","cat":"nature","dept":"Santa Cruz","lat":-18.1494,"lng":-60.0307,"alt":400,"days":[1,1],"clim":"chiquitania"},
+ {"id":"robore","region":"serrania","cat":"nature","dept":"Santa Cruz","lat":-18.3297,"lng":-59.7603,"alt":280,"days":[1,2],"clim":"chiquitania"},
+ {"id":"santiago","region":"serrania","cat":"nature","dept":"Santa Cruz","lat":-18.3397,"lng":-59.5983,"alt":650,"days":[1,2],"clim":"chiquitania"},
+ {"id":"aguascalientes","region":"serrania","cat":"nature","dept":"Santa Cruz","lat":-18.4527,"lng":-59.5038,"alt":200,"days":[1,1],"clim":"chiquitania"}
 ];
 
 // Travel links. mode: bus | train | avion | bateau | tour | velo. h: hours (typical, without waiting).
