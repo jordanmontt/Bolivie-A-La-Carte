@@ -269,9 +269,6 @@ a.tip:hover{background:var(--raise)}
 /* Place list */
 .zone h3{font-size:15px;margin:14px 0 4px;display:flex;justify-content:space-between;align-items:baseline}
 .zone h3 span{font:600 13px var(--f-body);color:var(--muted)}
-.zone-note{display:flex;align-items:center;gap:8px;margin:6px 0 2px;padding:9px 12px;border-radius:var(--r-s);background:var(--warn-soft);color:var(--warn);font-size:14px;font-weight:600;text-decoration:none}
-.zone-note svg{width:16px;height:16px;flex:none}
-.zone-note:hover{text-decoration:underline}
 .plist{list-style:none;margin:0;padding:0}
 .pitem{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;align-items:center;padding:8px;margin:0 -8px;border-radius:var(--r-m)}
 .pitem:hover{background:var(--raise)}

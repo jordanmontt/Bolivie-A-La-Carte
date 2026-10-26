@@ -322,7 +322,7 @@ function renderGuide(){
   <div class="guide">
     <nav class="toc" aria-label="${esc(t("guide.toc"))}">
       <p>${esc(t("guide.toc"))}</p>
-      <ol>${g.sections.map(s => `<li><a href="#/guide?s=${s.id}">${esc(s.title)}</a></li>`).join("")}<li><a href="#/guide?s=phrases">${esc(t("guide.phrases"))}</a></li><li><a href="#/guide?s=chapare">${esc(g.chapare.title)}</a></li></ol>
+      <ol>${g.sections.map(s => `<li><a href="#/guide?s=${s.id}">${esc(s.title)}</a></li>`).join("")}<li><a href="#/guide?s=phrases">${esc(t("guide.phrases"))}</a></li></ol>
     </nav>
     <div class="gbody">
       ${g.sections.map((s, i) => `<section class="gsec" id="g-${s.id}" aria-labelledby="gh-${s.id}">
@@ -371,10 +371,8 @@ function renderResults(){
   const byDept = S.group === "dept";
   const groups = byDept ? DEPTS.map(d => [d, deptName(d), list.filter(p => p.dept === d)])
     : (S.region === "all" ? REGIONS : [S.region]).map(r => [r, t("region." + r), list.filter(p => p.region === r)]);
-  // The Chapare (Cochabamba tropics) is left out on purpose: say why, next to Cochabamba.
-  const chapare = `<a class="zone-note" href="#/guide?s=chapare">${icon("info")}${esc(t("chapare.short"))}</a>`;
   const html = groups.filter(([, , ps]) => ps.length)
-    .map(([k, title, ps]) => `<section class="zone"><h3>${esc(title)}<span>${ps.length}</span></h3><ul class="plist">${ps.map(placeRow).join("")}</ul>${k === (byDept ? "Cochabamba" : "cbba") ? chapare : ""}</section>`).join("");
+    .map(([k, title, ps]) => `<section class="zone"><h3>${esc(title)}<span>${ps.length}</span></h3><ul class="plist">${ps.map(placeRow).join("")}</ul></section>`).join("");
   $("#resultCount").textContent = t("results", {n:list.length});
   $("#results").innerHTML = html || `<div class="empty"><p>${esc(t("noResults"))}</p><p style="margin-top:10px"><button type="button" class="btn small" data-act="resetFilters">${esc(t("filter.reset"))}</button></p></div>`;
 }

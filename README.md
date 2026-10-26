@@ -1,6 +1,6 @@
 # Bolivia à la carte
 
-Where to go in Bolivia: an interactive map of 52 places with photos, food, weather and
+Where to go in Bolivia: an interactive map of 77 places with photos, food, weather and
 routes, practical tips (money, buses, road blockades), plus an optional trip planner.
 In French, English and Spanish.
 
