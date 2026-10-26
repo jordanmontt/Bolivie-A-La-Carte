@@ -27,7 +27,8 @@ BOL.locales.es = Object.assign(BOL.locales.es || {}, {ui: {
   "undo": "Deshacer",
 
   "home.title": "Bolivia, ¿adónde ir?",
-  "home.titleShort": "adónde ir en Bolivia",
+  "home.kicker": "Guía turística de Bolivia",
+  "home.titleShort": "guía turística de Bolivia",
   "home.lead": "{n} lugares, de los glaciares a la Amazonía: ciudades coloniales, desiertos de sal, lagos sagrados y selva. Explora el mapa y arma tu propio viaje, con o sin fechas.",
   "home.explore": "Explorar el mapa",
   "home.plan": "Preparar mi viaje",
@@ -50,7 +51,7 @@ BOL.locales.es = Object.assign(BOL.locales.es || {}, {ui: {
   "tips.transport": "Los buses",
   "tips.transport.text": "Los minibuses casi no tienen paradas: se los para con la mano y uno se baja donde quiere. La mayoría de las líneas no están en Google Maps: pregunta al chofer.",
   "tips.more": "Todos los consejos prácticos",
-  "foot.about": "Una guía para descubrir Bolivia: adónde ir, qué hacer, qué comer y cómo llegar.",
+  "foot.about": "Una guía turística gratuita para descubrir Bolivia: adónde ir, qué hacer, qué comer y cómo llegar.",
   "foot.createdBy": "Creado por",
   "foot.credits": "Fotos: Wikimedia Commons, con autor y licencia debajo de cada foto. Mapa: Natural Earth, SRTM, OpenStreetMap, Esri.",
 

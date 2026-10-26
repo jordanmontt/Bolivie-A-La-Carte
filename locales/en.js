@@ -27,7 +27,8 @@ BOL.locales.en = Object.assign(BOL.locales.en || {}, {ui: {
   "undo": "Undo",
 
   "home.title": "Bolivia, where to go?",
-  "home.titleShort": "where to go in Bolivia",
+  "home.kicker": "A travel guide to Bolivia",
+  "home.titleShort": "travel guide to Bolivia",
   "home.lead": "{n} places, from glaciers to the Amazon: colonial towns, salt deserts, sacred lakes and jungle. Explore the map, then put together your own trip, with or without dates.",
   "home.explore": "Explore the map",
   "home.plan": "Plan my trip",
@@ -50,7 +51,7 @@ BOL.locales.en = Object.assign(BOL.locales.en || {}, {ui: {
   "tips.transport": "Buses",
   "tips.transport.text": "Minibuses have almost no stops: you wave one down and get off wherever you like. Most lines aren't on Google Maps, so ask the driver.",
   "tips.more": "All practical tips",
-  "foot.about": "A guide to discovering Bolivia: where to go, what to do, what to eat and how to get there.",
+  "foot.about": "A free travel guide to discovering Bolivia: where to go, what to do, what to eat and how to get there.",
   "foot.createdBy": "Created by",
   "foot.credits": "Photos: Wikimedia Commons, with author and licence under each photo. Map: Natural Earth, SRTM, OpenStreetMap, Esri.",
 

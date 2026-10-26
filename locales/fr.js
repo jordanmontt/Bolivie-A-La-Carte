@@ -27,7 +27,8 @@ BOL.locales.fr = Object.assign(BOL.locales.fr || {}, {ui: {
   "undo": "Annuler",
 
   "home.title": "Bolivie, où aller ?",
-  "home.titleShort": "où aller en Bolivie",
+  "home.kicker": "Guide touristique de la Bolivie",
+  "home.titleShort": "guide touristique de la Bolivie",
   "home.lead": "{n} lieux, des glaciers à l'Amazonie : villes coloniales, déserts de sel, lacs sacrés et jungle. Explorez la carte, puis composez votre voyage, avec ou sans dates.",
   "home.explore": "Explorer la carte",
   "home.plan": "Préparer mon voyage",
@@ -50,7 +51,7 @@ BOL.locales.fr = Object.assign(BOL.locales.fr || {}, {ui: {
   "tips.transport": "Les bus",
   "tips.transport.text": "Les minibus n'ont presque pas d'arrêts : on les arrête d'un signe de la main et on descend où on veut. La plupart des lignes ne sont pas sur Google Maps : demandez au chauffeur.",
   "tips.more": "Tous les conseils pratiques",
-  "foot.about": "Un guide pour découvrir la Bolivie : où aller, quoi faire, quoi goûter et comment s'y rendre.",
+  "foot.about": "Un guide touristique gratuit pour découvrir la Bolivie : où aller, quoi faire, quoi goûter et comment s'y rendre.",
   "foot.createdBy": "Créé par",
   "foot.credits": "Photos : Wikimedia Commons, auteurs et licences indiqués sous chaque photo. Carte : Natural Earth, SRTM, OpenStreetMap, Esri.",
 
