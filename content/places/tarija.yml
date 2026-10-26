@@ -1,0 +1,79 @@
+# Tarija
+department: Tarija
+category: ville
+lat: -21.5355
+lng: -64.7296
+altitude: 1866
+days: [2, 3]
+climate: tarija
+major: true
+dishes: [saice, cangrejitos, vino, singani]
+photos:
+  - file: tarija-1.jpg
+    author: Parallelepiped09
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:La_Ciudad_de_Tarija,_Bolivia.jpg
+  - file: tarija-2.jpg
+    author: Suomi 1973
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Vi%C3%B1edos_Kohlberg.jpg
+  - file: tarija-3.jpg
+    author: Saidalefotografia
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Bailarines_Chapacos.jpg
+  - file: tarija-4.jpg
+    author: Ruditaly
+    licence: CC BY 4.0
+    source: https://commons.wikimedia.org/wiki/File:Hotel_Los_Parrales_-_Tarija,_Bolivia.jpg
+  - file: tarija-5.jpg
+    author: Marcos GH Bo
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Fiesta-de-san-roque-en-tarja-2.jpg
+  - file: tarija-6.jpg
+    author: Vanett Graneros
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Facultad_de_Ciencias_Agr%C3%ADcolas_y_Forestales,_UAJMS).jpg
+  - file: tarija-7.jpg
+    author: Marcos GH Bo
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Patio_del_Cabildo_de_la_ciudad_de_Tarija.jpg
+fr:
+  name: Tarija
+  label: Tarija
+  short: "La Bolivie andalouse : vignobles d'altitude, singani et ambiance détendue."
+  story: >-
+    Tarija surprend tout le monde : on se croirait en Andalousie, avec ses palmiers, ses
+    places tranquilles et ses vignobles. On y produit des vins d'altitude et le singani,
+    l'eau-de-vie nationale. Ville douce et accueillante, parfaite pour ralentir le rythme.
+  todo:
+    - Route du vin et du singani (Valle de la Concepción)
+    - Centre-ville et place principale
+    - Réserve de Sama (lagunes et chemin inca)
+  tips: Plus chaude et plus basse. Vols directs depuis Cochabamba.
+en:
+  name: Tarija
+  label: Tarija
+  short: "Bolivia's Andalusia: high-altitude vineyards, singani and a relaxed vibe."
+  story: >-
+    Tarija surprises everyone: with its palm trees, quiet squares and vineyards, it feels
+    like Andalusia. It produces high-altitude wines and singani, the national brandy. A
+    gentle, welcoming city, perfect for slowing down.
+  todo:
+    - Wine and singani route (Valle de la Concepción)
+    - Town centre and main square
+    - Sama reserve (lagoons and an Inca trail)
+  tips: Warmer and lower. Direct flights from Cochabamba.
+es:
+  name: Tarija
+  label: Tarija
+  short: "La Andalucía boliviana: viñedos de altura, singani y ambiente relajado."
+  story: >-
+    Tarija sorprende a todos: con sus palmeras, plazas tranquilas y viñedos, parece
+    Andalucía. Ahí se producen vinos de altura y el singani, el aguardiente nacional. Una
+    ciudad amable y acogedora, perfecta para bajar el ritmo.
+  todo:
+    - Ruta del vino y del singani (Valle de la Concepción)
+    - Centro y plaza principal
+    - Reserva de Sama (lagunas y camino inca)
+  tips: Más cálida y más baja. Vuelos directos desde Cochabamba.

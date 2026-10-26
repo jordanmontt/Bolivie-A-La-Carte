@@ -1,0 +1,2629 @@
+# Every travel link once. mode: bus | train | avion | bateau | tour | velo. hours: typical duration.
+# t: duration shown; how: how to travel; road and note are optional.
+- id: cbba-lapaz
+  from: cbba
+  to: lapaz
+  mode: bus
+  hours: 7.5
+  fr:
+    t: 7 à 8 h
+    how: >-
+      Bus de jour ou de nuit depuis la Terminal de Cochabamba (nombreuses compagnies, toutes
+      les heures). Bus « cama » conseillé de nuit.
+    road: >-
+      Ruta 4 : Cochabamba → Confital (col à ~4 200 m) → Caracollo, puis Ruta 1 (double voie)
+      → Patacamaya → El Alto → La Paz.
+    note: Très belle montée vers l'Altiplano. De jour pour profiter des paysages.
+  en:
+    t: 7 to 8 h
+    how: >-
+      Day or night buses from the Cochabamba bus terminal (many companies, every hour). A
+      “cama” (sleeper) bus is best at night.
+    road: >-
+      Ruta 4: Cochabamba, Confital (pass at about 4,200 m), Caracollo, then Ruta 1 (dual
+      carriageway) via Patacamaya and El Alto to La Paz.
+    note: A beautiful climb up to the Altiplano. Travel by day to enjoy the views.
+  es:
+    t: 7 a 8 h
+    how: >-
+      Buses de día o de noche desde la Terminal de Cochabamba (muchas empresas, cada hora).
+      De noche conviene un bus cama.
+    road: >-
+      Ruta 4: Cochabamba, Confital (paso a unos 4200 m), Caracollo, y luego Ruta 1 (doble
+      vía) por Patacamaya y El Alto hasta La Paz.
+    note: Una subida muy linda al Altiplano. De día para disfrutar el paisaje.
+- id: cbba-lapaz-avion
+  from: cbba
+  to: lapaz
+  mode: avion
+  hours: 0.75
+  fr:
+    t: 45 min de vol
+    how: Vols quotidiens BoA (plusieurs par jour), aéroport d'El Alto.
+    note: "Arrivée directe à 4 000 m : moins bon pour l'acclimatation."
+  en:
+    t: 45 min flight
+    how: Daily BoA flights (several a day) to El Alto airport.
+    note: "You land straight at 4,000 m: worse for acclimatisation."
+  es:
+    t: 45 min de vuelo
+    how: Vuelos diarios de BoA (varios al día) al aeropuerto de El Alto.
+    note: "Se llega directo a 4000 m: peor para la aclimatación."
+- id: cbba-oruro
+  from: cbba
+  to: oruro
+  mode: bus
+  hours: 4.5
+  fr:
+    t: 4 à 5 h
+    how: Bus fréquents depuis la Terminal de Cochabamba.
+    road: "Ruta 4 : Cochabamba → Confital → Caracollo, puis route vers le sud jusqu'à Oruro."
+  en:
+    t: 4 to 5 h
+    how: Frequent buses from the Cochabamba bus terminal.
+    road: "Ruta 4: Cochabamba, Confital, Caracollo, then south to Oruro."
+  es:
+    t: 4 a 5 h
+    how: Buses frecuentes desde la Terminal de Cochabamba.
+    road: "Ruta 4: Cochabamba, Confital, Caracollo, y luego al sur hasta Oruro."
+- id: cbba-torotoro
+  from: cbba
+  to: torotoro
+  mode: bus
+  hours: 4
+  fr:
+    t: 4 à 5 h
+    how: >-
+      Minibus quotidiens depuis le sud de Cochabamba (secteur Av. República), départ tôt le
+      matin. Ou voiture/excursion.
+    road: >-
+      Ruta 7 vers le Valle Alto, puis Ruta 46 vers le sud par la montagne (route pavée ou
+      asphaltée sur une grande partie).
+    note: "Vérifier les horaires la veille : les départs ne sont pas toutes les heures."
+  en:
+    t: 4 to 5 h
+    how: >-
+      Daily minibuses from the south of Cochabamba (Av. República area), leaving early in
+      the morning. Or by car or tour.
+    road: >-
+      Ruta 7 to the Valle Alto, then Ruta 46 south through the mountains (cobbled or paved
+      for most of the way).
+    note: "Check the times the day before: departures are not hourly."
+  es:
+    t: 4 a 5 h
+    how: >-
+      Minibuses diarios desde el sur de Cochabamba (zona Av. República), temprano en la
+      mañana. O en auto o excursión.
+    road: >-
+      Ruta 7 hacia el Valle Alto, y luego Ruta 46 al sur por la montaña (empedrada o
+      asfaltada en buena parte).
+    note: "Confirma los horarios el día anterior: no salen cada hora."
+- id: cbba-tunari
+  from: cbba
+  to: tunari
+  mode: bus
+  hours: 1.5
+  straight: true
+  fr:
+    t: 1 à 2 h
+    how: Taxi 4x4 ou excursion guidée. Les pistes montent directement au nord de la ville.
+    road: Pistes de montagne au-dessus de Cochabamba.
+  en:
+    t: 1 to 2 h
+    how: 4x4 taxi or guided trip. The tracks climb straight up north of the city.
+    road: Mountain tracks above Cochabamba.
+  es:
+    t: 1 a 2 h
+    how: Taxi 4x4 o excursión guiada. Los caminos suben directo al norte de la ciudad.
+    road: Caminos de montaña encima de Cochabamba.
+- id: cbba-valle
+  from: cbba
+  to: valle
+  mode: bus
+  hours: 0.75
+  fr:
+    t: 45 min
+    how: Trufis (minibus) fréquents vers Tarata et Cliza.
+    road: Route du Valle Alto (Ruta 7 puis route départementale).
+  en:
+    t: 45 min
+    how: Frequent trufis (minibuses) to Tarata and Cliza.
+    road: Valle Alto road (Ruta 7, then a departmental road).
+  es:
+    t: 45 min
+    how: Trufis frecuentes a Tarata y Cliza.
+    road: Carretera del Valle Alto (Ruta 7 y luego una ruta departamental).
+- id: cbba-incarakay
+  from: cbba
+  to: incarakay
+  mode: bus
+  hours: 1
+  fr:
+    t: 1 h + 2 h de marche
+    how: Trufi vers Quillacollo puis Sipe Sipe, puis montée à pied.
+    road: Ruta 4 vers l'ouest (Quillacollo, Vinto, Sipe Sipe).
+  en:
+    t: 1 h + 2 h walk
+    how: Trufi to Quillacollo then Sipe Sipe, then walk up.
+    road: Ruta 4 west (Quillacollo, Vinto, Sipe Sipe).
+  es:
+    t: 1 h + 2 h de caminata
+    how: Trufi a Quillacollo y luego a Sipe Sipe, y subida a pie.
+    road: Ruta 4 al oeste (Quillacollo, Vinto, Sipe Sipe).
+- id: cbba-incallajta
+  from: cbba
+  to: incallajta
+  mode: bus
+  hours: 3
+  fr:
+    t: 3 h
+    how: >-
+      Voiture ou excursion organisée. Transport public compliqué (bus jusqu'à Pocona puis
+      taxi).
+    road: Vers l'est par Sacaba, puis Ruta 7 et route départementale vers Pocona et les ruines.
+  en:
+    t: 3 h
+    how: Car or organised trip. Public transport is tricky (bus to Pocona, then taxi).
+    road: East through Sacaba, then Ruta 7 and a departmental road to Pocona and the ruins.
+  es:
+    t: 3 h
+    how: >-
+      Auto o excursión organizada. El transporte público es complicado (bus hasta Pocona y
+      luego taxi).
+    road: Al este por Sacaba, luego Ruta 7 y una ruta departamental hasta Pocona y las ruinas.
+- id: incallajta-totora
+  from: incallajta
+  to: totora
+  mode: bus
+  hours: 1.5
+  fr:
+    t: 1 h 30
+    how: Voiture.
+    road: Retour sur la Ruta 7 vers l'est.
+  en:
+    t: 1 h 30
+    how: Car.
+    road: Back to Ruta 7, heading east.
+  es:
+    t: 1 h 30
+    how: Auto.
+    road: De vuelta a la Ruta 7 hacia el este.
+- id: cbba-totora
+  from: cbba
+  to: totora
+  mode: bus
+  hours: 4
+  fr:
+    t: 4 h
+    how: Bus vers Totora ou bus de l'ancienne route de Santa Cruz.
+    road: Ruta 7 (ancienne route Cochabamba – Santa Cruz) via Epizana.
+  en:
+    t: 4 h
+    how: Bus to Totora, or a bus on the old Santa Cruz road.
+    road: Ruta 7 (old Cochabamba to Santa Cruz road) via Epizana.
+  es:
+    t: 4 h
+    how: Bus a Totora o bus de la carretera antigua a Santa Cruz.
+    road: Ruta 7 (carretera antigua Cochabamba – Santa Cruz) por Epizana.
+- id: totora-samaipata
+  from: totora
+  to: samaipata
+  mode: bus
+  hours: 5.5
+  via: [[-17.9136, -64.5306]]
+  fr:
+    t: 5 à 6 h
+    how: Bus de l'ancienne route ou voiture.
+    road: "Ruta 7 : Epizana → Comarapa → Mairana → Samaipata. Route sinueuse, paysages magnifiques."
+  en:
+    t: 5 to 6 h
+    how: Bus on the old road, or car.
+    road: "Ruta 7: Epizana, Comarapa, Mairana, Samaipata. Winding road, magnificent scenery."
+  es:
+    t: 5 a 6 h
+    how: Bus de la carretera antigua o auto.
+    road: >-
+      Ruta 7: Epizana, Comarapa, Mairana, Samaipata. Camino con muchas curvas y paisajes
+      magníficos.
+- id: cbba-samaipata
+  from: cbba
+  to: samaipata
+  mode: bus
+  hours: 9
+  via: [[-17.9136, -64.5306]]
+  fr:
+    t: 8 à 10 h
+    how: >-
+      Bus de nuit vers Santa Cruz par l'ancienne route (demander à descendre à Samaipata) ou
+      voiture.
+    road: "Ruta 7 (« carretera antigua ») : Cochabamba → Epizana → Comarapa → Mairana → Samaipata."
+    note: Plus lent que la nouvelle route mais bien plus beau, et passe par Samaipata.
+  en:
+    t: 8 to 10 h
+    how: Night bus to Santa Cruz on the old road (ask to get off in Samaipata), or car.
+    road: "Ruta 7 (“carretera antigua”): Cochabamba, Epizana, Comarapa, Mairana, Samaipata."
+    note: Slower than the new road but far more beautiful, and it passes through Samaipata.
+  es:
+    t: 8 a 10 h
+    how: Bus nocturno a Santa Cruz por la carretera antigua (pide bajar en Samaipata) o auto.
+    road: "Ruta 7 (carretera antigua): Cochabamba, Epizana, Comarapa, Mairana, Samaipata."
+    note: Más lenta que la carretera nueva pero mucho más linda, y pasa por Samaipata.
+- id: cbba-santacruz
+  from: cbba
+  to: santacruz
+  mode: bus
+  hours: 10
+  via: [[-16.9733, -65.4194]]
+  fr:
+    t: 9 à 11 h
+    how: Bus de nuit très fréquents (Terminal de Cochabamba → Terminal Bimodal de Santa Cruz).
+    road: Ruta 4 par le Chapare (nouvelle route).
+  en:
+    t: 9 to 11 h
+    how: Very frequent night buses (Cochabamba terminal to the Bimodal terminal in Santa Cruz).
+    road: Ruta 4 through the Chapare (new road).
+  es:
+    t: 9 a 11 h
+    how: >-
+      Buses nocturnos muy frecuentes (Terminal de Cochabamba a la Terminal Bimodal de Santa
+      Cruz).
+    road: Ruta 4 por el Chapare (carretera nueva).
+- id: cbba-santacruz-avion
+  from: cbba
+  to: santacruz
+  mode: avion
+  hours: 0.9
+  fr:
+    t: 55 min de vol
+    how: Vols quotidiens BoA, aéroport Viru Viru.
+  en:
+    t: 55 min flight
+    how: Daily BoA flights to Viru Viru airport.
+  es:
+    t: 55 min de vuelo
+    how: Vuelos diarios de BoA al aeropuerto Viru Viru.
+- id: cbba-sucre
+  from: cbba
+  to: sucre
+  mode: bus
+  hours: 9.5
+  via: [[-18.1953, -65.1806]]
+  fr:
+    t: 9 à 11 h (de nuit)
+    how: Bus de nuit depuis la Terminal de Cochabamba.
+    road: >-
+      Ruta 7 vers l'est, Ruta 23 vers le sud par Aiquile, puis Ruta 5 par Puente Arce
+      jusqu'à Sucre.
+    note: "Long et sinueux : l'avion (35 min) fait gagner une journée."
+  en:
+    t: 9 to 11 h (overnight)
+    how: Night bus from the Cochabamba bus terminal.
+    road: Ruta 7 east, Ruta 23 south via Aiquile, then Ruta 5 via Puente Arce to Sucre.
+    note: "Long and winding: the 35-minute flight saves you a day."
+  es:
+    t: 9 a 11 h (de noche)
+    how: Bus nocturno desde la Terminal de Cochabamba.
+    road: Ruta 7 al este, Ruta 23 al sur por Aiquile, y luego Ruta 5 por Puente Arce hasta Sucre.
+    note: "Largo y con muchas curvas: el avión (35 min) ahorra un día."
+- id: cbba-sucre-avion
+  from: cbba
+  to: sucre
+  mode: avion
+  hours: 0.6
+  fr:
+    t: 35 min de vol
+    how: Vols BoA, aéroport d'Alcantarí.
+  en:
+    t: 35 min flight
+    how: BoA flights to Alcantarí airport.
+  es:
+    t: 35 min de vuelo
+    how: Vuelos de BoA al aeropuerto de Alcantarí.
+- id: cbba-aiquile
+  from: cbba
+  to: aiquile
+  mode: bus
+  hours: 4.5
+  straight: true
+  fr:
+    t: 4 à 5 h
+    how: Bus et minibus depuis Cochabamba, quelques départs par jour.
+  en:
+    t: 4 to 5 h
+    how: Buses and minibuses from Cochabamba, a few departures a day.
+  es:
+    t: 4 a 5 h
+    how: Buses y minibuses desde Cochabamba, algunas salidas al día.
+- id: cbba-mizque
+  from: cbba
+  to: mizque
+  mode: bus
+  hours: 4
+  straight: true
+  fr:
+    t: 3 h 30 à 4 h
+    how: Bus et minibus quotidiens depuis Cochabamba.
+  en:
+    t: 3 h 30 to 4 h
+    how: Daily buses and minibuses from Cochabamba.
+  es:
+    t: 3 h 30 a 4 h
+    how: Buses y minibuses diarios desde Cochabamba.
+- id: mizque-aiquile
+  from: mizque
+  to: aiquile
+  mode: bus
+  hours: 1.5
+  straight: true
+  fr:
+    t: 1 h 30
+    how: Minibus ou bus.
+  en:
+    t: 1 h 30
+    how: Minibus or bus.
+  es:
+    t: 1 h 30
+    how: Minibús o bus.
+- id: aiquile-sucre
+  from: aiquile
+  to: sucre
+  mode: bus
+  hours: 5
+  straight: true
+  fr:
+    t: 5 à 6 h
+    how: "Bus Cochabamba – Sucre qui passent par Aiquile : demandez à monter ou à descendre."
+  en:
+    t: 5 to 6 h
+    how: "Cochabamba – Sucre buses pass through Aiquile: ask to get on or off."
+  es:
+    t: 5 a 6 h
+    how: "Los buses Cochabamba – Sucre pasan por Aiquile: pide subir o bajar."
+- id: cbba-tarija-avion
+  from: cbba
+  to: tarija
+  mode: avion
+  hours: 1
+  fr:
+    t: 1 h de vol
+    how: Vols BoA directs selon les jours.
+  en:
+    t: 1 h flight
+    how: Direct BoA flights on some days.
+  es:
+    t: 1 h de vuelo
+    how: Vuelos directos de BoA algunos días.
+- id: cbba-trinidad-avion
+  from: cbba
+  to: trinidad
+  mode: avion
+  hours: 1
+  fr:
+    t: 1 h de vol
+    how: Vols BoA ou TAM selon les jours.
+  en:
+    t: 1 h flight
+    how: BoA or TAM flights on some days.
+  es:
+    t: 1 h de vuelo
+    how: Vuelos de BoA o TAM algunos días.
+- id: lapaz-elalto
+  from: lapaz
+  to: elalto
+  mode: bus
+  hours: 0.5
+  straight: true
+  fr:
+    t: 15 à 30 min
+    how: Mi Teleférico (lignes rouge, jaune ou bleue depuis La Paz) ou minibus.
+    note: Le téléphérique est le plus simple, et offre une vue superbe sur la ville.
+  en:
+    t: 15 to 30 min
+    how: Mi Teleférico (red, yellow or blue lines from La Paz) or minibus.
+    note: The cable car is the easiest way, with a superb view over the city.
+  es:
+    t: 15 a 30 min
+    how: Mi Teleférico (líneas roja, amarilla o azul desde La Paz) o minibús.
+    note: El teleférico es lo más fácil, y tiene una vista increíble de la ciudad.
+- id: lapaz-valleluna
+  from: lapaz
+  to: valleluna
+  mode: bus
+  hours: 0.6
+  fr:
+    t: 30 à 45 min
+    how: Minibus depuis le centre ou taxi.
+    road: Zona Sur de La Paz (Calacoto, Mallasa).
+  en:
+    t: 30 to 45 min
+    how: Minibus from the centre, or taxi.
+    road: La Paz's Zona Sur (Calacoto, Mallasa).
+  es:
+    t: 30 a 45 min
+    how: Minibús desde el centro o taxi.
+    road: Zona Sur de La Paz (Calacoto, Mallasa).
+- id: lapaz-chacaltaya
+  from: lapaz
+  to: chacaltaya
+  mode: bus
+  hours: 1.5
+  via: [[-16.43, -68.17]]
+  straight: true
+  fr:
+    t: 1 h 30
+    how: Excursion en minibus depuis La Paz (souvent avec Valle de la Luna).
+    road: El Alto puis piste de montagne.
+  en:
+    t: 1 h 30
+    how: Minibus tour from La Paz (often combined with Valle de la Luna).
+    road: El Alto, then a mountain track.
+  es:
+    t: 1 h 30
+    how: Excursión en minibús desde La Paz (a menudo con el Valle de la Luna).
+    road: El Alto y luego un camino de montaña.
+- id: lapaz-huayna
+  from: lapaz
+  to: huayna
+  mode: bus
+  hours: 1.5
+  via: [[-16.43, -68.17]]
+  straight: true
+  fr:
+    t: 1 h 30
+    how: Transport inclus dans l'ascension guidée.
+    road: El Alto → Milluni → col de Zongo.
+  en:
+    t: 1 h 30
+    how: Transport included in the guided climb.
+    road: El Alto, Milluni, Zongo pass.
+  es:
+    t: 1 h 30
+    how: Transporte incluido en el ascenso guiado.
+    road: El Alto, Milluni, abra de Zongo.
+- id: lapaz-condoriri
+  from: lapaz
+  to: condoriri
+  mode: bus
+  hours: 2
+  via: [[-16.43, -68.17]]
+  straight: true
+  fr:
+    t: 2 h
+    how: Véhicule privé ou agence.
+    road: El Alto, route vers le nord, puis piste vers la Laguna Tuni.
+  en:
+    t: 2 h
+    how: Private vehicle or agency.
+    road: El Alto, the road north, then a track to Laguna Tuni.
+  es:
+    t: 2 h
+    how: Vehículo privado o agencia.
+    road: El Alto, carretera al norte y luego un camino a la Laguna Tuni.
+- id: lapaz-tiwanaku
+  from: lapaz
+  to: tiwanaku
+  mode: bus
+  hours: 1.5
+  fr:
+    t: 1 h 30
+    how: Minibus depuis le cimetière de La Paz, ou excursion.
+    road: El Alto → route de Desaguadero (Ruta 1 vers le Pérou).
+  en:
+    t: 1 h 30
+    how: Minibus from the La Paz cemetery area, or a tour.
+    road: El Alto and the Desaguadero road (Ruta 1 towards Peru).
+  es:
+    t: 1 h 30
+    how: Minibús desde la zona del cementerio de La Paz, o excursión.
+    road: El Alto y la carretera a Desaguadero (Ruta 1 hacia Perú).
+- id: lapaz-copacabana
+  from: lapaz
+  to: copacabana
+  mode: bus
+  hours: 3.5
+  fr:
+    t: 3 h 30 à 4 h
+    how: Bus touristiques et minibus depuis le cimetière (Av. Baptista) ou par agence.
+    road: >-
+      Ruta 2 : El Alto → Huarina → détroit de Tiquina (traversée en barque, le bus passe sur
+      une barge) → Copacabana.
+    note: "Garder ses papiers : on descend du bus à Tiquina."
+  en:
+    t: 3 h 30 to 4 h
+    how: Tourist buses and minibuses from the cemetery area (Av. Baptista) or through an agency.
+    road: >-
+      Ruta 2: El Alto, Huarina, the Tiquina strait (you cross by boat while the bus goes on
+      a barge), Copacabana.
+    note: "Keep your documents with you: you get off the bus at Tiquina."
+  es:
+    t: 3 h 30 a 4 h
+    how: Buses turísticos y minibuses desde la zona del cementerio (Av. Baptista) o por agencia.
+    road: >-
+      Ruta 2: El Alto, Huarina, estrecho de Tiquina (se cruza en lancha y el bus pasa en
+      barcaza), Copacabana.
+    note: "Lleva tus documentos: en Tiquina se baja del bus."
+- id: lapaz-huatajata
+  from: lapaz
+  to: huatajata
+  mode: bus
+  hours: 1.5
+  straight: true
+  fr:
+    t: 1 h 30
+    how: Bus La Paz – Copacabana (descendre à Huatajata).
+  en:
+    t: 1 h 30
+    how: La Paz – Copacabana bus (get off at Huatajata).
+  es:
+    t: 1 h 30
+    how: Bus La Paz – Copacabana (bajar en Huatajata).
+- id: huatajata-pariti
+  from: huatajata
+  to: pariti
+  mode: bateau
+  hours: 1
+  geom: [[-16.21, -68.69], [-16.27, -68.72], [-16.33, -68.73]]
+  fr:
+    t: environ 1 h
+    how: Barque à moteur depuis Huatajata ou Quehuaya.
+  en:
+    t: about 1 h
+    how: Motorboat from Huatajata or Quehuaya.
+  es:
+    t: cerca de 1 h
+    how: Lancha a motor desde Huatajata o Quehuaya.
+- id: copacabana-isladelsol
+  from: copacabana
+  to: isladelsol
+  mode: bateau
+  hours: 1.5
+  geom: [[-16.166, -69.09], [-16.12, -69.13], [-16.04, -69.145]]
+  fr:
+    t: 1 h 30 à 2 h
+    how: Bateaux depuis la plage de Copacabana, départs le matin et en début d'après-midi.
+  en:
+    t: 1 h 30 to 2 h
+    how: Boats from Copacabana beach, leaving in the morning and early afternoon.
+  es:
+    t: 1 h 30 a 2 h
+    how: Botes desde la playa de Copacabana, salidas en la mañana y a primera hora de la tarde.
+- id: isladelsol-isladelaluna
+  from: isladelsol
+  to: isladelaluna
+  mode: bateau
+  hours: 0.6
+  geom: [[-16.04, -69.145], [-16.045, -69.075]]
+  fr:
+    t: 30 à 45 min
+    how: Bateau privé ou tour combiné.
+  en:
+    t: 30 to 45 min
+    how: Private boat or combined tour.
+  es:
+    t: 30 a 45 min
+    how: Bote privado o tour combinado.
+- id: copacabana-isladelaluna
+  from: copacabana
+  to: isladelaluna
+  mode: bateau
+  hours: 1.2
+  geom: [[-16.166, -69.09], [-16.1, -69.08], [-16.045, -69.072]]
+  fr:
+    t: 1 h
+    how: Tour en bateau combiné Isla del Sol + Isla de la Luna.
+  en:
+    t: 1 h
+    how: Combined Isla del Sol and Isla de la Luna boat tour.
+  es:
+    t: 1 h
+    how: Tour en bote combinado Isla del Sol e Isla de la Luna.
+- id: lapaz-sorata
+  from: lapaz
+  to: sorata
+  mode: bus
+  hours: 3.5
+  fr:
+    t: 3 h 30
+    how: Minibus depuis le quartier du cimetière.
+    road: Ruta 2 jusqu'à Huarina, puis Ruta 16 par Achacachi et descente vers Sorata.
+  en:
+    t: 3 h 30
+    how: Minibus from the cemetery area.
+    road: Ruta 2 to Huarina, then Ruta 16 via Achacachi and down to Sorata.
+  es:
+    t: 3 h 30
+    how: Minibús desde la zona del cementerio.
+    road: Ruta 2 hasta Huarina, luego Ruta 16 por Achacachi y bajada a Sorata.
+- id: lapaz-charazani
+  from: lapaz
+  to: charazani
+  mode: bus
+  hours: 9
+  straight: true
+  fr:
+    t: 8 à 10 h
+    how: Bus depuis le cimetière de La Paz, peu de départs par semaine.
+    note: Route longue et en partie en terre.
+  en:
+    t: 8 to 10 h
+    how: Bus from La Paz's cemetery district, few departures a week.
+    note: Long road, partly unpaved.
+  es:
+    t: 8 a 10 h
+    how: Bus desde la zona del Cementerio de La Paz, pocas salidas por semana.
+    note: Camino largo, en parte de tierra.
+- id: lapaz-deathroad
+  from: lapaz
+  to: deathroad
+  mode: velo
+  hours: 1
+  via: [[-16.353, -68.04], [-16.3175, -67.894], [-16.2997, -67.8178], [-16.2205, -67.7464]]
+  fr:
+    t: Journée entière
+    how: >-
+      Excursion VTT avec agence (transport, vélo, repas). Retour en bus à La Paz le soir, ou
+      on reste à Coroico.
+    road: >-
+      Ruta 3 jusqu'à La Cumbre (4 650 m), puis Ruta 25, l'ancienne route des Yungas, jusqu'à
+      Yolosa (1 200 m).
+  en:
+    t: Full day
+    how: >-
+      Mountain bike tour with an agency (transport, bike, meals). Bus back to La Paz in the
+      evening, or stay in Coroico.
+    road: >-
+      Ruta 3 to La Cumbre (4,650 m), then Ruta 25, the old Yungas road, down to Yolosa
+      (1,200 m).
+  es:
+    t: Día completo
+    how: >-
+      Excursión en bici de montaña con agencia (transporte, bici, comidas). Vuelta en bus a
+      La Paz en la tarde, o uno se queda en Coroico.
+    road: >-
+      Ruta 3 hasta La Cumbre (4650 m), luego Ruta 25, el antiguo camino a los Yungas, hasta
+      Yolosa (1200 m).
+- id: lapaz-choro
+  from: lapaz
+  to: choro
+  mode: bus
+  hours: 1
+  straight: true
+  fr:
+    t: 1 h
+    how: Minibus ou taxi jusqu'à La Cumbre, départ du trek.
+  en:
+    t: 1 h
+    how: Minibus or taxi to La Cumbre, start of the trek.
+  es:
+    t: 1 h
+    how: Minibús o taxi hasta La Cumbre, inicio del trekking.
+- id: choro-coroico
+  from: choro
+  to: coroico
+  mode: bus
+  hours: 1
+  straight: true
+  fr:
+    t: 1 h
+    how: De Chairo, fin du trek, minibus ou taxi vers Coroico.
+  en:
+    t: 1 h
+    how: From Chairo, end of the trek, minibus or taxi to Coroico.
+  es:
+    t: 1 h
+    how: Desde Chairo, final del trekking, minibús o taxi a Coroico.
+- id: lapaz-takesi
+  from: lapaz
+  to: takesi
+  mode: bus
+  hours: 2.5
+  straight: true
+  fr:
+    t: 2 h 30
+    how: Minibus vers Ventilla, puis montée vers le départ du trek.
+  en:
+    t: 2 h 30
+    how: Minibus to Ventilla, then up to the start of the trek.
+  es:
+    t: 2 h 30
+    how: Minibús a Ventilla y subida al inicio del trekking.
+- id: takesi-chulumani
+  from: takesi
+  to: chulumani
+  mode: bus
+  hours: 2
+  straight: true
+  fr:
+    t: environ 2 h
+    how: De Yanacachi, fin du trek, minibus vers Chulumani.
+  en:
+    t: about 2 h
+    how: From Yanacachi, end of the trek, minibus to Chulumani.
+  es:
+    t: unas 2 h
+    how: Desde Yanacachi, final del trekking, minibús a Chulumani.
+- id: lapaz-chulumani
+  from: lapaz
+  to: chulumani
+  mode: bus
+  hours: 4
+  straight: true
+  fr:
+    t: environ 4 h
+    how: Minibus depuis Villa Fátima, à La Paz.
+  en:
+    t: about 4 h
+    how: Minibus from Villa Fátima, in La Paz.
+  es:
+    t: unas 4 h
+    how: Minibús desde Villa Fátima, en La Paz.
+- id: deathroad-coroico
+  from: deathroad
+  to: coroico
+  mode: bus
+  hours: 0.5
+  fr:
+    t: 20 min
+    how: Taxi depuis Yolosa.
+    road: Yolosa → Coroico.
+  en:
+    t: 20 min
+    how: Taxi from Yolosa.
+    road: Yolosa to Coroico.
+  es:
+    t: 20 min
+    how: Taxi desde Yolosa.
+    road: Yolosa a Coroico.
+- id: lapaz-coroico
+  from: lapaz
+  to: coroico
+  mode: bus
+  hours: 3
+  fr:
+    t: 3 h
+    how: Minibus depuis la Terminal Minasa (Villa Fátima).
+    road: "Ruta 3, nouvelle route des Yungas : La Cumbre → Cotapata → Yolosa → Coroico."
+  en:
+    t: 3 h
+    how: Minibus from the Minasa terminal (Villa Fátima).
+    road: "Ruta 3, the new Yungas road: La Cumbre, Cotapata, Yolosa, Coroico."
+  es:
+    t: 3 h
+    how: Minibús desde la Terminal Minasa (Villa Fátima).
+    road: "Ruta 3, el camino nuevo a los Yungas: La Cumbre, Cotapata, Yolosa, Coroico."
+- id: lapaz-sajama
+  from: lapaz
+  to: sajama
+  mode: bus
+  hours: 4.5
+  fr:
+    t: 4 h 30
+    how: >-
+      Bus vers Arica (Chili), descendre au croisement de Sajama, puis taxi. Plus simple en
+      voiture ou en tour.
+    road: Ruta 1 jusqu'à Patacamaya, puis Ruta 4 vers Tambo Quemado.
+  en:
+    t: 4 h 30
+    how: >-
+      Bus towards Arica (Chile), get off at the Sajama junction, then a taxi. Easier by car
+      or on a tour.
+    road: Ruta 1 to Patacamaya, then Ruta 4 towards Tambo Quemado.
+  es:
+    t: 4 h 30
+    how: >-
+      Bus hacia Arica (Chile), bajar en el cruce de Sajama y luego taxi. Más fácil en auto o
+      tour.
+    road: Ruta 1 hasta Patacamaya, luego Ruta 4 hacia Tambo Quemado.
+- id: lapaz-curahuara
+  from: lapaz
+  to: curahuara
+  mode: bus
+  hours: 4
+  straight: true
+  fr:
+    t: environ 4 h
+    how: "Bus vers Tambo Quemado / Arica : descendre au croisement, puis taxi."
+    note: Se combine avec le parc Sajama.
+  en:
+    t: about 4 h
+    how: "Bus towards Tambo Quemado / Arica: get off at the turn-off, then take a taxi."
+    note: Combine with Sajama park.
+  es:
+    t: unas 4 h
+    how: "Bus hacia Tambo Quemado / Arica: bajar en el cruce y luego taxi."
+    note: Se combina con el parque Sajama.
+- id: curahuara-sajama
+  from: curahuara
+  to: sajama
+  mode: bus
+  hours: 1
+  straight: true
+  fr:
+    t: environ 1 h
+    how: Voiture ou tour.
+  en:
+    t: about 1 h
+    how: Car or tour.
+  es:
+    t: cerca de 1 h
+    how: Auto o tour.
+- id: lapaz-rurrenabaque-avion
+  from: lapaz
+  to: rurrenabaque
+  mode: avion
+  hours: 0.75
+  fr:
+    t: 40 à 50 min de vol
+    how: "Vols BoA et EcoJet (petits avions, souvent complets : réserver)."
+    note: Vol spectaculaire au-dessus des Andes.
+  en:
+    t: 40 to 50 min flight
+    how: "BoA and EcoJet flights (small planes, often full: book ahead)."
+    note: A spectacular flight over the Andes.
+  es:
+    t: 40 a 50 min de vuelo
+    how: "Vuelos de BoA y EcoJet (aviones pequeños, a menudo llenos: reserva)."
+    note: Un vuelo espectacular sobre los Andes.
+- id: coroico-rurrenabaque
+  from: coroico
+  to: rurrenabaque
+  mode: bus
+  hours: 11
+  via: [[-15.83, -67.57]]
+  fr:
+    t: 10 à 13 h
+    how: Bus La Paz – Rurrenabaque qui passent par Yolosa.
+    road: >-
+      Ruta 3 : Caranavi → Palos Blancos → Yucumo, puis Ruta 8 jusqu'à Rurrenabaque. Route
+      améliorée, mais longue.
+  en:
+    t: 10 to 13 h
+    how: La Paz to Rurrenabaque buses that pass through Yolosa.
+    road: >-
+      Ruta 3: Caranavi, Palos Blancos, Yucumo, then Ruta 8 to Rurrenabaque. Improved road,
+      but long.
+  es:
+    t: 10 a 13 h
+    how: Buses La Paz – Rurrenabaque que pasan por Yolosa.
+    road: >-
+      Ruta 3: Caranavi, Palos Blancos, Yucumo, y luego Ruta 8 hasta Rurrenabaque. Camino
+      mejorado, pero largo.
+- id: lapaz-rurrenabaque
+  from: lapaz
+  to: rurrenabaque
+  mode: bus
+  hours: 13
+  via: [[-15.83, -67.57]]
+  fr:
+    t: 12 à 15 h
+    how: Bus de nuit depuis la Terminal Minasa (Villa Fátima).
+    road: Ruta 3 (route des Yungas) → Caranavi → Yucumo, puis Ruta 8 jusqu'à Rurrenabaque.
+  en:
+    t: 12 to 15 h
+    how: Night bus from the Minasa terminal (Villa Fátima).
+    road: Ruta 3 (Yungas road), Caranavi, Yucumo, then Ruta 8 to Rurrenabaque.
+  es:
+    t: 12 a 15 h
+    how: Bus nocturno desde la Terminal Minasa (Villa Fátima).
+    road: Ruta 3 (camino a los Yungas), Caranavi, Yucumo, y luego Ruta 8 hasta Rurrenabaque.
+- id: rurrenabaque-madidi
+  from: rurrenabaque
+  to: madidi
+  mode: bateau
+  hours: 3.5
+  geom: [[-14.44, -67.53], [-14.5, -67.58], [-14.55, -67.66], [-14.52, -67.78], [-14.43, -67.92]]
+  fr:
+    t: 3 à 5 h en pirogue
+    how: Inclus dans le tour (agence ou lodge communautaire).
+  en:
+    t: 3 to 5 h by canoe
+    how: Included in the tour (agency or community lodge).
+  es:
+    t: 3 a 5 h en canoa
+    how: Incluido en el tour (agencia o albergue comunitario).
+- id: rurrenabaque-pampas
+  from: rurrenabaque
+  to: pampas
+  mode: tour
+  hours: 3.5
+  via: [[-14.3, -67.1]]
+  straight: true
+  fr:
+    t: 3 h de 4x4 + bateau
+    how: Inclus dans le tour des pampas.
+  en:
+    t: 3 h by 4x4 + boat
+    how: Included in the pampas tour.
+  es:
+    t: 3 h en 4x4 + bote
+    how: Incluido en el tour de pampas.
+- id: rurrenabaque-trinidad
+  from: rurrenabaque
+  to: trinidad
+  mode: bus
+  hours: 12
+  fr:
+    t: 10 à 14 h
+    how: Bus via San Borja, route en partie en terre (difficile en saison des pluies).
+    road: "Ruta 8 jusqu'à Yucumo, puis Ruta 3 : San Borja → San Ignacio de Moxos → Trinidad."
+  en:
+    t: 10 to 14 h
+    how: Bus via San Borja, partly on dirt roads (difficult in the rainy season).
+    road: "Ruta 8 to Yucumo, then Ruta 3: San Borja, San Ignacio de Moxos, Trinidad."
+  es:
+    t: 10 a 14 h
+    how: Bus por San Borja, camino en parte de tierra (difícil en época de lluvias).
+    road: "Ruta 8 hasta Yucumo, luego Ruta 3: San Borja, San Ignacio de Moxos, Trinidad."
+- id: lapaz-trinidad-avion
+  from: lapaz
+  to: trinidad
+  mode: avion
+  hours: 1
+  fr:
+    t: 1 h de vol
+    how: Vols BoA.
+  en:
+    t: 1 h flight
+    how: BoA flights.
+  es:
+    t: 1 h de vuelo
+    how: Vuelos de BoA.
+- id: lapaz-cobija-avion
+  from: lapaz
+  to: cobija
+  mode: avion
+  hours: 1.1
+  fr:
+    t: 1 h 05 de vol
+    how: Vols BoA presque tous les jours, depuis l'aéroport d'El Alto.
+  en:
+    t: 1 h 05 flight
+    how: BoA flights almost daily from El Alto airport.
+  es:
+    t: 1 h 05 de vuelo
+    how: Vuelos de BoA casi todos los días desde el aeropuerto de El Alto.
+- id: lapaz-riberalta-avion
+  from: lapaz
+  to: riberalta
+  mode: avion
+  hours: 1.5
+  fr:
+    t: 1 h 30 de vol
+    how: Vols BoA, pas tous les jours.
+  en:
+    t: 1 h 30 flight
+    how: BoA flights, not every day.
+  es:
+    t: 1 h 30 de vuelo
+    how: Vuelos de BoA, no todos los días.
+- id: trinidad-riberalta-avion
+  from: trinidad
+  to: riberalta
+  mode: avion
+  hours: 1
+  fr:
+    t: 1 h de vol
+    how: Vols BoA ou petites compagnies.
+  en:
+    t: 1 h flight
+    how: BoA or small airlines.
+  es:
+    t: 1 h de vuelo
+    how: BoA o aerolíneas pequeñas.
+- id: cobija-riberalta
+  from: cobija
+  to: riberalta
+  mode: bus
+  hours: 9
+  straight: true
+  fr:
+    t: 8 à 10 h
+    how: Bus ou taxi partagé.
+    note: Route en terre, difficile en saison des pluies.
+  en:
+    t: 8 to 10 h
+    how: Bus or shared taxi.
+    note: Dirt road, hard going in the rainy season.
+  es:
+    t: 8 a 10 h
+    how: Bus o taxi compartido.
+    note: Camino de tierra, difícil en época de lluvias.
+- id: riberalta-guayaramerin
+  from: riberalta
+  to: guayaramerin
+  mode: bus
+  hours: 1.5
+  straight: true
+  fr:
+    t: 1 h 30
+    how: Taxi partagé ou bus, route asphaltée.
+  en:
+    t: 1 h 30
+    how: Shared taxi or bus, paved road.
+  es:
+    t: 1 h 30
+    how: Taxi compartido o bus, camino asfaltado.
+- id: oruro-lapaz
+  from: oruro
+  to: lapaz
+  mode: bus
+  hours: 3.5
+  fr:
+    t: 3 h 30 à 4 h
+    how: Bus toutes les 30 min.
+    road: "Ruta 1, double voie : Oruro → Caracollo → Patacamaya → El Alto."
+  en:
+    t: 3 h 30 to 4 h
+    how: Buses every 30 minutes.
+    road: "Ruta 1, dual carriageway: Oruro, Caracollo, Patacamaya, El Alto."
+  es:
+    t: 3 h 30 a 4 h
+    how: Buses cada 30 minutos.
+    road: "Ruta 1, doble vía: Oruro, Caracollo, Patacamaya, El Alto."
+- id: oruro-sajama
+  from: oruro
+  to: sajama
+  mode: bus
+  hours: 4
+  fr:
+    t: 4 h
+    how: Voiture ou tour (peu de bus).
+    road: >-
+      Routes de l'Altiplano vers l'ouest (Ruta 12 et Ruta 27, par Curahuara de Carangas),
+      puis Ruta 4 vers Sajama.
+  en:
+    t: 4 h
+    how: Car or tour (few buses).
+    road: >-
+      Altiplano roads heading west (Ruta 12 and Ruta 27, via Curahuara de Carangas), then
+      Ruta 4 to Sajama.
+  es:
+    t: 4 h
+    how: Auto o tour (pocos buses).
+    road: >-
+      Caminos del Altiplano al oeste (Ruta 12 y Ruta 27, por Curahuara de Carangas), y luego
+      Ruta 4 hacia Sajama.
+- id: oruro-chipaya
+  from: oruro
+  to: chipaya
+  mode: bus
+  hours: 4
+  straight: true
+  fr:
+    t: 3 à 4 h
+    how: "Transport depuis le marché Avaroa d'Oruro, peu de départs : vérifiez la veille."
+    note: "Arrivée souvent tard : prévoyez l'hébergement."
+  en:
+    t: 3 to 4 h
+    how: "Transport from Oruro's Avaroa market, few departures: check the day before."
+    note: "You often arrive late: arrange lodging."
+  es:
+    t: 3 a 4 h
+    how: "Transporte desde el mercado Avaroa de Oruro, pocas salidas: confirma el día anterior."
+    note: "Se suele llegar tarde: prevé el alojamiento."
+- id: chipaya-coipasa
+  from: chipaya
+  to: coipasa
+  mode: tour
+  hours: 1
+  straight: true
+  fr:
+    t: environ 1 h
+    how: 4x4 avec chauffeur ou guide local.
+  en:
+    t: about 1 h
+    how: 4x4 with a driver or local guide.
+  es:
+    t: cerca de 1 h
+    how: 4x4 con chofer o guía local.
+- id: oruro-uyuni-train
+  from: oruro
+  to: uyuni
+  mode: train
+  hours: 7
+  geom:
+    - [-17.965, -67.106]
+    - [-18.23, -67.07]
+    - [-18.553, -66.95]
+    - [-18.9, -66.9]
+    - [-19.62, -66.75]
+    - [-20, -66.8]
+    - [-20.46, -66.825]
+  fr:
+    t: 7 h
+    how: >-
+      Trains FCA : Expreso del Sur et Wara Wara del Sur, quelques départs par semaine
+      seulement (vérifier les horaires sur fca.com.bo).
+    note: "Le plus confortable et le plus beau : flamants roses au bord du lac Poopó."
+  en:
+    t: 7 h
+    how: >-
+      FCA trains, the Expreso del Sur and the Wara Wara del Sur, only a few departures a
+      week (check times at fca.com.bo).
+    note: "The most comfortable and scenic option: flamingos along Lake Poopó."
+  es:
+    t: 7 h
+    how: >-
+      Trenes de FCA, el Expreso del Sur y el Wara Wara del Sur, con pocas salidas por semana
+      (revisa los horarios en fca.com.bo).
+    note: "Lo más cómodo y lindo: flamencos a orillas del lago Poopó."
+- id: oruro-uyuni
+  from: oruro
+  to: uyuni
+  mode: bus
+  hours: 6.5
+  fr:
+    t: 6 à 7 h
+    how: Bus depuis la Terminal d'Oruro.
+    road: Ruta 1 jusqu'à Challapata, puis route asphaltée vers Uyuni (Ruta 30).
+  en:
+    t: 6 to 7 h
+    how: Buses from the Oruro bus terminal.
+    road: Ruta 1 to Challapata, then a paved road to Uyuni (Ruta 30).
+  es:
+    t: 6 a 7 h
+    how: Buses desde la Terminal de Oruro.
+    road: Ruta 1 hasta Challapata, luego carretera asfaltada a Uyuni (Ruta 30).
+- id: lapaz-uyuni
+  from: lapaz
+  to: uyuni
+  mode: bus
+  hours: 10
+  via: [[-17.9647, -67.106]]
+  fr:
+    t: 9 à 11 h (de nuit)
+    how: Bus de nuit touristiques (Todo Turismo, Trans Omar...) depuis la Terminal de La Paz.
+    road: Ruta 1 jusqu'à Challapata, puis route asphaltée vers Uyuni.
+  en:
+    t: 9 to 11 h (overnight)
+    how: Tourist night buses (Todo Turismo, Trans Omar…) from the La Paz bus terminal.
+    road: Ruta 1 to Challapata, then a paved road to Uyuni.
+  es:
+    t: 9 a 11 h (de noche)
+    how: Buses turísticos nocturnos (Todo Turismo, Trans Omar…) desde la Terminal de La Paz.
+    road: Ruta 1 hasta Challapata, luego carretera asfaltada a Uyuni.
+- id: lapaz-uyuni-avion
+  from: lapaz
+  to: uyuni
+  mode: avion
+  hours: 1
+  fr:
+    t: 1 h de vol
+    how: Vols BoA quotidiens ou presque.
+    note: Fait gagner une nuit de bus.
+  en:
+    t: 1 h flight
+    how: BoA flights almost every day.
+    note: Saves you a night on the bus.
+  es:
+    t: 1 h de vuelo
+    how: Vuelos de BoA casi todos los días.
+    note: Ahorra una noche de bus.
+- id: uyuni-salar
+  from: uyuni
+  to: salar
+  mode: tour
+  hours: 0
+  tourgeom: true
+  fr:
+    t: Inclus dans le tour
+    how: >-
+      Tour en 4x4 avec chauffeur-guide et cuisinière. Réserver à Uyuni (comparer les
+      agences) ou à l'avance.
+  en:
+    t: Included in the tour
+    how: 4x4 tour with a driver-guide and a cook. Book in Uyuni (compare agencies) or in advance.
+  es:
+    t: Incluido en el tour
+    how: >-
+      Tour en 4x4 con chofer-guía y cocinera. Se reserva en Uyuni (compara agencias) o con
+      anticipación.
+- id: uyuni-potosi
+  from: uyuni
+  to: potosi
+  mode: bus
+  hours: 4
+  fr:
+    t: 4 h
+    how: Bus fréquents.
+    road: Ruta 5, asphaltée, à travers l'Altiplano.
+  en:
+    t: 4 h
+    how: Frequent buses.
+    road: Ruta 5, paved, across the Altiplano.
+  es:
+    t: 4 h
+    how: Buses frecuentes.
+    road: Ruta 5, asfaltada, a través del Altiplano.
+- id: uyuni-tupiza
+  from: uyuni
+  to: tupiza
+  mode: bus
+  hours: 5
+  fr:
+    t: 4 à 6 h
+    how: Bus quotidiens.
+    road: Ruta 21 vers le sud par Atocha, aujourd'hui en grande partie asphaltée.
+  en:
+    t: 4 to 6 h
+    how: Daily buses.
+    road: Ruta 21 south via Atocha, now mostly paved.
+  es:
+    t: 4 a 6 h
+    how: Buses diarios.
+    road: Ruta 21 al sur por Atocha, hoy asfaltada en buena parte.
+- id: uyuni-tupiza-train
+  from: uyuni
+  to: tupiza
+  mode: train
+  hours: 5.5
+  geom: [[-20.46, -66.825], [-20.93, -66.22], [-21.2, -65.95], [-21.444, -65.719]]
+  fr:
+    t: 5 h 30
+    how: Même ligne FCA que depuis Oruro (prolongée jusqu'à Villazón).
+  en:
+    t: 5 h 30
+    how: The same FCA line as from Oruro (continuing to Villazón).
+  es:
+    t: 5 h 30
+    how: La misma línea de FCA que desde Oruro (sigue hasta Villazón).
+- id: tupiza-salar
+  from: tupiza
+  to: salar
+  mode: tour
+  hours: 0
+  via: [[-21.8, -66.3], [-22.2, -67.78]]
+  straight: true
+  fr:
+    t: Inclus (tour de 4 jours)
+    how: Variante du tour qui part de Tupiza et finit à Uyuni, en traversant le Sud Lípez.
+  en:
+    t: Included (4-day tour)
+    how: A version of the tour that starts in Tupiza and ends in Uyuni, crossing the Sud Lípez.
+  es:
+    t: Incluido (tour de 4 días)
+    how: Variante del tour que sale de Tupiza y termina en Uyuni, cruzando el Sud Lípez.
+- id: tupiza-tarija
+  from: tupiza
+  to: tarija
+  mode: bus
+  hours: 6.5
+  fr:
+    t: 6 à 7 h
+    how: Bus quotidiens.
+    road: Route de montagne vers l'est (Ruta 14) jusqu'à Iscayachi, puis Ruta 1 vers Tarija.
+  en:
+    t: 6 to 7 h
+    how: Daily buses.
+    road: Mountain road east (Ruta 14) to Iscayachi, then Ruta 1 to Tarija.
+  es:
+    t: 6 a 7 h
+    how: Buses diarios.
+    road: Camino de montaña al este (Ruta 14) hasta Iscayachi, luego Ruta 1 a Tarija.
+- id: potosi-sucre
+  from: potosi
+  to: sucre
+  mode: bus
+  hours: 3
+  fr:
+    t: 3 h
+    how: Bus ou taxis partagés (plus rapides) depuis la Terminal de Potosí.
+    road: Ruta 5, asphaltée.
+  en:
+    t: 3 h
+    how: Buses or shared taxis (faster) from the Potosí bus terminal.
+    road: Ruta 5, paved.
+  es:
+    t: 3 h
+    how: Buses o taxis compartidos (más rápidos) desde la Terminal de Potosí.
+    road: Ruta 5, asfaltada.
+- id: potosi-tarapaya
+  from: potosi
+  to: tarapaya
+  mode: bus
+  hours: 0.5
+  straight: true
+  fr:
+    t: 30 min
+    how: Minibus vers Tarapaya, puis 15 à 20 min à pied jusqu'à la lagune.
+  en:
+    t: 30 min
+    how: Minibus to Tarapaya, then 15 to 20 min on foot to the lagoon.
+  es:
+    t: 30 min
+    how: Minibús a Tarapaya y luego 15 a 20 min a pie hasta la laguna.
+- id: oruro-potosi
+  from: oruro
+  to: potosi
+  mode: bus
+  hours: 5.5
+  fr:
+    t: 5 à 6 h
+    how: Bus fréquents.
+    road: "Ruta 1 : Oruro → Challapata → Potosí."
+  en:
+    t: 5 to 6 h
+    how: Frequent buses.
+    road: "Ruta 1: Oruro, Challapata, Potosí."
+  es:
+    t: 5 a 6 h
+    how: Buses frecuentes.
+    road: "Ruta 1: Oruro, Challapata, Potosí."
+- id: lapaz-potosi
+  from: lapaz
+  to: potosi
+  mode: bus
+  hours: 9
+  via: [[-17.9647, -67.106]]
+  fr:
+    t: 8 à 10 h (de nuit)
+    how: Bus de nuit.
+    road: Ruta 1 sur tout le trajet.
+  en:
+    t: 8 to 10 h (overnight)
+    how: Night bus.
+    road: Ruta 1 all the way.
+  es:
+    t: 8 a 10 h (de noche)
+    how: Bus nocturno.
+    road: Ruta 1 todo el camino.
+- id: potosi-tarija
+  from: potosi
+  to: tarija
+  mode: bus
+  hours: 7.5
+  fr:
+    t: 7 à 8 h
+    how: Bus de jour ou de nuit.
+    road: "Ruta 1 : Potosí → Camargo (vignobles) → Tarija."
+  en:
+    t: 7 to 8 h
+    how: Day or night buses.
+    road: "Ruta 1: Potosí, Camargo (vineyards), Tarija."
+  es:
+    t: 7 a 8 h
+    how: Buses de día o de noche.
+    road: "Ruta 1: Potosí, Camargo (viñedos), Tarija."
+- id: potosi-camargo
+  from: potosi
+  to: camargo
+  mode: bus
+  hours: 4.5
+  straight: true
+  fr:
+    t: 4 à 5 h
+    how: Bus Potosí – Tarija (descendre à Camargo).
+  en:
+    t: 4 to 5 h
+    how: Potosí – Tarija bus (get off at Camargo).
+  es:
+    t: 4 a 5 h
+    how: Bus Potosí – Tarija (bajar en Camargo).
+- id: potosi-cotagaita
+  from: potosi
+  to: cotagaita
+  mode: bus
+  hours: 3.5
+  straight: true
+  fr:
+    t: 3 à 4 h
+    how: Bus Potosí – Tupiza ou Villazón (descendre à Cotagaita).
+  en:
+    t: 3 to 4 h
+    how: Potosí – Tupiza or Villazón bus (get off at Cotagaita).
+  es:
+    t: 3 a 4 h
+    how: Bus Potosí – Tupiza o Villazón (bajar en Cotagaita).
+- id: cotagaita-tupiza
+  from: cotagaita
+  to: tupiza
+  mode: bus
+  hours: 1.5
+  straight: true
+  fr:
+    t: 1 h 30
+    how: Bus ou minibus.
+  en:
+    t: 1 h 30
+    how: Bus or minibus.
+  es:
+    t: 1 h 30
+    how: Bus o minibús.
+- id: tupiza-villazon
+  from: tupiza
+  to: villazon
+  mode: bus
+  hours: 1.5
+  straight: true
+  fr:
+    t: 1 h 30
+    how: Bus et taxis partagés fréquents.
+  en:
+    t: 1 h 30
+    how: Frequent buses and shared taxis.
+  es:
+    t: 1 h 30
+    how: Buses y taxis compartidos frecuentes.
+- id: tupiza-villazon-train
+  from: tupiza
+  to: villazon
+  mode: train
+  hours: 3
+  straight: true
+  fr:
+    t: environ 3 h
+    how: Train de l'Altiplano (quelques départs par semaine), suite de la ligne d'Uyuni.
+  en:
+    t: about 3 h
+    how: Altiplano train (a few departures a week), continuing the line from Uyuni.
+  es:
+    t: unas 3 h
+    how: Tren del Altiplano (algunas salidas por semana), continuación de la línea de Uyuni.
+- id: tarija-villazon
+  from: tarija
+  to: villazon
+  mode: bus
+  hours: 4
+  straight: true
+  fr:
+    t: 3 h 30 à 4 h
+    how: Bus par la route asphaltée d'Iscayachi.
+  en:
+    t: 3 h 30 to 4 h
+    how: Bus on the paved road via Iscayachi.
+  es:
+    t: 3 h 30 a 4 h
+    how: Bus por la carretera asfaltada de Iscayachi.
+- id: camargo-tarija
+  from: camargo
+  to: tarija
+  mode: bus
+  hours: 3.5
+  straight: true
+  fr:
+    t: 3 à 4 h
+    how: Bus Potosí – Tarija qui passent par Camargo.
+  en:
+    t: 3 to 4 h
+    how: Potosí – Tarija buses passing through Camargo.
+  es:
+    t: 3 a 4 h
+    how: Buses Potosí – Tarija que pasan por Camargo.
+- id: tarija-villamontes
+  from: tarija
+  to: villamontes
+  mode: bus
+  hours: 8
+  straight: true
+  fr:
+    t: 7 à 9 h
+    how: Bus depuis la terminal de Tarija.
+    note: Route de montagne vers le Chaco.
+  en:
+    t: 7 to 9 h
+    how: Bus from Tarija's terminal.
+    note: Mountain road down to the Chaco.
+  es:
+    t: 7 a 9 h
+    how: Bus desde la terminal de Tarija.
+    note: Camino de montaña hacia el Chaco.
+- id: santacruz-villamontes
+  from: santacruz
+  to: villamontes
+  mode: bus
+  hours: 8
+  straight: true
+  fr:
+    t: 7 à 9 h
+    how: Bus de nuit depuis la Terminal Bimodal de Santa Cruz.
+  en:
+    t: 7 to 9 h
+    how: Night bus from Santa Cruz's Bimodal terminal.
+  es:
+    t: 7 a 9 h
+    how: Bus nocturno desde la Terminal Bimodal de Santa Cruz.
+- id: villamontes-yacuiba
+  from: villamontes
+  to: yacuiba
+  mode: bus
+  hours: 1.5
+  straight: true
+  fr:
+    t: 1 h 30
+    how: Bus ou taxi partagé.
+  en:
+    t: 1 h 30
+    how: Bus or shared taxi.
+  es:
+    t: 1 h 30
+    how: Bus o taxi compartido.
+- id: santacruz-yacuiba
+  from: santacruz
+  to: yacuiba
+  mode: bus
+  hours: 9
+  straight: true
+  fr:
+    t: 8 à 10 h
+    how: Bus de nuit depuis la Terminal Bimodal de Santa Cruz.
+  en:
+    t: 8 to 10 h
+    how: Night bus from Santa Cruz's Bimodal terminal.
+  es:
+    t: 8 a 10 h
+    how: Bus nocturno desde la Terminal Bimodal de Santa Cruz.
+- id: sucre-tarabuco
+  from: sucre
+  to: tarabuco
+  mode: bus
+  hours: 1.5
+  fr:
+    t: 1 h 30
+    how: Bus touristiques le dimanche matin, ou minibus.
+    road: Ruta 6 vers l'est.
+  en:
+    t: 1 h 30
+    how: Tourist buses on Sunday mornings, or minibuses.
+    road: Ruta 6 east.
+  es:
+    t: 1 h 30
+    how: Buses turísticos los domingos en la mañana, o minibuses.
+    road: Ruta 6 al este.
+- id: sucre-maragua
+  from: sucre
+  to: maragua
+  mode: tour
+  hours: 2.5
+  via: [[-18.98, -65.32]]
+  straight: true
+  fr:
+    t: 2 h 30 en 4x4 ou 1-3 jours à pied
+    how: Trek guidé ou 4x4 depuis Sucre.
+    road: Piste vers Chataquila puis Maragua.
+  en:
+    t: 2 h 30 by 4x4 or 1 to 3 days on foot
+    how: Guided trek or 4x4 from Sucre.
+    road: Track to Chataquila, then Maragua.
+  es:
+    t: 2 h 30 en 4x4 o 1 a 3 días a pie
+    how: Trekking guiado o 4x4 desde Sucre.
+    road: Camino a Chataquila y luego a Maragua.
+- id: sucre-santacruz
+  from: sucre
+  to: santacruz
+  mode: bus
+  hours: 13
+  via: [[-18.1953, -65.1806], [-18.1786, -63.8756]]
+  fr:
+    t: 12 à 15 h (de nuit)
+    how: Bus de nuit.
+    road: Ruta 5 vers le nord par Aiquile, puis Ruta 7 par Comarapa et Samaipata.
+  en:
+    t: 12 to 15 h (overnight)
+    how: Night bus.
+    road: Ruta 5 north via Aiquile, then Ruta 7 via Comarapa and Samaipata.
+  es:
+    t: 12 a 15 h (de noche)
+    how: Bus nocturno.
+    road: Ruta 5 al norte por Aiquile, luego Ruta 7 por Comarapa y Samaipata.
+- id: sucre-santacruz-avion
+  from: sucre
+  to: santacruz
+  mode: avion
+  hours: 0.75
+  fr:
+    t: 45 min de vol
+    how: Vols BoA.
+  en:
+    t: 45 min flight
+    how: BoA flights.
+  es:
+    t: 45 min de vuelo
+    how: Vuelos de BoA.
+- id: lapaz-sucre-avion
+  from: lapaz
+  to: sucre
+  mode: avion
+  hours: 0.9
+  fr:
+    t: 55 min de vol
+    how: Vols BoA.
+  en:
+    t: 55 min flight
+    how: BoA flights.
+  es:
+    t: 55 min de vuelo
+    how: Vuelos de BoA.
+- id: tarija-concepcion
+  from: tarija
+  to: concepcionvalle
+  mode: bus
+  hours: 0.6
+  fr:
+    t: 40 min
+    how: Taxi ou tour des bodegas.
+    road: Route vers le sud (direction Bermejo).
+  en:
+    t: 40 min
+    how: Taxi or winery tour.
+    road: Road south (towards Bermejo).
+  es:
+    t: 40 min
+    how: Taxi o tour de bodegas.
+    road: Carretera al sur (hacia Bermejo).
+- id: tarija-coimata
+  from: tarija
+  to: coimata
+  mode: bus
+  hours: 0.5
+  straight: true
+  fr:
+    t: 20 à 30 min
+    how: Taxi ou minibus depuis Tarija.
+  en:
+    t: 20 to 30 min
+    how: Taxi or minibus from Tarija.
+  es:
+    t: 20 a 30 min
+    how: Taxi o minibús desde Tarija.
+- id: tarija-padcaya
+  from: tarija
+  to: padcaya
+  mode: bus
+  hours: 1
+  straight: true
+  fr:
+    t: environ 1 h
+    how: Bus ou minibus depuis Tarija.
+  en:
+    t: about 1 h
+    how: Bus or minibus from Tarija.
+  es:
+    t: cerca de 1 h
+    how: Bus o minibús desde Tarija.
+- id: padcaya-bermejo
+  from: padcaya
+  to: bermejo
+  mode: bus
+  hours: 3
+  straight: true
+  fr:
+    t: environ 3 h
+    how: Bus Tarija – Bermejo qui passent par Padcaya.
+  en:
+    t: about 3 h
+    how: Tarija – Bermejo buses passing through Padcaya.
+  es:
+    t: unas 3 h
+    how: Buses Tarija – Bermejo que pasan por Padcaya.
+- id: tarija-tajzara
+  from: tarija
+  to: tajzara
+  mode: bus
+  hours: 2.5
+  straight: true
+  fr:
+    t: 2 à 3 h
+    how: Tour d'une journée, ou bus vers Villazón jusqu'à Iscayachi.
+  en:
+    t: 2 to 3 h
+    how: Day tour, or the bus towards Villazón to Iscayachi.
+  es:
+    t: 2 a 3 h
+    how: Tour de un día, o bus hacia Villazón hasta Iscayachi.
+- id: tarija-tariquia
+  from: tarija
+  to: tariquia
+  mode: tour
+  hours: 4
+  straight: true
+  fr:
+    t: 3 à 4 h jusqu'à l'entrée
+    how: Avec une agence de Tarija, puis à pied.
+  en:
+    t: 3 to 4 h to the entrance
+    how: With a Tarija agency, then on foot.
+  es:
+    t: 3 a 4 h hasta la entrada
+    how: Con una agencia de Tarija, y luego a pie.
+- id: santacruz-tarija-avion
+  from: santacruz
+  to: tarija
+  mode: avion
+  hours: 1
+  fr:
+    t: 1 h de vol
+    how: Vols BoA.
+  en:
+    t: 1 h flight
+    how: BoA flights.
+  es:
+    t: 1 h de vuelo
+    how: Vuelos de BoA.
+- id: lapaz-tarija-avion
+  from: lapaz
+  to: tarija
+  mode: avion
+  hours: 1
+  fr:
+    t: 1 h de vol
+    how: Vols BoA.
+  en:
+    t: 1 h flight
+    how: BoA flights.
+  es:
+    t: 1 h de vuelo
+    how: Vuelos de BoA.
+- id: lapaz-santacruz-avion
+  from: lapaz
+  to: santacruz
+  mode: avion
+  hours: 1
+  fr:
+    t: 1 h de vol
+    how: Vols BoA très fréquents.
+  en:
+    t: 1 h flight
+    how: Very frequent BoA flights.
+  es:
+    t: 1 h de vuelo
+    how: Vuelos de BoA muy frecuentes.
+- id: santacruz-samaipata
+  from: santacruz
+  to: samaipata
+  mode: bus
+  hours: 2.5
+  fr:
+    t: 2 h 30 à 3 h
+    how: Taxis partagés et trufis depuis Santa Cruz (avenue Grigotá, 4e anneau).
+    road: Ruta 7 vers l'ouest, vallée du Piraí.
+  en:
+    t: 2 h 30 to 3 h
+    how: Shared taxis and trufis from Santa Cruz (Avenida Grigotá, 4th ring road).
+    road: Ruta 7 west, along the Piraí valley.
+  es:
+    t: 2 h 30 a 3 h
+    how: Taxis compartidos y trufis desde Santa Cruz (avenida Grigotá, 4.º anillo).
+    road: Ruta 7 al oeste, por el valle del Piraí.
+- id: santacruz-buenavista
+  from: santacruz
+  to: buenavista
+  mode: bus
+  hours: 2
+  straight: true
+  fr:
+    t: environ 2 h
+    how: Bus et minibus vers Yapacaní (descendre à Buena Vista).
+  en:
+    t: about 2 h
+    how: Buses and minibuses towards Yapacaní (get off at Buena Vista).
+  es:
+    t: unas 2 h
+    how: Buses y minibuses hacia Yapacaní (bajar en Buena Vista).
+- id: samaipata-amboro
+  from: samaipata
+  to: amboro
+  mode: tour
+  hours: 1
+  via: [[-18.08, -63.92]]
+  straight: true
+  fr:
+    t: 1 h de 4x4
+    how: Excursion guidée depuis Samaipata.
+    road: Piste de montagne vers La Yunga.
+  en:
+    t: 1 h by 4x4
+    how: Guided trip from Samaipata.
+    road: Mountain track to La Yunga.
+  es:
+    t: 1 h en 4x4
+    how: Excursión guiada desde Samaipata.
+    road: Camino de montaña hacia La Yunga.
+- id: samaipata-vallegrande
+  from: samaipata
+  to: vallegrande
+  mode: bus
+  hours: 3
+  fr:
+    t: 3 h
+    how: Bus ou excursion « Route du Che » depuis Samaipata.
+    road: Ruta 7 jusqu'à Mataral, puis Ruta 22 vers le sud.
+  en:
+    t: 3 h
+    how: Bus or “Che Route” tour from Samaipata.
+    road: Ruta 7 to Mataral, then Ruta 22 south.
+  es:
+    t: 3 h
+    how: Bus o excursión «Ruta del Che» desde Samaipata.
+    road: Ruta 7 hasta Mataral, luego Ruta 22 al sur.
+- id: vallegrande-lahiguera
+  from: vallegrande
+  to: lahiguera
+  mode: bus
+  hours: 2.5
+  straight: true
+  fr:
+    t: 2 à 3 h
+    how: Taxi partagé ou voiture avec chauffeur depuis Vallegrande.
+    note: Piste de terre, difficile après la pluie.
+  en:
+    t: 2 to 3 h
+    how: Shared taxi or car with driver from Vallegrande.
+    note: Dirt track, hard going after rain.
+  es:
+    t: 2 a 3 h
+    how: Taxi compartido o auto con chofer desde Vallegrande.
+    note: Camino de tierra, difícil después de la lluvia.
+- id: santacruz-lomas
+  from: santacruz
+  to: lomas
+  mode: bus
+  hours: 0.75
+  fr:
+    t: 45 min
+    how: "Taxi ou tour (piste sablonneuse : 4x4)."
+    road: Sortie sud de Santa Cruz.
+  en:
+    t: 45 min
+    how: "Taxi or tour (sandy track: 4x4)."
+    road: Southern exit of Santa Cruz.
+  es:
+    t: 45 min
+    how: "Taxi o tour (camino de arena: 4x4)."
+    road: Salida sur de Santa Cruz.
+- id: santacruz-espejillos
+  from: santacruz
+  to: espejillos
+  mode: tour
+  hours: 1.5
+  straight: true
+  fr:
+    t: 1 h 30 à 2 h
+    how: "Voiture ou tour en 4x4 : la piste finale est difficile."
+  en:
+    t: 1 h 30 to 2 h
+    how: "Car or 4x4 tour: the last stretch is rough."
+  es:
+    t: 1 h 30 a 2 h
+    how: "Auto o tour en 4x4: el último tramo es difícil."
+- id: santacruz-lagunavolcan
+  from: santacruz
+  to: lagunavolcan
+  mode: bus
+  hours: 2
+  straight: true
+  fr:
+    t: environ 2 h
+    how: Route de Samaipata jusqu'à Bermejo, puis piste.
+  en:
+    t: about 2 h
+    how: Samaipata road to Bermejo, then a track.
+  es:
+    t: unas 2 h
+    how: Carretera a Samaipata hasta Bermejo y luego camino de tierra.
+- id: lagunavolcan-samaipata
+  from: lagunavolcan
+  to: samaipata
+  mode: bus
+  hours: 1.5
+  straight: true
+  fr:
+    t: environ 1 h 30
+    how: Route de Samaipata.
+  en:
+    t: about 1 h 30
+    how: Samaipata road.
+  es:
+    t: cerca de 1 h 30
+    how: Carretera a Samaipata.
+- id: santacruz-sanjavier
+  from: santacruz
+  to: sanjavier
+  mode: bus
+  hours: 4.5
+  fr:
+    t: 4 h 30
+    how: Bus depuis la Terminal Bimodal.
+    road: Ruta 4 et Ruta 9 vers Montero, puis Ruta 10 par Los Troncos jusqu'à San Javier.
+  en:
+    t: 4 h 30
+    how: Bus from the Bimodal terminal.
+    road: Ruta 4 and Ruta 9 to Montero, then Ruta 10 via Los Troncos to San Javier.
+  es:
+    t: 4 h 30
+    how: Bus desde la Terminal Bimodal.
+    road: Ruta 4 y Ruta 9 hasta Montero, luego Ruta 10 por Los Troncos hasta San Javier.
+- id: sanjavier-concepcion
+  from: sanjavier
+  to: concepcion
+  mode: bus
+  hours: 1.5
+  fr:
+    t: 1 h 30
+    how: Bus du circuit des missions.
+    road: Route asphaltée.
+  en:
+    t: 1 h 30
+    how: Missions circuit bus.
+    road: Paved road.
+  es:
+    t: 1 h 30
+    how: Bus del circuito de misiones.
+    road: Carretera asfaltada.
+- id: concepcion-sanignacio
+  from: concepcion
+  to: sanignacio
+  mode: bus
+  hours: 4
+  fr:
+    t: 3 à 5 h
+    how: Bus quotidiens.
+    road: Ruta 10, en partie en terre.
+  en:
+    t: 3 to 5 h
+    how: Daily buses.
+    road: Ruta 10, partly unpaved.
+  es:
+    t: 3 a 5 h
+    how: Buses diarios.
+    road: Ruta 10, en parte de tierra.
+- id: sanignacio-sanmiguel
+  from: sanignacio
+  to: sanmiguel
+  mode: bus
+  hours: 1
+  fr:
+    t: 1 h (boucle d'une journée)
+    how: Taxi ou excursion à la journée (boucle San Miguel – San Rafael – Santa Ana).
+    road: Pistes de terre.
+  en:
+    t: 1 h (day loop)
+    how: Taxi or day tour (San Miguel, San Rafael and Santa Ana loop).
+    road: Dirt tracks.
+  es:
+    t: 1 h (circuito de un día)
+    how: Taxi o excursión de un día (circuito San Miguel, San Rafael y Santa Ana).
+    road: Caminos de tierra.
+- id: sanignacio-santana
+  from: sanignacio
+  to: santana
+  mode: bus
+  hours: 1
+  straight: true
+  fr:
+    t: environ 1 h
+    how: Taxi ou voiture de location depuis San Ignacio, sur une piste de terre.
+  en:
+    t: about 1 h
+    how: Taxi or hired car from San Ignacio, on a dirt track.
+  es:
+    t: cerca de 1 h
+    how: Taxi o auto alquilado desde San Ignacio, por camino de tierra.
+- id: santana-sanrafael
+  from: santana
+  to: sanrafael
+  mode: bus
+  hours: 1
+  straight: true
+  fr:
+    t: environ 1 h
+    how: Piste de terre, en taxi ou en tour d'une journée.
+  en:
+    t: about 1 h
+    how: Dirt track, by taxi or on a day tour.
+  es:
+    t: cerca de 1 h
+    how: Camino de tierra, en taxi o en tour de un día.
+- id: sanrafael-sanmiguel
+  from: sanrafael
+  to: sanmiguel
+  mode: bus
+  hours: 0.75
+  straight: true
+  fr:
+    t: 45 min
+    how: Taxi ou micro occasionnel.
+  en:
+    t: 45 min
+    how: Taxi or the occasional micro.
+  es:
+    t: 45 min
+    how: Taxi o algún micro.
+- id: sanmiguel-sanjose
+  from: sanmiguel
+  to: sanjose
+  mode: bus
+  hours: 5
+  via: [[-16.787, -60.675]]
+  fr:
+    t: 4 à 6 h
+    how: Bus peu fréquents, ou voiture.
+    road: "Ruta 17 : San Rafael → San José de Chiquitos."
+  en:
+    t: 4 to 6 h
+    how: Infrequent buses, or car.
+    road: "Ruta 17: San Rafael to San José de Chiquitos."
+  es:
+    t: 4 a 6 h
+    how: Buses poco frecuentes, o auto.
+    road: "Ruta 17: San Rafael a San José de Chiquitos."
+- id: sanjose-santacruz
+  from: sanjose
+  to: santacruz
+  mode: bus
+  hours: 4.5
+  fr:
+    t: 4 h 30
+    how: Bus fréquents.
+    road: "Ruta 4 (asphaltée) : San José → Pailón → Santa Cruz."
+  en:
+    t: 4 h 30
+    how: Frequent buses.
+    road: "Ruta 4 (paved): San José, Pailón, Santa Cruz."
+  es:
+    t: 4 h 30
+    how: Buses frecuentes.
+    road: "Ruta 4 (asfaltada): San José, Pailón, Santa Cruz."
+- id: sanjose-santacruz-train
+  from: sanjose
+  to: santacruz
+  mode: train
+  hours: 6
+  geom: [[-17.846, -60.743], [-17.8, -61.4], [-17.82, -62], [-17.8, -62.7], [-17.783, -63.182]]
+  fr:
+    t: 6 h
+    how: Train de la Ferroviaria Oriental (ligne Santa Cruz – Puerto Quijarro).
+  en:
+    t: 6 h
+    how: Ferroviaria Oriental train (Santa Cruz to Puerto Quijarro line).
+  es:
+    t: 6 h
+    how: Tren de la Ferroviaria Oriental (línea Santa Cruz – Puerto Quijarro).
+- id: sanignacio-noelkempff
+  from: sanignacio
+  to: noelkempff
+  mode: tour
+  hours: 12
+  via: [[-14.8, -61.15]]
+  straight: true
+  fr:
+    t: 12 h et plus
+    how: Expédition organisée en 4x4, ou avionnette depuis Santa Cruz.
+    road: Pistes vers Piso Firme ou Flor de Oro, impraticables en saison des pluies.
+  en:
+    t: 12 h or more
+    how: Organised 4x4 expedition, or light aircraft from Santa Cruz.
+    road: Tracks to Piso Firme or Flor de Oro, impassable in the rainy season.
+  es:
+    t: 12 h o más
+    how: Expedición organizada en 4x4, o avioneta desde Santa Cruz.
+    road: Caminos a Piso Firme o Flor de Oro, intransitables en época de lluvias.
+- id: santacruz-trinidad
+  from: santacruz
+  to: trinidad
+  mode: bus
+  hours: 9
+  fr:
+    t: 8 à 10 h
+    how: Bus de nuit.
+    road: "Ruta 9 vers le nord : Montero → Ascensión de Guarayos → Trinidad, à travers les plaines."
+  en:
+    t: 8 to 10 h
+    how: Night bus.
+    road: "Ruta 9 north: Montero, Ascensión de Guarayos, Trinidad, across the plains."
+  es:
+    t: 8 a 10 h
+    how: Bus nocturno.
+    road: "Ruta 9 al norte: Montero, Ascensión de Guarayos, Trinidad, cruzando los llanos."
+- id: santacruz-trinidad-avion
+  from: santacruz
+  to: trinidad
+  mode: avion
+  hours: 0.9
+  fr:
+    t: 50 min de vol
+    how: Vols BoA.
+  en:
+    t: 50 min flight
+    how: BoA flights.
+  es:
+    t: 50 min de vuelo
+    how: Vuelos de BoA.
+- id: trinidad-sanignaciomoxos
+  from: trinidad
+  to: sanignaciomoxos
+  mode: bus
+  hours: 3
+  straight: true
+  fr:
+    t: 2 à 3 h
+    how: Minibus ou taxi partagé depuis Trinidad.
+    note: Route de terre, souvent coupée ou boueuse en saison des pluies.
+  en:
+    t: 2 to 3 h
+    how: Minibus or shared taxi from Trinidad.
+    note: Dirt road, often cut or muddy in the rainy season.
+  es:
+    t: 2 a 3 h
+    how: Minibús o taxi compartido desde Trinidad.
+    note: Camino de tierra, a menudo cortado o con barro en época de lluvias.
+- id: trinidad-barbaazul
+  from: trinidad
+  to: barbaazul
+  mode: avion
+  hours: 1
+  fr:
+    t: 1 h de vol
+    how: Petit avion affrété depuis Trinidad, organisé par Armonía.
+  en:
+    t: 1 h flight
+    how: Light charter plane from Trinidad, arranged by Armonía.
+  es:
+    t: 1 h de vuelo
+    how: Avioneta contratada desde Trinidad, organizada por Armonía.
+- id: sanjose-chochis
+  from: sanjose
+  to: chochis
+  mode: bus
+  hours: 1.5
+  fr:
+    t: 1 h 30
+    how: Bus vers Roboré ou Puerto Quijarro (descendre au croisement), ou taxi.
+    road: Ruta 4 vers l'est.
+  en:
+    t: 1 h 30
+    how: Bus towards Roboré or Puerto Quijarro (get off at the junction), or taxi.
+    road: Ruta 4 east.
+  es:
+    t: 1 h 30
+    how: Bus hacia Roboré o Puerto Quijarro (bajar en el cruce), o taxi.
+    road: Ruta 4 al este.
+- id: chochis-robore
+  from: chochis
+  to: robore
+  mode: bus
+  hours: 1
+  fr:
+    t: 1 h
+    how: Taxi ou excursion depuis Roboré.
+    road: Ruta 4.
+  en:
+    t: 1 h
+    how: Taxi or tour from Roboré.
+    road: Ruta 4.
+  es:
+    t: 1 h
+    how: Taxi o excursión desde Roboré.
+    road: Ruta 4.
+- id: sanjose-robore
+  from: sanjose
+  to: robore
+  mode: bus
+  hours: 2.5
+  fr:
+    t: 2 h 30
+    how: Bus Santa Cruz – Roboré / Puerto Quijarro qui passent par San José.
+    road: Ruta 4, asphaltée.
+  en:
+    t: 2 h 30
+    how: Santa Cruz to Roboré or Puerto Quijarro buses that stop in San José.
+    road: Ruta 4, paved.
+  es:
+    t: 2 h 30
+    how: Buses Santa Cruz – Roboré o Puerto Quijarro que pasan por San José.
+    road: Ruta 4, asfaltada.
+- id: sanjose-robore-train
+  from: sanjose
+  to: robore
+  mode: train
+  hours: 3.5
+  geom: [[-17.846, -60.743], [-18.05, -60.25], [-18.16, -60.02], [-18.33, -59.76]]
+  fr:
+    t: 3 h 30
+    how: Train de la Ferroviaria Oriental (ligne Santa Cruz – Puerto Quijarro).
+  en:
+    t: 3 h 30
+    how: Ferroviaria Oriental train (Santa Cruz to Puerto Quijarro line).
+  es:
+    t: 3 h 30
+    how: Tren de la Ferroviaria Oriental (línea Santa Cruz – Puerto Quijarro).
+- id: santacruz-robore-train
+  from: santacruz
+  to: robore
+  mode: train
+  hours: 9.5
+  geom:
+    - [-17.783, -63.182]
+    - [-17.8, -62.7]
+    - [-17.82, -62]
+    - [-17.8, -61.4]
+    - [-17.846, -60.743]
+    - [-18.05, -60.25]
+    - [-18.16, -60.02]
+    - [-18.33, -59.76]
+  fr:
+    t: 9 à 10 h (de nuit)
+    how: >-
+      Train de nuit de la Ferroviaria Oriental (Expreso Oriental ou Ferrobus) depuis la gare
+      de Santa Cruz.
+    note: "Pratique : on dort dans le train et on arrive le matin."
+  en:
+    t: 9 to 10 h (overnight)
+    how: Ferroviaria Oriental night train (Expreso Oriental or Ferrobus) from Santa Cruz station.
+    note: "Handy: you sleep on the train and arrive in the morning."
+  es:
+    t: 9 a 10 h (de noche)
+    how: >-
+      Tren nocturno de la Ferroviaria Oriental (Expreso Oriental o Ferrobus) desde la
+      estación de Santa Cruz.
+    note: "Práctico: se duerme en el tren y se llega en la mañana."
+- id: robore-santiago
+  from: robore
+  to: santiago
+  mode: bus
+  hours: 0.75
+  fr:
+    t: 45 min
+    how: Taxi ou micro depuis Roboré.
+    road: Route de montagne vers la serranía.
+  en:
+    t: 45 min
+    how: Taxi or micro (minibus) from Roboré.
+    road: Mountain road up into the hills.
+  es:
+    t: 45 min
+    how: Taxi o micro desde Roboré.
+    road: Camino de montaña hacia la serranía.
+- id: robore-aguascalientes
+  from: robore
+  to: aguascalientes
+  mode: bus
+  hours: 0.75
+  fr:
+    t: 45 min
+    how: Taxi ou micro depuis Roboré (le train s'y arrête aussi).
+    road: Ruta 4 vers l'est.
+  en:
+    t: 45 min
+    how: Taxi or micro from Roboré (the train also stops there).
+    road: Ruta 4 east.
+  es:
+    t: 45 min
+    how: Taxi o micro desde Roboré (el tren también para ahí).
+    road: Ruta 4 al este.
+- id: oruro-obrajes
+  from: oruro
+  to: obrajes
+  mode: bus
+  hours: 0.75
+  straight: true
+  fr:
+    t: 30 à 45 min
+    how: Minibus depuis Oruro.
+  en:
+    t: 30 to 45 min
+    how: Minibus from Oruro.
+  es:
+    t: 30 a 45 min
+    how: Minibús desde Oruro.
+- id: oruro-machacamarca
+  from: oruro
+  to: machacamarca
+  mode: bus
+  hours: 0.5
+  straight: true
+  fr:
+    t: 30 min
+    how: Minibus ou taxi depuis Oruro.
+  en:
+    t: 30 min
+    how: Minibus or taxi from Oruro.
+  es:
+    t: 30 min
+    how: Minibús o taxi desde Oruro.
+- id: oruro-uruuru
+  from: oruro
+  to: uruuru
+  mode: bus
+  hours: 0.3
+  straight: true
+  fr:
+    t: 15 à 30 min
+    how: Taxi ou minibus depuis Oruro.
+  en:
+    t: 15 to 30 min
+    how: Taxi or minibus from Oruro.
+  es:
+    t: 15 a 30 min
+    how: Taxi o minibús desde Oruro.
+- id: sucre-candelaria
+  from: sucre
+  to: candelaria
+  mode: bus
+  hours: 3
+  straight: true
+  fr:
+    t: environ 3 h
+    how: Par Tarabuco, en bus puis transport local, ou avec une agence de Sucre.
+  en:
+    t: about 3 h
+    how: Via Tarabuco, by bus then local transport, or with a Sucre agency.
+  es:
+    t: unas 3 h
+    how: Por Tarabuco, en bus y luego transporte local, o con una agencia de Sucre.
+- id: sucre-zudanez
+  from: sucre
+  to: zudanez
+  mode: bus
+  hours: 2.5
+  straight: true
+  fr:
+    t: 2 à 3 h
+    how: Bus depuis Sucre par Tarabuco.
+  en:
+    t: 2 to 3 h
+    how: Bus from Sucre via Tarabuco.
+  es:
+    t: 2 a 3 h
+    how: Bus desde Sucre por Tarabuco.
+- id: tarija-sanlorenzo
+  from: tarija
+  to: sanlorenzo
+  mode: bus
+  hours: 0.4
+  straight: true
+  fr:
+    t: 20 à 30 min
+    how: Minibus depuis Tarija.
+  en:
+    t: 20 to 30 min
+    how: Minibus from Tarija.
+  es:
+    t: 20 a 30 min
+    how: Minibús desde Tarija.
+- id: tarija-sanjacinto
+  from: tarija
+  to: sanjacinto
+  mode: bus
+  hours: 0.3
+  straight: true
+  fr:
+    t: 15 à 20 min
+    how: Taxi ou minibus depuis Tarija.
+  en:
+    t: 15 to 20 min
+    how: Taxi or minibus from Tarija.
+  es:
+    t: 15 a 20 min
+    how: Taxi o minibús desde Tarija.
+- id: trinidad-lagunasuarez
+  from: trinidad
+  to: lagunasuarez
+  mode: bus
+  hours: 0.2
+  straight: true
+  fr:
+    t: 10 min
+    how: Moto-taxi ou taxi depuis Trinidad.
+  en:
+    t: 10 min
+    how: Motorbike taxi or taxi from Trinidad.
+  es:
+    t: 10 min
+    how: Mototaxi o taxi desde Trinidad.
+- id: rurrenabaque-ebb
+  from: rurrenabaque
+  to: ebb
+  mode: bus
+  hours: 6
+  straight: true
+  fr:
+    t: 5 à 7 h
+    how: Bus jusqu'à San Borja, puis transport organisé sur place.
+    note: Route de terre, difficile en saison des pluies.
+  en:
+    t: 5 to 7 h
+    how: Bus to San Borja, then transport arranged there.
+    note: Dirt road, hard going in the rainy season.
+  es:
+    t: 5 a 7 h
+    how: Bus hasta San Borja y luego transporte organizado allí.
+    note: Camino de tierra, difícil en época de lluvias.
+- id: cobija-porvenir
+  from: cobija
+  to: porvenir
+  mode: bus
+  hours: 0.5
+  straight: true
+  fr:
+    t: 30 min
+    how: Taxi ou minibus depuis Cobija.
+  en:
+    t: 30 min
+    how: Taxi or minibus from Cobija.
+  es:
+    t: 30 min
+    how: Taxi o minibús desde Cobija.
+- id: cobija-puertorico
+  from: cobija
+  to: puertorico
+  mode: bus
+  hours: 3.5
+  straight: true
+  fr:
+    t: 3 à 4 h
+    how: Bus ou taxi partagé depuis Cobija.
+    note: Route en partie en terre.
+  en:
+    t: 3 to 4 h
+    how: Bus or shared taxi from Cobija.
+    note: Partly unpaved road.
+  es:
+    t: 3 a 4 h
+    how: Bus o taxi compartido desde Cobija.
+    note: Camino en parte de tierra.
+- id: huatajata-suriki
+  from: huatajata
+  to: suriki
+  mode: bateau
+  hours: 0.5
+  straight: true
+  fr:
+    t: environ 30 min
+    how: Barque à moteur depuis Huatajata.
+  en:
+    t: about 30 min
+    how: Motorboat from Huatajata.
+  es:
+    t: unos 30 min
+    how: Lancha a motor desde Huatajata.
+- id: lapaz-jesusdemachaca
+  from: lapaz
+  to: jesusdemachaca
+  mode: bus
+  hours: 3
+  straight: true
+  fr:
+    t: environ 3 h
+    how: Bus depuis El Alto par Viacha.
+  en:
+    t: about 3 h
+    how: Bus from El Alto via Viacha.
+  es:
+    t: unas 3 h
+    how: Bus desde El Alto por Viacha.
+- id: jesusdemachaca-iruito
+  from: jesusdemachaca
+  to: iruito
+  mode: bus
+  hours: 0.75
+  straight: true
+  fr:
+    t: 45 min
+    how: Transport local ou voiture, mieux avec un guide.
+  en:
+    t: 45 min
+    how: Local transport or car, best with a guide.
+  es:
+    t: 45 min
+    how: Transporte local o auto, mejor con guía.
+- id: lapaz-comanche
+  from: lapaz
+  to: comanche
+  mode: bus
+  hours: 2.5
+  straight: true
+  fr:
+    t: 2 à 3 h
+    how: Voiture avec chauffeur ou tour depuis La Paz.
+  en:
+    t: 2 to 3 h
+    how: Car with driver or tour from La Paz.
+  es:
+    t: 2 a 3 h
+    how: Auto con chofer o tour desde La Paz.
+- id: lapaz-viscachani
+  from: lapaz
+  to: viscachani
+  mode: bus
+  hours: 1.5
+  straight: true
+  fr:
+    t: environ 1 h 30
+    how: Minibus d'El Alto vers Patacamaya (arrêt Viscachani).
+  en:
+    t: about 1 h 30
+    how: Minibus from El Alto towards Patacamaya (Viscachani stop).
+  es:
+    t: cerca de 1 h 30
+    how: Minibús de El Alto hacia Patacamaya (parada Viscachani).
+- id: lapaz-yungacruz
+  from: lapaz
+  to: yungacruz
+  mode: bus
+  hours: 3
+  straight: true
+  fr:
+    t: environ 3 h
+    how: Transport jusqu'au départ du trek, organisé par l'agence.
+  en:
+    t: about 3 h
+    how: Transport to the start of the trek, arranged by the agency.
+  es:
+    t: unas 3 h
+    how: Transporte hasta el inicio del trekking, organizado por la agencia.
+- id: yungacruz-chulumani
+  from: yungacruz
+  to: chulumani
+  mode: bus
+  hours: 1
+  straight: true
+  fr:
+    t: environ 1 h
+    how: De la fin du trek, transport vers Chulumani.
+  en:
+    t: about 1 h
+    how: From the end of the trek, transport to Chulumani.
+  es:
+    t: cerca de 1 h
+    how: Desde el final del trekking, transporte a Chulumani.
+- id: santacruz-camiri
+  from: santacruz
+  to: camiri
+  mode: bus
+  hours: 5
+  straight: true
+  fr:
+    t: environ 5 h
+    how: Bus depuis la Terminal Bimodal de Santa Cruz.
+  en:
+    t: about 5 h
+    how: Bus from Santa Cruz's Bimodal terminal.
+  es:
+    t: unas 5 h
+    how: Bus desde la Terminal Bimodal de Santa Cruz.
+- id: camiri-villamontes
+  from: camiri
+  to: villamontes
+  mode: bus
+  hours: 3
+  straight: true
+  fr:
+    t: environ 3 h
+    how: Bus vers Villamontes et Yacuiba.
+  en:
+    t: about 3 h
+    how: Bus towards Villamontes and Yacuiba.
+  es:
+    t: unas 3 h
+    how: Bus hacia Villamontes y Yacuiba.
+- id: santacruz-cotoca
+  from: santacruz
+  to: cotoca
+  mode: bus
+  hours: 0.5
+  straight: true
+  fr:
+    t: 30 min
+    how: Micro ou taxi depuis Santa Cruz.
+  en:
+    t: 30 min
+    how: Micro or taxi from Santa Cruz.
+  es:
+    t: 30 min
+    how: Micro o taxi desde Santa Cruz.
+- id: cbba-alalay
+  from: cbba
+  to: alalay
+  mode: bus
+  hours: 0.25
+  straight: true
+  fr:
+    t: 15 min
+    how: Taxi ou micro depuis le centre.
+  en:
+    t: 15 min
+    how: Taxi or micro from the centre.
+  es:
+    t: 15 min
+    how: Taxi o micro desde el centro.

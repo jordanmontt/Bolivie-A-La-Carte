@@ -1,0 +1,82 @@
+# San Lorenzo
+department: Tarija
+category: culture
+lat: -21.42
+lng: -64.75
+altitude: 1980
+days: [0, 1]
+climate: tarija
+dishes: [saice, vino]
+photos:
+  - file: sanlorenzo-1.jpg
+    author: Marcos GH Bo
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Centro_hist%C3%B3rico_de_San_Lorenzo,_Tarija.jpg
+  - file: sanlorenzo-2.jpg
+    author: Marcos GH Bo
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Casa_del_Moto_Mendez,_San_Lorenzo.jpg
+  - file: sanlorenzo-3.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Plaza_principal_de_San_Lorenzo_(2024)_-_M%C3%A9ndez,_Bolivia.jpg
+  - file: sanlorenzo-4.jpg
+    author: Kusillo47
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Lorenzo_frontal.jpg
+  - file: sanlorenzo-5.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Calle_Rodolfo_%C3%81vila_en_San_Lorenzo_-_M%C3%A9ndez,_Bolivia.jpg
+  - file: sanlorenzo-6.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Lorenzo_desde_arriba_-_M%C3%A9ndez,_Bolivia.jpg
+fr:
+  name: San Lorenzo
+  label: San Lorenzo
+  short: Village colonial chapaco, maison du héros Moto Méndez, à 15 km de Tarija.
+  story: >-
+    San Lorenzo est l'un des plus jolis villages de la vallée de Tarija, avec ses maisons à
+    balcons et sa place ombragée. On y visite la maison d'Eustaquio « Moto » Méndez, héros
+    des guerres d'indépendance, et on y goûte la cuisine chapaca. En août, la fête de San
+    Lorenzo fait danser les chunchos.
+  todo:
+    - Casa del Moto Méndez (musée)
+    - Place, église et balcons coloniaux
+    - Fête de San Lorenzo en août
+    - Combiner avec les cascades de Coimata
+  tips: À 20 min de Tarija en minibus.
+en:
+  name: San Lorenzo
+  label: San Lorenzo
+  short: A colonial Chapaco village, home of the hero Moto Méndez, 15 km from Tarija.
+  story: >-
+    San Lorenzo is one of the prettiest villages in the Tarija valley, with balconied houses
+    and a shady square. You can visit the house of Eustaquio "Moto" Méndez, a hero of the
+    wars of independence, and taste Chapaco cooking. In August, the San Lorenzo festival
+    sets the chunchos dancing.
+  todo:
+    - Casa del Moto Méndez (museum)
+    - Square, church and colonial balconies
+    - San Lorenzo festival in August
+    - Combine with the Coimata waterfalls
+  tips: 20 min from Tarija by minibus.
+es:
+  name: San Lorenzo
+  label: San Lorenzo
+  short: Pueblo colonial chapaco, casa del héroe Moto Méndez, a 15 km de Tarija.
+  story: >-
+    San Lorenzo es uno de los pueblos más lindos del valle de Tarija, con casas de balcones
+    y una plaza sombreada. Se visita la casa de Eustaquio «Moto» Méndez, héroe de la
+    independencia, y se prueba la comida chapaca. En agosto, la fiesta de San Lorenzo hace
+    bailar a los chunchos.
+  todo:
+    - Casa del Moto Méndez (museo)
+    - Plaza, iglesia y balcones coloniales
+    - Fiesta de San Lorenzo en agosto
+    - Combinar con las cascadas de Coimata
+  tips: A 20 min de Tarija en minibús.

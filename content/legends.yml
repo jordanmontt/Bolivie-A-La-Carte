@@ -1,0 +1,152 @@
+# Myths and legends, shown on the Culture > Legends page and on their places' pages.
+# places: where the legend is set (optional).
+
+- id: ekeko
+  places: [lapaz]
+  fr:
+    name: L'Ekeko
+    text: >-
+      Petit homme moustachu, chargé de sacs de nourriture, de billets et d'objets en
+      miniature, l'Ekeko est le dieu aymara de l'abondance. On lui offre une cigarette et on
+      lui confie ses vœux, surtout pendant l'Alasitas.
+  en:
+    name: Ekeko
+    text: >-
+      A small moustached man loaded with bags of food, banknotes and miniature objects, Ekeko
+      is the Aymara god of abundance. People offer him a cigarette and trust him with their
+      wishes, especially during Alasitas.
+  es:
+    name: El Ekeko
+    text: >-
+      Hombrecito bigotudo cargado de bolsas de comida, billetes y objetos en miniatura, el
+      Ekeko es el dios aymara de la abundancia. Se le ofrece un cigarrillo y se le confían
+      los deseos, sobre todo en la Alasita.
+- id: pachamama
+  places: []
+  fr:
+    name: La Pachamama
+    text: >-
+      La Terre Mère, qui donne la vie et les récoltes. On lui verse quelques gouttes de chicha
+      avant de boire, et en août, quand la terre « a faim », on lui offre des mesas
+      d'offrandes brûlées.
+  en:
+    name: Pachamama
+    text: >-
+      Mother Earth, who gives life and harvests. People pour a few drops of chicha for her
+      before drinking, and in August, when the earth is "hungry", they burn offering tables
+      for her.
+  es:
+    name: La Pachamama
+    text: >-
+      La Madre Tierra, que da la vida y las cosechas. Se le ch'alla unas gotas de chicha antes
+      de beber, y en agosto, cuando la tierra «tiene hambre», se le queman mesas de ofrenda.
+- id: tio
+  places: [potosi]
+  fr:
+    name: Le Tío de la mine
+    text: >-
+      Au fond des mines du Cerro Rico, une statue cornue garde les filons : le Tío, maître du
+      monde souterrain. Les mineurs lui offrent coca, alcool et cigarettes pour qu'il les
+      protège et leur donne du minerai.
+  en:
+    name: El Tío of the mine
+    text: >-
+      Deep in the Cerro Rico mines, a horned statue guards the veins: the Tío, lord of the
+      underworld. Miners offer him coca, alcohol and cigarettes so that he protects them and
+      gives them ore.
+  es:
+    name: El Tío de la mina
+    text: >-
+      En lo profundo de las minas del Cerro Rico, una estatua con cuernos cuida las vetas: el
+      Tío, dueño del mundo de abajo. Los mineros le ofrecen coca, alcohol y cigarrillos para
+      que los proteja y les dé mineral.
+- id: manco-capac
+  places: [isladelsol]
+  fr:
+    name: Manco Cápac et Mama Ocllo
+    text: >-
+      Selon la légende inca, le Soleil fit sortir du lac Titicaca, près de l'Isla del Sol, ses
+      enfants Manco Cápac et Mama Ocllo, chargés de fonder Cusco et l'empire inca.
+  en:
+    name: Manco Cápac and Mama Ocllo
+    text: >-
+      According to Inca legend, the Sun brought his children Manco Cápac and Mama Ocllo out
+      of Lake Titicaca, near the Isla del Sol, to found Cusco and the Inca empire.
+  es:
+    name: Manco Cápac y Mama Ocllo
+    text: >-
+      Según la leyenda inca, el Sol hizo salir del lago Titicaca, cerca de la Isla del Sol, a
+      sus hijos Manco Cápac y Mama Ocllo, para fundar el Cusco y el imperio inca.
+- id: tunupa
+  places: [salar]
+  fr:
+    name: Tunupa et le Salar
+    text: >-
+      La montagne Tunupa, abandonnée par son époux, pleura en allaitant son enfant : ses
+      larmes et son lait auraient formé le Salar d'Uyuni, qu'elle domine encore au nord.
+  en:
+    name: Tunupa and the Salar
+    text: >-
+      The mountain Tunupa, abandoned by her husband, wept while nursing her child: her tears
+      and milk are said to have formed the Salar de Uyuni, which she still overlooks to the
+      north.
+  es:
+    name: Tunupa y el Salar
+    text: >-
+      La montaña Tunupa, abandonada por su esposo, lloró mientras amamantaba a su hijo: sus
+      lágrimas y su leche habrían formado el Salar de Uyuni, que todavía domina desde el
+      norte.
+- id: illimani
+  places: [lapaz]
+  fr:
+    name: L'Illimani et le Mururata
+    text: >-
+      Les montagnes sont des achachilas, des ancêtres protecteurs. On raconte que l'Illimani,
+      jaloux, coupa la tête du Mururata d'un coup de fronde : c'est pourquoi son voisin a le
+      sommet plat.
+  en:
+    name: Illimani and Mururata
+    text: >-
+      Mountains are achachilas, protective ancestors. It is said that Illimani, in a fit of
+      jealousy, knocked off Mururata's head with a sling: that's why its neighbour has a flat
+      top.
+  es:
+    name: El Illimani y el Mururata
+    text: >-
+      Los cerros son achachilas, ancestros protectores. Se cuenta que el Illimani, celoso, le
+      cortó la cabeza al Mururata de un hondazo: por eso su vecino tiene la cumbre plana.
+- id: wari
+  places: [oruro]
+  fr:
+    name: Wari et les fléaux d'Oruro
+    text: >-
+      Le dieu Wari envoya un crapaud, un lézard, un serpent et des fourmis pour punir le
+      peuple d'Oruro. Une princesse les changea en pierre : on les voit encore autour de la
+      ville.
+  en:
+    name: Wari and the plagues of Oruro
+    text: >-
+      The god Wari sent a toad, a lizard, a snake and ants to punish the people of Oruro. A
+      princess turned them to stone: you can still see them around the town.
+  es:
+    name: Wari y las plagas de Oruro
+    text: >-
+      El dios Wari mandó un sapo, un lagarto, una víbora y hormigas para castigar al pueblo de
+      Oruro. Una ñusta los convirtió en piedra: todavía se los ve alrededor de la ciudad.
+- id: jichi
+  places: [sanjavier, concepcion]
+  fr:
+    name: Le Jichi
+    text: >-
+      Dans les plaines de l'Orient, le Jichi est l'esprit gardien de l'eau, souvent un serpent
+      ou un jaguar. On dit que si on ne le respecte pas, les puits et les lagunes s'assèchent.
+  en:
+    name: The Jichi
+    text: >-
+      In the eastern lowlands, the Jichi is the guardian spirit of water, often a snake or a
+      jaguar. It is said that if it isn't respected, wells and lagoons dry up.
+  es:
+    name: El Jichi
+    text: >-
+      En las llanuras del Oriente, el Jichi es el espíritu guardián del agua, muchas veces una
+      víbora o un tigre. Se dice que si no se lo respeta, los pozos y las lagunas se secan.

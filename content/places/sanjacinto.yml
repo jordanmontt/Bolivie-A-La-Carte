@@ -1,0 +1,78 @@
+# Lac de San Jacinto et Tomatitas
+department: Tarija
+category: nature
+lat: -21.6
+lng: -64.72
+altitude: 1850
+days: [0, 1]
+climate: tarija
+dishes: [pescado, cangrejitos]
+photos:
+  - file: sanjacinto-1.jpg
+    author: Suomi 1973
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Lago_San_Jacinto_-_Tarija,_Bolivia.jpg
+  - file: sanjacinto-2.jpg
+    author: Freesia Alba
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Nubes_y_Lago_San_Jacinto_en_Tarija_(Bolivia),_2025.jpg
+  - file: sanjacinto-3.jpg
+    author: Freesia Alba
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Puesta_de_sol_en_San_Jacinto,_Tarija_(Bolivia),_2025.jpg
+  - file: sanjacinto-4.jpg
+    author: Freesia Alba
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Desde_el_mirador_de_San_Jacinto_en_Tarija_(Bolivia),_2025.jpg
+  - file: sanjacinto-5.jpg
+    author: Freesia Alba
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Lago_San_Jacinto_y_ciclov%C3%ADa_en_Tarija_(Bolivia),_2025.jpg
+  - file: sanjacinto-6.jpg
+    author: Luisga1012
+    licence: CC BY 4.0
+    source: https://commons.wikimedia.org/wiki/File:REPRESA_DE_SAN_JACINTO_-_BOLIVIA.jpg
+fr:
+  name: Lac de San Jacinto et Tomatitas
+  label: San Jacinto
+  short: Un lac entre les collines et une rivière pour se baigner, aux portes de Tarija.
+  story: >-
+    Le lac de barrage de San Jacinto, à quelques minutes de Tarija, se visite en barque ou à
+    pied le long des rives, avec des restaurants de poisson au bord de l'eau. De l'autre
+    côté de la ville, Tomatitas est la rivière où les familles viennent se baigner et
+    pique-niquer le dimanche.
+  todo:
+    - Balade en barque sur le lac de San Jacinto
+    - Poisson et cangrejitos au bord de l'eau
+    - Baignade à Tomatitas
+  tips: Taxi ou minibus depuis Tarija. Monde le dimanche.
+en:
+  name: San Jacinto lake and Tomatitas
+  label: San Jacinto
+  short: A lake among the hills and a river for swimming, on Tarija's doorstep.
+  story: >-
+    The San Jacinto reservoir, a few minutes from Tarija, can be enjoyed by boat or on foot
+    along the shore, with fish restaurants by the water. On the other side of town,
+    Tomatitas is the river where families come to swim and picnic on Sundays.
+  todo:
+    - Boat ride on San Jacinto lake
+    - Fish and cangrejitos by the water
+    - Swimming at Tomatitas
+  tips: Taxi or minibus from Tarija. Busy on Sundays.
+es:
+  name: Lago San Jacinto y Tomatitas
+  label: San Jacinto
+  short: Un lago entre cerros y un río para bañarse, a las puertas de Tarija.
+  story: >-
+    La represa de San Jacinto, a pocos minutos de Tarija, se recorre en bote o a pie por la
+    orilla, con restaurantes de pescado junto al agua. Al otro lado de la ciudad, Tomatitas
+    es el río donde las familias van a bañarse y a almorzar los domingos.
+  todo:
+    - Paseo en bote por el lago San Jacinto
+    - Pescado y cangrejitos a la orilla
+    - Baño en Tomatitas
+  tips: Taxi o minibús desde Tarija. Mucha gente los domingos.

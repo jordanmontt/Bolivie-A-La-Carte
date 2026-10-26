@@ -1,0 +1,79 @@
+# Missions : San José de Chiquitos
+department: Santa Cruz
+category: culture
+lat: -17.8456
+lng: -60.7425
+altitude: 300
+days: [1, 1]
+climate: chiquitania
+dishes: [locro, majadito, cunape]
+photos:
+  - file: sanjose-1.jpg
+    author: Geoffrey Groesbeck
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:San_Jos%C3%A9_de_Chiquitos_001.JPG
+  - file: sanjose-2.jpg
+    author: Ludwing Melgar Egüez
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Desde_el_mirador_de_San_Jos%C3%A9_de_Chiquitos.jpg
+  - file: sanjose-3.jpg
+    author: Jhumeluvi
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Artesan%C3%ADa_de_las_misiones_chiquitanas,_Concepci%C3%B3n_SantaCruz_-_Bolivia.jpg
+  - file: sanjose-4.jpg
+    author: Jery Dino Méndez H.
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:San_Jos%C3%A9_-_Santa_Cruz,_Bolivia.jpg
+  - file: sanjose-5.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Cruz_en_la_plaza_principal_de_San_Jos%C3%A9_de_Chiquitos_-_Bolivia.jpg
+  - file: sanjose-6.jpg
+    author: Jamy Martinez
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Jos%C3%A9_de_chiquitos_portada.jpg
+  - file: sanjose-7.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Cerro_Turub%C3%B3_y_San_Jos%C3%A9_de_Chiquitos_-_Chiquitos,_Bolivia.jpg
+fr:
+  name: "Missions : San José de Chiquitos"
+  label: San José
+  short: La seule mission jésuite en pierre, au pied de la serranía.
+  story: >-
+    San José de Chiquitos possède la seule mission construite en pierre, un ensemble
+    impressionnant face à une grande place. Tout autour, la serranía offre de belles
+    balades. C'est aussi la porte d'entrée vers Chochís, Roboré et Aguas Calientes.
+  todo:
+    - Ensemble missionnaire en pierre
+    - Parque Santa Cruz la Vieja
+  tips: "Sur la route et la voie ferrée Santa Cruz – Brésil : retour facile."
+en:
+  name: "Missions: San José de Chiquitos"
+  label: San José
+  short: The only stone Jesuit mission, at the foot of the hills.
+  story: >-
+    San José de Chiquitos has the only mission built of stone, an impressive complex facing
+    a large square. The surrounding hills offer good walks. It's also the gateway to
+    Chochís, Roboré and Aguas Calientes.
+  todo:
+    - Stone mission complex
+    - Parque Santa Cruz la Vieja
+  tips: "On the road and railway between Santa Cruz and Brazil: easy to get back."
+es:
+  name: "Misiones: San José de Chiquitos"
+  label: San José
+  short: La única misión jesuítica de piedra, al pie de la serranía.
+  story: >-
+    San José de Chiquitos tiene la única misión construida en piedra, un conjunto
+    impresionante frente a una gran plaza. Alrededor, la serranía ofrece lindas caminatas.
+    También es la puerta de entrada a Chochís, Roboré y Aguas Calientes.
+  todo:
+    - Conjunto misional de piedra
+    - Parque Santa Cruz la Vieja
+  tips: "En la carretera y la vía férrea Santa Cruz – Brasil: fácil volver."

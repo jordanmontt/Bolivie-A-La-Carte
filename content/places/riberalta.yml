@@ -1,0 +1,82 @@
+# Riberalta
+department: Beni
+category: ville
+lat: -11.008
+lng: -66.07
+altitude: 140
+days: [1, 2]
+climate: amazonie
+dishes: [pescado_beni, masaco, tropical]
+photos:
+  - file: riberalta-1.jpg
+    author: Aurimaz
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:488_-_where_Beni_meets_Madre_de_Dios.jpg
+  - file: riberalta-2.jpg
+    author: Huangercito41
+    licence: CC0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:R%C3%ADo_Beni._En_las_afueras_de_la_ciudad_de_Riberalta.jpg
+  - file: riberalta-3.jpg
+    author: Aurimaz
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:507_-_...big_red_town.jpg
+  - file: riberalta-4.jpg
+    author: Filzstift
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Riberalta_Street_Scene.jpg
+  - file: riberalta-5.jpg
+    author: Grullab
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Riberalta,_Beni1.JPG
+  - file: riberalta-6.jpg
+    author: Filzstift
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Esmeralda_Parque_Ecologico_2.jpg
+fr:
+  name: Riberalta
+  label: Riberalta
+  short: Port amazonien au confluent du Beni et du Madre de Dios, capitale de la noix du Brésil.
+  story: >-
+    Riberalta est la grande ville du nord amazonien, au confluent du río Beni et du río
+    Madre de Dios. On y circule en moto-taxi, on mange du poisson de rivière et on découvre
+    la castaña, la noix du Brésil, dont la ville est la capitale mondiale. Autour, la lagune
+    de Tumichucua et Cachuela Esperanza, ancienne capitale de l'empire du caoutchouc,
+    racontent l'histoire de l'Amazonie.
+  todo:
+    - Lagune de Tumichucua
+    - Cachuela Esperanza et l'histoire du caoutchouc
+    - Usines et récolte de la castaña
+    - Couchers de soleil sur le río Beni
+  tips: Vols depuis La Paz ou Trinidad. La route est longue et difficile en saison des pluies.
+en:
+  name: Riberalta
+  label: Riberalta
+  short: An Amazon river port where the Beni meets the Madre de Dios, capital of the Brazil nut.
+  story: >-
+    Riberalta is the big town of the northern Amazon, where the Beni and Madre de Dios
+    rivers meet. People get around by motorbike taxi, eat river fish and live from the
+    castaña, the Brazil nut, of which the town is the world capital. Nearby, Tumichucua
+    lagoon and Cachuela Esperanza, former capital of the rubber empire, tell the story of
+    the Amazon.
+  todo:
+    - Tumichucua lagoon
+    - Cachuela Esperanza and the rubber boom
+    - Brazil nut harvest and factories
+    - Sunsets over the Beni river
+  tips: Flights from La Paz or Trinidad. The road is long and hard in the rainy season.
+es:
+  name: Riberalta
+  label: Riberalta
+  short: Puerto amazónico en la confluencia del Beni y el Madre de Dios, capital de la castaña.
+  story: >-
+    Riberalta es la gran ciudad del norte amazónico, donde se juntan el río Beni y el río
+    Madre de Dios. Se anda en mototaxi, se come pescado de río y se vive de la castaña, de
+    la que la ciudad es la capital mundial. Cerca, la laguna Tumichucua y Cachuela
+    Esperanza, antigua capital del imperio de la goma, cuentan la historia de la Amazonía.
+  todo:
+    - Laguna Tumichucua
+    - Cachuela Esperanza y la historia de la goma
+    - Beneficiadoras y cosecha de la castaña
+    - Atardeceres sobre el río Beni
+  tips: Vuelos desde La Paz o Trinidad. El camino es largo y difícil en época de lluvias.

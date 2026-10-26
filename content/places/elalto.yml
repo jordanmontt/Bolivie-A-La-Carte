@@ -1,0 +1,104 @@
+# El Alto
+department: La Paz
+category: ville
+lat: -16.505
+lng: -68.19
+altitude: 4050
+days: [0, 1]
+climate: altiplano
+dishes: [apiPastel, anticucho, chuno]
+photos:
+  - file: elalto-1.jpg
+    author: Qhanaaru
+    licence: CC0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Feria_16_de_Julio_vista_desde_el_telef%C3%A9rico_azul_(Av._Panor%C3%A1mica)_2.jpg
+  - file: elalto-2.jpg
+    author: Parallelepiped09
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Cholets_de_El_Alto_(84910).jpg
+  - file: elalto-3.jpg
+    author: SaraWayra
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Cholitas_luchadoras_06.jpg
+  - file: elalto-4.jpg
+    author: Dxnnise
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Cholets_de_El_Alto.jpg
+  - file: elalto-5.jpg
+    author: Jhulis
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Cholet_IronMan_El_Alto.jpg
+  - file: elalto-6.jpg
+    author: Olga Lidia Paredes Alcoreza
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Feria_16_de_julio_El_Alto_1.jpg
+  - file: elalto-7.jpg
+    author: SaraWayra
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Cholitas_luchadoras_07.jpg
+fr:
+  name: El Alto
+  label: El Alto
+  short: >-
+    La grande ville aymara sur l'Altiplano, juste au-dessus de La Paz : marché géant,
+    cholets et catch des cholitas.
+  story: >-
+    Au bord de la cuvette de La Paz, à plus de 4 000 m, El Alto est une ville à part
+    entière, l'une des plus grandes du pays et le cœur de la culture aymara urbaine. On y
+    monte en téléphérique pour la vue sur La Paz et l'Illimani, on se perd dans la Feria 16
+    de Julio, l'un des plus grands marchés d'Amérique du Sud, et on découvre les cholets,
+    ces immeubles aux couleurs vives inspirés des tissages andins. Le dimanche, ne manquez
+    pas le catch des cholitas.
+  todo:
+    - Feria 16 de Julio, marché géant (jeudi et dimanche)
+    - Catch des cholitas, surtout le dimanche
+    - Les cholets, l'architecture colorée de Freddy Mamani
+    - La vue sur La Paz et l'Illimani depuis le téléphérique
+  tips: >-
+    Il y fait plus froid qu'à La Paz et l'altitude se sent : évitez d'y aller le jour de
+    votre arrivée. Au marché, il y a beaucoup de monde : gardez vos affaires près de vous.
+    L'aéroport international de La Paz est à El Alto.
+en:
+  name: El Alto
+  label: El Alto
+  short: >-
+    The big Aymara city on the Altiplano, right above La Paz: a giant market, cholets and
+    cholita wrestling.
+  story: >-
+    On the rim of the La Paz bowl, above 4,000 m, El Alto is a city in its own right, one of
+    the largest in the country and the heart of urban Aymara culture. Ride up by cable car
+    for the view over La Paz and Illimani, get lost in the Feria 16 de Julio, one of the
+    biggest markets in South America, and discover the cholets, brightly coloured buildings
+    inspired by Andean weaving. On Sundays, don't miss the cholita wrestling.
+  todo:
+    - Feria 16 de Julio, a giant market (Thursdays and Sundays)
+    - Cholita wrestling, mostly on Sundays
+    - The cholets, Freddy Mamani's colourful architecture
+    - The view over La Paz and Illimani from the cable car
+  tips: >-
+    It's colder than La Paz and you feel the altitude: avoid going up on the day you arrive.
+    The market is very crowded, so keep your things close. La Paz's international airport is
+    in El Alto.
+es:
+  name: El Alto
+  label: El Alto
+  short: >-
+    La gran ciudad aymara en el Altiplano, justo encima de La Paz: una feria gigante,
+    cholets y lucha de cholitas.
+  story: >-
+    Al borde de la hoyada de La Paz, a más de 4000 m, El Alto es una ciudad con vida propia,
+    una de las más grandes del país y el corazón de la cultura aymara urbana. Se sube en
+    teleférico por la vista sobre La Paz y el Illimani, uno se pierde en la Feria 16 de
+    Julio, uno de los mercados más grandes de Sudamérica, y se descubren los cholets,
+    edificios de colores vivos inspirados en los tejidos andinos. Los domingos, no te
+    pierdas la lucha de cholitas.
+  todo:
+    - Feria 16 de Julio, una feria gigante (jueves y domingos)
+    - Lucha de cholitas, sobre todo los domingos
+    - Los cholets, la arquitectura colorida de Freddy Mamani
+    - La vista de La Paz y el Illimani desde el teleférico
+  tips: >-
+    Hace más frío que en La Paz y la altura se siente: mejor no subir el día que llegas. En
+    la feria hay mucha gente: lleva tus cosas cerca. El aeropuerto internacional de La Paz
+    está en El Alto.

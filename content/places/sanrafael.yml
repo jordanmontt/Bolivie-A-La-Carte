@@ -1,0 +1,80 @@
+# Missions : San Rafael de Velasco
+department: Santa Cruz
+category: culture
+lat: -16.787
+lng: -60.675
+altitude: 370
+days: [0, 1]
+climate: chiquitania
+dishes: [locro, majadito, cunape]
+photos:
+  - file: sanrafael-1.jpg
+    author: Maria Cristina Tajima
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Templo_de_San_Rafael.jpg
+  - file: sanrafael-2.jpg
+    author: Jery Dino Méndez H.
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:San_Rafael_-_Santa_Cruz,_Bolivia.jpg
+  - file: sanrafael-3.jpg
+    author: Geoffrey Groesbeck
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:San_Rafael_de_Velasco_002.JPG
+  - file: sanrafael-4.jpg
+    author: Bamse
+    licence: CC BY-SA 2.5
+    source: https://commons.wikimedia.org/wiki/File:San_Rafael_church_wall_detail1.JPG
+  - file: sanrafael-5.jpg
+    author: Geoffrey Groesbeck
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:San_Rafael_de_Velasco_006.JPG
+  - file: sanrafael-6.jpg
+    author: Geoffrey Groesbeck
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:San_Rafael_de_Velasco_007.JPG
+  - file: sanmiguel-2.jpg
+    author: Geoffrey Groesbeck
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:San_Rafael_de_Velasco_001.JPG
+fr:
+  name: "Missions : San Rafael de Velasco"
+  label: San Rafael
+  short: Église de mission aux décors de mica et de bois peint, entre San Ignacio et San José.
+  story: >-
+    San Rafael de Velasco possède l'une des plus anciennes églises de mission de Chiquitos.
+    Son intérieur est décoré de bois peint et de mica, qui fait scintiller la chaire et les
+    autels à la lumière. Le village, calme et très peu touristique, est une étape agréable
+    sur la route entre San Ignacio et San José.
+  todo:
+    - Église et son intérieur décoré de mica
+    - Village calme, loin des circuits
+    - Étape entre San Ignacio et San José de Chiquitos
+  tips: Sur la route San Ignacio – San José. Se visite en boucle avec Santa Ana et San Miguel.
+en:
+  name: "Missions: San Rafael de Velasco"
+  label: San Rafael
+  short: A mission church decorated with mica and painted wood, between San Ignacio and San José.
+  story: >-
+    San Rafael de Velasco has one of the oldest mission churches in Chiquitos. Its interior
+    is decorated with painted wood and mica, which makes the pulpit and altars sparkle in
+    the light. The quiet, little-visited village is a pleasant stop on the road between San
+    Ignacio and San José.
+  todo:
+    - The church and its mica-decorated interior
+    - A quiet village, off the usual route
+    - A stop between San Ignacio and San José de Chiquitos
+  tips: On the San Ignacio – San José road. Visit as a loop with Santa Ana and San Miguel.
+es:
+  name: "Misiones: San Rafael de Velasco"
+  label: San Rafael
+  short: Templo misional decorado con mica y madera pintada, entre San Ignacio y San José.
+  story: >-
+    San Rafael de Velasco tiene uno de los templos misionales más antiguos de Chiquitos. Su
+    interior está decorado con madera pintada y mica, que hace brillar el púlpito y los
+    altares con la luz. El pueblo, tranquilo y poco turístico, es una parada agradable en el
+    camino entre San Ignacio y San José.
+  todo:
+    - El templo y su interior decorado con mica
+    - Pueblo tranquilo, fuera de los circuitos
+    - Parada entre San Ignacio y San José de Chiquitos
+  tips: En el camino San Ignacio – San José. Se visita en circuito con Santa Ana y San Miguel.

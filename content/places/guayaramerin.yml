@@ -1,0 +1,77 @@
+# Guayaramerín
+department: Beni
+category: ville
+lat: -10.83
+lng: -65.36
+altitude: 130
+days: [1, 1]
+climate: amazonie
+dishes: [pescado_beni, masaco]
+photos:
+  - file: guayaramerin-1.jpg
+    author: Aurimaz
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:464_-_Guayaramerin_port.jpg
+  - file: guayaramerin-2.jpg
+    author: Aurimaz
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:462_-_Guayaramerin.jpg
+  - file: guayaramerin-3.jpg
+    author: Aldair Sales
+    licence: CC BY-SA 3.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Guayaramerin_-_Beni,_Bolivia_-_Puerto_-_panoramio.jpg
+  - file: guayaramerin-4.jpg
+    author: Filzstift
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Guayaramer%C3%ADn.jpg
+  - file: guayaramerin-5.jpg
+    author: Aldair Sales
+    licence: CC BY-SA 3.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Guayaramerin_-_Beni,_Bolivia_-_Hotel_Itauba_-_panoramio.jpg
+fr:
+  name: Guayaramerín
+  label: Guayaramerín
+  short: Ville frontière sur le río Mamoré, face à la ville brésilienne de Guajará-Mirim.
+  story: >-
+    Guayaramerín est une petite ville frontière animée, au bord du large río Mamoré. On
+    traverse le fleuve en bateau pour passer au Brésil, à Guajará-Mirim. Avec Riberalta,
+    c'est la base pour découvrir Cachuela Esperanza et ses rapides, et l'Amazonie du nord,
+    très peu touristique.
+  todo:
+    - Traversée du Mamoré vers Guajará-Mirim (Brésil)
+    - Cachuela Esperanza et ses rapides
+    - Promenade au bord du Mamoré
+  tips: >-
+    À 1 h 30 de Riberalta en taxi partagé ou en bus. Pour passer au Brésil, gardez votre
+    passeport sur vous.
+en:
+  name: Guayaramerín
+  label: Guayaramerín
+  short: A border town on the Mamoré river, facing the Brazilian town of Guajará-Mirim.
+  story: >-
+    Guayaramerín is a lively little border town on the wide Mamoré river. You cross by boat
+    to Brazil, to Guajará-Mirim. With Riberalta, it's the base for Cachuela Esperanza and
+    its rapids, and for the very untouristy northern Amazon.
+  todo:
+    - Cross the Mamoré to Guajará-Mirim (Brazil)
+    - Cachuela Esperanza and its rapids
+    - Walk along the Mamoré
+  tips: >-
+    1 h 30 from Riberalta by shared taxi or bus. To cross into Brazil, keep your passport
+    with you.
+es:
+  name: Guayaramerín
+  label: Guayaramerín
+  short: Ciudad fronteriza a orillas del río Mamoré, frente a la ciudad brasileña de Guajará-Mirim.
+  story: >-
+    Guayaramerín es una ciudad fronteriza pequeña y animada, a orillas del ancho río Mamoré.
+    Se cruza el río en lancha para pasar a Brasil, a Guajará-Mirim. Con Riberalta, es la
+    base para conocer Cachuela Esperanza y sus rápidos, y la Amazonía del norte, muy poco
+    turística.
+  todo:
+    - Cruzar el Mamoré a Guajará-Mirim (Brasil)
+    - Cachuela Esperanza y sus rápidos
+    - Paseo a orillas del Mamoré
+  tips: A 1 h 30 de Riberalta en taxi compartido o bus. Para pasar a Brasil, lleva tu pasaporte.

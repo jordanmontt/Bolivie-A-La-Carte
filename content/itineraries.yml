@@ -1,0 +1,106 @@
+# Ready-made itinerary ideas. stops: [place, days]. pref: route | avion. end: start | last | <place>.
+- id: essentials
+  days: 15
+  pref: avion
+  end: last
+  stops: [[lapaz, 3], [copacabana, 1], [isladelsol, 1], [salar, 3], [potosi, 1], [sucre, 3]]
+  fr:
+    name: Les incontournables
+    desc: >-
+      La Paz, le lac Titicaca et l'Isla del Sol, le tour du Salar et du Sud Lípez, puis
+      Potosí et Sucre.
+  en:
+    name: The essentials
+    desc: >-
+      La Paz, Lake Titicaca and the Isla del Sol, the Salar and Sud Lípez tour, then Potosí
+      and Sucre.
+  es:
+    name: Lo imprescindible
+    desc: >-
+      La Paz, el lago Titicaca y la Isla del Sol, el tour del Salar y el Sud Lípez, y luego
+      Potosí y Sucre.
+- id: express
+  days: 9
+  pref: avion
+  end: start
+  stops: [[lapaz, 2], [copacabana, 1], [isladelsol, 1], [salar, 3]]
+  fr:
+    name: Une semaine express
+    desc: Le lac Titicaca et le Salar d'Uyuni depuis La Paz, avec un vol pour gagner du temps.
+  en:
+    name: One fast week
+    desc: Lake Titicaca and the Salar de Uyuni from La Paz, with a flight to save time.
+  es:
+    name: Una semana exprés
+    desc: El lago Titicaca y el Salar de Uyuni desde La Paz, con un vuelo para ganar tiempo.
+- id: amazon
+  days: 21
+  pref: avion
+  end: last
+  stops: [[lapaz, 3], [copacabana, 1], [isladelsol, 1], [rurrenabaque, 1], [pampas, 3], [salar, 3], [potosi, 1], [sucre, 3]]
+  fr:
+    name: Andes et Amazonie
+    desc: Le lac, trois jours dans les pampas de Rurrenabaque, le Salar, puis Potosí et Sucre.
+  en:
+    name: Andes and Amazon
+    desc: The lake, three days in the pampas of Rurrenabaque, the Salar, then Potosí and Sucre.
+  es:
+    name: Andes y Amazonía
+    desc: El lago, tres días en las pampas de Rurrenabaque, el Salar, y luego Potosí y Sucre.
+- id: valleys
+  days: 16
+  pref: avion
+  end: last
+  stops: [[cbba, 2], [torotoro, 2], [sucre, 3], [potosi, 1], [salar, 3], [lapaz, 2]]
+  fr:
+    name: Vallées et dinosaures
+    desc: "Depuis Cochabamba : le canyon de Torotoro, Sucre la blanche, Potosí, le Salar et La Paz."
+  en:
+    name: Valleys and dinosaurs
+    desc: "From Cochabamba: the Torotoro canyon, white Sucre, Potosí, the Salar and La Paz."
+  es:
+    name: Valles y dinosaurios
+    desc: "Desde Cochabamba: el cañón de Torotoro, Sucre la blanca, Potosí, el Salar y La Paz."
+- id: east
+  days: 13
+  pref: route
+  end: start
+  stops: [[santacruz, 1], [samaipata, 3], [sanjavier, 1], [concepcion, 1], [chochis, 1], [santiago, 1], [aguascalientes, 1]]
+  fr:
+    name: L'Orient tropical
+    desc: >-
+      Samaipata, les missions jésuites, Chochís, Santiago de Chiquitos et la rivière chaude
+      d'Aguas Calientes.
+  en:
+    name: The tropical east
+    desc: >-
+      Samaipata, the Jesuit missions, Chochís, Santiago de Chiquitos and the hot river of
+      Aguas Calientes.
+  es:
+    name: El Oriente tropical
+    desc: >-
+      Samaipata, las misiones jesuíticas, Chochís, Santiago de Chiquitos y el río caliente
+      de Aguas Calientes.
+- id: overland
+  days: 23
+  pref: route
+  end: last
+  stops:
+    - [cbba, 3]
+    - [valle, 1]
+    - [torotoro, 3]
+    - [sucre, 3]
+    - [potosi, 1]
+    - [salar, 3]
+    - [lapaz, 2]
+    - [copacabana, 1]
+    - [isladelsol, 1]
+  fr:
+    name: Tout en bus, sans courir
+    desc: "Moins d'étapes et pas d'avion : des vallées de Cochabamba jusqu'au lac Titicaca."
+  en:
+    name: All by bus, at an easy pace
+    desc: "Fewer stops and no flights: from the valleys of Cochabamba to Lake Titicaca."
+  es:
+    name: Todo en bus, sin apuro
+    desc: "Menos paradas y sin avión: de los valles de Cochabamba al lago Titicaca."

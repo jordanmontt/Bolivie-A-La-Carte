@@ -1,0 +1,81 @@
+# Trinidad (Llanos de Moxos)
+department: Beni
+category: jungle
+lat: -14.8333
+lng: -64.9
+altitude: 155
+days: [2, 3]
+climate: amazonie
+major: true
+dishes: [carne_beni, pescado_beni, majadito]
+photos:
+  - file: trinidad-1.jpg
+    author: Parallelepiped09
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Trinidad_Bolivia_3.jpg
+  - file: trinidad-2.jpg
+    author: Diego Jaramillo Velarde
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Catedral_de_la_Sant%C3%ADsima_Trinidad.JPG
+  - file: trinidad-3.jpg
+    author: Grullab
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Rio_Ibare.jpg
+  - file: trinidad-4.jpg
+    author: Mauricio Frias
+    licence: CC BY 2.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Cathedral_of_La_Sant%C3%ADsima_Trinidad,_Bolivia._06.03.2017.jpg
+  - file: trinidad-5.jpg
+    author: Parallelepiped09
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Trinidad_desde_el_aire.jpg
+  - file: trinidad-6.jpg
+    author: AviSaster
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Alcald%C3%ADa_de_La_Sant%C3%ADsima_Trinidad,_Bolivia.jpg
+  - file: trinidad-7.jpg
+    author: Noé
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Plazuela_Silvio_Tanaka,_Trinidad,_Beni,_Bolivia_sur.jpg
+fr:
+  name: Trinidad (Llanos de Moxos)
+  label: Trinidad
+  short: Capitale du Beni, plaines inondables et culture moxeña.
+  story: >-
+    Trinidad est la capitale du Beni, une région de plaines inondables où l'on vit au rythme
+    de l'eau et des troupeaux. Peu de touristes y vont, ce qui en fait une destination très
+    authentique, mais assez loin des circuits classiques.
+  todo:
+    - Excursions sur le río Mamoré
+    - Lagunes et faune
+    - San Ignacio de Moxos et l'Ichapekene Piesta (31 juillet, classée par l'UNESCO)
+  tips: Peu touristique. Option plutôt pour un deuxième voyage.
+en:
+  name: Trinidad (Llanos de Moxos)
+  label: Trinidad
+  short: Capital of the Beni, with flood plains and Moxeño culture.
+  story: >-
+    Trinidad is the capital of the Beni, a region of flood plains where life follows the
+    water and the cattle herds. Few tourists go there, which makes it very authentic, but
+    it's quite far from the classic routes.
+  todo:
+    - Trips on the Mamoré river
+    - Lagoons and wildlife
+    - San Ignacio de Moxos and the Ichapekene Piesta (31 July, UNESCO-listed)
+  tips: Not very touristy. Better kept for a second trip.
+es:
+  name: Trinidad (Llanos de Moxos)
+  label: Trinidad
+  short: Capital del Beni, llanuras inundables y cultura moxeña.
+  story: >-
+    Trinidad es la capital del Beni, una región de llanuras inundables donde se vive al
+    ritmo del agua y del ganado. Pocos turistas llegan, lo que la hace muy auténtica, pero
+    queda lejos de los circuitos clásicos.
+  todo:
+    - Paseos por el río Mamoré
+    - Lagunas y fauna
+    - San Ignacio de Moxos y la Ichapekene Piesta (31 de julio, Patrimonio de la UNESCO)
+  tips: Poco turística. Mejor para un segundo viaje.

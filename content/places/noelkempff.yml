@@ -1,0 +1,79 @@
+# Parc national Noel Kempff Mercado
+department: Santa Cruz
+category: jungle
+lat: -13.55
+lng: -61.02
+altitude: 250
+days: [4, 5]
+climate: amazonie
+dishes: [pescado, masaco]
+photos:
+  - file: noelkempff-1.jpg
+    author: Javierhurtadovaca
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Catarata_Federico_Ahlfeld.jpg
+  - file: noelkempff-2.jpg
+    author: Maral Hurtado Miranda
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Blue_sky_and_blue_water.jpg
+  - file: noelkempff-3.jpg
+    author: Tanlogico
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:P_concolor_2_GLE.jpg
+  - file: noelkempff-4.jpg
+    author: Javierhurtadovaca
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Comunidad_Florida_Parque_Noel_Kempf_Mercado.jpg
+  - file: noelkempff-5.jpg
+    author: Gabriela Villanueva
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:R%C3%ADo_Itenez.jpg
+  - file: noelkempff-6.jpg
+    author: (c) Matt Muir, some rights reserved (CC BY)
+    licence: CC BY 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Lobo_de_Cr%C3%ADn_(Chrysocyon_brachyurus)_en_Parque_Nacional_Noel_Kempff_Mercado,_provincia_de_Velasco,_Santa_Cruz,_Bolivia.jpg
+fr:
+  name: Parc national Noel Kempff Mercado
+  label: Noel Kempff
+  short: "Parc UNESCO immense et très isolé : plateau de Huanchaca, chutes Arco Iris."
+  story: >-
+    Le parc Noel Kempff Mercado est l'un des endroits les plus sauvages d'Amérique du Sud :
+    des plateaux tabulaires, des chutes d'eau spectaculaires et une faune exceptionnelle. On
+    dit qu'il aurait inspiré « Le Monde perdu » de Conan Doyle. Très difficile d'accès et
+    cher : une expédition à part entière.
+  todo:
+    - Chutes Arco Iris et Federico Ahlfeld
+    - Faune exceptionnelle
+  tips: >-
+    Expédition : avionnette ou piste de 12 h+. Coûteux, à organiser à l'avance. Compter une
+    semaine sur place, voyage compris.
+en:
+  name: Noel Kempff Mercado National Park
+  label: Noel Kempff
+  short: "A vast and very remote UNESCO park: the Huanchaca plateau and the Arco Iris falls."
+  story: >-
+    Noel Kempff Mercado is one of the wildest places in South America: table-top plateaus,
+    spectacular waterfalls and exceptional wildlife. It is said to have inspired Conan
+    Doyle's “The Lost World”. Very hard to reach and expensive: an expedition in its own
+    right.
+  todo:
+    - Arco Iris and Federico Ahlfeld falls
+    - Exceptional wildlife
+  tips: >-
+    An expedition: light aircraft or a 12-hour-plus dirt track. Expensive, to organise in
+    advance. Allow a week, including travel.
+es:
+  name: Parque Nacional Noel Kempff Mercado
+  label: Noel Kempff
+  short: "Parque UNESCO inmenso y muy aislado: la meseta de Huanchaca y la catarata Arco Iris."
+  story: >-
+    El parque Noel Kempff Mercado es uno de los lugares más salvajes de Sudamérica: mesetas,
+    cataratas espectaculares y una fauna excepcional. Se dice que inspiró «El mundo perdido»
+    de Conan Doyle. Muy difícil de alcanzar y caro: una expedición en sí misma.
+  todo:
+    - Cataratas Arco Iris y Federico Ahlfeld
+    - Fauna excepcional
+  tips: >-
+    Expedición: avioneta o un camino de más de 12 h. Caro, hay que organizarlo con
+    anticipación. Cuenta una semana, viaje incluido.

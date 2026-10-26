@@ -1,0 +1,80 @@
+# Parc national Madidi
+department: La Paz
+category: jungle
+lat: -14.43
+lng: -67.92
+altitude: 300
+days: [2, 3]
+climate: amazonie
+dishes: [pescado_beni, masaco]
+photos:
+  - file: madidi-1.jpg
+    author: DanielGuzmanDuchen
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Bosque_tropical_Madidi.jpg
+  - file: madidi-2.jpg
+    author: Rodrigo Mariaca
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Black-capped_squirrel_monkey_(Chalalan).jpg
+  - file: madidi-3.jpg
+    author: Rodrigo Mariaca
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Chalalan_Ecolodge.jpg
+  - file: madidi-4.jpg
+    author: EEJCC
+    licence: CC0
+    source: https://commons.wikimedia.org/wiki/File:PARABAS_MADIDI_(cropped).jpg
+  - file: madidi-5.jpg
+    author: Rodrigo Mariaca
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Caba%C3%B1a_en_Chalalan_Albergue_Ecol%C3%B3gico.jpg
+  - file: madidi-6.jpg
+    author: Karmelo777
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Madidi_2.jpg
+  - file: madidi-7.jpg
+    author: Rodrigo Mariaca
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Canoa_en_el_lago_Chalalan.jpg
+fr:
+  name: Parc national Madidi
+  label: Madidi
+  short: L'une des zones les plus riches en biodiversité de la planète. Forêt primaire.
+  story: >-
+    Le parc Madidi est l'un des endroits les plus riches en biodiversité de la planète. On
+    remonte la rivière en pirogue jusqu'à un lodge géré par les communautés locales, puis on
+    marche dans la forêt primaire, de jour comme de nuit, à la recherche de singes, de
+    perroquets et de traces de jaguar. L'Amazonie dans ce qu'elle a de plus vrai.
+  todo:
+    - Séjour en éco-lodge communautaire (Chalalán, San Miguel del Bala...)
+    - Marches de jour et de nuit
+    - Aras, singes, pécaris
+  tips: Tour de 3 jours depuis Rurrenabaque, en pirogue sur le río Beni et le Tuichi.
+en:
+  name: Madidi National Park
+  label: Madidi
+  short: One of the most biodiverse places on the planet. Primary forest.
+  story: >-
+    Madidi is one of the most biodiverse places on Earth. You go upriver by dugout canoe to
+    a lodge run by local communities, then walk through primary forest by day and night,
+    looking for monkeys, parrots and jaguar tracks. The Amazon at its most real.
+  todo:
+    - Stay in a community eco-lodge (Chalalán, San Miguel del Bala…)
+    - Day and night walks
+    - Macaws, monkeys, peccaries
+  tips: 3-day tour from Rurrenabaque, by dugout canoe on the Beni and Tuichi rivers.
+es:
+  name: Parque Nacional Madidi
+  label: Madidi
+  short: Uno de los lugares con más biodiversidad del planeta. Bosque primario.
+  story: >-
+    El parque Madidi es uno de los lugares más biodiversos del planeta. Se sube el río en
+    canoa hasta un albergue manejado por comunidades locales y luego se camina por el bosque
+    primario, de día y de noche, buscando monos, loros y huellas de jaguar. La Amazonía en
+    estado puro.
+  todo:
+    - Estadía en un ecoalbergue comunitario (Chalalán, San Miguel del Bala…)
+    - Caminatas de día y de noche
+    - Parabas, monos, chanchos de monte
+  tips: Tour de 3 días desde Rurrenabaque, en canoa por los ríos Beni y Tuichi.

@@ -1,0 +1,84 @@
+# Quillacollo et Inca Rakay
+department: Cochabamba
+category: culture
+lat: -17.45
+lng: -66.383
+altitude: 2900
+days: [1, 1]
+climate: valles_haut
+dishes: [chicha, chicharron, silpancho]
+photos:
+  - file: incarakay-1.jpg
+    author: Willaq
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Vista_de_la_ciudad_de_Quillacollo.JPG
+  - file: incarakay-2.jpg
+    author: Wilmer
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Calvario_de_la_Virgen_Mar%C3%ADa_de_Urqupi%C3%B1a_IV.JPG
+  - file: incarakay-3.jpg
+    author: YUDITH CATARI ARIAS
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Monumento_arqueol%C3%B3gico_de_Inca_Rakay.jpg
+  - file: incarakay-4.jpg
+    author: Zuleterces
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Estructura_Incaica_con_revoque_de_color_rojo_y_amarillo.jpg
+  - file: incarakay-5.jpg
+    author: Wilmer
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Peregrinos_de_la_Virgen_Mar%C3%ADa_de_Urqupi%C3%B1a.JPG
+  - file: incarakay-6.jpg
+    author: Daniel tribeno
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:IGLESIA_SAN_ILDEFONSO-18.jpg
+  - file: incarakay-7.jpg
+    author: Wilmer
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Calvario_de_la_Virgen_Mar%C3%ADa_de_Urqupi%C3%B1a_II.JPG
+fr:
+  name: Quillacollo et Inca Rakay
+  label: Inca Rakay
+  short: Ruines incas perchées au-dessus de Sipe Sipe, et Quillacollo, ville de l'Urkupiña.
+  story: >-
+    Les ruines d'Inca Rakay dominent la vallée depuis un éperon rocheux : on y monte à pied
+    depuis Sipe Sipe, et la vue récompense largement l'effort. En redescendant, Quillacollo
+    est la ville de la Virgen de Urkupiña, dont la fête en août attire des centaines de
+    milliers de pèlerins et de danseurs.
+  todo:
+    - Montée aux ruines d'Inca Rakay (2 h de marche)
+    - Quillacollo et son sanctuaire de la Virgen de Urkupiña (grande fête mi-août)
+    - Piscines et chicherías de Sipe Sipe
+  tips: Demi-journée ou journée depuis Cochabamba.
+en:
+  name: Quillacollo and Inca Rakay
+  label: Inca Rakay
+  short: Inca ruins perched above Sipe Sipe, and Quillacollo, home of the Urkupiña festival.
+  story: >-
+    The Inca Rakay ruins look down over the valley from a rocky spur. You walk up from Sipe
+    Sipe and the view more than repays the effort. On the way back, Quillacollo is the town
+    of the Virgen de Urkupiña, whose August festival draws hundreds of thousands of pilgrims
+    and dancers.
+  todo:
+    - Walk up to the Inca Rakay ruins (2 hours)
+    - Quillacollo and the Virgen de Urkupiña sanctuary (big festival in mid-August)
+    - Pools and chicherías in Sipe Sipe
+  tips: Half-day or day trip from Cochabamba.
+es:
+  name: Quillacollo e Inca Rakay
+  label: Inca Rakay
+  short: Ruinas incas encima de Sipe Sipe, y Quillacollo, ciudad de la Urkupiña.
+  story: >-
+    Las ruinas de Inca Rakay dominan el valle desde un espolón rocoso: se sube a pie desde
+    Sipe Sipe y la vista compensa el esfuerzo. De bajada, Quillacollo es la ciudad de la
+    Virgen de Urkupiña, cuya fiesta en agosto reúne a cientos de miles de peregrinos y
+    bailarines.
+  todo:
+    - Subida a las ruinas de Inca Rakay (2 h de caminata)
+    - Quillacollo y el santuario de la Virgen de Urkupiña (gran fiesta a mediados de agosto)
+    - Piscinas y chicherías de Sipe Sipe
+  tips: Medio día o un día desde Cochabamba.

@@ -1,0 +1,70 @@
+# Salar de Coipasa
+department: Oruro
+category: altiplano
+lat: -19.28
+lng: -68.27
+altitude: 3660
+days: [1, 1]
+climate: uyuni
+dishes: [quinoa, llama]
+photos:
+  - file: coipasa-1.jpg
+    author: Tomas LOPEZ VILLARTE
+    licence: CC BY-SA 3.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Vista_panor%C3%A1mica_del_salr_de_Coipasa._-_panoramio.jpg
+  - file: coipasa-2.jpg
+    author: NASA
+    licence: Public domain
+    source: https://commons.wikimedia.org/wiki/File:ISS-033_Salar_de_Coipasa,_Bolivia.jpg
+fr:
+  name: Salar de Coipasa
+  label: Salar de Coipasa
+  short: Le deuxième plus grand désert de sel de Bolivie, sauvage et presque sans visiteurs.
+  story: >-
+    Le Salar de Coipasa est le petit frère du Salar d'Uyuni : un immense désert de sel
+    blanc, avec en son centre le village de Coipasa posé sur une île. Il y a beaucoup moins
+    de monde qu'à Uyuni, et l'effet miroir y est tout aussi impressionnant à la saison des
+    pluies. Une belle alternative pour qui aime les grands espaces vides.
+  todo:
+    - Traversée du salar en 4x4
+    - Effet miroir en saison des pluies (janvier à mars)
+    - Village de Coipasa sur son île
+    - Se combine avec Chipaya
+  tips: >-
+    Pas de tours réguliers : en 4x4 avec chauffeur depuis Oruro ou Chipaya, ou avec certains
+    tours longs depuis Uyuni.
+en:
+  name: Coipasa Salt Flat
+  label: Salar de Coipasa
+  short: Bolivia's second-largest salt flat, wild and almost without visitors.
+  story: >-
+    The Coipasa salt flat is the little brother of the Uyuni salt flat: a vast white salt
+    desert, with the village of Coipasa sitting on an island in the middle. There are far
+    fewer people than at Uyuni, and the mirror effect is just as striking in the rainy
+    season. A fine alternative for lovers of big empty spaces.
+  todo:
+    - Crossing the salt flat by 4x4
+    - Mirror effect in the rainy season (January to March)
+    - Coipasa village on its island
+    - Combine with Chipaya
+  tips: >-
+    No regular tours: by 4x4 with a driver from Oruro or Chipaya, or on some longer tours
+    from Uyuni.
+es:
+  name: Salar de Coipasa
+  label: Salar de Coipasa
+  short: El segundo salar más grande de Bolivia, salvaje y casi sin visitantes.
+  story: >-
+    El Salar de Coipasa es el hermano menor del Salar de Uyuni: un inmenso desierto de sal
+    blanca, con el pueblo de Coipasa sobre una isla en el centro. Hay mucha menos gente que
+    en Uyuni, y el efecto espejo es igual de impresionante en época de lluvias. Una gran
+    alternativa para quien ama los grandes espacios vacíos.
+  todo:
+    - Cruzar el salar en 4x4
+    - Efecto espejo en época de lluvias (enero a marzo)
+    - El pueblo de Coipasa en su isla
+    - Se combina con Chipaya
+  tips: >-
+    Sin tours regulares: en 4x4 con chofer desde Oruro o Chipaya, o con algunos tours largos
+    desde Uyuni.

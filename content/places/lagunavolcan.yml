@@ -1,0 +1,73 @@
+# Laguna Volcán
+department: Santa Cruz
+category: nature
+lat: -18.12
+lng: -63.6
+altitude: 1100
+days: [0, 1]
+climate: samaipata
+dishes: [majadito, tropical]
+photos:
+  - file: lagunavolcan-1.jpg
+    author: Karenrek
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Laguna_Volcan_Serran%C3%ADas_del_Ambor%C3%B3_01.jpg
+  - file: lagunavolcan-2.jpg
+    author: Karenrek
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Laguna_Volcan_Serran%C3%ADas_del_Ambor%C3%B3_03.jpg
+  - file: lagunavolcan-3.jpg
+    author: Karenrek
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Laguna_Volcan_Serran%C3%ADas_del_Ambor%C3%B3_07.jpg
+  - file: lagunavolcan-4.jpg
+    author: Karenrek
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Laguna_Volcan_Serran%C3%ADas_del_Ambor%C3%B3_05.jpg
+fr:
+  name: Laguna Volcán
+  label: Laguna Volcán
+  short: Un lac caché au fond d'un cirque de montagnes couvertes de forêt.
+  story: >-
+    La Laguna Volcán est un lac tranquille, entouré d'une couronne de montagnes boisées qui
+    lui donne l'air d'un cratère. Un sentier en fait le tour, entre forêt et falaises, avec
+    beaucoup d'oiseaux. Une étape nature calme sur la route entre Santa Cruz et Samaipata.
+  todo:
+    - Sentier autour de la lagune
+    - Oiseaux et forêt
+    - Étape sur la route de Samaipata
+  tips: >-
+    La lagune se trouve sur un domaine privé (hôtel) : renseignez-vous sur les conditions
+    d'accès avant d'y aller.
+en:
+  name: Laguna Volcán
+  label: Laguna Volcán
+  short: A lake hidden in a bowl of forested mountains.
+  story: >-
+    Laguna Volcán is a quiet lake ringed by forested mountains that make it look like a
+    crater. A trail runs around it, between forest and cliffs, with plenty of birds. A calm
+    nature stop on the road between Santa Cruz and Samaipata.
+  todo:
+    - Trail around the lagoon
+    - Birds and forest
+    - A stop on the road to Samaipata
+  tips: "The lagoon is on private land (a hotel): check the access conditions before you go."
+es:
+  name: Laguna Volcán
+  label: Laguna Volcán
+  short: Una laguna escondida en una hoyada de cerros cubiertos de bosque.
+  story: >-
+    La Laguna Volcán es una laguna tranquila rodeada por una corona de cerros boscosos que
+    le dan aire de cráter. Un sendero la rodea, entre bosque y paredones, con muchas aves.
+    Una parada de naturaleza tranquila en el camino entre Santa Cruz y Samaipata.
+  todo:
+    - Sendero alrededor de la laguna
+    - Aves y bosque
+    - Parada camino a Samaipata
+  tips: >-
+    La laguna está en un terreno privado (un hotel): infórmate sobre las condiciones de
+    acceso antes de ir.

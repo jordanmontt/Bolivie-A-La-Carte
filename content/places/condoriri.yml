@@ -1,0 +1,77 @@
+# Cordillère Royale : Condoriri
+department: La Paz
+category: aventure
+lat: -16.17
+lng: -68.24
+altitude: 4650
+days: [1, 3]
+climate: haute_montagne
+dishes: [sopa_quinua, chuno]
+photos:
+  - file: condoriri-1.jpg
+    author: Albert Backer
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Condoriri2013.jpg
+  - file: condoriri-2.jpg
+    author: CLAUDIOLD
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:TUNI_CONDORIRI.jpg
+  - file: condoriri-3.jpg
+    author: Realnif
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Tuni_Condoriri.jpg
+  - file: condoriri-4.jpg
+    author: Ale RaFlo
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Parque_Nacional_Condoriri_fuente_de_agua_y_la_laguna_chiarkota.jpg
+  - file: condoriri-5.jpg
+    author: Christoph Strässler
+    licence: CC BY-SA 2.0
+    source: https://commons.wikimedia.org/wiki/File:Laguna_Chiar_Khota,_Bolivia_-_52391234883.jpg
+  - file: condoriri-6.jpg
+    author: Christoph Strässler
+    licence: CC BY-SA 2.0
+    source: https://commons.wikimedia.org/wiki/File:Milky_Way_over_Laguna_Chiar_Khota,_Bolivia.jpg
+  - file: condoriri-7.jpg
+    author: Christoph Strässler
+    licence: CC BY-SA 2.0
+    source: https://commons.wikimedia.org/wiki/File:Laguna_Chiar_Khota,_Bolivia.jpg
+fr:
+  name: "Cordillère Royale : Condoriri"
+  label: Condoriri
+  short: Lagunes glaciaires et sommets enneigés, à 2 h de La Paz.
+  story: >-
+    Le massif du Condoriri, dont les sommets dessinent un condor aux ailes déployées,
+    entoure des lagunes turquoise au pied des glaciers. On peut y faire une très belle
+    journée de randonnée depuis La Paz ou un trek de deux ou trois jours en camping.
+    Paysages de haute montagne garantis, et très peu de monde.
+  todo:
+    - Laguna Tuni et Laguna Chiar Khota
+    - Trek de 2-3 jours autour du Condoriri
+  tips: Guide recommandé. Nuits très froides.
+en:
+  name: "Cordillera Real: Condoriri"
+  label: Condoriri
+  short: Glacial lagoons and snowy peaks, two hours from La Paz.
+  story: >-
+    The Condoriri massif, whose peaks look like a condor with outstretched wings, surrounds
+    turquoise lagoons at the foot of glaciers. It makes a superb day hike from La Paz or a
+    two to three-day camping trek. High-mountain scenery guaranteed, with very few people.
+  todo:
+    - Laguna Tuni and Laguna Chiar Khota
+    - 2 to 3-day trek around Condoriri
+  tips: A guide is recommended. Very cold nights.
+es:
+  name: "Cordillera Real: Condoriri"
+  label: Condoriri
+  short: Lagunas glaciares y cumbres nevadas, a 2 h de La Paz.
+  story: >-
+    El macizo del Condoriri, cuyas cumbres dibujan un cóndor con las alas abiertas, rodea
+    lagunas turquesa al pie de los glaciares. Se puede hacer una linda caminata de un día
+    desde La Paz o un trekking de dos o tres días acampando. Paisajes de alta montaña
+    garantizados y muy poca gente.
+  todo:
+    - Laguna Tuni y Laguna Chiar Khota
+    - Trekking de 2 a 3 días alrededor del Condoriri
+  tips: Se recomienda guía. Noches muy frías.

@@ -1,0 +1,59 @@
+# Puerto Rico et la réserve de Manuripi
+department: Pando
+category: jungle
+lat: -11.1
+lng: -67.55
+altitude: 200
+days: [2, 3]
+climate: amazonie
+dishes: [pescado_beni, masaco]
+photos:
+  - file: puertorico-1.jpg
+    author: Sefamol
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Confluence_of_r%C3%ADo_Manuripi_and_r%C3%ADo_Tahuamanu,_close_to_Puerto_Rico,_Bolivia.jpg
+  - file: puertorico-2.jpg
+    author: Edward wong IV
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Plaza_Central_Puerto_Rico.jpg
+fr:
+  name: Puerto Rico et la réserve de Manuripi
+  label: Puerto Rico
+  short: Petite ville au confluent de deux rivières, porte de la réserve amazonienne de Manuripi.
+  story: >-
+    Puerto Rico est une petite ville du Pando, là où le río Manuripi rejoint le Tahuamanu.
+    C'est la porte d'entrée de la réserve de Manuripi : lacs, forêt de noyers du Brésil et
+    une faune remarquable. En juin, un grand championnat de pêche sportive se tient au
+    confluent.
+  todo:
+    - Réserve amazonienne de Manuripi
+    - Confluent du Manuripi et du Tahuamanu
+    - Championnat de pêche en juin
+  tips: À 3 ou 4 h de Cobija par la route. Organisez la visite de la réserve à l'avance.
+en:
+  name: Puerto Rico and the Manuripi reserve
+  label: Puerto Rico
+  short: A small town where two rivers meet, gateway to the Manuripi Amazon reserve.
+  story: >-
+    Puerto Rico is a small Pando town where the Manuripi river joins the Tahuamanu. It's the
+    gateway to the Manuripi reserve: lakes, Brazil-nut forest and remarkable wildlife. In
+    June, a big sport-fishing championship takes place at the confluence.
+  todo:
+    - Manuripi Amazon reserve
+    - Where the Manuripi meets the Tahuamanu
+    - Fishing championship in June
+  tips: 3 to 4 h from Cobija by road. Arrange the reserve visit in advance.
+es:
+  name: Puerto Rico y la reserva Manuripi
+  label: Puerto Rico
+  short: Pueblo en la confluencia de dos ríos, puerta de la reserva amazónica Manuripi.
+  story: >-
+    Puerto Rico es un pueblo de Pando donde el río Manuripi se junta con el Tahuamanu. Es la
+    puerta de entrada a la reserva Manuripi: lagos, bosque de castaña y una fauna notable.
+    En junio se realiza un gran campeonato de pesca deportiva en la confluencia.
+  todo:
+    - Reserva amazónica Manuripi
+    - Confluencia del Manuripi y el Tahuamanu
+    - Campeonato de pesca en junio
+  tips: A 3 o 4 h de Cobija por carretera. Organiza la visita a la reserva con anticipación.

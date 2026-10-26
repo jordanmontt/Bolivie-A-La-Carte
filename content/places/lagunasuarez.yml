@@ -1,0 +1,62 @@
+# Laguna Suárez
+department: Beni
+category: nature
+lat: -14.87
+lng: -64.88
+altitude: 150
+days: [0, 1]
+climate: amazonie
+dishes: [pescado_beni]
+photos:
+  - file: lagunasuarez-1.jpg
+    author: Carlillasa
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Laguna_Su%C3%A1rez_en_Trinidad,_Beni.jpg
+  - file: lagunasuarez-2.jpg
+    author: Carlillasa
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Muelle_en_Laguna_Su%C3%A1rez,_Beni.jpg
+  - file: lagunasuarez-3.jpg
+    author: Carlillasa
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Plantas_acu%C3%A1ticas_en_Laguna_Su%C3%A1rez,_Trinidad.jpg
+fr:
+  name: Laguna Suárez
+  label: Laguna Suárez
+  short: Une grande lagune tranquille aux portes de Trinidad, pour se baigner et manger du poisson.
+  story: >-
+    À quelques kilomètres de Trinidad, la Laguna Suárez est l'endroit où les Trinitarios
+    viennent se rafraîchir : baignade, balades en barque, oiseaux et restaurants de poisson
+    du Beni au bord de l'eau. Une bonne introduction à la vie des plaines de Moxos.
+  todo:
+    - Baignade et barque sur la lagune
+    - Poisson du Beni au bord de l'eau
+    - Oiseaux au coucher du soleil
+  tips: À 10 min de Trinidad en moto-taxi ou en taxi.
+en:
+  name: Laguna Suárez
+  label: Laguna Suárez
+  short: A big, quiet lagoon on Trinidad's doorstep, for swimming and eating fish.
+  story: >-
+    A few kilometres from Trinidad, Laguna Suárez is where locals come to cool off:
+    swimming, boat rides, birds and Beni fish restaurants by the water. A good introduction
+    to life on the Moxos plains.
+  todo:
+    - Swimming and boating on the lagoon
+    - Beni fish by the water
+    - Birds at sunset
+  tips: 10 min from Trinidad by motorbike taxi or taxi.
+es:
+  name: Laguna Suárez
+  label: Laguna Suárez
+  short: Una gran laguna tranquila a las puertas de Trinidad, para bañarse y comer pescado.
+  story: >-
+    A pocos kilómetros de Trinidad, la Laguna Suárez es donde los trinitarios van a
+    refrescarse: baño, paseos en bote, aves y restaurantes de pescado del Beni a la orilla.
+    Una buena introducción a la vida de los llanos de Moxos.
+  todo:
+    - Baño y paseo en bote por la laguna
+    - Pescado del Beni a la orilla
+    - Aves al atardecer
+  tips: A 10 min de Trinidad en mototaxi o taxi.

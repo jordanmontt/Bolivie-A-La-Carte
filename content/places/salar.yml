@@ -1,0 +1,116 @@
+# Salar d'Uyuni + Sud Lípez (tour)
+department: Potosí
+category: altiplano
+lat: -20.2422
+lng: -67.6258
+altitude: 3656
+days: [1, 3]
+climate: lipez
+tour: true
+major: true
+dishes: [quinoa, llama, sopa_quinua]
+photos:
+  - file: salar-1.jpg
+    author: Kuroiniisan
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Salar_de_Uyuni_2013.jpg
+  - file: salar-2.jpg
+    author: ""
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:FishIslandSalarUyuni.jpg
+  - file: salar-3.jpg
+    author: Luca Galuzzi (Lucag)
+    licence: CC BY-SA 2.5
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Andean_Flamingos_Laguna_Colorada_Bolivia_Luca_Galuzzi_2006.jpg
+  - file: salar-4.jpg
+    author: Christopher Crouzet
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Reflection_on_the_Salar_de_Uyuni,_bolivia.jpg
+  - file: salar-5.jpg
+    author: M M from Switzerland
+    licence: CC BY-SA 2.0
+    source: https://commons.wikimedia.org/wiki/File:Bolivia_(4038148540).jpg
+  - file: salar-6.jpg
+    author: Diegoarielvega
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Cactus_en_Incahuasi.jpg
+  - file: salar-7.jpg
+    author: ManuelBertolucci
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:8_IQ2A8187_3.jpg
+  - file: salar-8.jpg
+    author: Mario Falcetti
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Bolivia_-_Salar_de_Uyuni_-_Wiki_Commons.jpg
+fr:
+  name: Salar d'Uyuni + Sud Lípez (tour)
+  label: Salar d'Uyuni
+  short: >-
+    Le plus grand désert de sel du monde, puis les lagunes colorées du Sud Lípez. Le moment
+    fort de beaucoup de voyages.
+  story: >-
+    Le Salar d'Uyuni, c'est 10 000 km² de sel blanc à perte de vue, un horizon parfaitement
+    plat où l'on perd tous ses repères : on y fait des photos impossibles et, à la saison
+    des pluies, le ciel se reflète comme dans un miroir géant. Le tour continue vers le Sud
+    Lípez, avec des lagunes rouges et vertes pleines de flamants roses, des geysers fumants
+    au lever du soleil et un bain chaud à 4 400 m. Pour beaucoup, c'est le souvenir le plus
+    fort d'un voyage en Bolivie.
+  todo:
+    - >-
+      Jour 1 : Colchani, hôtel de sel, Isla Incahuasi et ses cactus géants, photos de
+      perspective
+    - "Jour 2 : lagunes à flamants, Árbol de Piedra, Laguna Colorada"
+    - >-
+      Jour 3 : geysers Sol de Mañana au lever du jour, bain aux Termas de Polques, Laguna
+      Verde
+    - Retour à Uyuni (ou sortie vers San Pedro de Atacama au Chili)
+  tips: >-
+    Tour en 4x4 de 1 à 4 jours (3 jours conseillé). Jusqu'à 5 000 m, nuits à -10 °C :
+    prendre duvet et vêtements chauds. Saison des pluies (janvier-mars) : effet miroir mais
+    certains secteurs fermés.
+en:
+  name: Salar de Uyuni + Sud Lípez (tour)
+  label: Salar de Uyuni
+  short: >-
+    The world's largest salt flat, then the colourful lagoons of the Sud Lípez. The
+    highlight of many trips.
+  story: >-
+    The Salar de Uyuni is 10,000 km² of white salt as far as the eye can see, a perfectly
+    flat horizon where you lose all sense of scale: it's the place for impossible photos
+    and, in the rainy season, the sky reflects as if in a giant mirror. The tour continues
+    into the Sud Lípez, with red and green lagoons full of flamingos, steaming geysers at
+    sunrise and a hot bath at 4,400 m. For many people, it's the strongest memory of a trip
+    to Bolivia.
+  todo:
+    - "Day 1: Colchani, a salt hotel, Isla Incahuasi with its giant cacti, perspective photos"
+    - "Day 2: flamingo lagoons, Árbol de Piedra, Laguna Colorada"
+    - "Day 3: Sol de Mañana geysers at dawn, a soak at Termas de Polques, Laguna Verde"
+    - Back to Uyuni (or on to San Pedro de Atacama in Chile)
+  tips: >-
+    4x4 tour of 1 to 4 days (3 days recommended). Up to 5,000 m with nights at −10 °C: bring
+    a sleeping bag and warm clothes. Rainy season (January to March): mirror effect, but
+    some areas are closed.
+es:
+  name: Salar de Uyuni + Sud Lípez (tour)
+  label: Salar de Uyuni
+  short: >-
+    El salar más grande del mundo y luego las lagunas de colores del Sud Lípez. Lo mejor de
+    muchos viajes.
+  story: >-
+    El Salar de Uyuni son 10 000 km² de sal blanca hasta el horizonte, una planicie perfecta
+    donde se pierde toda referencia: ahí se sacan fotos imposibles y, en época de lluvias,
+    el cielo se refleja como en un espejo gigante. El tour sigue al Sud Lípez, con lagunas
+    rojas y verdes llenas de flamencos, géiseres humeantes al amanecer y un baño caliente a
+    4400 m. Para muchos, es el recuerdo más fuerte de un viaje por Bolivia.
+  todo:
+    - >-
+      Día 1: Colchani, un hotel de sal, la Isla Incahuasi y sus cactus gigantes, fotos de
+      perspectiva
+    - "Día 2: lagunas con flamencos, Árbol de Piedra, Laguna Colorada"
+    - "Día 3: géiseres Sol de Mañana al amanecer, baño en las Termas de Polques, Laguna Verde"
+    - Vuelta a Uyuni (o salida a San Pedro de Atacama, en Chile)
+  tips: >-
+    Tour en 4x4 de 1 a 4 días (se recomiendan 3). Hasta 5000 m y noches a −10 °C: lleva
+    bolsa de dormir y ropa abrigada. En época de lluvias (enero a marzo) hay efecto espejo,
+    pero algunos sectores cierran.

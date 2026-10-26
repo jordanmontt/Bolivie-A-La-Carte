@@ -1,0 +1,51 @@
+# Candelaria
+department: Chuquisaca
+category: culture
+lat: -19.25
+lng: -64.85
+altitude: 2700
+days: [1, 1]
+climate: sucre
+dishes: [sopa_puchero, chicha]
+photos: []
+fr:
+  name: Candelaria
+  label: Candelaria
+  short: "Village yampara au-delà de Tarabuco : ancienne hacienda, tissages et tourisme rural."
+  story: >-
+    Candelaria est un village de la culture yampara, à l'est de Tarabuco. Autour d'une
+    ancienne hacienda coloniale, les familles accueillent les visiteurs pour partager leur
+    vie rurale et leurs tissages, parmi les plus fins de la région. Une immersion tranquille
+    et authentique, loin des circuits.
+  todo:
+    - Ancienne hacienda coloniale
+    - Tissages yampara et démonstrations au métier
+    - Vie rurale et accueil chez l'habitant
+  tips: Accès depuis Sucre par Tarabuco ; mieux avec une agence de Sucre qui organise l'accueil.
+en:
+  name: Candelaria
+  label: Candelaria
+  short: "A Yampara village beyond Tarabuco: an old hacienda, weaving and rural tourism."
+  story: >-
+    Candelaria is a village of the Yampara culture, east of Tarabuco. Around an old colonial
+    hacienda, families welcome visitors to share their rural life and their weaving, among
+    the finest in the region. A quiet, authentic immersion, far from the usual routes.
+  todo:
+    - Old colonial hacienda
+    - Yampara weaving and loom demonstrations
+    - Rural life and homestays
+  tips: Reached from Sucre via Tarabuco; best with a Sucre agency that arranges the stay.
+es:
+  name: Candelaria
+  label: Candelaria
+  short: "Pueblo yampara más allá de Tarabuco: antigua hacienda, tejidos y turismo rural."
+  story: >-
+    Candelaria es un pueblo de la cultura yampara, al este de Tarabuco. Alrededor de una
+    antigua hacienda colonial, las familias reciben a los visitantes para compartir su vida
+    rural y sus tejidos, de los más finos de la región. Una inmersión tranquila y auténtica,
+    lejos de los circuitos.
+  todo:
+    - Antigua hacienda colonial
+    - Tejidos yampara y demostraciones en telar
+    - Vida rural y alojamiento en familias
+  tips: Se llega desde Sucre por Tarabuco; mejor con una agencia de Sucre que organice la estadía.

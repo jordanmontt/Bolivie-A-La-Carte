@@ -1,0 +1,52 @@
+# Cotagaita
+department: Potosí
+category: culture
+lat: -20.82
+lng: -65.66
+altitude: 2624
+days: [0, 1]
+climate: tupiza
+dishes: [picante, sopa_quinua]
+photos: []
+fr:
+  name: Cotagaita
+  label: Cotagaita
+  short: Petite ville verte d'une vallée fruitière, sur la route de Potosí à Villazón.
+  story: >-
+    Cotagaita est une petite ville tranquille au fond d'une vallée, entourée de vergers : on
+    l'appelle la capitale fruitière du département de Potosí. Sur l'ancien Camino Real entre
+    Potosí et l'Argentine, elle a vu en 1810 l'une des premières batailles pour
+    l'indépendance. Une étape agréable pour couper la route, déjeuner et se promener.
+  todo:
+    - Vergers et fruits de la vallée
+    - Lieu de la bataille de Cotagaita (1810)
+    - Étape sur la route Potosí – Tupiza
+  tips: Bus fréquents depuis Potosí, Tupiza ou Villazón.
+en:
+  name: Cotagaita
+  label: Cotagaita
+  short: A small green town in a fruit-growing valley, on the road from Potosí to Villazón.
+  story: >-
+    Cotagaita is a quiet small town at the bottom of a valley surrounded by orchards: it's
+    known as the fruit capital of Potosí department. On the old Camino Real between Potosí
+    and Argentina, it saw one of the first battles for independence in 1810. A pleasant stop
+    to break the journey, have lunch and stroll around.
+  todo:
+    - The valley's orchards and fruit
+    - Site of the Battle of Cotagaita (1810)
+    - A stop on the Potosí – Tupiza road
+  tips: Frequent buses from Potosí, Tupiza or Villazón.
+es:
+  name: Cotagaita
+  label: Cotagaita
+  short: Pueblo verde de un valle frutícola, en el camino de Potosí a Villazón.
+  story: >-
+    Cotagaita es un pueblo tranquilo en el fondo de un valle rodeado de huertos: lo llaman
+    la capital frutícola del departamento de Potosí. En el antiguo Camino Real entre Potosí
+    y la Argentina, fue escenario en 1810 de una de las primeras batallas por la
+    independencia. Una parada agradable para cortar el viaje, almorzar y pasear.
+  todo:
+    - Huertos y frutas del valle
+    - Lugar de la Batalla de Cotagaita (1810)
+    - Parada en el camino Potosí – Tupiza
+  tips: Buses frecuentes desde Potosí, Tupiza o Villazón.

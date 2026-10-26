@@ -1,0 +1,91 @@
+# Cochabamba
+department: Cochabamba
+category: ville
+lat: -17.3935
+lng: -66.157
+altitude: 2558
+days: [1, 2]
+climate: valles
+major: true
+dishes: [silpancho, piquemacho, chicharron, apiPastel]
+photos:
+  - file: cbba-1.jpg
+    author: Parallelepiped09
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Cochabamba_City.jpg
+  - file: cbba-2.jpg
+    author: Parallelepiped09
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Catedral_de_San_Sebasti%C3%A1n,_Cochabamba_full.jpg
+  - file: cbba-3.jpg
+    author: Parallelepiped09
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Cultura_Cochabambina.jpg
+  - file: cbba-4.jpg
+    author: Parallelepiped09
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Cocha_Noche.jpg
+  - file: cbba-5.jpg
+    author: Parallelepiped09
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Cochabamba_ciudad.jpg
+  - file: cbba-6.jpg
+    author: Parallelepiped09
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Coronilla_Cochabamba.jpg
+  - file: cbba-7.jpg
+    author: Parallelepiped09
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Cocha_Skyline.jpg
+fr:
+  name: Cochabamba
+  label: Cochabamba
+  short: La « ville de l'éternel printemps » et capitale gastronomique du pays.
+  story: >-
+    Cochabamba, c'est la Bolivie qui vit bien : une grande ville de vallée, verte et
+    ensoleillée, où l'on mange mieux que n'importe où ailleurs dans le pays. On y prend le
+    temps de s'habituer au rythme bolivien, de se perdre dans l'immense marché de La Cancha
+    et de monter au Cristo de la Concordia, plus grand que celui de Rio. C'est aussi
+    l'endroit parfait pour s'acclimater doucement avant de monter sur l'Altiplano.
+  todo:
+    - Cristo de la Concordia (téléphérique ou à pied par l'escalier)
+    - La Cancha, l'un des plus grands marchés à ciel ouvert d'Amérique du Sud
+    - Plaza 14 de Septiembre et le centre colonial
+    - Palacio Portales (demeure du magnat de l'étain Simón Patiño)
+    - "Manger : silpancho, pique macho, chicharrón, api con pastel"
+  tips: "Altitude modérée : idéal pour s'acclimater 1 ou 2 jours avant l'Altiplano."
+en:
+  name: Cochabamba
+  label: Cochabamba
+  short: The “city of eternal spring” and the food capital of the country.
+  story: >-
+    Cochabamba is Bolivia at its most easygoing: a big, green, sunny valley city where
+    people eat better than anywhere else in the country. It's the place to settle into the
+    Bolivian rhythm, get lost in the huge La Cancha market and climb up to the Cristo de la
+    Concordia, which is taller than the one in Rio. It's also a perfect spot to acclimatise
+    gently before heading up to the Altiplano.
+  todo:
+    - Cristo de la Concordia (cable car, or on foot up the stairway)
+    - La Cancha, one of the largest open-air markets in South America
+    - Plaza 14 de Septiembre and the colonial centre
+    - Palacio Portales (home of tin baron Simón Patiño)
+    - "Eat: silpancho, pique macho, chicharrón, api con pastel"
+  tips: "Moderate altitude: ideal for acclimatising for a day or two before the Altiplano."
+es:
+  name: Cochabamba
+  label: Cochabamba
+  short: La «ciudad de la eterna primavera» y capital gastronómica del país.
+  story: >-
+    Cochabamba es la Bolivia que vive bien: una gran ciudad de valle, verde y soleada, donde
+    se come mejor que en cualquier otro lugar del país. Es el lugar para agarrarle el ritmo
+    a Bolivia, perderse en el inmenso mercado de La Cancha y subir al Cristo de la
+    Concordia, más alto que el de Río. También es ideal para aclimatarse poco a poco antes
+    de subir al Altiplano.
+  todo:
+    - Cristo de la Concordia (teleférico o a pie por las gradas)
+    - La Cancha, uno de los mercados al aire libre más grandes de Sudamérica
+    - Plaza 14 de Septiembre y el centro colonial
+    - Palacio Portales (casa del barón del estaño Simón Patiño)
+    - "Comer: silpancho, pique macho, chicharrón, api con pastel"
+  tips: "Altura moderada: ideal para aclimatarse uno o dos días antes del Altiplano."

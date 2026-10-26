@@ -1,0 +1,78 @@
+# Chacaltaya
+department: La Paz
+category: altiplano
+lat: -16.353
+lng: -68.131
+altitude: 5395
+days: [1, 1]
+climate: haute_montagne
+dishes: [sopa_quinua, apiPastel]
+photos:
+  - file: chacaltaya-1.jpg
+    author: ""
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Chacaltaya_2.jpg
+  - file: chacaltaya-2.jpg
+    author: Bernard Gagnon
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Chacaltaya,_Bolivia.jpg
+  - file: chacaltaya-3.jpg
+    author: Ville Miettinen from Helsinki, Finland
+    licence: CC BY 2.0
+    source: https://commons.wikimedia.org/wiki/File:Chacaltaya_Ski_Resort.jpg
+  - file: chacaltaya-4.jpg
+    author: Joan Simon
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Refugi_Chacaltaya.jpg
+  - file: chacaltaya-5.jpg
+    author: ogwen
+    licence: CC BY-SA 3.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Huayna_Potosi_desde_Chacaltaya_-_panoramio_(1).jpg
+  - file: chacaltaya-6.jpg
+    author: ogwen
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Vista_desde_Chacaltaya_-_panoramio_(3).jpg
+  - file: chacaltaya-7.jpg
+    author: Das Morton
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Chacaltaya_La_Paz_Lagunas.jpg
+fr:
+  name: Chacaltaya
+  label: Chacaltaya
+  short: "Ancienne station de ski à 5 400 m : la plus haute vue de la Cordillère Royale."
+  story: >-
+    Chacaltaya était la station de ski la plus haute du monde, jusqu'à ce que son glacier
+    fonde. Aujourd'hui, on monte en minibus jusqu'à 5 300 m, puis à pied jusqu'au sommet,
+    pour une vue incroyable sur la Cordillère Royale, le Huayna Potosí et, au loin, le lac
+    Titicaca. Le point le plus haut que l'on peut atteindre facilement en Bolivie.
+  todo:
+    - Montée au sommet depuis le refuge (30 min)
+    - Vue sur le Huayna Potosí et le lac Titicaca
+  tips: Seulement après quelques jours d'acclimatation. Souvent combiné avec la Valle de la Luna.
+en:
+  name: Chacaltaya
+  label: Chacaltaya
+  short: "A former ski area at 5,400 m: the highest view of the Cordillera Real."
+  story: >-
+    Chacaltaya was the world's highest ski resort until its glacier melted. Today a minibus
+    takes you up to 5,300 m and you walk to the summit for an incredible view of the
+    Cordillera Real, Huayna Potosí and, in the distance, Lake Titicaca. The highest point
+    you can easily reach in Bolivia.
+  todo:
+    - Walk to the summit from the refuge (30 min)
+    - Views of Huayna Potosí and Lake Titicaca
+  tips: Only after a few days of acclimatisation. Often combined with Valle de la Luna.
+es:
+  name: Chacaltaya
+  label: Chacaltaya
+  short: "Antigua pista de esquí a 5400 m: la vista más alta de la Cordillera Real."
+  story: >-
+    Chacaltaya fue la pista de esquí más alta del mundo, hasta que su glaciar se derritió.
+    Hoy se sube en minibús hasta 5300 m y luego a pie hasta la cumbre, con una vista
+    increíble de la Cordillera Real, el Huayna Potosí y, a lo lejos, el lago Titicaca. El
+    punto más alto al que se llega fácilmente en Bolivia.
+  todo:
+    - Subida a la cumbre desde el refugio (30 min)
+    - Vista del Huayna Potosí y del lago Titicaca
+  tips: Solo después de unos días de aclimatación. Se combina a menudo con el Valle de la Luna.

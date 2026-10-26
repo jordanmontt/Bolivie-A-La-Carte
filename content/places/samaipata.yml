@@ -1,0 +1,87 @@
+# Samaipata
+department: Santa Cruz
+category: nature
+lat: -18.1786
+lng: -63.8756
+altitude: 1650
+days: [2, 3]
+climate: samaipata
+major: true
+dishes: [pizza_samaipata, majadito, vino]
+photos:
+  - file: samaipata-1.jpg
+    author: Marcelo Claros Marzana
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Samaipata.jpg
+  - file: samaipata-2.jpg
+    author: Dpasten
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:View_of_Fort_Samaipata_Rock.jpg
+  - file: samaipata-3.jpg
+    author: Dan Lundberg
+    licence: CC BY-SA 2.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:20170803_Bolivia_1024_Samaipata_sRGB_(24128621478).jpg
+  - file: samaipata-4.jpg
+    author: Madereugeneandrew
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:El_Fuerte_de_Samaipata_from_the_viewing_platform.jpg
+  - file: samaipata-5.jpg
+    author: Karenrek
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:El_Fuerte_Samaipata_01.jpg
+  - file: samaipata-6.jpg
+    author: Madereugeneandrew
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Samaipata,_Bolivia,_March_2016.jpg
+  - file: samaipata-7.jpg
+    author: Mhwater at Dutch Wikipedia
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Fuerte03.jpg
+fr:
+  name: Samaipata
+  label: Samaipata
+  short: "Village bohème entre Andes et forêt : El Fuerte (UNESCO) et le parc Amboró."
+  story: >-
+    Samaipata est un village charmant et tranquille, entre les Andes et la forêt, où
+    beaucoup de voyageurs restent plus longtemps que prévu. On y visite El Fuerte, un énorme
+    rocher sculpté par les peuples préincas, on se promène parmi les fougères géantes
+    d'Amboró et on observe les condors. Bons restaurants, ambiance détendue et climat
+    agréable.
+  todo:
+    - "El Fuerte de Samaipata : rocher sculpté préinca"
+    - Forêt de fougères géantes d'Amboró
+    - Cascadas Las Cuevas
+    - Condors à La Pajcha / Codo de los Andes
+  tips: Étape idéale sur l'ancienne route Cochabamba – Santa Cruz. Climat doux.
+en:
+  name: Samaipata
+  label: Samaipata
+  short: "A bohemian village between the Andes and the forest: El Fuerte (UNESCO) and Amboró park."
+  story: >-
+    Samaipata is a charming, peaceful village between the Andes and the forest, where many
+    travellers stay longer than planned. You visit El Fuerte, a huge rock carved by pre-Inca
+    peoples, walk among the giant ferns of Amboró and watch condors. Good restaurants, a
+    relaxed vibe and a pleasant climate.
+  todo:
+    - "El Fuerte de Samaipata: a pre-Inca carved rock"
+    - Amboró's giant fern forest
+    - Las Cuevas waterfalls
+    - Condors at La Pajcha and Codo de los Andes
+  tips: An ideal stop on the old Cochabamba to Santa Cruz road. Mild climate.
+es:
+  name: Samaipata
+  label: Samaipata
+  short: "Pueblo bohemio entre Andes y bosque: El Fuerte (UNESCO) y el parque Amboró."
+  story: >-
+    Samaipata es un pueblo encantador y tranquilo, entre los Andes y el bosque, donde muchos
+    viajeros se quedan más de lo previsto. Se visita El Fuerte, una enorme roca tallada por
+    pueblos preincas, se camina entre los helechos gigantes de Amboró y se observan
+    cóndores. Buenos restaurantes, ambiente relajado y clima agradable.
+  todo:
+    - "El Fuerte de Samaipata: roca tallada preinca"
+    - Bosque de helechos gigantes de Amboró
+    - Cascadas Las Cuevas
+    - Cóndores en La Pajcha y el Codo de los Andes
+  tips: Parada ideal en la carretera antigua Cochabamba – Santa Cruz. Clima templado.

@@ -1,0 +1,94 @@
+# Charazani et l'Apolobamba
+department: La Paz
+category: culture
+lat: -15.18
+lng: -69
+altitude: 3250
+days: [2, 4]
+climate: sorata
+dishes: [chuno, sopa_quinua, trucha_sorata]
+photos:
+  - file: charazani-1.jpg
+    author: Carlillasa
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Charazani,_Bolivia.jpg
+  - file: charazani-2.jpg
+    author: Pretty Poo Eater from Los Angeles, USA
+    licence: CC BY-SA 2.0
+    source: https://commons.wikimedia.org/wiki/File:Charazani_Bolivia.jpg
+  - file: charazani-3.jpg
+    author: No machine-readable author provided. Jukumari~commonswiki assumed (bas
+    licence: Public domain
+    source: https://commons.wikimedia.org/wiki/File:Charazani.jpeg
+  - file: charazani-4.jpg
+    author: Realnif
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Camino_a_Curva.jpg
+  - file: charazani-5.jpg
+    author: Realnif
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Cordillera_de_Apolobamba.jpg
+  - file: charazani-6.jpg
+    author: Noemi Gonzales C.
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Elaboraci%C3%B3n_de_textil_kallawaya.jpg
+  - file: charazani-7.jpg
+    author: Das Morton
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Apolobamba_17.jpg
+fr:
+  name: Charazani et l'Apolobamba
+  label: Charazani
+  short: Le pays des Kallawayas, guérisseurs andins (UNESCO), avec sources chaudes et grands treks.
+  story: >-
+    Charazani est un village de montagne isolé, au cœur du territoire des Kallawayas, ces
+    médecins traditionnels andins qui soignent par les plantes et dont la culture est
+    reconnue par l'UNESCO. On s'y baigne dans des sources chaudes, puis on part marcher de
+    village en village à la rencontre des communautés, ou vers les sommets enneigés de la
+    cordillère d'Apolobamba, l'une des plus sauvages du pays.
+  todo:
+    - Sources chaudes de Charazani
+    - "Pacha Trek : villages kallawayas (Curva, Chari)"
+    - Grand trek Curva – Pelechuco (4 à 5 jours)
+    - Vigognes et paysages de l'Apolobamba
+  tips: >-
+    Long trajet en bus depuis La Paz (8 à 10 h). Hébergement simple. Treks de juin à
+    septembre, avec guide.
+en:
+  name: Charazani and Apolobamba
+  label: Charazani
+  short: Land of the Kallawaya Andean healers (UNESCO), with hot springs and great treks.
+  story: >-
+    Charazani is a remote mountain village at the heart of Kallawaya country, the
+    traditional Andean healers who treat with plants and whose culture is recognised by
+    UNESCO. You can soak in hot springs, then walk from village to village to meet the
+    communities, or head for the snowy peaks of the Apolobamba range, one of the wildest in
+    the country.
+  todo:
+    - Charazani hot springs
+    - "Pacha Trek: Kallawaya villages (Curva, Chari)"
+    - The big Curva – Pelechuco trek (4 to 5 days)
+    - Vicuñas and Apolobamba landscapes
+  tips: >-
+    A long bus ride from La Paz (8 to 10 h). Simple lodging. Treks from June to September,
+    with a guide.
+es:
+  name: Charazani y Apolobamba
+  label: Charazani
+  short: >-
+    Tierra de los kallawayas, médicos andinos (UNESCO), con aguas termales y grandes
+    trekkings.
+  story: >-
+    Charazani es un pueblo de montaña aislado, en el corazón del territorio kallawaya, los
+    médicos tradicionales andinos que curan con plantas y cuya cultura reconoce la UNESCO.
+    Uno se baña en aguas termales y luego camina de pueblo en pueblo para conocer a las
+    comunidades, o hacia los nevados de la cordillera de Apolobamba, una de las más salvajes
+    del país.
+  todo:
+    - Aguas termales de Charazani
+    - "Pacha Trek: pueblos kallawayas (Curva, Chari)"
+    - Gran trekking Curva – Pelechuco (4 a 5 días)
+    - Vicuñas y paisajes de Apolobamba
+  tips: >-
+    Largo viaje en bus desde La Paz (8 a 10 h). Alojamiento sencillo. Trekkings de junio a
+    septiembre, con guía.

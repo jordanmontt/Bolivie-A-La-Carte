@@ -1,0 +1,86 @@
+# Pampas du Yacuma
+department: Beni
+category: jungle
+lat: -14.07
+lng: -66.79
+altitude: 200
+days: [2, 3]
+climate: amazonie
+dishes: [pescado_beni, masaco]
+photos:
+  - file: pampas-1.jpg
+    author: PamJCB
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Embarcaciones_en_Pampas_del_R%C3%ADo_Yacuma.jpg
+  - file: pampas-2.jpg
+    author: Samuel Valverde
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Caim%C3%A1n_yacar%C3%A9.jpg
+  - file: pampas-3.jpg
+    author: Samuel Valverde
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Chichilo.jpg
+  - file: pampas-4.jpg
+    author: Renatals
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Santa_Rosa_del_Yacuma_1.jpg
+  - file: pampas-5.jpg
+    author: PamJCB
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Turismo_en_Pampas_de_Yacuma.jpg
+  - file: pampas-6.jpg
+    author: Elias Bizannes from Sydney, Australia
+    licence: CC BY-SA 2.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Atardecer_en_la_amazonia_boliviana_(R%C3%ADo_Yacuma).jpg
+  - file: pampas-7.jpg
+    author: Gabrarq77
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Cocodrilos_2,_Pampas_del_Yacuma.jpg
+fr:
+  name: Pampas du Yacuma
+  label: Pampas
+  short: "Zones humides : on voit beaucoup d'animaux (caïmans, capybaras, dauphins roses)."
+  story: >-
+    Les pampas du Yacuma sont des zones humides où l'on voit énormément d'animaux en très
+    peu de temps : caïmans, capybaras, singes, oiseaux par centaines et dauphins roses de
+    rivière. Moins sauvage que la jungle, mais beaucoup plus facile pour observer la faune.
+  todo:
+    - Balade en bateau sur le río Yacuma
+    - >-
+      Observer les dauphins roses (certains tours proposent de nager près d'eux, sans les
+      toucher)
+    - Coucher de soleil sur la pampa
+  tips: >-
+    Tour de 3 jours depuis Rurrenabaque. Choisissez une agence qui respecte les animaux : on
+    ne nourrit pas et on ne touche pas la faune.
+en:
+  name: Yacuma Pampas
+  label: Pampas
+  short: "Wetlands teeming with animals: caimans, capybaras and pink river dolphins."
+  story: >-
+    The Yacuma pampas are wetlands where you see an enormous number of animals in very
+    little time: caimans, capybaras, monkeys, hundreds of birds and pink river dolphins.
+    Less wild than the jungle, but much easier for spotting wildlife.
+  todo:
+    - Boat trip on the Yacuma river
+    - Watch pink river dolphins (some tours offer a swim near them, without touching)
+    - Sunset over the pampa
+  tips: >-
+    3-day tour from Rurrenabaque. Pick an agency that respects the animals: no feeding and
+    no handling wildlife.
+es:
+  name: Pampas del Yacuma
+  label: Pampas
+  short: "Humedales llenos de animales: caimanes, capibaras y delfines rosados."
+  story: >-
+    Las pampas del Yacuma son humedales donde se ven muchísimos animales en poco tiempo:
+    caimanes, capibaras, monos, cientos de aves y delfines rosados de río. Menos salvaje que
+    la selva, pero mucho más fácil para ver fauna.
+  todo:
+    - Paseo en bote por el río Yacuma
+    - Ver los delfines rosados (algunos tours ofrecen nadar cerca, sin tocarlos)
+    - Atardecer en la pampa
+  tips: >-
+    Tour de 3 días desde Rurrenabaque. Elige una agencia que respete a los animales: no se
+    alimenta ni se toca la fauna.

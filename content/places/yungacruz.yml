@@ -1,0 +1,68 @@
+# Trek de la Yunga Cruz
+department: La Paz
+category: aventure
+lat: -16.55
+lng: -67.62
+altitude: 3000
+days: [4, 5]
+climate: yungas
+dishes: [cafe, tropical]
+photos:
+  - file: yungacruz-1.jpg
+    author: Chiliguanca
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Cascada_en_Irupana.jpg
+fr:
+  name: Trek de la Yunga Cruz
+  label: Yunga Cruz
+  short: >-
+    Le plus sauvage des chemins préhispaniques vers les Yungas : 4 à 5 jours au pied de
+    l'Illimani.
+  story: >-
+    La Yunga Cruz est le plus long et le plus sauvage des trois grands chemins anciens qui
+    descendent de la cordillère vers les Yungas. Il part près de l'Illimani, suit des crêtes
+    avec des vues immenses, puis plonge dans la forêt de nuages jusqu'aux environs de
+    Chulumani. Peu de monde, beaucoup de dénivelé.
+  todo:
+    - Départ au pied de l'Illimani
+    - Crêtes et vues sur les vallées
+    - Descente dans la forêt de nuages
+    - Arrivée vers Chulumani
+  tips: >-
+    Trek exigeant de 4 à 5 jours, avec guide ou agence de La Paz. De mai à septembre. Peu
+    d'eau sur les crêtes.
+en:
+  name: Yunga Cruz trek
+  label: Yunga Cruz
+  short: "The wildest pre-Hispanic trail down to the Yungas: 4 to 5 days below Illimani."
+  story: >-
+    The Yunga Cruz is the longest and wildest of the three great old trails that drop from
+    the cordillera to the Yungas. It starts near Illimani, follows ridges with huge views,
+    then plunges into cloud forest down to the Chulumani area. Few people, lots of climbing.
+  todo:
+    - Start below Illimani
+    - Ridges and views over the valleys
+    - Descent into the cloud forest
+    - Arrival near Chulumani
+  tips: >-
+    Demanding 4 to 5-day trek, with a guide or a La Paz agency. May to September. Little
+    water on the ridges.
+es:
+  name: Trekking del Yunga Cruz
+  label: Yunga Cruz
+  short: >-
+    El más salvaje de los caminos prehispánicos hacia los Yungas: 4 a 5 días al pie del
+    Illimani.
+  story: >-
+    El Yunga Cruz es el más largo y salvaje de los tres grandes caminos antiguos que bajan
+    de la cordillera a los Yungas. Sale cerca del Illimani, sigue crestas con vistas
+    inmensas y luego baja al bosque de nubes hasta los alrededores de Chulumani. Poca gente
+    y mucho desnivel.
+  todo:
+    - Salida al pie del Illimani
+    - Crestas y vistas sobre los valles
+    - Bajada al bosque de nubes
+    - Llegada cerca de Chulumani
+  tips: >-
+    Trekking exigente de 4 a 5 días, con guía o agencia de La Paz. De mayo a septiembre.
+    Poca agua en las crestas.

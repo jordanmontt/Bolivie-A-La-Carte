@@ -1,0 +1,361 @@
+# Festivals, shown on the Culture > Festivals page and on the page of their place.
+# place: a place id (or leave it out for a nationwide festival).
+# When it happens, one of:
+#   date: MM-DD                 same day every year (days: how many days it lasts)
+#   easter: N                   N days after Easter Sunday (negative = before)
+#   nth: [month, weekday, n]    e.g. [3, 0, 3] = 3rd Sunday of March (weekday 0 = Sunday, n -1 = last)
+#   month: M                    only the month is known (even: true = even-numbered years only)
+# UNESCO listings are in content/unesco.yml.
+
+- id: alasitas
+  place: lapaz
+  date: 01-24
+  days: 21
+  fr:
+    name: Alasitas
+    text: >-
+      La foire des miniatures : on achète en petit ce qu'on souhaite avoir en grand (maison,
+      voiture, billets, diplôme), et on le fait bénir pour l'Ekeko, le dieu de l'abondance.
+  en:
+    name: Alasitas
+    text: >-
+      The miniatures fair: people buy small versions of what they wish for (a house, a car,
+      banknotes, a diploma) and have them blessed for Ekeko, the god of abundance.
+  es:
+    name: Alasitas
+    text: >-
+      La feria de las miniaturas: se compra en pequeño lo que se desea en grande (casa, auto,
+      billetes, título) y se hace bendecir para el Ekeko, el dios de la abundancia.
+- id: oruro-carnival
+  place: oruro
+  easter: -50
+  days: 3
+  fr:
+    name: Carnaval d'Oruro
+    text: >-
+      Le plus grand carnaval des Andes : des dizaines de milliers de danseurs masqués,
+      diablades et morenadas, défilent pendant près de vingt heures vers le sanctuaire du
+      Socavón.
+  en:
+    name: Oruro Carnival
+    text: >-
+      The biggest carnival in the Andes: tens of thousands of masked dancers, devil dances and
+      morenadas, parade for almost twenty hours to the Socavón sanctuary.
+  es:
+    name: Carnaval de Oruro
+    text: >-
+      El carnaval más grande de los Andes: decenas de miles de bailarines enmascarados,
+      diabladas y morenadas, desfilan casi veinte horas hasta el santuario del Socavón.
+- id: santacruz-carnival
+  place: santacruz
+  easter: -50
+  days: 4
+  fr:
+    name: Carnaval de Santa Cruz
+    text: >-
+      Le carnaval tropical : comparsas en costumes, corso, musique jour et nuit, et des
+      batailles d'eau et de peinture dans toute la ville.
+  en:
+    name: Santa Cruz Carnival
+    text: >-
+      The tropical carnival: costumed comparsas, a big parade, music day and night, and water
+      and paint fights all over town.
+  es:
+    name: Carnaval cruceño
+    text: >-
+      El carnaval tropical: comparsas disfrazadas, corso, música día y noche, y guerra de agua
+      y pintura en toda la ciudad.
+- id: pujllay
+  place: tarabuco
+  nth: [3, 0, 3]
+  fr:
+    name: Pujllay de Tarabuco
+    text: >-
+      Les communautés yampara descendent à Tarabuco en habits de fête, avec leurs éperons qui
+      rythment la danse, pour célébrer la récolte et la victoire de 1816.
+  en:
+    name: Pujllay in Tarabuco
+    text: >-
+      Yampara communities come down to Tarabuco in festive dress, their spurs keeping time to
+      the dance, to celebrate the harvest and the victory of 1816.
+  es:
+    name: Pujllay de Tarabuco
+    text: >-
+      Las comunidades yampara bajan a Tarabuco con su ropa de fiesta y sus espuelas marcando
+      el ritmo de la danza, para celebrar la cosecha y la victoria de 1816.
+- id: holy-week
+  place: copacabana
+  easter: -2
+  fr:
+    name: Semaine sainte à Copacabana
+    text: >-
+      Des milliers de pèlerins marchent toute la nuit depuis La Paz, environ 150 km, pour
+      arriver au sanctuaire de la Vierge de Copacabana le Vendredi saint.
+  en:
+    name: Holy Week in Copacabana
+    text: >-
+      Thousands of pilgrims walk through the night from La Paz, about 150 km, to reach the
+      sanctuary of the Virgin of Copacabana on Good Friday.
+  es:
+    name: Semana Santa en Copacabana
+    text: >-
+      Miles de peregrinos caminan toda la noche desde La Paz, unos 150 km, para llegar al
+      santuario de la Virgen de Copacabana el Viernes Santo.
+- id: chiquitos-festival
+  place: concepcion
+  month: 4
+  even: true
+  fr:
+    name: Festival de musique baroque des missions
+    text: >-
+      Pendant dix jours, plus de cent concerts de musique baroque et Renaissance dans les
+      églises des missions et à Santa Cruz, souvent gratuits.
+  en:
+    name: Missions baroque music festival
+    text: >-
+      For ten days, over a hundred concerts of baroque and Renaissance music in the mission
+      churches and in Santa Cruz, often free.
+  es:
+    name: Festival de música barroca de las misiones
+    text: >-
+      Durante diez días, más de cien conciertos de música barroca y renacentista en los
+      templos misionales y en Santa Cruz, muchas veces gratuitos.
+- id: granpoder
+  place: lapaz
+  easter: 55
+  fr:
+    name: Gran Poder
+    text: >-
+      La grande entrée folklorique de La Paz : des milliers de danseurs de morenada, caporales
+      et diablada traversent la ville, dans des costumes brodés d'or.
+  en:
+    name: Gran Poder
+    text: >-
+      La Paz's great folk parade: thousands of morenada, caporales and diablada dancers cross
+      the city in gold-embroidered costumes.
+  es:
+    name: Gran Poder
+    text: >-
+      La gran entrada folklórica de La Paz: miles de bailarines de morenada, caporales y
+      diablada cruzan la ciudad con trajes bordados en oro.
+- id: andean-new-year
+  place: tiwanaku
+  date: 06-21
+  fr:
+    name: Nouvel An andin et amazonien
+    text: >-
+      Au solstice d'hiver, on attend le lever du soleil à Tiwanaku pour recevoir ses premiers
+      rayons, mains levées. Jour férié dans tout le pays.
+  en:
+    name: Andean and Amazonian New Year
+    text: >-
+      At the winter solstice, people wait for sunrise at Tiwanaku to receive its first rays
+      with raised hands. A public holiday across the country.
+  es:
+    name: Año Nuevo Andino Amazónico
+    text: >-
+      En el solsticio de invierno se espera la salida del sol en Tiwanaku para recibir sus
+      primeros rayos con las manos en alto. Feriado en todo el país.
+- id: ichapekene
+  place: sanignaciomoxos
+  date: 07-31
+  fr:
+    name: Ichapekene Piesta
+    text: >-
+      La grande fête de San Ignacio de Moxos : les macheteros dansent avec leurs immenses
+      coiffes de plumes, entre traditions mojeñas et héritage des missions.
+  en:
+    name: Ichapekene Piesta
+    text: >-
+      The great festival of San Ignacio de Moxos: the macheteros dance in huge feather
+      headdresses, blending Mojeño traditions and the missions' heritage.
+  es:
+    name: Ichapekene Piesta
+    text: >-
+      La gran fiesta de San Ignacio de Moxos: los macheteros bailan con sus enormes tocados de
+      plumas, entre tradiciones mojeñas y herencia misional.
+- id: copacabana-virgin
+  place: copacabana
+  date: 08-05
+  days: 2
+  fr:
+    name: Vierge de Copacabana
+    text: >-
+      La patronne de la Bolivie est fêtée avec processions, danses et bénédictions de
+      voitures devant la basilique. Autre grande fête le 2 février, pour la Chandeleur.
+  en:
+    name: Virgin of Copacabana
+    text: >-
+      Bolivia's patron saint is celebrated with processions, dances and car blessings in
+      front of the basilica. Another big festival on 2 February, Candlemas.
+  es:
+    name: Virgen de Copacabana
+    text: >-
+      La patrona de Bolivia se celebra con procesiones, danzas y la bendición de autos frente
+      a la basílica. Otra gran fiesta el 2 de febrero, la Candelaria.
+- id: urkupina
+  place: incarakay
+  date: 08-14
+  days: 3
+  fr:
+    name: Vierge d'Urkupiña
+    text: >-
+      Des centaines de milliers de pèlerins et de danseurs à Quillacollo. Le dernier jour, on
+      monte au calvaire casser des pierres, symbole de prospérité.
+  en:
+    name: Virgin of Urkupiña
+    text: >-
+      Hundreds of thousands of pilgrims and dancers in Quillacollo. On the last day, people
+      climb to the calvary to break off stones, a symbol of prosperity.
+  es:
+    name: Virgen de Urkupiña
+    text: >-
+      Cientos de miles de peregrinos y bailarines en Quillacollo. El último día se sube al
+      calvario a romper piedras, símbolo de prosperidad.
+- id: chaguaya
+  place: padcaya
+  date: 08-15
+  fr:
+    name: Pèlerinage de Chaguaya
+    text: >-
+      Jusqu'à la mi-septembre, des milliers de pèlerins marchent de Tarija, et même du nord
+      de l'Argentine, jusqu'au sanctuaire de la Vierge de Chaguaya.
+  en:
+    name: Chaguaya pilgrimage
+    text: >-
+      Until mid-September, thousands of pilgrims walk from Tarija, and even northern
+      Argentina, to the sanctuary of the Virgin of Chaguaya.
+  es:
+    name: Peregrinación a Chaguaya
+    text: >-
+      Hasta mediados de septiembre, miles de peregrinos caminan desde Tarija, e incluso desde
+      el norte argentino, hasta el santuario de la Virgen de Chaguaya.
+- id: sanroque
+  place: tarija
+  date: 08-16
+  fr:
+    name: Fête Grande de Tarija (San Roque)
+    text: >-
+      Des semaines de fête pour San Roque, avec les chunchos en costumes de plumes et de
+      rubans, les cañas (longues trompes) et les processions de septembre.
+  en:
+    name: Fiesta Grande de Tarija (San Roque)
+    text: >-
+      Weeks of celebration for San Roque, with the chunchos in feather and ribbon costumes,
+      the cañas (long horns) and the September processions.
+  es:
+    name: Fiesta Grande de Tarija (San Roque)
+    text: >-
+      Semanas de fiesta para San Roque, con los chunchos en trajes de plumas y cintas, las
+      cañas y las procesiones de septiembre.
+- id: chutillos
+  place: potosi
+  nth: [8, 6, -1]
+  days: 2
+  fr:
+    name: Ch'utillos
+    text: >-
+      Fin août, Potosí fête San Bartolomé et San Ignacio de Loyola avec une grande entrée de
+      danses venues de tout le pays, entre traditions andines et coloniales.
+  en:
+    name: Ch'utillos
+    text: >-
+      At the end of August, Potosí celebrates San Bartolomé and San Ignacio de Loyola with a
+      great parade of dances from all over the country, mixing Andean and colonial traditions.
+  es:
+    name: Ch'utillos
+    text: >-
+      A fines de agosto, Potosí celebra a San Bartolomé y San Ignacio de Loyola con una gran
+      entrada de danzas de todo el país, entre tradiciones andinas y coloniales.
+- id: guadalupe
+  place: sucre
+  date: 09-08
+  fr:
+    name: Vierge de Guadalupe
+    text: >-
+      La patronne de Sucre, fêtée début septembre avec une grande entrée folklorique dans
+      les rues du centre historique.
+  en:
+    name: Virgin of Guadalupe
+    text: >-
+      Sucre's patron saint, celebrated in early September with a big folk parade through the
+      streets of the historic centre.
+  es:
+    name: Virgen de Guadalupe
+    text: >-
+      La patrona de Sucre, celebrada a principios de septiembre con una gran entrada
+      folklórica por las calles del centro histórico.
+- id: todos-santos
+  date: 11-01
+  days: 2
+  fr:
+    name: Toussaint (Todos Santos)
+    text: >-
+      Partout dans le pays, on accueille les âmes des défunts avec des tables garnies de
+      pains en forme d'échelles et de personnages (t'antawawas), puis on les raccompagne au
+      cimetière.
+  en:
+    name: All Saints (Todos Santos)
+    text: >-
+      All over the country, families welcome the souls of the dead with tables full of breads
+      shaped like ladders and people (t'antawawas), then walk them back to the cemetery.
+  es:
+    name: Todos Santos
+    text: >-
+      En todo el país se recibe a las almas de los difuntos con mesas llenas de panes con
+      forma de escaleras y personas (t'antawawas), y luego se las despide en el cementerio.
+- id: natitas
+  place: lapaz
+  date: 11-08
+  fr:
+    name: Fête des Ñatitas
+    text: >-
+      Au cimetière général de La Paz, des crânes décorés de fleurs et de lunettes de soleil
+      sont honorés : on les remercie pour leur protection. Une tradition étonnante, à
+      respecter.
+  en:
+    name: Ñatitas festival
+    text: >-
+      At La Paz's general cemetery, skulls decorated with flowers and sunglasses are honoured
+      and thanked for their protection. A striking tradition, to be respected.
+  es:
+    name: Fiesta de las Ñatitas
+    text: >-
+      En el Cementerio General de La Paz se honra a cráneos adornados con flores y lentes de
+      sol, agradeciéndoles su protección. Una tradición sorprendente, a respetar.
+- id: charango
+  place: aiquile
+  month: 11
+  fr:
+    name: Festival du charango d'Aiquile
+    text: >-
+      Début novembre, musiciens et luthiers de toute la Bolivie se retrouvent dans la
+      capitale du charango pour des concours et des concerts.
+  en:
+    name: Aiquile charango festival
+    text: >-
+      In early November, musicians and luthiers from all over Bolivia meet in the charango
+      capital for competitions and concerts.
+  es:
+    name: Festival del charango de Aiquile
+    text: >-
+      A principios de noviembre, músicos y luthiers de toda Bolivia se encuentran en la
+      capital del charango para concursos y conciertos.
+- id: cotoca
+  place: cotoca
+  date: 12-08
+  fr:
+    name: Vierge de Cotoca
+    text: >-
+      La nuit du 7 au 8 décembre, des milliers de pèlerins marchent de Santa Cruz jusqu'au
+      sanctuaire de la patronne des Cruceños, avec messe, musique et foire.
+  en:
+    name: Virgin of Cotoca
+    text: >-
+      On the night of 7 to 8 December, thousands of pilgrims walk from Santa Cruz to the
+      sanctuary of the patron saint of the people of Santa Cruz, with mass, music and a fair.
+  es:
+    name: Virgen de Cotoca
+    text: >-
+      La noche del 7 al 8 de diciembre, miles de peregrinos caminan desde Santa Cruz hasta el
+      santuario de la patrona de los cruceños, con misa, música y feria.

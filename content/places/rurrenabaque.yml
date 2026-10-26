@@ -1,0 +1,79 @@
+# Rurrenabaque
+department: Beni
+category: jungle
+lat: -14.4419
+lng: -67.5283
+altitude: 230
+days: [1, 1]
+climate: amazonie
+major: true
+dishes: [pescado_beni, masaco, tropical]
+photos:
+  - file: rurrenabaque-1.jpg
+    author: Milton Lopez
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:El_bala_1_rurrenabaque.JPG
+  - file: rurrenabaque-2.jpg
+    author: Rodrigo Mariaca
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Rurrenabaque_ciudad.jpg
+  - file: rurrenabaque-3.jpg
+    author: PedroLaguna
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Paraba_Barba_Azul_endemicas_de_Bolivia_(cropped).jpg
+  - file: rurrenabaque-4.jpg
+    author: Carlillasa
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Vista_del_r%C3%ADo_que_divide_Rurrenabaque_de_San_Buenaventura,_Bolivia.jpg
+  - file: rurrenabaque-5.jpg
+    author: EEJCC
+    licence: CC0
+    source: https://commons.wikimedia.org/wiki/File:R%C3%ADo_Beni_cerca_de_Rurrenabaque.jpg
+  - file: rurrenabaque-6.jpg
+    author: Fale Wanderlust Bolivia
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Rurre_6.jpg
+  - file: rurrenabaque-7.jpg
+    author: Viault
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Rurrenabaque_RIO_BENIE_42.jpg
+fr:
+  name: Rurrenabaque
+  label: Rurrenabaque
+  short: Porte d'entrée de l'Amazonie bolivienne, au bord du río Beni.
+  story: >-
+    Rurrenabaque est une petite ville tropicale au bord du río Beni, entre les dernières
+    collines des Andes et l'immense plaine amazonienne. On y arrive souvent en petit avion
+    après un vol spectaculaire depuis La Paz. C'est la base pour partir dans la jungle de
+    Madidi ou dans les pampas.
+  todo:
+    - Base pour la jungle (Madidi) et les pampas
+    - Piscine naturelle El Chorro, mirador
+  tips: 40 min d'avion depuis La Paz ; le bus prend 12 à 15 h.
+en:
+  name: Rurrenabaque
+  label: Rurrenabaque
+  short: Gateway to the Bolivian Amazon, on the Beni river.
+  story: >-
+    Rurrenabaque is a small tropical town on the Beni river, between the last foothills of
+    the Andes and the vast Amazon plain. Many people arrive by small plane after a
+    spectacular flight from La Paz. It's the base for trips into the Madidi jungle or the
+    pampas.
+  todo:
+    - Base for the jungle (Madidi) and the pampas
+    - El Chorro natural pool and viewpoint
+  tips: 40 minutes by plane from La Paz; the bus takes 12 to 15 hours.
+es:
+  name: Rurrenabaque
+  label: Rurrenabaque
+  short: Puerta de entrada a la Amazonía boliviana, a orillas del río Beni.
+  story: >-
+    Rurrenabaque es un pueblo tropical a orillas del río Beni, entre las últimas colinas de
+    los Andes y la inmensa llanura amazónica. Muchos llegan en avioneta tras un vuelo
+    espectacular desde La Paz. Es la base para entrar a la selva de Madidi o a las pampas.
+  todo:
+    - Base para la selva (Madidi) y las pampas
+    - Piscina natural El Chorro y mirador
+  tips: 40 min de vuelo desde La Paz; en bus son 12 a 15 h.

@@ -1,0 +1,60 @@
+# Cotoca
+department: Santa Cruz
+category: culture
+lat: -17.75
+lng: -62.99
+altitude: 380
+days: [0, 1]
+climate: santacruz
+dishes: [cunape, sonso]
+photos:
+  - file: cotoca-1.jpg
+    author: Wilmer
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Santuario_de_la_Virgen_de_Cotoca.JPG
+  - file: cotoca-2.jpg
+    author: Wilmer
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Virgen_de_Cotoca.JPG
+fr:
+  name: Cotoca
+  label: Cotoca
+  short: Le sanctuaire de la Vierge de Cotoca et ses potiers, à 20 km de Santa Cruz.
+  story: >-
+    Cotoca est une petite ville toute proche de Santa Cruz, connue pour son sanctuaire de la
+    Vierge de Cotoca, la patronne des Cruceños. Le 8 décembre, des milliers de pèlerins y
+    viennent à pied dans la nuit. Toute l'année, on y trouve la céramique des potiers locaux
+    et les spécialités cruceñas.
+  todo:
+    - Sanctuaire de la Vierge de Cotoca
+    - Céramique et potiers de Cotoca
+    - Cuñapés et sonso sur la place
+  tips: À 30 min de Santa Cruz en micro ou en taxi.
+en:
+  name: Cotoca
+  label: Cotoca
+  short: The sanctuary of the Virgin of Cotoca and its potters, 20 km from Santa Cruz.
+  story: >-
+    Cotoca is a small town right next to Santa Cruz, known for the sanctuary of the Virgin
+    of Cotoca, patron saint of the people of Santa Cruz. On 8 December, thousands of
+    pilgrims walk there through the night. All year round you'll find local potters'
+    ceramics and Santa Cruz specialities.
+  todo:
+    - Sanctuary of the Virgin of Cotoca
+    - Cotoca ceramics and potters
+    - Cuñapés and sonso on the square
+  tips: 30 min from Santa Cruz by micro or taxi.
+es:
+  name: Cotoca
+  label: Cotoca
+  short: El santuario de la Virgen de Cotoca y sus alfareros, a 20 km de Santa Cruz.
+  story: >-
+    Cotoca es una pequeña ciudad muy cerca de Santa Cruz, conocida por el santuario de la
+    Virgen de Cotoca, patrona de los cruceños. El 8 de diciembre, miles de peregrinos llegan
+    a pie durante la noche. Todo el año se encuentra la cerámica de los alfareros locales y
+    la comida cruceña.
+  todo:
+    - Santuario de la Virgen de Cotoca
+    - Cerámica y alfareros de Cotoca
+    - Cuñapés y sonso en la plaza
+  tips: A 30 min de Santa Cruz en micro o taxi.

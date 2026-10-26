@@ -1,0 +1,75 @@
+# Musée ferroviaire de Machacamarca
+department: Oruro
+category: culture
+lat: -18.17
+lng: -67.02
+altitude: 3710
+days: [0, 1]
+climate: altiplano
+dishes: [charque]
+photos:
+  - file: machacamarca-1.jpg
+    author: Nils Öberg
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:FCMU_Steam-engine_1.JPG
+  - file: machacamarca-2.jpg
+    author: Nils Öberg
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:FCMA_Museum_yard.JPG
+  - file: machacamarca-3.jpg
+    author: Nils Öberg
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:FCMA_Museum_Name.JPG
+  - file: machacamarca-4.jpg
+    author: Nils Öberg
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:FCMU_Steam-engine_2.JPG
+  - file: machacamarca-5.jpg
+    author: Nils Öberg
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:FCMU_Passenger_vagon.JPG
+  - file: machacamarca-6.jpg
+    author: Nils Öberg
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:FCMU_Display_Hall_in_middle.JPG
+fr:
+  name: Musée ferroviaire de Machacamarca
+  label: Machacamarca
+  short: Vieilles locomotives à vapeur et histoire du rail minier, au sud d'Oruro.
+  story: >-
+    Machacamarca fut un nœud ferroviaire important au temps des grandes mines d'étain. Son
+    musée garde des locomotives à vapeur, des wagons et des ateliers d'époque, en plein
+    Altiplano. Une halte étonnante pour les amateurs de trains et d'histoire minière, sur la
+    route du sud.
+  todo:
+    - Locomotives à vapeur et wagons anciens
+    - Ateliers ferroviaires d'époque
+    - Histoire du rail et des mines d'étain
+  tips: "À 30 min d'Oruro. Horaires irréguliers : renseignez-vous à Oruro avant d'y aller."
+en:
+  name: Machacamarca railway museum
+  label: Machacamarca
+  short: Old steam locomotives and the history of the mining railways, south of Oruro.
+  story: >-
+    Machacamarca was a major railway junction in the days of the great tin mines. Its museum
+    keeps steam locomotives, carriages and period workshops in the middle of the Altiplano.
+    A surprising stop for lovers of trains and mining history, on the road south.
+  todo:
+    - Steam locomotives and old carriages
+    - Period railway workshops
+    - The history of the railways and the tin mines
+  tips: "30 min from Oruro. Opening hours are irregular: ask in Oruro before you go."
+es:
+  name: Museo Ferroviario de Machacamarca
+  label: Machacamarca
+  short: Viejas locomotoras a vapor e historia del tren minero, al sur de Oruro.
+  story: >-
+    Machacamarca fue un importante nudo ferroviario en tiempos de las grandes minas de
+    estaño. Su museo guarda locomotoras a vapor, vagones y talleres de época, en pleno
+    Altiplano. Una parada sorprendente para amantes de los trenes y de la historia minera,
+    camino al sur.
+  todo:
+    - Locomotoras a vapor y vagones antiguos
+    - Talleres ferroviarios de época
+    - Historia del tren y de las minas de estaño
+  tips: "A 30 min de Oruro. Horarios irregulares: pregunta en Oruro antes de ir."

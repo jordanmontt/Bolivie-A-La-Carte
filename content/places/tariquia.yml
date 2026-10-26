@@ -1,0 +1,86 @@
+# Réserve de Tariquía
+department: Tarija
+category: nature
+lat: -22
+lng: -64.4
+altitude: 1500
+days: [3, 4]
+climate: samaipata
+dishes: [saice, pescado]
+photos:
+  - file: tariquia-1.jpg
+    author: Laura Rodríguez
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:RESERVA_NACIONAL_DE_TARIQUIADSC07202.jpg
+  - file: tariquia-2.jpg
+    author: Laura Rodríguez
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:RESERVA_NACIONAL_DE_TARIQUIADSC07393.jpg
+  - file: tariquia-3.jpg
+    author: Laura Rodríguez
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:RESERVA_NACIONAL_DE_TARIQUIADSC07864.jpg
+  - file: tariquia-4.jpg
+    author: Laura Rodríguez
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:RESERVA_NACIONAL_DE_TARIQUIA_DSC07177.jpg
+  - file: tariquia-5.jpg
+    author: Laura Rodríguez
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:RESERVA_NACIONAL_DE_TARIQUIA_DSC07151.jpg
+  - file: tariquia-6.jpg
+    author: Laura Rodríguez
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:RESERVA_NACIONAL_DE_TARIQUIADSC07205.jpg
+fr:
+  name: Réserve de Tariquía
+  label: Tariquía
+  short: Forêts de nuages et rivières sauvages, pour des treks de plusieurs jours avec guide.
+  story: >-
+    La réserve de Tariquía protège des forêts de montagne humides, couvertes de mousses et
+    de broméliacées, traversées par des rivières où l'on se baigne. Il n'y a presque pas
+    d'infrastructures : on y entre à pied, avec un guide, pour plusieurs jours de marche
+    entre forêts, cascades et petites communautés. Une vraie aventure pour amoureux de
+    nature.
+  todo:
+    - Trek de plusieurs jours dans la forêt de nuages
+    - Rivières et cascades
+    - Oiseaux et faune de la forêt
+    - Communautés paysannes de la réserve
+  tips: >-
+    Accès difficile et autorisation du SERNAP nécessaire : partez avec une agence de Tarija.
+    Meilleure saison : mai à septembre.
+en:
+  name: Tariquía reserve
+  label: Tariquía
+  short: Cloud forests and wild rivers, for multi-day treks with a guide.
+  story: >-
+    The Tariquía reserve protects humid mountain forests covered in moss and bromeliads,
+    crossed by rivers you can swim in. There's almost no infrastructure: you go in on foot,
+    with a guide, for several days of walking among forests, waterfalls and small
+    communities. A real adventure for nature lovers.
+  todo:
+    - Multi-day trek in the cloud forest
+    - Rivers and waterfalls
+    - Birds and forest wildlife
+    - Farming communities in the reserve
+  tips: >-
+    Difficult access and a SERNAP permit required: go with a Tarija agency. Best season: May
+    to September.
+es:
+  name: Reserva de Tariquía
+  label: Tariquía
+  short: Bosques de nubes y ríos salvajes, para trekkings de varios días con guía.
+  story: >-
+    La reserva de Tariquía protege bosques húmedos de montaña cubiertos de musgos y
+    bromelias, cruzados por ríos donde uno se puede bañar. Casi no hay infraestructura: se
+    entra a pie, con guía, para varios días de caminata entre bosques, cascadas y pequeñas
+    comunidades. Una verdadera aventura para amantes de la naturaleza.
+  todo:
+    - Trekking de varios días en el bosque de nubes
+    - Ríos y cascadas
+    - Aves y fauna del bosque
+    - Comunidades campesinas de la reserva
+  tips: >-
+    Acceso difícil y permiso del SERNAP necesario: ve con una agencia de Tarija. Mejor
+    época: mayo a septiembre.

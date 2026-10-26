@@ -1,0 +1,90 @@
+# Parc national Torotoro
+department: Potosí
+category: nature
+lat: -18.1339
+lng: -65.7622
+altitude: 2720
+days: [2, 3]
+climate: valles_haut
+major: true
+dishes: [picante, silpancho, sopaMani]
+photos:
+  - file: torotoro-1.jpg
+    author: Gaumut
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Canyon_of_Torotoro.jpg
+  - file: torotoro-2.jpg
+    author: Fernando Suárez Saavedra
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Caverna_de_las_dos_verdades.jpg
+  - file: torotoro-3.jpg
+    author: Havardtl
+    licence: CC BY 4.0
+    source: https://commons.wikimedia.org/wiki/File:Rock_formations_ToroToro,_Bolivia.jpg
+  - file: torotoro-4.jpg
+    author: Carla Lidia
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Ca%C3%B1%C3%B3n_de_Toro_Toro.jpg
+  - file: torotoro-5.jpg
+    author: Alexdelgado52
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Ca%C3%B1%C3%B3n_del_Valle_de_Toro_Toro_1.jpg
+  - file: torotoro-6.jpg
+    author: Yulacha
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Toro_Toro_II.jpg
+  - file: torotoro-7.jpg
+    author: Gabrarq77
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Parque_Nacional_Toro_Toro,.jpg
+fr:
+  name: Parc national Torotoro
+  label: Torotoro
+  short: >-
+    Empreintes de dinosaures, canyon spectaculaire et grotte d'Umajalanta. Un incontournable
+    depuis Cochabamba.
+  story: >-
+    Torotoro est un petit village perdu au bout d'une route de montagne, au milieu d'un
+    paysage qui semble sorti du temps des dinosaures… et pour cause : des centaines
+    d'empreintes géantes sont encore visibles dans la roche. On descend au fond d'un canyon
+    de 300 m jusqu'à une cascade, on rampe dans une vraie grotte avec une rivière
+    souterraine et des poissons aveugles. C'est l'une des aventures les plus spectaculaires
+    du pays, à quelques heures de Cochabamba.
+  todo:
+    - Canyon de Torotoro et cascade El Vergel
+    - Grotte d'Umajalanta (spéléo facile, rivière souterraine)
+    - Empreintes de dinosaures géantes autour du village
+    - Ciudad de Itas (formations rocheuses)
+  tips: Guide obligatoire dans le parc (on le trouve au village). Prévoir 2 nuits sur place.
+en:
+  name: Torotoro National Park
+  label: Torotoro
+  short: Dinosaur footprints, a spectacular canyon and the Umajalanta cave.
+  story: >-
+    Torotoro is a small village at the end of a mountain road, in a landscape that looks
+    straight out of the age of dinosaurs, and with good reason: hundreds of giant footprints
+    are still visible in the rock. You climb down a 300 m canyon to a waterfall and crawl
+    through a real cave with an underground river and blind fish. One of the most
+    spectacular adventures in the country, a few hours from Cochabamba.
+  todo:
+    - Torotoro canyon and El Vergel waterfall
+    - Umajalanta cave (easy caving, underground river)
+    - Giant dinosaur footprints around the village
+    - Ciudad de Itas (rock formations)
+  tips: A guide is required in the park (you'll find one in the village). Plan two nights there.
+es:
+  name: Parque Nacional Torotoro
+  label: Torotoro
+  short: Huellas de dinosaurio, un cañón espectacular y la caverna de Umajalanta.
+  story: >-
+    Torotoro es un pueblito al final de un camino de montaña, en un paisaje que parece de la
+    época de los dinosaurios… y con razón: cientos de huellas gigantes siguen marcadas en la
+    roca. Se baja al fondo de un cañón de 300 m hasta una cascada y se gatea por una
+    verdadera caverna con un río subterráneo y peces ciegos. Una de las aventuras más
+    espectaculares del país, a pocas horas de Cochabamba.
+  todo:
+    - Cañón de Torotoro y cascada El Vergel
+    - Caverna de Umajalanta (espeleología fácil, río subterráneo)
+    - Huellas de dinosaurio gigantes alrededor del pueblo
+    - Ciudad de Itas (formaciones rocosas)
+  tips: Guía obligatorio en el parque (se contrata en el pueblo). Cuenta dos noches.

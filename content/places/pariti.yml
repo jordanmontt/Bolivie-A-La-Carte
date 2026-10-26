@@ -1,0 +1,84 @@
+# Isla Pariti
+department: La Paz
+category: culture
+lat: -16.33
+lng: -68.73
+altitude: 3810
+days: [0, 1]
+climate: titicaca
+dishes: [trucha, pejerrey]
+photos:
+  - file: pariti-1.jpg
+    author: LAGATANDINA
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Isla_Pariti_05.jpg
+  - file: pariti-2.jpg
+    author: LAGATANDINA
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Isla_Pariti_01.jpg
+  - file: pariti-3.jpg
+    author: LAGATANDINA
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Isla_Pariti_02.jpg
+  - file: pariti-4.jpg
+    author: LAGATANDINA
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Isla_Pariti_04.jpg
+  - file: pariti-5.jpg
+    author: LAGATANDINA
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Isla_Pariti_03.jpg
+  - file: pariti-6.jpg
+    author: UlloaA
+    licence: CC BY 4.0
+    source: https://commons.wikimedia.org/wiki/File:Isla_Pariti.jpg
+  - file: pariti-7.jpg
+    author: IDrc4080
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Alrededor_Isla_Pariti_La_Paz_Bolivia_2023.jpg
+fr:
+  name: Isla Pariti
+  label: Isla Pariti
+  short: Petite île du Titicaca et son musée de céramiques de Tiwanaku, trouvées sur place.
+  story: >-
+    Pariti est une petite île tranquille du Lago Menor. En 2004, des archéologues y ont
+    découvert un ensemble exceptionnel de céramiques de la culture Tiwanaku, aujourd'hui
+    exposé dans le petit musée de la communauté. On y vient en barque pour ce musée unique,
+    l'ambiance paisible et les vues sur la cordillère.
+  todo:
+    - Musée communautaire de céramiques de Tiwanaku
+    - Promenade sur l'île
+    - Vue sur la Cordillère Royale
+  tips: >-
+    En barque depuis Huatajata ou Quehuaya. Pas d'horaires fixes : demandez à la communauté
+    d'ouvrir le musée.
+en:
+  name: Isla Pariti
+  label: Isla Pariti
+  short: A small Titicaca island and its museum of Tiwanaku pottery found on the spot.
+  story: >-
+    Pariti is a small, quiet island in the Lago Menor. In 2004 archaeologists found an
+    exceptional collection of Tiwanaku pottery here, now shown in the community's small
+    museum. People come by boat for this unique museum, the peaceful atmosphere and the
+    views of the cordillera.
+  todo:
+    - Community museum of Tiwanaku pottery
+    - Walk around the island
+    - View of the Cordillera Real
+  tips: "By boat from Huatajata or Quehuaya. No fixed hours: ask the community to open the museum."
+es:
+  name: Isla Pariti
+  label: Isla Pariti
+  short: Pequeña isla del Titicaca con su museo de cerámica Tiwanaku encontrada en el lugar.
+  story: >-
+    Pariti es una isla pequeña y tranquila del Lago Menor. En 2004, arqueólogos encontraron
+    aquí un conjunto excepcional de cerámica de la cultura Tiwanaku, que hoy se expone en el
+    pequeño museo de la comunidad. Se llega en lancha por este museo único, la calma y las
+    vistas a la cordillera.
+  todo:
+    - Museo comunitario de cerámica Tiwanaku
+    - Paseo por la isla
+    - Vista a la Cordillera Real
+  tips: >-
+    En lancha desde Huatajata o Quehuaya. Sin horario fijo: pide a la comunidad que abra el
+    museo.

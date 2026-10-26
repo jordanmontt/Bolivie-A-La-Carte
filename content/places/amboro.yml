@@ -1,0 +1,83 @@
+# Parc national Amboró
+department: Santa Cruz
+category: jungle
+lat: -17.9
+lng: -63.95
+altitude: 1800
+days: [1, 2]
+climate: samaipata
+dishes: [majadito, tropical]
+photos:
+  - file: amboro-1.jpg
+    author: Grullab
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Ambor%C3%B3,_Helechos_gigantes.JPG
+  - file: amboro-2.jpg
+    author: Karenrek
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Cascada_Los_Vencejos%E2%80%9D.jpg
+  - file: amboro-3.jpg
+    author: Karenrek
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Laguna_Volcan_Serran%C3%ADas_del_Ambor%C3%B3_02.jpg
+  - file: amboro-4.jpg
+    author: Karenrek
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Laguna_Volcan_Serran%C3%ADas_del_Ambor%C3%B3_08.jpg
+  - file: amboro-5.jpg
+    author: Karenrek
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Laguna_Volcan_Serran%C3%ADas_del_Ambor%C3%B3_04.jpg
+  - file: amboro-6.jpg
+    author: Karenrek
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:La_belleza_de_los_r%C3%ADos_en_la_selva_cruce%C3%B1a.jpg
+  - file: amboro-7.jpg
+    author: Karenrek
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:La_selva_en_el_Ambor%C3%B3.jpg
+fr:
+  name: Parc national Amboró
+  label: Amboró
+  short: Forêts de nuages et de fougères arborescentes, très riche en oiseaux.
+  story: >-
+    Le parc Amboró est l'un des plus riches en biodiversité du continent : forêts de nuages,
+    fougères arborescentes de plusieurs mètres de haut, toucans et coqs-de-roche. On
+    l'explore à pied avec un guide depuis Samaipata. On a l'impression de marcher dans un
+    paysage préhistorique.
+  todo:
+    - Sentier des fougères géantes (secteur La Yunga)
+    - Refugio Los Volcanes
+    - "Oiseaux : coqs-de-roche, toucans"
+  tips: Accès depuis Samaipata avec guide.
+en:
+  name: Amboró National Park
+  label: Amboró
+  short: Cloud forests and tree ferns, very rich in birds.
+  story: >-
+    Amboró is one of the most biodiverse parks on the continent: cloud forests, tree ferns
+    several metres tall, toucans and cocks-of-the-rock. You explore it on foot with a guide
+    from Samaipata. It feels like walking through a prehistoric landscape.
+  todo:
+    - Giant fern trail (La Yunga sector)
+    - Refugio Los Volcanes
+    - "Birds: cocks-of-the-rock, toucans"
+  tips: Access from Samaipata with a guide.
+es:
+  name: Parque Nacional Amboró
+  label: Amboró
+  short: Bosques de nubes y helechos arborescentes, muy rico en aves.
+  story: >-
+    El parque Amboró es uno de los más ricos en biodiversidad del continente: bosques de
+    nubes, helechos arborescentes de varios metros, tucanes y gallitos de las rocas. Se
+    recorre a pie con guía desde Samaipata. Uno se siente caminando en un paisaje
+    prehistórico.
+  todo:
+    - Sendero de los helechos gigantes (sector La Yunga)
+    - Refugio Los Volcanes
+    - "Aves: gallitos de las rocas, tucanes"
+  tips: Acceso desde Samaipata con guía.

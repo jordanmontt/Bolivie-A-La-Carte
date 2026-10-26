@@ -1,0 +1,71 @@
+# Chulumani (Sud Yungas)
+department: La Paz
+category: nature
+lat: -16.409
+lng: -67.528
+altitude: 1700
+days: [1, 2]
+climate: yungas
+dishes: [cafe, tropical, fricase]
+photos:
+  - file: chulumani-1.jpg
+    author: Aurimaz
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:244_-_Chulumani_main_square.jpg
+  - file: chulumani-2.jpg
+    author: D4NN0BUK0
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Imagen_panor%C3%A1mica_de_la_provincia_Sud_Yungas,_Municipio_de_Chulumani.jpg
+  - file: chulumani-3.jpg
+    author: Lormaliz
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Peregrinaci%C3%B3n_de_la_virgen_de_Natividad_de_Chirca.jpg
+fr:
+  name: Chulumani (Sud Yungas)
+  label: Chulumani
+  short: Petite ville des Yungas du Sud, entre café, coca et forêts de nuages, loin de la foule.
+  story: >-
+    Chulumani est la petite capitale des Sud Yungas, accrochée à une montagne couverte de
+    cultures de café, de coca et d'agrumes. Plus calme et moins touristique que Coroico,
+    elle offre un climat doux, de belles balades et la réserve d'Apa Apa, une des dernières
+    forêts de nuages préservées de la région. On y découvre aussi la culture afro-bolivienne
+    des Yungas.
+  todo:
+    - Réserve d'Apa Apa et forêt de nuages
+    - Plantations de café et d'agrumes
+    - Balades et belvédères sur les vallées
+    - Culture afro-bolivienne et saya
+  tips: Minibus depuis La Paz (Villa Fátima), environ 4 h. Climat doux toute l'année.
+en:
+  name: Chulumani (South Yungas)
+  label: Chulumani
+  short: A small South Yungas town among coffee, coca and cloud forest, away from the crowds.
+  story: >-
+    Chulumani is the small capital of the South Yungas, clinging to a mountain covered in
+    coffee, coca and citrus. Calmer and less touristy than Coroico, it has a mild climate,
+    lovely walks and the Apa Apa reserve, one of the last preserved cloud forests in the
+    region. It's also a place to discover the Afro-Bolivian culture of the Yungas.
+  todo:
+    - Apa Apa reserve and cloud forest
+    - Coffee and citrus plantations
+    - Walks and viewpoints over the valleys
+    - Afro-Bolivian culture and saya music
+  tips: Minibus from La Paz (Villa Fátima), about 4 h. Mild climate all year.
+es:
+  name: Chulumani (Sud Yungas)
+  label: Chulumani
+  short: Pueblo de los Sud Yungas entre café, coca y bosques de nubes, lejos de la multitud.
+  story: >-
+    Chulumani es la pequeña capital de los Sud Yungas, colgada de un cerro cubierto de
+    cafetales, cocales y cítricos. Más tranquila y menos turística que Coroico, tiene un
+    clima templado, lindas caminatas y la reserva de Apa Apa, uno de los últimos bosques de
+    nubes conservados de la región. También es un lugar para conocer la cultura
+    afroboliviana de los Yungas.
+  todo:
+    - Reserva de Apa Apa y bosque de nubes
+    - Cafetales y plantaciones de cítricos
+    - Caminatas y miradores sobre los valles
+    - Cultura afroboliviana y saya
+  tips: Minibús desde La Paz (Villa Fátima), unas 4 h. Clima templado todo el año.

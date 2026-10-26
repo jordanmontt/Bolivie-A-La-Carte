@@ -1,0 +1,78 @@
+# Coroico (Yungas)
+department: La Paz
+category: nature
+lat: -16.1897
+lng: -67.7239
+altitude: 1750
+days: [1, 2]
+climate: yungas
+dishes: [cafe, tropical, fricase]
+photos:
+  - file: coroico-1.jpg
+    author: Alhen
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Coroico_nubes_y_monta%C3%B1as.jpg
+  - file: coroico-2.jpg
+    author: Caleidoscopic
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Camino_a_Yurumani_desde_Coroico_4.jpg
+  - file: coroico-3.jpg
+    author: Caleidoscopic
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Plaza_principal_de_Coroico.jpg
+  - file: coroico-4.jpg
+    author: Phil Whitehouse from London, United Kingdom
+    licence: CC BY 2.0
+    source: https://commons.wikimedia.org/wiki/File:Coroico_vista_parcial_(La_Paz_-_Bolivia).jpg
+  - file: coroico-5.jpg
+    author: JERRYE AND ROY KLOTZ MD
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:CHORCO_PREFECTURAL_HOTEL.jpg
+  - file: coroico-6.jpg
+    author: CLAUDIOLD
+    licence: CC BY 4.0
+    source: https://commons.wikimedia.org/wiki/File:Coroico2.jpg
+  - file: coroico-7.jpg
+    author: Jhumeluvi
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Chocolate_de_los_Yungas,_Caranavi.jpg
+fr:
+  name: Coroico (Yungas)
+  label: Coroico
+  short: "Village perché dans les Yungas subtropicales : cafés, cascades, piscine avec vue."
+  story: >-
+    Coroico est perché sur une colline des Yungas, au milieu des plantations de café, de
+    coca et de bananes. Après l'Altiplano, c'est le paradis : il fait chaud, il y a des
+    piscines avec vue, des cascades et des oiseaux partout. L'endroit idéal pour se reposer
+    après la Route de la Mort.
+  todo:
+    - Cascadas (randonnée 3 h)
+    - Plantations de café et de coca
+    - Se reposer après la Route de la Mort
+  tips: Climat chaud, idéal pour récupérer de l'altitude.
+en:
+  name: Coroico (Yungas)
+  label: Coroico
+  short: "A hilltop village in the subtropical Yungas: coffee, waterfalls and pools with a view."
+  story: >-
+    Coroico sits on a hill in the Yungas, among coffee, coca and banana plantations. After
+    the Altiplano it feels like paradise: it's warm, there are pools with a view, waterfalls
+    and birds everywhere. The ideal place to rest after the Death Road.
+  todo:
+    - Cascadas (3-hour hike)
+    - Coffee and coca plantations
+    - Rest after the Death Road
+  tips: Warm climate, ideal for recovering from the altitude.
+es:
+  name: Coroico (Yungas)
+  label: Coroico
+  short: "Pueblo en lo alto de los Yungas subtropicales: café, cascadas y piscinas con vista."
+  story: >-
+    Coroico está en lo alto de un cerro de los Yungas, entre cafetales, cocales y bananales.
+    Después del Altiplano es el paraíso: hace calor, hay piscinas con vista, cascadas y
+    pájaros por todas partes. El lugar ideal para descansar después del Camino de la Muerte.
+  todo:
+    - Las Cascadas (caminata de 3 h)
+    - Cafetales y cocales
+    - Descansar después del Camino de la Muerte
+  tips: Clima cálido, ideal para recuperarse de la altura.

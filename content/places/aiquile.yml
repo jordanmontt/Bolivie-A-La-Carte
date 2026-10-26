@@ -1,0 +1,99 @@
+# Aiquile
+department: Cochabamba
+category: culture
+lat: -18.1953
+lng: -65.1806
+altitude: 2240
+days: [1, 1]
+climate: valles
+dishes: [picante, chicharron, chicha]
+photos:
+  - file: aiquile-1.jpg
+    author: Jim McIntosh (shifted by Rabanus Flavus)
+    licence: CC BY 2.0
+    source: https://commons.wikimedia.org/wiki/File:Catedral_de_Aiquile.jpg
+  - file: aiquile-2.jpg
+    author: Jim McIntosh
+    licence: CC BY 2.0
+    source: https://commons.wikimedia.org/wiki/File:Aiquile.jpg
+  - file: aiquile-3.jpg
+    author: Alesarcastic
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:M%C3%BAsicos_en_el_Desfile_del_D%C3%ADa_de_la_Tradici%C3%B3n_Aiquile%C3%B1a.jpg
+  - file: aiquile-4.jpg
+    author: Agustín Córdova Quiroz
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Festival_Aiquile.JPG
+  - file: aiquile-5.jpg
+    author: Alesarcastic
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Ni%C3%B1os_de_la_Orquesta_de_Charangos_de_Cochabamba_tocando_en_el_Festival_del_Charango_Aiquile_2025.jpg
+  - file: aiquile-6.jpg
+    author: Alesarcastic
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Escenario_del_Teatro_al_Aire_Libre_Walter_Camacho_%E2%80%93_El_K%E2%80%99jochi_con_charango_gigante.jpg
+  - file: aiquile-7.jpg
+    author: Alesarcastic
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Intersecci%C3%B3n_de_las_calles_Sucre_y_Campero_en_Aiquile.jpg
+fr:
+  name: Aiquile
+  label: Aiquile
+  short: La capitale nationale du charango, à mi-chemin entre Cochabamba et Sucre.
+  story: >-
+    Aiquile est une petite ville de vallée, chaude et sèche, au sud du département de
+    Cochabamba. Elle est connue dans tout le pays comme la capitale nationale du charango,
+    la petite guitare andine à dix cordes : ses luthiers en fabriquent depuis des
+    générations, et un musée lui est consacré. Début novembre, la Feria et Festival
+    international du charango réunit musiciens et luthiers de toute la Bolivie. Une étape
+    agréable et très locale sur la route entre Cochabamba et Sucre.
+  todo:
+    - Musée national du charango
+    - Ateliers de luthiers (on peut y commander un charango)
+    - Feria et Festival du charango, début novembre
+    - Cathédrale et place principale
+  tips: >-
+    Peu de touristes et hébergement simple. Pour le festival, réservez tôt et vérifiez les
+    dates auprès de la mairie.
+en:
+  name: Aiquile
+  label: Aiquile
+  short: Bolivia's national charango capital, halfway between Cochabamba and Sucre.
+  story: >-
+    Aiquile is a small, warm and dry valley town in the south of Cochabamba department. It
+    is known across the country as the national capital of the charango, the small
+    ten-string Andean guitar: its luthiers have made them for generations, and there's a
+    museum devoted to it. In early November, the International Charango Fair and Festival
+    brings together musicians and makers from all over Bolivia. A pleasant, very local stop
+    on the road between Cochabamba and Sucre.
+  todo:
+    - National Charango Museum
+    - Luthiers' workshops (you can order a charango)
+    - The Charango Fair and Festival, early November
+    - Cathedral and main square
+  tips: >-
+    Few tourists and simple lodging. For the festival, book early and check the dates with
+    the town hall.
+es:
+  name: Aiquile
+  label: Aiquile
+  short: La capital nacional del charango, a medio camino entre Cochabamba y Sucre.
+  story: >-
+    Aiquile es un pequeño pueblo de valle, cálido y seco, al sur del departamento de
+    Cochabamba. Es conocido en todo el país como la capital nacional del charango, la
+    pequeña guitarra andina de diez cuerdas: sus luthiers los fabrican desde hace
+    generaciones y tiene un museo dedicado al instrumento. A principios de noviembre, la
+    Feria y Festival Internacional del Charango reúne a músicos y constructores de toda
+    Bolivia. Una parada agradable y muy local en el camino entre Cochabamba y Sucre.
+  todo:
+    - Museo Nacional del Charango
+    - Talleres de luthiers (se puede encargar un charango)
+    - Feria y Festival del Charango, a principios de noviembre
+    - Catedral y plaza principal
+  tips: >-
+    Pocos turistas y alojamiento sencillo. Para el festival, reserva con tiempo y confirma
+    las fechas con la alcaldía.

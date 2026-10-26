@@ -1,0 +1,52 @@
+# Zudáñez
+department: Chuquisaca
+category: culture
+lat: -19.12
+lng: -64.71
+altitude: 2500
+days: [0, 1]
+climate: sucre
+dishes: [chicha, chorizoChuqui]
+photos: []
+fr:
+  name: Zudáñez
+  label: Zudáñez
+  short: Petite ville de vallée liée aux guerres d'indépendance, à l'est de Sucre.
+  story: >-
+    Zudáñez porte le nom de Jaime Zudáñez, l'un des acteurs du soulèvement de Chuquisaca en
+    1809. La région fut le théâtre des guérillas de l'indépendance, et la petite ville en
+    garde la mémoire. Aujourd'hui, c'est une étape tranquille de vallée, avec ses rues
+    anciennes et ses environs agricoles.
+  todo:
+    - Centre ancien et place principale
+    - Mémoire des guerres d'indépendance
+    - Campagne de vallée autour de la ville
+  tips: "Bus depuis Sucre par Tarabuco. Peu d'hébergement : souvent en aller-retour."
+en:
+  name: Zudáñez
+  label: Zudáñez
+  short: A small valley town linked to the wars of independence, east of Sucre.
+  story: >-
+    Zudáñez is named after Jaime Zudáñez, one of the leaders of the 1809 Chuquisaca
+    uprising. The region was the scene of the independence guerrillas, and the little town
+    keeps their memory. Today it's a quiet valley stop, with old streets and farmland all
+    around.
+  todo:
+    - Old centre and main square
+    - Memory of the wars of independence
+    - Valley countryside around town
+  tips: "Buses from Sucre via Tarabuco. Little lodging: usually a return trip."
+es:
+  name: Zudáñez
+  label: Zudáñez
+  short: Pueblo de valle ligado a las guerras de la independencia, al este de Sucre.
+  story: >-
+    Zudáñez lleva el nombre de Jaime Zudáñez, uno de los protagonistas del levantamiento de
+    Chuquisaca de 1809. La región fue escenario de las guerrillas de la independencia, y el
+    pueblo guarda su memoria. Hoy es una parada tranquila de valle, con calles antiguas y
+    campos alrededor.
+  todo:
+    - Centro antiguo y plaza principal
+    - Memoria de las guerras de la independencia
+    - Campiña de valle alrededor del pueblo
+  tips: "Buses desde Sucre por Tarabuco. Poco alojamiento: suele hacerse ida y vuelta."

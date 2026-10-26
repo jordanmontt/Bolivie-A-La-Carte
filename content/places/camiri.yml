@@ -1,0 +1,80 @@
+# Camiri
+department: Santa Cruz
+category: ville
+lat: -20.05
+lng: -63.52
+altitude: 800
+days: [1, 1]
+climate: chaco
+dishes: [majadito, locro]
+photos:
+  - file: camiri-1.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Camiri_desde_el_barrio_San_Francisco_(2025)_-_Cordillera,_Bolivia.jpg
+  - file: camiri-2.jpg
+    author: SqueakBox
+    licence: CC0
+    source: https://commons.wikimedia.org/wiki/File:Camiri_Central_Park.JPG
+  - file: camiri-3.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:R%C3%ADo_Parapet%C3%AD_(r%C3%ADo_arriba),_pasando_por_Camiri_-_Cordillera,_Bolivia.jpg
+  - file: camiri-4.jpg
+    author: Ariela2020
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Camiri_mirador_YPFB.jpg
+  - file: camiri-5.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Serran%C3%ADa_Carohuaycho_al_este_de_Camiri_-_Cordillera,_Bolivia.jpg
+  - file: camiri-6.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Letras_monumentales_de_Camiri_-_Cordillera,_Bolivia.jpg
+fr:
+  name: Camiri
+  label: Camiri
+  short: La « capitale pétrolière » du Chaco, entre collines et culture guarani.
+  story: >-
+    Camiri est une petite ville du Chaco, au pied des dernières collines des Andes, née avec
+    le pétrole au XXe siècle. C'est aussi une terre guarani, et la porte de la région où le
+    Che a mené sa guérilla en 1967, vers Lagunillas et le río Ñancahuazú. Une étape entre
+    Santa Cruz et le Chaco.
+  todo:
+    - Ville et collines du Chaco
+    - Culture guarani de la région
+    - Histoire de la guérilla de 1967 (Lagunillas, Ñancahuazú)
+  tips: Bus depuis Santa Cruz (environ 5 h) ou depuis Villamontes. Très chaud en été.
+en:
+  name: Camiri
+  label: Camiri
+  short: The Chaco's "oil capital", among hills and Guaraní culture.
+  story: >-
+    Camiri is a small Chaco town at the foot of the last Andean hills, born with oil in the
+    20th century. It's also Guaraní land, and the gateway to the area where Che led his
+    guerrilla campaign in 1967, towards Lagunillas and the Ñancahuazú river. A stop between
+    Santa Cruz and the Chaco.
+  todo:
+    - Town and Chaco hills
+    - Guaraní culture of the region
+    - History of the 1967 guerrilla (Lagunillas, Ñancahuazú)
+  tips: Buses from Santa Cruz (about 5 h) or from Villamontes. Very hot in summer.
+es:
+  name: Camiri
+  label: Camiri
+  short: La «capital petrolera» del Chaco, entre serranías y cultura guaraní.
+  story: >-
+    Camiri es una pequeña ciudad del Chaco, al pie de las últimas serranías de los Andes,
+    nacida con el petróleo en el siglo XX. También es tierra guaraní, y la puerta de la zona
+    donde el Che hizo su guerrilla en 1967, hacia Lagunillas y el río Ñancahuazú. Una parada
+    entre Santa Cruz y el Chaco.
+  todo:
+    - Ciudad y serranías del Chaco
+    - Cultura guaraní de la región
+    - Historia de la guerrilla de 1967 (Lagunillas, Ñancahuazú)
+  tips: Buses desde Santa Cruz (unas 5 h) o desde Villamontes. Mucho calor en verano.

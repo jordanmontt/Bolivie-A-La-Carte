@@ -1,0 +1,125 @@
+# UNESCO listings for Bolivia (checked on whc.unesco.org and ich.unesco.org, October 2026).
+# kind: world (World Heritage site) or intangible (Intangible Cultural Heritage).
+# places: the places it belongs to; festival: the festival in content/festivals.yml, if any.
+# These links make the UNESCO badge appear on the place and festival pages.
+
+- id: potosi
+  kind: world
+  year: 1987
+  places: [potosi]
+  fr: Ville de Potosí
+  en: City of Potosí
+  es: Ciudad de Potosí
+- id: chiquitos
+  kind: world
+  year: 1990
+  places: [sanjavier, concepcion, santana, sanmiguel, sanrafael, sanjose]
+  fr: Missions jésuites de Chiquitos
+  en: Jesuit Missions of the Chiquitos
+  es: Misiones jesuíticas de Chiquitos
+- id: sucre
+  kind: world
+  year: 1991
+  places: [sucre]
+  fr: Ville historique de Sucre
+  en: Historic City of Sucre
+  es: Ciudad histórica de Sucre
+- id: samaipata
+  kind: world
+  year: 1998
+  places: [samaipata]
+  fr: Fort de Samaipata
+  en: Fuerte de Samaipata
+  es: Fuerte de Samaipata
+- id: tiwanaku
+  kind: world
+  year: 2000
+  places: [tiwanaku]
+  fr: "Tiwanaku : centre spirituel et politique de la culture tiwanaku"
+  en: "Tiwanaku: spiritual and political centre of the Tiwanaku culture"
+  es: "Tiwanaku: centro espiritual y político de la cultura tiwanaku"
+- id: noelkempff
+  kind: world
+  year: 2000
+  places: [noelkempff]
+  fr: Parc national Noel Kempff Mercado
+  en: Noel Kempff Mercado National Park
+  es: Parque Nacional Noel Kempff Mercado
+- id: qhapaqnan
+  kind: world
+  year: 2014
+  places: []
+  fr: "Qhapaq Ñan, le réseau de routes andin (six pays, dont la Bolivie)"
+  en: "Qhapaq Ñan, the Andean road system (six countries, Bolivia among them)"
+  es: "Qhapaq Ñan, sistema vial andino (seis países, entre ellos Bolivia)"
+- id: oruro
+  kind: intangible
+  year: 2008
+  places: [oruro]
+  festival: oruro-carnival
+  fr: Carnaval d'Oruro
+  en: Carnival of Oruro
+  es: Carnaval de Oruro
+- id: kallawaya
+  kind: intangible
+  year: 2008
+  places: [charazani]
+  fr: La cosmovision andine des Kallawaya
+  en: Andean cosmovision of the Kallawaya
+  es: Cosmovisión andina de los kallawayas
+- id: ichapekene
+  kind: intangible
+  year: 2012
+  places: [sanignaciomoxos]
+  festival: ichapekene
+  fr: "Ichapekene Piesta, la grande fête de San Ignacio de Moxos"
+  en: "Ichapekene Piesta, the biggest festival of San Ignacio de Moxos"
+  es: "Ichapekene Piesta, la fiesta mayor de San Ignacio de Moxos"
+- id: pujllay
+  kind: intangible
+  year: 2014
+  places: [tarabuco]
+  festival: pujllay
+  fr: "Pujllay et Ayarichi, musiques et danses de la culture yampara"
+  en: "Pujllay and Ayarichi, music and dances of the Yampara culture"
+  es: "Pujllay y Ayarichi, músicas y danzas de la cultura yampara"
+- id: alasita
+  kind: intangible
+  year: 2017
+  places: [lapaz]
+  festival: alasitas
+  fr: Parcours rituels à La Paz pendant l'Alasita
+  en: Ritual journeys in La Paz during Alasita
+  es: Recorridos rituales en La Paz durante la Alasita
+- id: granpoder
+  kind: intangible
+  year: 2019
+  places: [lapaz]
+  festival: granpoder
+  fr: Fête du Seigneur Jésus du Gran Poder à La Paz
+  en: Fiesta of the Lord Jesus of Gran Poder in La Paz
+  es: Festividad del Señor Jesús del Gran Poder en La Paz
+- id: tarija
+  kind: intangible
+  year: 2021
+  places: [tarija]
+  festival: sanroque
+  fr: Fête Grande de Tarija
+  en: Fiesta Grande of Tarija
+  es: Fiesta Grande de Tarija
+- id: chutillos
+  kind: intangible
+  year: 2023
+  places: [potosi]
+  festival: chutillos
+  fr: "Ch'utillos, la rencontre des cultures à Potosí"
+  en: "Ch'utillos, the meeting of cultures in Potosí"
+  es: "Ch'utillos, el encuentro de culturas en Potosí"
+- id: guadalupe
+  kind: intangible
+  year: 2025
+  places: [sucre]
+  festival: guadalupe
+  fr: Fête de la Vierge de Guadalupe, patronne de Sucre
+  en: Festivity of the Virgin of Guadalupe, patron saint of Sucre
+  es: Festividad de la Virgen de Guadalupe, patrona de Sucre

@@ -1,0 +1,83 @@
+# Parc national Sajama
+department: Oruro
+category: altiplano
+lat: -18.1386
+lng: -68.9786
+altitude: 4200
+days: [2, 2]
+climate: sajama
+dishes: [llama, sopa_quinua, chuno]
+photos:
+  - file: sajama-1.jpg
+    author: Léo Guellec
+    licence: CC BY-SA 2.0
+    source: https://commons.wikimedia.org/wiki/File:Sajama_National_Park.jpg
+  - file: sajama-2.jpg
+    author: JYB Devot
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Valle_Junthuma_DSCN5262mod.jpg
+  - file: sajama-3.jpg
+    author: Ale RaFlo
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Via_l%C3%A1ctea_sobre_el_Sajama.jpg
+  - file: sajama-4.jpg
+    author: Kevin Marco Guzman Armijo
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Bofedal_mutjalla.jpg
+  - file: sajama-5.jpg
+    author: Mariela Crespo
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:GeiseresSajama.jpg
+  - file: sajama-6.jpg
+    author: Wacaticas
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Linea_fronteriza_Bolivia_-_Chile.jpg
+  - file: sajama-7.jpg
+    author: Grace2202
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Llamas_y_alpacas_en_Sajama.jpg
+fr:
+  name: Parc national Sajama
+  label: Sajama
+  short: Le plus haut sommet de Bolivie (6 542 m), geysers, sources chaudes et lamas.
+  story: >-
+    Le parc Sajama est l'un des paysages les plus impressionnants de Bolivie : le volcan
+    Sajama, point culminant du pays à 6 542 m, se dresse au-dessus de plaines où paissent
+    lamas et vigognes. On s'y baigne dans des sources chaudes en plein air avec vue sur les
+    volcans enneigés, et on visite des geysers. Isolé, sauvage et très froid la nuit.
+  todo:
+    - Sources chaudes de Manasaya
+    - Geysers de Sajama
+    - Lagunas Huaña Khota
+    - Église de Curahuara de Carangas (« chapelle Sixtine de l'Altiplano »)
+  tips: "Très peu de transports publics : voiture ou tour. Nuits glaciales, hébergement simple."
+en:
+  name: Sajama National Park
+  label: Sajama
+  short: Bolivia's highest peak (6,542 m), geysers, hot springs and llamas.
+  story: >-
+    Sajama is one of Bolivia's most striking landscapes: the Sajama volcano, the country's
+    highest point at 6,542 m, rises above plains where llamas and vicuñas graze. You soak in
+    open-air hot springs with views of snowy volcanoes and visit geysers. Remote, wild and
+    very cold at night.
+  todo:
+    - Manasaya hot springs
+    - Sajama geysers
+    - Huaña Khota lagoons
+    - Church of Curahuara de Carangas (the “Sistine Chapel of the Altiplano”)
+  tips: "Very little public transport: car or tour. Freezing nights, basic lodging."
+es:
+  name: Parque Nacional Sajama
+  label: Sajama
+  short: La cumbre más alta de Bolivia (6542 m), géiseres, aguas termales y llamas.
+  story: >-
+    El parque Sajama es uno de los paisajes más impresionantes de Bolivia: el volcán Sajama,
+    punto más alto del país con 6542 m, se alza sobre planicies donde pastan llamas y
+    vicuñas. Uno se baña en aguas termales al aire libre con vista a los volcanes nevados y
+    visita géiseres. Aislado, salvaje y muy frío de noche.
+  todo:
+    - Aguas termales de Manasaya
+    - Géiseres de Sajama
+    - Lagunas Huaña Khota
+    - Iglesia de Curahuara de Carangas (la «Capilla Sixtina del Altiplano»)
+  tips: "Muy poco transporte público: auto o tour. Noches heladas, alojamiento sencillo."

@@ -1,0 +1,86 @@
+# Villazón
+department: Potosí
+category: ville
+lat: -22.087
+lng: -65.594
+altitude: 3443
+days: [0, 1]
+climate: altiplano
+dishes: [saltena, picante]
+photos:
+  - file: villazon-1.jpg
+    author: Stevage
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Villazon_border_Stevage.jpg
+  - file: villazon-2.jpg
+    author: Wmtribe2015
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Villazon_TownSquare_July2014.jpg
+  - file: villazon-3.jpg
+    author: paulojuy™
+    licence: CC BY-SA 3.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Terminal_de_Villaz%C3%B3n_-_Bolivia_-_panoramio.jpg
+  - file: villazon-4.jpg
+    author: paulojuy™
+    licence: CC BY-SA 3.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Av._Antofagasta_-_Villaz%C3%B3n_-_Bolivia_-_panoramio.jpg
+  - file: villazon-5.jpg
+    author: Mx._Granger
+    licence: CC0
+    source: https://commons.wikimedia.org/wiki/File:Villaz%C3%B3n_-_2017-11-29.jpg
+  - file: villazon-6.jpg
+    author: Elemaki
+    licence: CC BY 3.0
+    source: https://commons.wikimedia.org/wiki/File:Villazon_(18).JPG
+fr:
+  name: Villazón
+  label: Villazón
+  short: >-
+    La frontière avec l'Argentine, face à La Quiaca : le passage le plus utilisé par les
+    voyageurs.
+  story: >-
+    Villazón est la ville frontière du sud, reliée par un pont à La Quiaca, en Argentine.
+    C'est le passage le plus fréquenté par les voyageurs entre les deux pays, avec ses rues
+    commerçantes et ses casas de cambio. On y arrive aussi en train depuis Uyuni et Tupiza,
+    au bout de la ligne de l'Altiplano.
+  todo:
+    - Passer la frontière vers La Quiaca (Argentine)
+    - "Gare : train vers Tupiza et Uyuni"
+    - Changer de l'argent avant de continuer
+  tips: >-
+    À 3 400 m : en arrivant d'Argentine, montez doucement. Les formalités de migration ne se
+    font pas toute la nuit : vérifiez les horaires avant de partir.
+en:
+  name: Villazón
+  label: Villazón
+  short: "The border with Argentina, facing La Quiaca: the crossing travellers use most."
+  story: >-
+    Villazón is the southern border town, linked by a bridge to La Quiaca in Argentina. It's
+    the busiest crossing for travellers between the two countries, with shopping streets and
+    exchange houses. You can also arrive by train from Uyuni and Tupiza, at the end of the
+    Altiplano line.
+  todo:
+    - Cross the border to La Quiaca (Argentina)
+    - "Station: train to Tupiza and Uyuni"
+    - Change money before moving on
+  tips: >-
+    At 3,400 m: coming from Argentina, go up gently. Immigration doesn't work all night:
+    check the hours before you set off.
+es:
+  name: Villazón
+  label: Villazón
+  short: "La frontera con Argentina, frente a La Quiaca: el paso más usado por los viajeros."
+  story: >-
+    Villazón es la ciudad fronteriza del sur, unida por un puente a La Quiaca, en Argentina.
+    Es el paso más transitado por los viajeros entre los dos países, con calles comerciales
+    y casas de cambio. También se llega en tren desde Uyuni y Tupiza, al final de la línea
+    del Altiplano.
+  todo:
+    - Cruzar la frontera a La Quiaca (Argentina)
+    - "Estación: tren a Tupiza y Uyuni"
+    - Cambiar dinero antes de seguir
+  tips: >-
+    A 3400 m: si llegas desde Argentina, sube con calma. Migración no atiende toda la noche:
+    revisa los horarios antes de salir.

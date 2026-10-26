@@ -1,0 +1,79 @@
+# Incallajta
+department: Cochabamba
+category: culture
+lat: -17.61
+lng: -65.388
+altitude: 2950
+days: [1, 1]
+climate: valles_haut
+dishes: [chicha, picante]
+photos:
+  - file: incallajta-1.jpg
+    author: Aldrihe
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Sitio_Arqueologico_Incallajta_Pocona.jpg
+  - file: incallajta-2.jpg
+    author: GaddielBohorquez
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Incallajta_0012.jpg
+  - file: incallajta-3.jpg
+    author: GaddielBohorquez
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Incallajta_003.jpg
+  - file: incallajta-4.jpg
+    author: Susu Phisi
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Vista_frontis_oeste.jpg
+  - file: incallajta-5.jpg
+    author: Maria Cristina Tajima
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Monumento_arqueol%C3%B3gico_de_Incallajta2.jpg
+  - file: incallajta-6.jpg
+    author: GaddielBohorquez
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Incallajta_007.jpg
+fr:
+  name: Incallajta
+  label: Incallajta
+  short: Le plus grand site inca de Bolivie, dans une vallée isolée.
+  story: >-
+    Incallajta est la plus grande cité inca de Bolivie, construite pour défendre l'empire
+    contre les peuples de l'est. On y découvre une immense salle cérémonielle aux murs de
+    pierre et de terre, dans une vallée isolée où il n'y a presque personne. Une visite pour
+    les amateurs d'histoire et de lieux hors des sentiers battus.
+  todo:
+    - Le grand kallanka (salle cérémonielle) et la forteresse
+    - Cascade voisine
+  tips: >-
+    Peu de transports publics : mieux en voiture ou en excursion organisée depuis
+    Cochabamba. Peut se combiner avec Totora.
+en:
+  name: Incallajta
+  label: Incallajta
+  short: The largest Inca site in Bolivia, in a remote valley.
+  story: >-
+    Incallajta is the largest Inca city in Bolivia, built to defend the empire against the
+    peoples of the east. You'll find a huge ceremonial hall with stone and earth walls, in
+    an isolated valley with hardly anyone around. A visit for history lovers and fans of
+    places off the beaten track.
+  todo:
+    - The great kallanka (ceremonial hall) and the fortress
+    - Nearby waterfall
+  tips: >-
+    Little public transport: best by car or on an organised trip from Cochabamba. Can be
+    combined with Totora.
+es:
+  name: Incallajta
+  label: Incallajta
+  short: El sitio inca más grande de Bolivia, en un valle aislado.
+  story: >-
+    Incallajta es la ciudad inca más grande de Bolivia, construida para defender el imperio
+    de los pueblos del oriente. Tiene una enorme sala ceremonial de muros de piedra y barro,
+    en un valle aislado donde casi no hay nadie. Una visita para amantes de la historia y de
+    los lugares poco conocidos.
+  todo:
+    - La gran kallanka (sala ceremonial) y la fortaleza
+    - Cascada cercana
+  tips: >-
+    Poco transporte público: mejor en auto o en excursión desde Cochabamba. Se puede
+    combinar con Totora.

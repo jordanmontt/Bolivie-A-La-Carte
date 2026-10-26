@@ -1,0 +1,89 @@
+# Oruro
+department: Oruro
+category: ville
+lat: -17.9647
+lng: -67.106
+altitude: 3735
+days: [0, 1]
+climate: altiplano
+major: true
+dishes: [charque, sajta, fricase]
+photos:
+  - file: oruro-1.jpg
+    author: Parallelepiped09
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:El_carnaval_de_Oruro_2.jpg
+  - file: oruro-2.jpg
+    author: Elemaki
+    licence: CC BY 3.0
+    source: https://commons.wikimedia.org/wiki/File:Carnaval_de_Oruro_dia_I_(60).JPG
+  - file: oruro-3.jpg
+    author: Parallelepiped09
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Edificio_en_Oruro.jpg
+  - file: oruro-4.jpg
+    author: Unknown authorUnknown author
+    licence: CC BY 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Careta_de_diablo_que_bota_fuego_mediante_un_mecanismo,_elaborada_para_el_conjunto_Diablada_Art%C3%ADstica_%22Urus%22_a%C3%B1o_2000.jpg
+  - file: oruro-5.jpg
+    author: Parallelepiped09
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Oruro..jpg
+  - file: oruro-6.jpg
+    author: Parallelepiped09
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:El_carnaval_de_Oruro.jpg
+  - file: oruro-7.jpg
+    author: Nils Öberg
+    licence: CC0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Diesel_locomotive_DE_953_in_Oruro_Bolivia_2010.jpg
+fr:
+  name: Oruro
+  label: Oruro
+  short: >-
+    Ville minière de l'Altiplano, célèbre pour son carnaval classé UNESCO. Point de départ
+    du train vers Uyuni.
+  story: >-
+    Oruro est une ville minière de l'Altiplano, simple et travailleuse, connue pour l'un des
+    plus grands carnavals d'Amérique du Sud, classé par l'UNESCO, avec ses diablades
+    masquées. Le reste de l'année, on y monte en téléphérique jusqu'à la grande statue de la
+    Vierge du Socavón, et c'est le point de départ du train vers Uyuni.
+  todo:
+    - Musée et mine du Socavón
+    - Téléphérique jusqu'à la Vierge du Socavón
+    - Carnaval (février ou mars)
+  tips: Souvent juste une étape de transit (train ou bus vers Uyuni).
+en:
+  name: Oruro
+  label: Oruro
+  short: >-
+    An Altiplano mining city, famous for its UNESCO-listed carnival. Starting point of the
+    train to Uyuni.
+  story: >-
+    Oruro is a plain, hard-working mining city on the Altiplano, known for one of the
+    biggest carnivals in South America, listed by UNESCO, with its masked devil dances. The
+    rest of the year you can ride a cable car up to the giant statue of the Virgen del
+    Socavón, and it's where the train to Uyuni leaves from.
+  todo:
+    - Socavón museum and mine
+    - Cable car up to the Virgen del Socavón
+    - Carnival (February or March)
+  tips: Often just a transit stop (train or bus to Uyuni).
+es:
+  name: Oruro
+  label: Oruro
+  short: >-
+    Ciudad minera del Altiplano, famosa por su Carnaval, Patrimonio de la UNESCO. Punto de
+    partida del tren a Uyuni.
+  story: >-
+    Oruro es una ciudad minera del Altiplano, sencilla y trabajadora, conocida por uno de
+    los carnavales más grandes de Sudamérica, reconocido por la UNESCO, con sus diabladas.
+    El resto del año se puede subir en teleférico hasta la gran estatua de la Virgen del
+    Socavón, y de aquí sale el tren a Uyuni.
+  todo:
+    - Museo y mina del Socavón
+    - Teleférico hasta la Virgen del Socavón
+    - Carnaval (febrero o marzo)
+  tips: A menudo solo una parada de paso (tren o bus a Uyuni).

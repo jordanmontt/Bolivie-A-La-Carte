@@ -1,0 +1,83 @@
+# Uyuni
+department: Potosí
+category: altiplano
+lat: -20.46
+lng: -66.825
+altitude: 3656
+days: [0, 1]
+climate: uyuni
+major: true
+dishes: [llama, quinoa, sopa_quinua]
+photos:
+  - file: uyuni-1.jpg
+    author: Diego Delso
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Tren_de_la_FCA_en_el_trayecto_Ollag%C3%BCe-Uyuni,_Bolivia,_2016-02-03,_DD_94.JPG
+  - file: uyuni-2.jpg
+    author: Jduranboger
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Locomotora,_Av._Feeroviaria_Uyuni.jpg
+  - file: uyuni-3.jpg
+    author: Jaimalalatete
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Uyuni_Potosi_Ave_Aerial.jpg
+  - file: uyuni-4.jpg
+    author: Pavel Špindler
+    licence: CC BY 3.0
+    source: https://commons.wikimedia.org/wiki/File:La_Torre_del_Reloj_-_Uyuni_-_panoramio.jpg
+  - file: uyuni-5.jpg
+    author: Pavel Špindler
+    licence: CC BY 3.0
+    source: https://commons.wikimedia.org/wiki/File:Iglesia_de_Uyuni,_Av_Arce_-_panoramio.jpg
+  - file: uyuni-6.jpg
+    author: Danas Danulis Macijauskas
+    licence: CC BY 3.0
+    source: https://commons.wikimedia.org/wiki/File:Dusty_Road_(108799699).jpeg
+  - file: uyuni-7.jpg
+    author: Grezia.cand
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:SALAR_DE_UYUNI_SKY_01.jpg
+fr:
+  name: Uyuni
+  label: Uyuni
+  short: Ville-base des tours du Salar. Cimetière de trains à la sortie de la ville.
+  story: >-
+    Uyuni est une petite ville de l'Altiplano, battue par le vent, qui vit au rythme des
+    tours du Salar. On y passe surtout une nuit avant ou après le tour, mais le cimetière de
+    trains rouillés à la sortie de la ville vaut une visite au coucher du soleil, et les
+    petits restaurants servent une bonne cuisine à la quinoa et au lama.
+  todo:
+    - Cimetière de trains
+    - Réserver le tour du Salar (comparer plusieurs agences)
+  tips: >-
+    On y arrive et on part en tour le lendemain. Vols directs depuis La Paz, train depuis
+    Oruro.
+en:
+  name: Uyuni
+  label: Uyuni
+  short: Base town for Salar tours, with a train cemetery on the edge of town.
+  story: >-
+    Uyuni is a small, windswept Altiplano town that lives to the rhythm of the Salar tours.
+    Most people spend a night before or after the tour, but the cemetery of rusting trains
+    just outside town is worth a visit at sunset, and the small restaurants serve good
+    quinoa and llama dishes.
+  todo:
+    - Train cemetery
+    - Book your Salar tour (compare several agencies)
+  tips: You arrive and leave on a tour the next day. Direct flights from La Paz, train from Oruro.
+es:
+  name: Uyuni
+  label: Uyuni
+  short: Pueblo base de los tours al Salar, con un cementerio de trenes a la salida.
+  story: >-
+    Uyuni es un pueblo del Altiplano azotado por el viento, que vive al ritmo de los tours
+    al Salar. Casi todos pasan una noche antes o después del tour, pero el cementerio de
+    trenes oxidados a la salida vale una visita al atardecer, y los restaurantes sirven
+    buena comida con quinua y llama.
+  todo:
+    - Cementerio de trenes
+    - Reservar el tour al Salar (comparar varias agencias)
+  tips: >-
+    Se llega y al día siguiente se sale de tour. Vuelos directos desde La Paz, tren desde
+    Oruro.

@@ -1,0 +1,91 @@
+# Santiago de Chiquitos
+department: Santa Cruz
+category: nature
+lat: -18.3397
+lng: -59.5983
+altitude: 650
+days: [1, 2]
+climate: chiquitania
+dishes: [cunape, locro, queso]
+photos:
+  - file: santiago-1.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Santiago_de_Chiquitos_y_la_Serran%C3%ADa_de_Santiago_-_Chiquitos,_Bolivia.jpg
+  - file: santiago-2.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Vista_desde_Las_Pozas_de_Santiago_de_Chiquitos_-_Bolivia.jpg
+  - file: santiago-3.jpg
+    author: Leogomezr
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Iglesia_de_Santiago_de_Chiquitos.jpg
+  - file: santiago-4.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Acantilado_en_la_Serran%C3%ADa_de_Santiago_-_Santiago_de_Chiquitos,_Bolivia.jpg
+  - file: santiago-5.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Monolitos_naturales_sobre_la_Serran%C3%ADa_de_Santiago_-_Santiago_de_Chiquitos,_Bolivia.jpg
+  - file: santiago-6.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Pozas_de_Santiago_-_Santiago_de_Chiquitos,_Bolivia.jpg
+  - file: santiago-7.jpg
+    author: Jery Dino Méndez H.
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Santiago_de_Chiquitos_-_Santa_Cruz,_Bolivia.jpg
+fr:
+  name: Santiago de Chiquitos
+  label: Santiago de Chiquitos
+  short: >-
+    Ancien village de mission perché sur la serranía : miradors, randonnées, grottes et
+    cascades.
+  story: >-
+    Santiago de Chiquitos est un ancien village de mission perché sur un plateau, avec des
+    maisons basses autour d'une grande place herbeuse. On y part en randonnée vers des
+    miradors à couper le souffle sur la vallée de Tucavaca, des grottes aux peintures
+    rupestres et des arches de pierre. Le village est plus frais que la plaine, et vraiment
+    hors du temps.
+  todo:
+    - Mirador del Valle de Tucavaca au coucher du soleil
+    - Cueva de Juan Miserandino et peintures rupestres
+    - Arco de Piedra et cascades
+    - Église de mission
+  tips: Plus frais que Roboré grâce à l'altitude. Guides et petits hôtels au village.
+en:
+  name: Santiago de Chiquitos
+  label: Santiago de Chiquitos
+  short: "An old mission village up in the hills: viewpoints, hikes, caves and waterfalls."
+  story: >-
+    Santiago de Chiquitos is an old mission village perched on a plateau, with low houses
+    around a large grassy square. From here you hike to breathtaking viewpoints over the
+    Tucavaca valley, caves with rock paintings and stone arches. The village is cooler than
+    the plains, and truly timeless.
+  todo:
+    - Mirador del Valle de Tucavaca at sunset
+    - Cueva de Juan Miserandino and rock paintings
+    - Arco de Piedra and waterfalls
+    - Mission church
+  tips: Cooler than Roboré thanks to the altitude. Guides and small hotels in the village.
+es:
+  name: Santiago de Chiquitos
+  label: Santiago de Chiquitos
+  short: "Antiguo pueblo misional en la serranía: miradores, caminatas, cuevas y cascadas."
+  story: >-
+    Santiago de Chiquitos es un antiguo pueblo misional sobre una meseta, con casas bajas
+    alrededor de una gran plaza de pasto. Desde ahí se camina a miradores impresionantes
+    sobre el valle de Tucavaca, cuevas con pinturas rupestres y arcos de piedra. El pueblo
+    es más fresco que el llano y está fuera del tiempo.
+  todo:
+    - Mirador del Valle de Tucavaca al atardecer
+    - Cueva de Juan Miserandino y pinturas rupestres
+    - Arco de Piedra y cascadas
+    - Templo misional
+  tips: Más fresco que Roboré gracias a la altura. Guías y pequeños hoteles en el pueblo.

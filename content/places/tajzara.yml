@@ -1,0 +1,85 @@
+# Réserve de Sama : lagunes de Tajzara
+department: Tarija
+category: altiplano
+lat: -21.82
+lng: -65.08
+altitude: 3700
+days: [1, 1]
+climate: altiplano
+dishes: [llama, sopa_quinua]
+photos:
+  - file: tajzara-1.jpg
+    author: Mattapia 63
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Laguna_Grande_de_Tajzara.jpg
+  - file: tajzara-2.jpg
+    author: Ariel Colque
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Dunas_de_tajzara_reserva_de_sama.jpg
+  - file: tajzara-3.jpg
+    author: Mattapia 63
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Danzarines_de_la_Cuenca_de_Tajzara.jpg
+  - file: tajzara-4.jpg
+    author: Joshua 66
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Dunas_de_tajzara_de_Tarija.jpg
+  - file: tajzara-5.jpg
+    author: Freesia Alba
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Reserva_Biol%C3%B3gica_de_la_Cordillera_de_Sama,_vista_a_la_laguna_en_Tajzara,_2025.jpg
+  - file: tajzara-6.jpg
+    author: Laura Rodríguez
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:RESERVA_BIOLOGICA_DE_LA_CORDILLERA_DE_SAMADSC02600.jpg
+fr:
+  name: "Réserve de Sama : lagunes de Tajzara"
+  label: Tajzara
+  short: Lagunes d'altitude, dunes et flamants roses dans la réserve de Sama, au-dessus de Tarija.
+  story: >-
+    En montant de Tarija vers l'Altiplano, la route traverse la réserve de la cordillère de
+    Sama jusqu'aux lagunes de Tajzara, à près de 3 700 m. Autour de la Laguna Grande, des
+    dunes de sable et des herbes dorées, et sur l'eau les trois espèces de flamants des
+    Andes. On peut y marcher sur d'anciens chemins préhispaniques.
+  todo:
+    - Laguna Grande de Tajzara et ses flamants
+    - Dunes autour des lagunes
+    - Village d'Iscayachi et son église en adobe
+    - Chemin préhispanique de Sama
+  tips: >-
+    Journée en tour depuis Tarija, ou bus vers Villazón jusqu'à Iscayachi. Froid et vent en
+    altitude.
+en:
+  name: "Sama reserve: Tajzara lagoons"
+  label: Tajzara
+  short: High lagoons, dunes and flamingos in the Sama reserve, above Tarija.
+  story: >-
+    Climbing from Tarija towards the Altiplano, the road crosses the Cordillera de Sama
+    reserve up to the Tajzara lagoons, at almost 3,700 m. Around the Laguna Grande are sand
+    dunes and golden grasses, and on the water all three species of Andean flamingo. You can
+    walk on old pre-Hispanic trails.
+  todo:
+    - Laguna Grande de Tajzara and its flamingos
+    - Dunes around the lagoons
+    - Iscayachi village and its adobe church
+    - Sama's pre-Hispanic trail
+  tips: Day tour from Tarija, or the bus towards Villazón to Iscayachi. Cold and windy up high.
+es:
+  name: "Reserva de Sama: lagunas de Tajzara"
+  label: Tajzara
+  short: Lagunas de altura, dunas y flamencos en la reserva de Sama, sobre Tarija.
+  story: >-
+    Subiendo de Tarija hacia el Altiplano, el camino cruza la reserva de la Cordillera de
+    Sama hasta las lagunas de Tajzara, a casi 3700 m. Alrededor de la Laguna Grande hay
+    dunas de arena y pajonales dorados, y en el agua las tres especies de flamencos andinos.
+    Se puede caminar por antiguos caminos prehispánicos.
+  todo:
+    - Laguna Grande de Tajzara y sus flamencos
+    - Dunas alrededor de las lagunas
+    - Pueblo de Iscayachi y su iglesia de adobe
+    - Camino prehispánico de Sama
+  tips: >-
+    Tour de un día desde Tarija, o bus hacia Villazón hasta Iscayachi. Frío y viento en la
+    altura.

@@ -1,0 +1,75 @@
+# Totora
+department: Cochabamba
+category: culture
+lat: -17.73
+lng: -65.19
+altitude: 2800
+days: [1, 1]
+climate: valles_haut
+dishes: [chicha, fricase]
+photos:
+  - file: totora-1.jpg
+    author: Chiyara
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Puerta_de_una_casona_en_el_municipio_de_Totora,_Cochabamba_08.jpg
+  - file: totora-2.jpg
+    author: Chiyara
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Puerta_de_una_casona_en_el_municipio_de_Totora,_Cochabamba_04.jpg
+  - file: totora-3.jpg
+    author: Chiyara
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Vista_de_calles,_negocios_y_letreros_del_municipio_de_Totora,_Cochabamba,_Bolivia_02.jpg
+  - file: totora-4.jpg
+    author: Chiyara
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Vista_de_calles,_negocios_y_letreros_del_municipio_de_Totora,_Cochabamba,_Bolivia_08.jpg
+  - file: totora-5.jpg
+    author: ArchivoAntonioAbal
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Terremoto_de_Totora_en_1998,_Cochabamba-_Bolivia_22.jpg
+  - file: totora-6.jpg
+    author: Caleidoscopic
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Totora.jpg
+fr:
+  name: Totora
+  label: Totora
+  short: Petit village colonial très bien conservé sur l'ancienne route vers Santa Cruz.
+  story: >-
+    Totora est un village colonial resté figé dans le temps, avec ses balcons en bois et ses
+    ruelles pavées. On le traverse si l'on prend l'ancienne route de Santa Cruz, et c'est
+    une bonne pause sur ce long trajet de montagne.
+  todo:
+    - Rues pavées et balcons en bois
+    - Étape sur la route de Samaipata
+  tips: Bonne étape si vous prenez l'ancienne route Cochabamba → Samaipata.
+en:
+  name: Totora
+  label: Totora
+  short: A small, well-preserved colonial village on the old road to Santa Cruz.
+  story: >-
+    Totora is a colonial village frozen in time, with wooden balconies and cobbled lanes.
+    You pass through it on the old road to Santa Cruz, and it makes a good break on that
+    long mountain journey.
+  todo:
+    - Cobbled streets and wooden balconies
+    - A stop on the way to Samaipata
+  tips: A good stop if you take the old Cochabamba to Samaipata road.
+es:
+  name: Totora
+  label: Totora
+  short: Pueblito colonial muy bien conservado en la carretera antigua a Santa Cruz.
+  story: >-
+    Totora es un pueblo colonial detenido en el tiempo, con balcones de madera y callecitas
+    empedradas. Se pasa por ahí en la carretera antigua a Santa Cruz y es una buena pausa en
+    ese largo viaje de montaña.
+  todo:
+    - Calles empedradas y balcones de madera
+    - Parada en el camino a Samaipata
+  tips: Buena parada si tomas la carretera antigua Cochabamba – Samaipata.

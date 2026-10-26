@@ -1,0 +1,94 @@
+# Trek du Choro (chemin inca)
+department: La Paz
+category: aventure
+lat: -16.26
+lng: -67.92
+altitude: 3000
+days: [3, 3]
+climate: yungas
+dishes: [cafe, tropical]
+photos:
+  - file: choro-1.jpg
+    author: Jhulis
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Camino_precolombino_El_Choro.jpg
+  - file: choro-2.jpg
+    author: Rodny Montoya Rojas
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:CAMINO_DEL_INCA.jpg
+  - file: choro-3.jpg
+    author: Realnif
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:El_Choro.jpg
+  - file: choro-4.jpg
+    author: Rodrigo Garcia Saenz
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Casa_en_medio_del_Camino_%22el_Choro%22.jpg
+  - file: choro-5.jpg
+    author: LaCris
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:SandillanicampamentoChoro.jpg
+  - file: choro-6.jpg
+    author: Rodrigo Garcia Saenz
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Vertiente_camino_el_Choro.jpg
+  - file: choro-7.jpg
+    author: Rodrigo Garcia Saenz
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Monta%C3%B1as_desde_entrada_ruta_%22el_Choro%22.jpg
+fr:
+  name: Trek du Choro (chemin inca)
+  label: Trek du Choro
+  short: >-
+    Trois jours de marche sur un chemin préhispanique, des neiges de La Cumbre à la forêt
+    des Yungas.
+  story: >-
+    Le Choro est le trek le plus connu de Bolivie : un ancien chemin pavé qui part de La
+    Cumbre, à plus de 4 800 m, et descend en trois jours jusqu'aux forêts chaudes des
+    Yungas, vers 1 300 m. On passe des glaciers aux fougères, des lamas aux papillons, en
+    dormant dans de petits campings tenus par les familles du chemin. Une magnifique façon
+    d'arriver à Coroico.
+  todo:
+    - Départ à La Cumbre et col à plus de 4 800 m
+    - Pavés préhispaniques et descente dans la forêt
+    - Bivouacs chez l'habitant le long du chemin
+    - Arrivée à Chairo, puis Coroico
+  tips: >-
+    Trek de 3 jours, possible seul ou avec une agence de La Paz. Meilleure saison : mai à
+    septembre. Prévoir de quoi payer les petites entrées des communautés.
+en:
+  name: Choro trek (Inca trail)
+  label: Choro trek
+  short: Three days on a pre-Hispanic trail, from the snows of La Cumbre down to the Yungas forest.
+  story: >-
+    The Choro is Bolivia's best-known trek: an old paved trail that starts at La Cumbre,
+    above 4,800 m, and drops over three days to the warm Yungas forests at around 1,300 m.
+    You go from glaciers to ferns and from llamas to butterflies, sleeping at small
+    campsites run by families along the way. A wonderful way to arrive in Coroico.
+  todo:
+    - Start at La Cumbre and a pass above 4,800 m
+    - Pre-Hispanic paving and the descent into the forest
+    - Camping with local families along the trail
+    - Arrival at Chairo, then Coroico
+  tips: >-
+    3-day trek, on your own or with a La Paz agency. Best season: May to September. Bring
+    cash for the small community fees.
+es:
+  name: Trekking del Choro (camino inca)
+  label: Trekking del Choro
+  short: Tres días por un camino prehispánico, de las nieves de La Cumbre al bosque de los Yungas.
+  story: >-
+    El Choro es el trekking más conocido de Bolivia: un antiguo camino empedrado que sale de
+    La Cumbre, a más de 4800 m, y baja en tres días hasta los bosques cálidos de los Yungas,
+    a unos 1300 m. Se pasa de los glaciares a los helechos y de las llamas a las mariposas,
+    durmiendo en pequeños campamentos de las familias del camino. Una manera preciosa de
+    llegar a Coroico.
+  todo:
+    - Salida en La Cumbre y paso a más de 4800 m
+    - Empedrado prehispánico y bajada al bosque
+    - Campamentos con familias a lo largo del camino
+    - Llegada a Chairo y luego Coroico
+  tips: >-
+    Trekking de 3 días, por cuenta propia o con una agencia de La Paz. Mejor época: mayo a
+    septiembre. Lleva efectivo para las pequeñas entradas comunales.

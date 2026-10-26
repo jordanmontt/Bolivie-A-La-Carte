@@ -1,0 +1,79 @@
+# Copacabana (lac Titicaca)
+department: La Paz
+category: altiplano
+lat: -16.1661
+lng: -69.0866
+altitude: 3841
+days: [1, 2]
+climate: titicaca
+major: true
+dishes: [trucha, pejerrey, apiPastel]
+photos:
+  - file: copacabana-1.jpg
+    author: Pedro Szekely from Los Angeles, USA
+    licence: CC BY 2.0
+    source: https://commons.wikimedia.org/wiki/File:Copacabana,_Lake_Titicaca_(4088820782).jpg
+  - file: copacabana-2.jpg
+    author: Henry.loayza
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:BAS%C3%8DLICA_DE_COPACABANA.JPG
+  - file: copacabana-3.jpg
+    author: EEJCC
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Hombre_Aymara_y_Lago_Titicaca.jpg
+  - file: copacabana-4.jpg
+    author: Samarasiña
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Playa_de_Copacabana,_Bolivia.jpg
+  - file: copacabana-5.jpg
+    author: Karmelo777
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Lago_Titicaca_(_Copacabana).jpg
+  - file: copacabana-6.jpg
+    author: Entropy1963
+    licence: Public domain
+    source: https://commons.wikimedia.org/wiki/File:Copacabana_Titicaca_2.jpg
+  - file: copacabana-7.jpg
+    author: Ville Miettinen
+    licence: CC BY 2.0
+    source: https://commons.wikimedia.org/wiki/File:Colorful_street_in_Copacabana_October2007.jpg
+fr:
+  name: Copacabana (lac Titicaca)
+  label: Copacabana
+  short: Petite ville au bord du lac Titicaca, porte d'entrée vers l'Isla del Sol.
+  story: >-
+    Copacabana est une petite ville de pèlerinage sur la rive du lac Titicaca, avec sa
+    grande basilique blanche aux coupoles mauresques. On y mange la truite du lac sur la
+    plage et on regarde le coucher de soleil depuis la colline du Calvario. C'est la porte
+    d'entrée vers l'Isla del Sol.
+  todo:
+    - Basilique de la Virgen de Copacabana
+    - Coucher de soleil depuis le Cerro Calvario
+    - Truite du lac sur la plage
+  tips: Traversée du détroit de Tiquina en barque (le bus traverse sur une barge).
+en:
+  name: Copacabana (Lake Titicaca)
+  label: Copacabana
+  short: A small town on the shore of Lake Titicaca, gateway to the Isla del Sol.
+  story: >-
+    Copacabana is a small pilgrimage town on the shore of Lake Titicaca, with a big white
+    basilica topped by Moorish domes. You eat lake trout on the beach and watch the sunset
+    from Calvario hill. It's the gateway to the Isla del Sol.
+  todo:
+    - Basilica of the Virgen de Copacabana
+    - Sunset from Cerro Calvario
+    - Lake trout on the beach
+  tips: You cross the Tiquina strait by boat (the bus crosses on a barge).
+es:
+  name: Copacabana (lago Titicaca)
+  label: Copacabana
+  short: Pequeña ciudad a orillas del lago Titicaca, puerta de entrada a la Isla del Sol.
+  story: >-
+    Copacabana es una pequeña ciudad de peregrinación a orillas del Titicaca, con su gran
+    basílica blanca de cúpulas moriscas. Se come trucha del lago en la playa y se mira el
+    atardecer desde el cerro Calvario. Es la puerta de entrada a la Isla del Sol.
+  todo:
+    - Basílica de la Virgen de Copacabana
+    - Atardecer desde el Cerro Calvario
+    - Trucha del lago en la playa
+  tips: El estrecho de Tiquina se cruza en lancha (el bus pasa en una barcaza).

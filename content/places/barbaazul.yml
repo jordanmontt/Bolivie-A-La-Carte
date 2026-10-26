@@ -1,0 +1,75 @@
+# Réserve Barba Azul
+department: Beni
+category: jungle
+lat: -13.75
+lng: -66.1
+altitude: 180
+days: [3, 3]
+climate: amazonie
+dishes: [carne_beni, pescado_beni]
+photos:
+  - file: barbaazul-1.jpg
+    author: Carsten Steger
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Blue-throated_macaw_in_flight.jpg
+  - file: barbaazul-2.jpg
+    author: Clément Bardot
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Blue-throated_macaw.jpg
+  - file: barbaazul-3.jpg
+    author: Michael Seeley from Melbourne, FL, United States
+    licence: CC BY 2.0
+    source: https://commons.wikimedia.org/wiki/File:Blue-throated_Macaw_(21494009424).jpg
+fr:
+  name: Réserve Barba Azul
+  label: Barba Azul
+  short: >-
+    Savanes du Beni, refuge de l'ara à gorge bleue, l'un des perroquets les plus rares du
+    monde.
+  story: >-
+    La réserve Barba Azul protège les savanes et îlots de forêt du Beni où vit l'ara à gorge
+    bleue, un perroquet qu'on ne trouve qu'en Bolivie et dont il ne reste que quelques
+    centaines. Gérée par l'association Armonía, elle accueille un petit nombre de visiteurs
+    pour observer les aras, des centaines d'autres oiseaux, et parfois le loup à crinière.
+    Un lieu rare, pour passionnés de nature.
+  todo:
+    - Observer l'ara à gorge bleue
+    - Oiseaux des savanes inondées
+    - Balades à cheval et en bateau
+  tips: >-
+    Séjour à réserver à l'avance auprès d'Armonía (minimum quelques nuits). Accès surtout en
+    petit avion depuis Trinidad ; par la route seulement en saison sèche.
+en:
+  name: Barba Azul reserve
+  label: Barba Azul
+  short: Beni savannas, refuge of the blue-throated macaw, one of the rarest parrots in the world.
+  story: >-
+    The Barba Azul reserve protects the Beni savannas and forest islands where the
+    blue-throated macaw lives, a parrot found only in Bolivia, of which only a few hundred
+    remain. Run by the Armonía association, it welcomes a small number of visitors to watch
+    the macaws, hundreds of other birds and sometimes the maned wolf. A rare place for
+    nature lovers.
+  todo:
+    - Watch the blue-throated macaw
+    - Birds of the flooded savannas
+    - Horse rides and boat trips
+  tips: >-
+    Book in advance with Armonía (minimum stay of a few nights). Mostly reached by light
+    aircraft from Trinidad; by road only in the dry season.
+es:
+  name: Reserva Barba Azul
+  label: Barba Azul
+  short: Sabanas del Beni, refugio de la paraba barba azul, uno de los loros más raros del mundo.
+  story: >-
+    La reserva Barba Azul protege las sabanas e islas de bosque del Beni donde vive la
+    paraba barba azul, un loro que solo existe en Bolivia y del que quedan unos pocos
+    cientos. Administrada por la asociación Armonía, recibe a pocos visitantes para ver las
+    parabas, cientos de otras aves y a veces al borochi (lobo de crin). Un lugar raro, para
+    apasionados de la naturaleza.
+  todo:
+    - Ver la paraba barba azul
+    - Aves de las sabanas inundables
+    - Paseos a caballo y en bote
+  tips: >-
+    Reserva con anticipación con Armonía (estadía mínima de algunas noches). Se llega sobre
+    todo en avioneta desde Trinidad; por tierra solo en época seca.

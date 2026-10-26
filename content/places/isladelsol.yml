@@ -1,0 +1,95 @@
+# Isla del Sol
+department: La Paz
+category: altiplano
+lat: -16.03
+lng: -69.15
+altitude: 3900
+days: [1, 2]
+climate: titicaca
+dishes: [trucha, sopa_quinua]
+photos:
+  - file: isladelsol-1.jpg
+    author: Alexson Scheppa Peisino(AlexSP)
+    licence: Public domain
+    source: https://commons.wikimedia.org/wiki/File:Ilha_do_Sol38.jpg
+  - file: isladelsol-2.jpg
+    author: ""
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Isladelsol.jpg
+  - file: isladelsol-3.jpg
+    author: Ximena Medina Sancho
+    licence: CC BY-SA 3.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Mujeres,_Isla_del_Sol,_Lago_Titicaca,_Bolivia.JPG
+  - file: isladelsol-4.jpg
+    author: Ximena Medina Sancho
+    licence: CC BY-SA 3.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Vista_del_Lago_Titicaca_desde_la_Isla_del_Sol,_Bolivia.JPG
+  - file: isladelsol-5.jpg
+    author: Qhanaaru
+    licence: CC0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Isla_de_Sol,_Lago_Titicaca_1,_andenes_de_cultivo..jpg
+  - file: isladelsol-6.jpg
+    author: Qhanaaru
+    licence: CC0
+    source: https://commons.wikimedia.org/wiki/File:Isla_de_Sol,_Lago_Titicaca_4.jpg
+  - file: isladelsol-7.jpg
+    author: Jawira
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Isla_del_Sol_y_Lago_Titicaca,_marzo_2025.jpg
+fr:
+  name: Isla del Sol
+  label: Isla del Sol
+  short: "Île sacrée des Incas : sentiers, ruines et vues sur la Cordillère Royale."
+  story: >-
+    Selon la légende inca, c'est ici que le Soleil est né. L'Isla del Sol est une île sans
+    voitures, avec des terrasses cultivées, des ânes, des ruines et une eau d'un bleu
+    intense, face aux sommets enneigés de la Cordillère Royale. Dormir sur l'île pour voir
+    le coucher et le lever du soleil est l'un des plus beaux moments d'un voyage en Bolivie.
+  todo:
+    - Dormir à Yumani (sud) pour le coucher et le lever du soleil
+    - Escalier inca et fontaine sacrée
+    - Ruines de Pilko Kaina
+    - "Selon la situation : marche vers le nord (Chincana)"
+  tips: >-
+    Pas de voitures sur l'île. Le sud (Yumani) est toujours accessible ; le nord
+    (Challapampa, Chincana) ferme par moments à cause d'un conflit entre communautés.
+    Demandez au port de Copacabana la veille.
+en:
+  name: Isla del Sol
+  label: Isla del Sol
+  short: "Sacred island of the Incas: trails, ruins and views of the Cordillera Real."
+  story: >-
+    According to Inca legend, the Sun was born here. The Isla del Sol has no cars, just
+    farming terraces, donkeys, ruins and deep blue water facing the snowy peaks of the
+    Cordillera Real. Spending the night on the island to watch the sunset and sunrise is one
+    of the best moments of a trip to Bolivia.
+  todo:
+    - Stay in Yumani (south) for sunset and sunrise
+    - Inca stairway and sacred fountain
+    - Pilko Kaina ruins
+    - "If open: the walk to the north (Chincana)"
+  tips: >-
+    No cars on the island. The south (Yumani) is always open; the north (Challapampa,
+    Chincana) closes at times because of a dispute between communities. Ask at the
+    Copacabana dock the day before.
+es:
+  name: Isla del Sol
+  label: Isla del Sol
+  short: "Isla sagrada de los incas: senderos, ruinas y vistas a la Cordillera Real."
+  story: >-
+    Según la leyenda inca, aquí nació el Sol. La Isla del Sol no tiene autos: solo terrazas
+    de cultivo, burros, ruinas y un agua de un azul intenso frente a los nevados de la
+    Cordillera Real. Dormir en la isla para ver el atardecer y el amanecer es uno de los
+    mejores momentos de un viaje por Bolivia.
+  todo:
+    - Dormir en Yumani (sur) para el atardecer y el amanecer
+    - Escalera inca y fuente sagrada
+    - Ruinas de Pilko Kaina
+    - "Si está abierto: la caminata al norte (Chincana)"
+  tips: >-
+    No hay autos en la isla. El sur (Yumani) siempre está abierto; el norte (Challapampa,
+    Chincana) cierra por momentos por un conflicto entre comunidades. Pregunta en el muelle
+    de Copacabana el día anterior.

@@ -1,0 +1,54 @@
+# Espejillos
+department: Santa Cruz
+category: nature
+lat: -17.9
+lng: -63.43
+altitude: 600
+days: [0, 1]
+climate: santacruz
+dishes: [majadito, tropical]
+photos: []
+fr:
+  name: Espejillos
+  label: Espejillos
+  short: Piscines naturelles et cascades sur la rivière, près de Santa Cruz.
+  story: >-
+    À Espejillos, la rivière coule sur de grandes dalles de roche lisses, formant des
+    toboggans naturels, des piscines claires et des petites cascades, au milieu de la forêt.
+    C'est l'escapade de week-end favorite des gens de Santa Cruz, à moins de deux heures de
+    la ville.
+  todo:
+    - Baignade dans les piscines naturelles
+    - Cascades et toboggans de roche
+    - Pique-nique au bord de la rivière
+  tips: >-
+    La piste finale se fait mieux en 4x4. Beaucoup de monde le week-end : en semaine, c'est
+    bien plus calme.
+en:
+  name: Espejillos
+  label: Espejillos
+  short: Natural pools and waterfalls on a river near Santa Cruz.
+  story: >-
+    At Espejillos the river flows over big smooth rock slabs, forming natural slides, clear
+    pools and small waterfalls in the middle of the forest. It's Santa Cruz's favourite
+    weekend escape, less than two hours from the city.
+  todo:
+    - Swim in the natural pools
+    - Waterfalls and rock slides
+    - Picnic by the river
+  tips: "The last stretch of track is best by 4x4. Very busy at weekends: weekdays are much calmer."
+es:
+  name: Espejillos
+  label: Espejillos
+  short: Pozas naturales y cascadas en el río, cerca de Santa Cruz.
+  story: >-
+    En Espejillos el río corre sobre grandes lajas de roca lisa, formando toboganes
+    naturales, pozas claras y pequeñas cascadas en medio del bosque. Es la escapada de fin
+    de semana favorita de los cruceños, a menos de dos horas de la ciudad.
+  todo:
+    - Baño en las pozas naturales
+    - Cascadas y toboganes de roca
+    - Picnic a orillas del río
+  tips: >-
+    El último tramo se hace mejor en 4x4. Mucha gente los fines de semana: entre semana es
+    mucho más tranquilo.

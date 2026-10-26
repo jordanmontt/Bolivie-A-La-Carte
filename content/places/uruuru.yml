@@ -1,0 +1,80 @@
+# Lacs Uru Uru et Poopó
+department: Oruro
+category: altiplano
+lat: -18.08
+lng: -67.11
+altitude: 3686
+days: [0, 1]
+climate: altiplano
+dishes: [pejerrey]
+photos:
+  - file: uruuru-1.jpg
+    author: Dayana Blanco
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Flamencos_del_Lago_Uru_Uru,_Bolivia.jpg
+  - file: uruuru-2.jpg
+    author: Alberto Schiappapietra
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Oruro_y_el_Lago_Uru_Uru.jpg
+  - file: uruuru-3.jpg
+    author: olivier hodac
+    licence: CC BY 2.0
+    source: https://commons.wikimedia.org/wiki/File:Lago_Poop%C3%B3_con_flamencos.jpg
+  - file: uruuru-4.jpg
+    author: Chiliguanca
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Plantas_de_totora_a_orillas_del_lago_Poop%C3%B3.jpg
+  - file: uruuru-5.jpg
+    author: Chiliguanca
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Artesan%C3%ADa_de_los_urus_del_lago_Poopo.jpg
+  - file: uruuru-6.jpg
+    author: Chiliguanca
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:El_lago_Poop%C3%B3_se_seca_III.jpg
+fr:
+  name: Lacs Uru Uru et Poopó
+  label: Uru Uru
+  short: Lacs peu profonds de l'Altiplano, aux portes d'Oruro, où viennent les flamants.
+  story: >-
+    Juste au sud d'Oruro, le lac Uru Uru s'étend dans la plaine, avec ses roseaux, ses
+    oiseaux et parfois des flamants roses. Plus au sud, le grand lac Poopó a presque disparu
+    ces dernières années à cause de la sécheresse : ses rives racontent la fragilité de
+    l'eau sur l'Altiplano. Les communautés urus y vivent depuis des siècles de la pêche et
+    des roseaux.
+  todo:
+    - Oiseaux et flamants du lac Uru Uru
+    - Rives du lac Poopó et communautés urus
+    - Coucher de soleil sur l'Altiplano
+  tips: >-
+    Le niveau de l'eau change beaucoup selon les années : renseignez-vous à Oruro. Jumelles
+    conseillées.
+en:
+  name: Lakes Uru Uru and Poopó
+  label: Uru Uru
+  short: Shallow Altiplano lakes on Oruro's doorstep, visited by flamingos.
+  story: >-
+    Just south of Oruro, Lake Uru Uru spreads across the plain, with its reeds, its birds
+    and sometimes pink flamingos. Further south, the great Lake Poopó has almost disappeared
+    in recent years because of drought: its shores show how fragile water is on the
+    Altiplano. Uru communities have lived here for centuries from fishing and reeds.
+  todo:
+    - Birds and flamingos on Lake Uru Uru
+    - The shores of Lake Poopó and Uru communities
+    - Sunset over the Altiplano
+  tips: "Water levels vary a lot from year to year: ask in Oruro. Binoculars recommended."
+es:
+  name: Lagos Uru Uru y Poopó
+  label: Uru Uru
+  short: Lagos poco profundos del Altiplano, a las puertas de Oruro, donde llegan los flamencos.
+  story: >-
+    Justo al sur de Oruro, el lago Uru Uru se extiende en la llanura, con totorales, aves y
+    a veces flamencos. Más al sur, el gran lago Poopó casi desapareció en los últimos años
+    por la sequía: sus orillas muestran lo frágil que es el agua en el Altiplano. Las
+    comunidades urus viven aquí desde hace siglos de la pesca y la totora.
+  todo:
+    - Aves y flamencos del lago Uru Uru
+    - Orillas del lago Poopó y comunidades urus
+    - Atardecer en el Altiplano
+  tips: "El nivel del agua cambia mucho según los años: pregunta en Oruro. Lleva binoculares."

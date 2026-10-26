@@ -1,0 +1,79 @@
+# Sorata
+department: La Paz
+category: nature
+lat: -15.7728
+lng: -68.6497
+altitude: 2700
+days: [2, 3]
+climate: sorata
+dishes: [trucha_sorata, sopaMani]
+photos:
+  - file: sorata-1.jpg
+    author: mark goble
+    licence: CC BY 2.0
+    source: https://commons.wikimedia.org/wiki/File:Sorata,_Bolivia.jpg
+  - file: sorata-2.jpg
+    author: codiferous (Cody H)
+    licence: CC BY 2.0
+    source: https://commons.wikimedia.org/wiki/File:Mount_Illamp%C3%BA_in_May_2007_(Cody_H).jpg
+  - file: sorata-3.jpg
+    author: Pierre-Olivier Combelles
+    licence: CC BY 3.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Vue_de_Sorata_(Bolivie)_depuis_les_hauteurs_de_Purani_Churiquimbaya..JPG
+  - file: sorata-4.jpg
+    author: lilapagola
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Vista_del_pueblo_en_Sorata_-_panoramio.jpg
+  - file: sorata-5.jpg
+    author: D.LaHera
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:IMG-20230617-WA0051.jpg
+  - file: sorata-6.jpg
+    author: Maurice Chédel
+    licence: CC BY 3.0
+    source: https://commons.wikimedia.org/wiki/File:Illampu-and_Pico_Schulze.jpg
+  - file: sorata-7.jpg
+    author: LaCris
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:LagunaChilata.jpg
+fr:
+  name: Sorata
+  label: Sorata
+  short: Village tranquille au pied de l'Illampu, base de treks.
+  story: >-
+    Sorata est un village de montagne paisible, niché dans une vallée verdoyante au pied de
+    l'Illampu (6 368 m). On y vient pour respirer, se promener, visiter une grotte avec un
+    lac souterrain ou partir en trek vers la lagune Chillata. Un bon endroit pour souffler
+    loin de l'agitation de La Paz.
+  todo:
+    - Grotte de San Pedro (lac souterrain)
+    - Laguna Chillata (trek de 1-2 jours)
+    - Base des grands treks de la Cordillère
+  tips: Plus bas et plus doux que La Paz, idéal pour souffler.
+en:
+  name: Sorata
+  label: Sorata
+  short: A quiet village at the foot of Illampu, a base for treks.
+  story: >-
+    Sorata is a peaceful mountain village in a green valley at the foot of Illampu (6,368
+    m). People come to breathe, stroll, visit a cave with an underground lake or trek up to
+    the Chillata lagoon. A good place to unwind away from the bustle of La Paz.
+  todo:
+    - San Pedro cave (underground lake)
+    - Laguna Chillata (1 to 2-day trek)
+    - Base for the big treks of the Cordillera
+  tips: Lower and milder than La Paz, ideal for a break.
+es:
+  name: Sorata
+  label: Sorata
+  short: Pueblo tranquilo al pie del Illampu, base de trekkings.
+  story: >-
+    Sorata es un pueblo de montaña apacible, en un valle verde al pie del Illampu (6368 m).
+    Se viene a respirar, pasear, visitar una gruta con un lago subterráneo o hacer un
+    trekking a la laguna Chillata. Un buen lugar para descansar del ajetreo de La Paz.
+  todo:
+    - Gruta de San Pedro (lago subterráneo)
+    - Laguna Chillata (trekking de 1 a 2 días)
+    - Base de los grandes trekkings de la Cordillera
+  tips: Más bajo y templado que La Paz, ideal para descansar.

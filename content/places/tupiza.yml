@@ -1,0 +1,90 @@
+# Tupiza
+department: Potosí
+category: nature
+lat: -21.4439
+lng: -65.7189
+altitude: 2950
+days: [1, 2]
+climate: tupiza
+major: true
+dishes: [llama, picante, chicha]
+photos:
+  - file: tupiza-1.jpg
+    author: Elemaki
+    licence: CC BY 3.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:227._Tupiza,_camino_hacia_el_Ca%C3%B1on_del_Inca_(10).JPG
+  - file: tupiza-2.jpg
+    author: Iain and Sarah from London, UK
+    licence: CC BY 2.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:El_Sillar_o_Valle_de_la_Luna_Potos%C3%AD_Bolivia.jpg
+  - file: tupiza-3.jpg
+    author: Elemaki
+    licence: CC BY 3.0
+    source: https://commons.wikimedia.org/wiki/File:224.Tupiza_(13).JPG
+  - file: tupiza-4.jpg
+    author: Belinda Grasnick
+    licence: CC BY-SA 2.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Cordillera_de_Chichas_en_Tupiza,_Sud_Chichas,_Bolivia.jpg
+  - file: tupiza-5.jpg
+    author: rodoluca
+    licence: CC BY-SA 3.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Quebrada_de_Palala,_Tupiza,_Bolivia_-_panoramio.jpg
+  - file: tupiza-6.jpg
+    author: rodoluca
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Valle_Toroyoc,_Tupiza_-_panoramio.jpg
+  - file: tupiza-7.jpg
+    author: rodoluca
+    licence: CC BY-SA 3.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Extra%C3%B1as_formaciones_inclinadas,_Las_Poronguitas,_Tupiza,_Bolivia_-_panoramio.jpg
+  - file: tupiza-8.jpg
+    author: rodoluca
+    licence: CC BY-SA 3.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Paisaje_de_Entre_R%C3%ADos,_ruta_Villaz%C3%B3n-Tupiza,_Bolivia_-_panoramio.jpg
+fr:
+  name: Tupiza
+  label: Tupiza
+  short: "Paysages de western : canyons rouges, cactus, et la dernière cavale de Butch Cassidy."
+  story: >-
+    Tupiza ressemble à un décor de western : canyons rouges, cactus géants et rivières
+    asséchées. C'est d'ailleurs dans la région que Butch Cassidy et le Sundance Kid auraient
+    fini leur cavale. On y fait de superbes balades à cheval, et on peut commencer ici le
+    tour du Sud Lípez dans l'autre sens.
+  todo:
+    - Balade à cheval dans les canyons (Quebrada de Palala, Puerta del Diablo)
+    - Cañón del Inca
+    - Départ alternatif du tour du Sud Lípez (4 jours, finit à Uyuni)
+  tips: Plus bas (2 950 m) et plus chaud qu'Uyuni.
+en:
+  name: Tupiza
+  label: Tupiza
+  short: "Wild West scenery: red canyons, cacti and the last ride of Butch Cassidy."
+  story: >-
+    Tupiza looks like a western film set: red canyons, giant cacti and dry riverbeds. It's
+    in this region that Butch Cassidy and the Sundance Kid are said to have met their end.
+    It's great for horse riding, and you can start the Sud Lípez tour from here in the other
+    direction.
+  todo:
+    - Horse ride through the canyons (Quebrada de Palala, Puerta del Diablo)
+    - Cañón del Inca
+    - Alternative start of the Sud Lípez tour (4 days, ending in Uyuni)
+  tips: Lower (2,950 m) and warmer than Uyuni.
+es:
+  name: Tupiza
+  label: Tupiza
+  short: "Paisajes de western: cañones rojos, cactus y la última huida de Butch Cassidy."
+  story: >-
+    Tupiza parece un decorado de western: cañones rojos, cactus gigantes y ríos secos. En
+    esta región habrían terminado su huida Butch Cassidy y Sundance Kid. Es ideal para
+    cabalgatas, y desde aquí se puede hacer el tour del Sud Lípez en sentido inverso.
+  todo:
+    - Cabalgata por los cañones (Quebrada de Palala, Puerta del Diablo)
+    - Cañón del Inca
+    - Salida alternativa del tour del Sud Lípez (4 días, termina en Uyuni)
+  tips: Más bajo (2950 m) y más cálido que Uyuni.

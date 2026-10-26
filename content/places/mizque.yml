@@ -1,0 +1,69 @@
+# Mizque
+department: Cochabamba
+category: culture
+lat: -17.94
+lng: -65.34
+altitude: 2050
+days: [1, 1]
+climate: valles
+dishes: [picante, chicha, chicharron]
+photos:
+  - file: mizque-1.jpg
+    author: Deborahwinarski
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Plaza_de_Mizque.jpg
+  - file: mizque-2.jpg
+    author: 7oanna
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Red-fronted_macaw,_Ara_rubrogenys.jpg
+  - file: mizque-3.jpg
+    author: Clément Bardot
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Ara_de_Lafresnaye_(Ara_rubrogenys).jpg
+fr:
+  name: Mizque
+  label: Mizque
+  short: Village colonial d'une vallée chaude, terre de l'ara à front rouge.
+  story: >-
+    Mizque est un village colonial tranquille au fond d'une vallée chaude et sèche, au
+    sud-est de Cochabamba. Autrefois ville importante, il a gardé ses vieilles maisons et
+    son ambiance d'un autre temps. Ses vallées abritent l'ara à front rouge, un perroquet
+    qui ne vit qu'en Bolivie, et le tourisme communautaire permet de découvrir canyons et
+    villages, comme les Infiernillos de Higueral.
+  todo:
+    - Centre colonial et place
+    - Observer l'ara à front rouge
+    - Canyon des Infiernillos (Higueral)
+    - Tourisme communautaire dans les villages
+  tips: Bus et minibus quotidiens depuis Cochabamba. Se combine avec Aiquile, à 1 h 30.
+en:
+  name: Mizque
+  label: Mizque
+  short: A colonial village in a warm valley, home of the red-fronted macaw.
+  story: >-
+    Mizque is a quiet colonial village in a warm, dry valley south-east of Cochabamba. Once
+    an important town, it has kept its old houses and its timeless feel. Its valleys are
+    home to the red-fronted macaw, a parrot found only in Bolivia, and community tourism
+    opens up canyons and villages such as the Infiernillos of Higueral.
+  todo:
+    - Colonial centre and square
+    - Watch the red-fronted macaw
+    - Infiernillos canyon (Higueral)
+    - Community tourism in the villages
+  tips: Daily buses and minibuses from Cochabamba. Combine with Aiquile, 1 h 30 away.
+es:
+  name: Mizque
+  label: Mizque
+  short: Pueblo colonial de un valle cálido, tierra de la paraba frente roja.
+  story: >-
+    Mizque es un tranquilo pueblo colonial en el fondo de un valle cálido y seco, al sureste
+    de Cochabamba. Antes fue una ciudad importante, y conserva sus casonas y su aire de otro
+    tiempo. Sus valles son el hogar de la paraba frente roja, un loro que solo vive en
+    Bolivia, y el turismo comunitario permite conocer cañones y comunidades, como los
+    Infiernillos de Higueral.
+  todo:
+    - Centro colonial y plaza
+    - Ver la paraba frente roja
+    - Cañón de los Infiernillos (Higueral)
+    - Turismo comunitario en las comunidades
+  tips: Buses y minibuses diarios desde Cochabamba. Se combina con Aiquile, a 1 h 30.

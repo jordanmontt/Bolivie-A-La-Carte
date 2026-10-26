@@ -1,0 +1,97 @@
+# Sucre
+department: Chuquisaca
+category: ville
+lat: -19.0476
+lng: -65.2596
+altitude: 2810
+days: [2, 3]
+climate: sucre
+major: true
+dishes: [chorizoChuqui, mondongo, chocolate, saltena]
+photos:
+  - file: sucre-1.jpg
+    author: Parallelepiped09
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Convento_de_San_Felipe_de_Neri_en_Sucre.jpg
+  - file: sucre-2.jpg
+    author: Parallelepiped09
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Catedral_bas%C3%ADlica_de_Nuestra_Se%C3%B1ora_de_Guadalupe.jpg
+  - file: sucre-3.jpg
+    author: Murray Foubister
+    licence: CC BY-SA 2.0
+    source: https://commons.wikimedia.org/wiki/File:Sucre,_Bolivia_-_(24545082440).jpg
+  - file: sucre-4.jpg
+    author: Parallelepiped09
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Ciudad_de_Sucre,_Bolivia.jpg
+  - file: sucre-5.jpg
+    author: Parallelepiped09
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Convento_San_Felipe_de_Neri,_Sucre_Bolivia.jpg
+  - file: sucre-6.jpg
+    author: Pablo Paz
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:A_media_luz_en_la_Recoleta.jpg
+  - file: sucre-7.jpg
+    author: Mariciña
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Convento_de_La_Recoleta_002.JPG
+fr:
+  name: Sucre
+  label: Sucre
+  short: "La « ville blanche », capitale constitutionnelle : la plus belle ville coloniale du pays."
+  story: >-
+    Sucre est la plus belle ville de Bolivie : façades blanches, toits de tuiles, cloîtres
+    et places ombragées, au cœur d'une vallée au climat doux. C'est là que l'indépendance a
+    été proclamée. On y mange bien, on y flâne, on monte au mirador de la Recoleta et on
+    découvre un mur couvert de milliers d'empreintes de dinosaures. Le lieu idéal pour se
+    poser quelques jours.
+  todo:
+    - Mirador de la Recoleta au coucher du soleil
+    - Casa de la Libertad (indépendance)
+    - "Parque Cretácico : mur de 5 000 empreintes de dinosaures (Cal Orck'o)"
+    - Marché central (jus de fruits, salteñas)
+    - Toits du couvent San Felipe Neri
+  tips: >-
+    Climat doux, ville agréable pour se poser. Beaucoup de cours d'espagnol si quelqu'un
+    veut rester.
+en:
+  name: Sucre
+  label: Sucre
+  short: >-
+    The “white city” and constitutional capital: the most beautiful colonial city in the
+    country.
+  story: >-
+    Sucre is Bolivia's most beautiful city: white façades, tiled roofs, cloisters and shady
+    squares in a valley with a mild climate. It's where independence was declared. You eat
+    well, wander, climb to the Recoleta viewpoint and see a wall covered with thousands of
+    dinosaur footprints. The ideal place to settle in for a few days.
+  todo:
+    - Recoleta viewpoint at sunset
+    - Casa de la Libertad (independence)
+    - "Parque Cretácico: a wall with 5,000 dinosaur footprints (Cal Orck'o)"
+    - Central market (fruit juices, salteñas)
+    - Rooftops of the San Felipe Neri convent
+  tips: >-
+    Mild climate and a pleasant city to slow down in. Lots of Spanish schools if you want to
+    stay longer.
+es:
+  name: Sucre
+  label: Sucre
+  short: "La «ciudad blanca», capital constitucional: la ciudad colonial más bella del país."
+  story: >-
+    Sucre es la ciudad más linda de Bolivia: fachadas blancas, techos de teja, claustros y
+    plazas con sombra, en un valle de clima templado. Ahí se proclamó la independencia. Se
+    come bien, se pasea, se sube al mirador de La Recoleta y se ve un muro con miles de
+    huellas de dinosaurio. El lugar ideal para quedarse unos días.
+  todo:
+    - Mirador de La Recoleta al atardecer
+    - Casa de la Libertad (independencia)
+    - "Parque Cretácico: un muro con 5000 huellas de dinosaurio (Cal Orck'o)"
+    - Mercado Central (jugos, salteñas)
+    - Techos del convento de San Felipe Neri
+  tips: >-
+    Clima templado y ciudad agradable para quedarse. Muchas escuelas de español si quieres
+    alargar la estadía.

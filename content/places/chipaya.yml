@@ -1,0 +1,94 @@
+# Chipaya
+department: Oruro
+category: culture
+lat: -19.042
+lng: -68.089
+altitude: 3650
+days: [1, 1]
+climate: uyuni
+dishes: [quinoa, llama, sopa_quinua]
+photos:
+  - file: chipaya-1.jpg
+    author: Dennis G. Jarvis
+    licence: CC BY-SA 2.0
+    source: https://commons.wikimedia.org/wiki/File:Flickr_-_archer10_(Dennis)_-_Bolivia-138.jpg
+  - file: chipaya-2.jpg
+    author: Viaje al corazón de Bolivia
+    licence: CC BY 2.0
+    source: https://commons.wikimedia.org/wiki/File:Casita_Chipaya.jpg
+  - file: chipaya-3.jpg
+    author: Viaje al corazón de Bolivia
+    licence: CC BY 2.0
+    source: https://commons.wikimedia.org/wiki/File:Casita_en_Chipaya.jpg
+  - file: chipaya-4.jpg
+    author: Viaje al corazón de Bolivia
+    licence: CC BY 2.0
+    source: https://commons.wikimedia.org/wiki/File:Poblacion_Chipaya.jpg
+  - file: chipaya-5.jpg
+    author: Chiliguanca
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Putuku,_antigua_vivienda_de_los_urus.jpg
+  - file: chipaya-6.jpg
+    author: Viaje al corazón de Bolivia
+    licence: CC BY 2.0
+    source: https://commons.wikimedia.org/wiki/File:Lago_Uru_Uru_Chipaya_1.jpg
+fr:
+  name: Chipaya
+  label: Chipaya
+  short: >-
+    Le village des Uru-Chipaya, l'un des peuples les plus anciens des Andes, aux maisons
+    rondes en terre.
+  story: >-
+    Au bord du Salar de Coipasa, Chipaya est le village des Uru-Chipaya, l'un des peuples
+    les plus anciens des Andes, qui a gardé sa langue, ses vêtements et son organisation.
+    Leurs maisons rondes en mottes de terre, aux toits de paille, sont uniques en Bolivie.
+    C'est un lieu à part, où l'on vient avec respect et en prenant son temps, pour
+    comprendre comment vivre dans l'un des milieux les plus durs du continent.
+  todo:
+    - Maisons rondes traditionnelles (wayllichas)
+    - Rencontre avec la communauté, avec un guide local
+    - Dunes et rivière Lauca
+    - Salar de Coipasa tout proche
+  tips: >-
+    Accès long et peu de transports depuis Oruro (3 à 4 h). Une entrée est demandée par la
+    communauté. Demandez toujours avant de photographier quelqu'un.
+en:
+  name: Chipaya
+  label: Chipaya
+  short: >-
+    Village of the Uru-Chipaya, one of the oldest peoples of the Andes, with round earthen
+    houses.
+  story: >-
+    On the edge of the Coipasa salt flat, Chipaya is the village of the Uru-Chipaya, one of
+    the oldest peoples of the Andes, who have kept their language, dress and way of life.
+    Their round houses of turf blocks with thatched roofs are unique in Bolivia. It's a
+    place apart, to visit with respect and without hurry, to understand how people live in
+    one of the harshest environments on the continent.
+  todo:
+    - Traditional round houses (wayllichas)
+    - Meeting the community, with a local guide
+    - Dunes and the Lauca river
+    - The nearby Coipasa salt flat
+  tips: >-
+    A long trip with little transport from Oruro (3 to 4 h). The community charges an entry
+    fee. Always ask before photographing anyone.
+es:
+  name: Chipaya
+  label: Chipaya
+  short: >-
+    El pueblo de los uru-chipaya, uno de los pueblos más antiguos de los Andes, con casas
+    redondas de tierra.
+  story: >-
+    A orillas del Salar de Coipasa, Chipaya es el pueblo de los uru-chipaya, uno de los
+    pueblos más antiguos de los Andes, que conserva su idioma, su vestimenta y su
+    organización. Sus casas redondas de champas de tierra con techo de paja son únicas en
+    Bolivia. Es un lugar aparte, para visitar con respeto y sin apuro, y entender cómo se
+    vive en uno de los ambientes más duros del continente.
+  todo:
+    - Casas redondas tradicionales (wayllichas)
+    - Encuentro con la comunidad, con un guía local
+    - Dunas y el río Lauca
+    - El Salar de Coipasa, muy cerca
+  tips: >-
+    Acceso largo y poco transporte desde Oruro (3 a 4 h). La comunidad cobra una entrada.
+    Pide siempre permiso antes de fotografiar a alguien.

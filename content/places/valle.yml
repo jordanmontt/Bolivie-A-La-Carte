@@ -1,0 +1,86 @@
+# Valle Alto : Tarata et Cliza
+department: Cochabamba
+category: culture
+lat: -17.6106
+lng: -66.0236
+altitude: 2750
+days: [1, 1]
+climate: valles_haut
+dishes: [chicha, chicharron, picante]
+photos:
+  - file: valle-1.jpg
+    author: MariaCristinaLavayenSoria
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Templo_y_convento_de_San_Jos%C3%A9_de_Tarata_perspectiva.jpg
+  - file: valle-2.jpg
+    author: Susu Phisi
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Vista_cubierta_del_Templo_de_San_Pedro.jpg
+  - file: valle-3.jpg
+    author: Regucho
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Arqutectura_Colonial_de_Tarata.JPG
+  - file: valle-4.jpg
+    author: Franz lozada
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Alcald%C3%ADa_de_Punata.JPG
+  - file: valle-5.jpg
+    author: Mau7Hid
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Comparsas_durante_el_carnaval_en_Villa_Rivero.jpg
+  - file: valle-6.jpg
+    author: Carlillasa
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Venta_de_rosquetes_en_Punata.jpg
+  - file: valle-7.jpg
+    author: Mau7Hid
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Mujeres_bailando_en_el_carnaval_de_Villa_Rivero.jpg
+fr:
+  name: "Valle Alto : Tarata et Cliza"
+  label: Tarata · Cliza
+  short: Villages coloniaux de la vallée, marchés et chicha.
+  story: >-
+    Le Valle Alto, c'est la campagne de Cochabamba : des villages coloniaux en adobe, des
+    champs de maïs et les chicherías, où l'on boit la chicha (bière de maïs) dans des
+    calebasses. Tarata, avec ses rues pavées et sa grande place, est l'un des plus jolis
+    villages de la région. Idéal pour une journée tranquille et très locale.
+  todo:
+    - "Tarata : village colonial classé, couvent San José"
+    - Marché du dimanche à Cliza
+    - Goûter la chicha de maïs et le chicharrón local
+    - Punata (marché du mardi)
+  tips: Facile en demi-journée ou journée depuis Cochabamba en trufi (minibus).
+en:
+  name: "Valle Alto: Tarata and Cliza"
+  label: Tarata and Cliza
+  short: Colonial valley villages, markets and chicha.
+  story: >-
+    The Valle Alto is Cochabamba's countryside: adobe colonial villages, cornfields and
+    chicherías, where chicha (corn beer) is served in gourds. Tarata, with its cobbled
+    streets and large square, is one of the prettiest villages in the region. Ideal for a
+    quiet, very local day out.
+  todo:
+    - "Tarata: listed colonial village, San José convent"
+    - Sunday market in Cliza
+    - Try corn chicha and local chicharrón
+    - Punata (Tuesday market)
+  tips: Easy half-day or day trip from Cochabamba by trufi (minibus).
+es:
+  name: "Valle Alto: Tarata y Cliza"
+  label: Tarata y Cliza
+  short: Pueblos coloniales del valle, mercados y chicha.
+  story: >-
+    El Valle Alto es el campo cochabambino: pueblos coloniales de adobe, maizales y
+    chicherías donde se toma chicha en tutumas. Tarata, con sus calles empedradas y su gran
+    plaza, es uno de los pueblos más lindos de la región. Ideal para un día tranquilo y muy
+    local.
+  todo:
+    - "Tarata: pueblo colonial patrimonial, convento de San José"
+    - Feria dominical de Cliza
+    - Probar la chicha de maíz y el chicharrón del lugar
+    - Punata (feria de los martes)
+  tips: Fácil en medio día o un día desde Cochabamba en trufi.

@@ -1,0 +1,56 @@
+# Uros d'Iruito
+department: La Paz
+category: culture
+lat: -16.62
+lng: -68.98
+altitude: 3810
+days: [0, 1]
+climate: altiplano
+dishes: [chuno]
+photos: []
+fr:
+  name: Uros d'Iruito
+  label: Iruito
+  short: >-
+    Une communauté uru au bord du río Desaguadero, gardienne d'une très ancienne culture du
+    lac.
+  story: >-
+    Les Urus sont l'un des plus anciens peuples des Andes, longtemps appelés « hommes de
+    l'eau ». À Iruito, au bord du río Desaguadero, leur communauté a ouvert un petit musée
+    et accueille les visiteurs pour parler de leur histoire, de la pêche et des roseaux. Une
+    rencontre rare, à faire avec respect.
+  todo:
+    - Musée communautaire uru
+    - Balade sur le río Desaguadero
+    - Rencontre avec la communauté
+  tips: Accès par Jesús de Machaca, mieux avec un guide. Demandez avant de photographier.
+en:
+  name: Uru community of Iruito
+  label: Iruito
+  short: An Uru community on the Desaguadero river, keepers of a very old lake culture.
+  story: >-
+    The Urus are one of the oldest peoples of the Andes, long called the "people of the
+    water". At Iruito, on the Desaguadero river, their community has opened a small museum
+    and welcomes visitors to talk about their history, fishing and reeds. A rare encounter,
+    to be approached with respect.
+  todo:
+    - Uru community museum
+    - Trip on the Desaguadero river
+    - Meeting the community
+  tips: Reached via Jesús de Machaca, best with a guide. Ask before taking photos.
+es:
+  name: Urus de Iruito
+  label: Iruito
+  short: >-
+    Una comunidad uru a orillas del río Desaguadero, guardiana de una cultura muy antigua
+    del lago.
+  story: >-
+    Los urus son uno de los pueblos más antiguos de los Andes, llamados durante mucho tiempo
+    «hombres del agua». En Iruito, a orillas del río Desaguadero, su comunidad abrió un
+    pequeño museo y recibe a los visitantes para hablar de su historia, la pesca y la
+    totora. Un encuentro poco común, que se hace con respeto.
+  todo:
+    - Museo comunitario uru
+    - Paseo por el río Desaguadero
+    - Encuentro con la comunidad
+  tips: Se llega por Jesús de Machaca, mejor con guía. Pide permiso antes de tomar fotos.

@@ -1,0 +1,84 @@
+# Huayna Potosí
+department: La Paz
+category: aventure
+lat: -16.263
+lng: -68.155
+altitude: 6088
+days: [3, 3]
+climate: haute_montagne
+dishes: [sopa_quinua, sajta]
+photos:
+  - file: huayna-1.jpg
+    author: EEJCC
+    licence: CC0
+    source: https://commons.wikimedia.org/wiki/File:Huayna_Potos%C3%AD_near_El_Alto.jpg
+  - file: huayna-2.jpg
+    author: CLAUDIOLD
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:HUAYNA_POTOS%C3%8D.jpg
+  - file: huayna-3.jpg
+    author: EEJCC
+    licence: CC0
+    source: https://commons.wikimedia.org/wiki/File:Huayna_Potos%C3%AD,_La_Paz.jpg
+  - file: huayna-4.jpg
+    author: Caleidoscopic
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Cementerio_de_Milluni_y_Huyna_Potos%C3%AD(14).jpg
+  - file: huayna-5.jpg
+    author: CLAUDIOLD
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:HUAYNA_POTOSI.jpg
+  - file: huayna-6.jpg
+    author: Princiar
+    licence: Public domain
+    source: https://commons.wikimedia.org/wiki/File:Huayna_Potosi_2006.JPG
+  - file: huayna-7.jpg
+    author: Swedish Apolobamba Expedition 2001
+    licence: Attribution
+    source: https://commons.wikimedia.org/wiki/File:Huayna_Potosi_West_Face.jpg
+fr:
+  name: Huayna Potosí
+  label: Huayna Potosí
+  short: Un « 6 000 » réputé accessible, ascension guidée en 2 ou 3 jours.
+  story: >-
+    Le Huayna Potosí (6 088 m) est l'un des « 6 000 » les plus accessibles au monde : en
+    deux ou trois jours, avec un guide, on passe par un refuge puis on marche sur le glacier
+    jusqu'au sommet au lever du soleil. Une vraie expédition, réservée à ceux qui sont bien
+    acclimatés et en bonne forme.
+  todo:
+    - Ascension guidée (glacier, crampons)
+    - Ou simple journée au refuge et au glacier de Zongo
+  tips: >-
+    Exige une très bonne acclimatation (au moins une semaine en altitude). Agences sérieuses
+    à La Paz.
+en:
+  name: Huayna Potosí
+  label: Huayna Potosí
+  short: A 6,000 m peak known as one of the most accessible, with a guided 2 or 3-day climb.
+  story: >-
+    Huayna Potosí (6,088 m) is one of the most accessible 6,000 m peaks in the world: in two
+    or three days with a guide, you stay at a refuge and then walk up the glacier to reach
+    the summit at sunrise. A real expedition, only for people who are well acclimatised and
+    fit.
+  todo:
+    - Guided ascent (glacier, crampons)
+    - Or just a day trip to the refuge and the Zongo glacier
+  tips: >-
+    Requires very good acclimatisation (at least a week at altitude). Use a reputable agency
+    in La Paz.
+es:
+  name: Huayna Potosí
+  label: Huayna Potosí
+  short: Un «seismil» conocido por ser accesible, con ascenso guiado en 2 o 3 días.
+  story: >-
+    El Huayna Potosí (6088 m) es uno de los seismiles más accesibles del mundo: en dos o
+    tres días, con guía, se duerme en un refugio y luego se camina por el glaciar hasta la
+    cumbre al amanecer. Una verdadera expedición, solo para quienes están bien aclimatados y
+    en buena forma.
+  todo:
+    - Ascenso guiado (glaciar, crampones)
+    - O solo un día al refugio y al glaciar de Zongo
+  tips: >-
+    Exige una muy buena aclimatación (al menos una semana en la altura). Agencias serias en
+    La Paz.

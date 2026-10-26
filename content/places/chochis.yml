@@ -1,0 +1,97 @@
+# Chochís et la Torre de David
+department: Santa Cruz
+category: nature
+lat: -18.1494
+lng: -60.0307
+altitude: 400
+days: [1, 1]
+climate: chiquitania
+dishes: [locro, masaco, tropical]
+photos:
+  - file: chochis-1.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Vista_de_Choch%C3%ADs_con_la_Torre_y_el_Cerro_de_Choch%C3%ADs_-_Chiquitos,_Bolivia.jpg
+  - file: chochis-2.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Torre_de_Choch%C3%ADs_y_Cerro_de_Choch%C3%ADs_-_Chiquitos,_Bolivia.jpg
+  - file: chochis-3.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Pico_de_la_Torre_de_Choch%C3%ADs_-_Choch%C3%ADs,_Bolivia.jpg
+  - file: chochis-4.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Torre_de_Choch%C3%ADs_y_Serran%C3%ADa_de_los_C%C3%A1ntaros_-_Choch%C3%ADs,_Bolivia.jpg
+  - file: chochis-5.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Torre_de_Choch%C3%ADs_(NO)_-_Chiquitos,_Bolivia.jpg
+  - file: chochis-6.jpg
+    author: Rodolfo Barriga
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Frontis_del_Santuario_Mariano_de_la_Torre,_Choch%C3%ADs,_Bolivia.jpg
+  - file: chochis-7.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Cerro_Choch%C3%ADs_y_el_ferrocarril_(derecha)_-_Choch%C3%ADs,_Bolivia.jpg
+fr:
+  name: Chochís et la Torre de David
+  label: Chochís
+  short: >-
+    Une immense falaise rouge, la Torre de David, avec un sanctuaire à ses pieds et des
+    cascades dans la vallée de Tucavaca.
+  story: >-
+    À Chochís, une gigantesque falaise de grès rouge, la Torre de David, domine la forêt. À
+    ses pieds, un sanctuaire construit après une catastrophe naturelle se fond dans la
+    roche. On peut grimper jusqu'en haut pour une vue magnifique sur la vallée de Tucavaca,
+    puis se baigner sous les cascades.
+  todo:
+    - Sanctuaire marial de Chochís, construit au pied de la falaise
+    - Montée à la Torre de David (vue sur toute la vallée)
+    - Cascades et baignade dans la vallée de Tucavaca
+  tips: >-
+    Sur la route et la voie ferrée entre San José et Roboré. Mieux avec un guide local
+    depuis Roboré.
+en:
+  name: Chochís and the Torre de David
+  label: Chochís
+  short: >-
+    A huge red cliff, the Torre de David, with a sanctuary at its foot and waterfalls in the
+    Tucavaca valley.
+  story: >-
+    In Chochís, a gigantic red sandstone cliff, the Torre de David, towers over the forest.
+    At its foot, a sanctuary built after a natural disaster blends into the rock. You can
+    climb to the top for a magnificent view of the Tucavaca valley, then swim under the
+    waterfalls.
+  todo:
+    - Chochís Marian sanctuary, built at the foot of the cliff
+    - Climb the Torre de David (view over the whole valley)
+    - Waterfalls and swimming in the Tucavaca valley
+  tips: On the road and railway between San José and Roboré. Best with a local guide from Roboré.
+es:
+  name: Chochís y la Torre de David
+  label: Chochís
+  short: >-
+    Un enorme farallón rojo, la Torre de David, con un santuario a sus pies y cascadas en el
+    valle de Tucavaca.
+  story: >-
+    En Chochís, un gigantesco farallón de arenisca roja, la Torre de David, domina el
+    bosque. A sus pies, un santuario construido después de un desastre natural se funde con
+    la roca. Se puede subir hasta arriba para una vista magnífica del valle de Tucavaca y
+    luego bañarse bajo las cascadas.
+  todo:
+    - Santuario mariano de Chochís, al pie del farallón
+    - Subida a la Torre de David (vista de todo el valle)
+    - Cascadas y baño en el valle de Tucavaca
+  tips: >-
+    En la carretera y la vía férrea entre San José y Roboré. Mejor con un guía local desde
+    Roboré.

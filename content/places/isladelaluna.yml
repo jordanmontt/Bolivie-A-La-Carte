@@ -1,0 +1,74 @@
+# Isla de la Luna
+department: La Paz
+category: culture
+lat: -16.045
+lng: -69.07
+altitude: 3850
+days: [1, 1]
+climate: titicaca
+dishes: [trucha, pejerrey]
+photos:
+  - file: isladelaluna-1.jpg
+    author: Pavel Špindler
+    licence: CC BY 3.0
+    source: https://commons.wikimedia.org/wiki/File:Isla_del_Luna_-_panoramio_(1).jpg
+  - file: isladelaluna-2.jpg
+    author: LBM1948
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Isla_de_la_Luna_01.jpg
+  - file: isladelaluna-3.jpg
+    author: Dennis G. Jarvis
+    licence: CC BY-SA 2.0
+    source: https://commons.wikimedia.org/wiki/File:Flickr_-_archer10_(Dennis)_-_Bolivia-97.jpg
+  - file: isladelaluna-4.jpg
+    author: Jannettbolivia
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Palacio_V%C3%ADrgenes_del_Sol_07.jpg
+  - file: isladelaluna-5.jpg
+    author: CLAUDIOLD
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Challapampa.jpg
+  - file: isladelaluna-6.jpg
+    author: Chtiwiki
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Isla_de_la_luna_barques.jpg
+  - file: isladelaluna-7.jpg
+    author: Jannettbolivia
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Palacio_V%C3%ADrgenes_del_Sol_16.jpg
+fr:
+  name: Isla de la Luna
+  label: Isla de la Luna
+  short: Petite île voisine avec le temple des Vierges du Soleil (Iñak Uyu).
+  story: >-
+    Plus petite et plus calme que sa voisine, l'Isla de la Luna abritait le temple des
+    Vierges du Soleil, des femmes choisies au service du culte inca. Une escale rapide en
+    bateau, qui se combine facilement avec l'Isla del Sol.
+  todo:
+    - Temple d'Iñak Uyu
+    - Combinable avec l'Isla del Sol dans la même journée
+  tips: Bateaux depuis Copacabana ou Yumani.
+en:
+  name: Isla de la Luna
+  label: Isla de la Luna
+  short: A small neighbouring island with the temple of the Virgins of the Sun (Iñak Uyu).
+  story: >-
+    Smaller and quieter than its neighbour, the Isla de la Luna was home to the temple of
+    the Virgins of the Sun, women chosen to serve the Inca cult. A short boat stop that's
+    easy to combine with the Isla del Sol.
+  todo:
+    - Iñak Uyu temple
+    - Combine with the Isla del Sol on the same day
+  tips: Boats from Copacabana or Yumani.
+es:
+  name: Isla de la Luna
+  label: Isla de la Luna
+  short: Pequeña isla vecina con el templo de las Vírgenes del Sol (Iñak Uyu).
+  story: >-
+    Más pequeña y tranquila que su vecina, la Isla de la Luna albergaba el templo de las
+    Vírgenes del Sol, mujeres elegidas para servir al culto inca. Una parada corta en bote
+    que se combina fácilmente con la Isla del Sol.
+  todo:
+    - Templo de Iñak Uyu
+    - Combinable con la Isla del Sol el mismo día
+  tips: Botes desde Copacabana o Yumani.

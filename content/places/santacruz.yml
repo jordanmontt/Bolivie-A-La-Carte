@@ -1,0 +1,87 @@
+# Santa Cruz de la Sierra
+department: Santa Cruz
+category: ville
+lat: -17.7833
+lng: -63.1821
+altitude: 416
+days: [1, 2]
+climate: santacruz
+major: true
+dishes: [majadito, sonso, cunape, tropical]
+photos:
+  - file: santacruz-1.jpg
+    author: Parallelepiped09
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Catedral_Metropolitana_Bas%C3%ADlica_Menor_de_San_Lorenzo_de_Santa_Cruz.jpg
+  - file: santacruz-2.jpg
+    author: Parallelepiped09
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Edificios_del_centro_hist%C3%B3rico_de_Santa_Cruz_de_la_Sierra.jpg
+  - file: santacruz-3.jpg
+    author: Parallelepiped09
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Equipetrol_Neighborhood.jpg
+  - file: santacruz-4.jpg
+    author: Parallelepiped09
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Catedral_Bas%C3%ADlica_Menor_de_San_Lorenzo,_Santa_Cruz_de_la_Sierra_recorte.jpg
+  - file: santacruz-5.jpg
+    author: Parallelepiped09
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Santa_Cruz_de_la_Sierra_3_small.jpg
+  - file: santacruz-6.jpg
+    author: Sasha India
+    licence: CC BY 2.0
+    source: https://commons.wikimedia.org/wiki/File:Santa_Cruz,_Bolivia_(28358852393).jpg
+  - file: santacruz-7.jpg
+    author: Parallelepiped09
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Brigada_parlamentaria_de_Santa_Cruz_small.jpg
+fr:
+  name: Santa Cruz de la Sierra
+  label: Santa Cruz
+  short: La grande ville tropicale et moderne de l'Orient, aéroport international (Viru Viru).
+  story: >-
+    Santa Cruz est la grande ville de l'Orient bolivien : chaude, tropicale, moderne et
+    festive, très différente des villes andines. On s'y promène sur la grande place
+    ombragée, on se baigne au Biocentro Güembé et on goûte la cuisine cruceña. C'est souvent
+    par ici qu'on arrive ou qu'on repart en avion international.
+  todo:
+    - Plaza 24 de Septiembre et cathédrale (vue depuis le clocher)
+    - Biocentro Güembé (papillons, piscines)
+    - Marché Los Pozos
+    - Lomas de Arena (dunes) à côté de la ville
+  tips: Chaud et humide. Souvent la porte d'entrée ou de sortie internationale.
+en:
+  name: Santa Cruz de la Sierra
+  label: Santa Cruz
+  short: The big, modern tropical city of the east, with an international airport (Viru Viru).
+  story: >-
+    Santa Cruz is the big city of Bolivia's east: hot, tropical, modern and lively, very
+    different from the Andean cities. You stroll around the large shady main square, swim at
+    the Biocentro Güembé and try cruceño food. It's often where people fly in or out
+    internationally.
+  todo:
+    - Plaza 24 de Septiembre and the cathedral (view from the bell tower)
+    - Biocentro Güembé (butterflies, pools)
+    - Los Pozos market
+    - Lomas de Arena (dunes) next to the city
+  tips: Hot and humid. Often the international entry or exit point.
+es:
+  name: Santa Cruz de la Sierra
+  label: Santa Cruz
+  short: La gran ciudad tropical y moderna del Oriente, con aeropuerto internacional (Viru Viru).
+  story: >-
+    Santa Cruz es la gran ciudad del Oriente boliviano: calurosa, tropical, moderna y
+    fiestera, muy distinta de las ciudades andinas. Se pasea por la gran plaza con sombra,
+    uno se baña en el Biocentro Güembé y prueba la comida cruceña. Muchas veces es por aquí
+    que se llega o se sale en vuelo internacional.
+  todo:
+    - Plaza 24 de Septiembre y la catedral (vista desde el campanario)
+    - Biocentro Güembé (mariposas, piscinas)
+    - Mercado Los Pozos
+    - Lomas de Arena (dunas) al lado de la ciudad
+  tips: Caluroso y húmedo. A menudo es la puerta de entrada o salida internacional.

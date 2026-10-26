@@ -1,0 +1,72 @@
+# Laguna Alalay
+department: Cochabamba
+category: nature
+lat: -17.41
+lng: -66.13
+altitude: 2560
+days: [0, 1]
+climate: valles
+dishes: [silpancho]
+photos:
+  - file: alalay-1.jpg
+    author: 5m4u9
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Atardecer_en_la_Laguna_Alalay,_Cochabamba.jpg
+  - file: alalay-2.jpg
+    author: 5m4u9
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Totoras_en_la_Laguna_Alalay,_Cochabamba.jpg
+  - file: alalay-3.jpg
+    author: Lucas from Campinas, Brazil
+    licence: CC BY-SA 2.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Brazo_izquierdo_del_Cristo_Redentor,_Laguna_Alalay_y_la_Ciudad_de_Cochabamba_Bolivia.jpg
+  - file: alalay-4.jpg
+    author: Gatol fotografia
+    licence: CC BY-SA 2.0
+    source: https://commons.wikimedia.org/wiki/File:Vista_Nocturna_Laguna_Alalay,_Cochabamba.jpg
+  - file: alalay-5.jpg
+    author: MollySVH
+    licence: CC BY 2.0
+    source: https://commons.wikimedia.org/wiki/File:El_molle_en_la_Laguna_Alalay,_Cochabamba.jpg
+fr:
+  name: Laguna Alalay
+  label: Laguna Alalay
+  short: Une grande lagune au cœur de Cochabamba, refuge d'oiseaux au pied des collines.
+  story: >-
+    Dans le sud de Cochabamba, la Laguna Alalay est une grande étendue d'eau entourée de
+    roseaux, où vivent et passent de nombreux oiseaux. Un chemin en fait le tour, avec le
+    Cristo de la Concordia et les montagnes en toile de fond. Une respiration verte en
+    pleine ville, idéale tôt le matin.
+  todo:
+    - Tour de la lagune à pied ou à vélo
+    - Observation des oiseaux
+    - Vue sur le Cristo de la Concordia
+  tips: Accessible en taxi ou en micro depuis le centre. Mieux le matin, en journée.
+en:
+  name: Laguna Alalay
+  label: Laguna Alalay
+  short: A large lagoon in the heart of Cochabamba, a bird refuge below the hills.
+  story: >-
+    In the south of Cochabamba, Laguna Alalay is a wide stretch of water ringed with reeds,
+    where many birds live or stop over. A path runs around it, with the Cristo de la
+    Concordia and the mountains as a backdrop. A green breather in the middle of the city,
+    best early in the morning.
+  todo:
+    - Walk or cycle around the lagoon
+    - Birdwatching
+    - View of the Cristo de la Concordia
+  tips: By taxi or micro from the centre. Best in the morning, in daylight.
+es:
+  name: Laguna Alalay
+  label: Laguna Alalay
+  short: Una gran laguna en el corazón de Cochabamba, refugio de aves al pie de los cerros.
+  story: >-
+    En el sur de Cochabamba, la Laguna Alalay es un gran espejo de agua rodeado de totora,
+    donde viven y pasan muchas aves. Un camino la rodea, con el Cristo de la Concordia y las
+    montañas de fondo. Un respiro verde en plena ciudad, ideal temprano en la mañana.
+  todo:
+    - Vuelta a la laguna a pie o en bici
+    - Observación de aves
+    - Vista al Cristo de la Concordia
+  tips: En taxi o micro desde el centro. Mejor en la mañana, de día.

@@ -11,7 +11,9 @@ for name in sorted(os.listdir(SRC)):
     if not name.endswith(".jpg"):
         continue
     src, dst = os.path.join(SRC, name), os.path.join(DST, name)
-    if os.path.exists(dst) and os.path.getmtime(dst) >= os.path.getmtime(src):
+    # Only missing copies are made (file dates aren't reliable after a git checkout).
+    # Replaced a photo under the same name? Delete its copy in photos/sm/ first.
+    if os.path.exists(dst):
         continue
     im = Image.open(src).convert("RGB")
     im.thumbnail((WIDTH, WIDTH * 2))

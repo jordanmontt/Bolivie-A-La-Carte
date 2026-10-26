@@ -1,0 +1,60 @@
+# Porvenir et le río Tahuamanu
+department: Pando
+category: nature
+lat: -11.25
+lng: -68.68
+altitude: 230
+days: [0, 1]
+climate: amazonie
+dishes: [pescado_beni]
+photos:
+  - file: porvenir-1.jpg
+    author: Grullab
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:R%C3%ADo_Tahuamanu_aus_der_Luft.JPG
+  - file: porvenir-2.jpg
+    author: Grullab
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Br%C3%BCckeTahuamanu.jpg
+fr:
+  name: Porvenir et le río Tahuamanu
+  label: Porvenir
+  short: >-
+    Village amazonien près de Cobija : balades en bateau sur le Tahuamanu et piscine
+    naturelle.
+  story: >-
+    À une demi-heure de Cobija, Porvenir est un village tranquille au bord du río Tahuamanu.
+    On y fait des balades en bateau sur la rivière, des marches en forêt et une baignade
+    dans la piscine naturelle de Palma Real. Une première approche facile de la forêt du
+    Pando.
+  todo:
+    - Balade en bateau sur le río Tahuamanu
+    - Piscine naturelle de Palma Real
+    - Marche guidée en forêt
+  tips: À 30 min de Cobija. Les sorties en bateau s'organisent depuis Cobija.
+en:
+  name: Porvenir and the Tahuamanu river
+  label: Porvenir
+  short: "An Amazon village near Cobija: boat trips on the Tahuamanu and a natural pool."
+  story: >-
+    Half an hour from Cobija, Porvenir is a quiet village on the Tahuamanu river. You can
+    take boat trips on the river, walk in the forest and swim in the Palma Real natural
+    pool. An easy first taste of the Pando forest.
+  todo:
+    - Boat trip on the Tahuamanu river
+    - Palma Real natural pool
+    - Guided forest walk
+  tips: 30 min from Cobija. Boat trips are arranged from Cobija.
+es:
+  name: Porvenir y el río Tahuamanu
+  label: Porvenir
+  short: "Pueblo amazónico cerca de Cobija: paseos en bote por el Tahuamanu y piscina natural."
+  story: >-
+    A media hora de Cobija, Porvenir es un pueblo tranquilo a orillas del río Tahuamanu. Se
+    hacen paseos en bote por el río, caminatas por el bosque y un baño en la piscina natural
+    de Palma Real. Un primer acercamiento fácil al bosque de Pando.
+  todo:
+    - Paseo en bote por el río Tahuamanu
+    - Piscina natural de Palma Real
+    - Caminata guiada por el bosque
+  tips: A 30 min de Cobija. Los paseos en bote se organizan desde Cobija.

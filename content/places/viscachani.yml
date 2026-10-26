@@ -1,0 +1,53 @@
+# Sources chaudes de Viscachani
+department: La Paz
+category: nature
+lat: -17.13
+lng: -68
+altitude: 3850
+days: [0, 1]
+climate: altiplano
+dishes: [sajta]
+photos: []
+fr:
+  name: Sources chaudes de Viscachani
+  label: Viscachani
+  short: Bains d'eau tiède sur l'Altiplano, sur la route d'Oruro, à environ 1 h 30 de La Paz.
+  story: >-
+    Sur la route de La Paz à Oruro, près d'Ayo Ayo, Viscachani a des bains d'eau tiède
+    naturelle, simples et peu connus des voyageurs. Une pause agréable sur un long trajet en
+    bus, ou une demi-journée depuis La Paz.
+  todo:
+    - Bains d'eau tiède
+    - Pause sur la route La Paz – Oruro
+    - Paysages de l'Altiplano
+  tips: >-
+    Minibus d'El Alto vers Patacamaya : demander l'arrêt à Viscachani, puis environ 20 min à
+    pied.
+en:
+  name: Viscachani hot springs
+  label: Viscachani
+  short: Warm-water baths on the Altiplano, on the road to Oruro, about 1 h 30 from La Paz.
+  story: >-
+    On the road from La Paz to Oruro, near Ayo Ayo, Viscachani has simple natural warm-water
+    baths, little known to travellers. A pleasant break on a long bus ride, or half a day
+    from La Paz.
+  todo:
+    - Warm-water baths
+    - A break on the La Paz – Oruro road
+    - Altiplano landscapes
+  tips: >-
+    Minibus from El Alto towards Patacamaya: ask to stop at Viscachani, then about 20 min on
+    foot.
+es:
+  name: Aguas termales de Viscachani
+  label: Viscachani
+  short: Baños de agua tibia en el Altiplano, camino a Oruro, a una hora y media de La Paz.
+  story: >-
+    En la carretera de La Paz a Oruro, cerca de Ayo Ayo, Viscachani tiene baños sencillos de
+    agua tibia natural, poco conocidos por los viajeros. Una pausa agradable en un viaje
+    largo en bus, o medio día desde La Paz.
+  todo:
+    - Baños de agua tibia
+    - Pausa en la carretera La Paz – Oruro
+    - Paisajes del Altiplano
+  tips: "Minibús de El Alto hacia Patacamaya: pide bajar en Viscachani, luego unos 20 min a pie."

@@ -1,0 +1,91 @@
+# San Ignacio de Moxos
+department: Beni
+category: culture
+lat: -14.996
+lng: -65.64
+altitude: 160
+days: [1, 2]
+climate: amazonie
+dishes: [carne_beni, pescado_beni, masaco]
+photos:
+  - file: sanignaciomoxos-1.jpg
+    author: Gabvia
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Iglesia_San_Ignacio_de_Moxos.jpg
+  - file: sanignaciomoxos-2.jpg
+    author: Gabvia
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Grupo_de_macheteros.jpg
+  - file: sanignaciomoxos-3.jpg
+    author: Devy Shakty
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Machetero_de_la_Ichapekene_Piesta.jpg
+  - file: sanignaciomoxos-4.jpg
+    author: Edward wong IV
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Museo_de_San_Ignacio_de_Moxos.jpg
+  - file: sanignaciomoxos-5.jpg
+    author: Viaje al corazón de Bolivia
+    licence: CC BY 2.0
+    source: https://commons.wikimedia.org/wiki/File:San_Ignacio_de_Moxos_2.jpg
+  - file: sanignaciomoxos-6.jpg
+    author: Gabvia
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Baj%C3%B3n_Moje%C3%B1o.jpg
+  - file: sanignaciomoxos-7.jpg
+    author: Puya Raimondi
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Danza_de_los_pigmeos_en_el_Ichapekene_Piesta.jpg
+fr:
+  name: San Ignacio de Moxos
+  label: San Ignacio de Moxos
+  short: Ancienne mission jésuite des plaines du Beni, célèbre pour l'Ichapekene Piesta (UNESCO).
+  story: >-
+    San Ignacio de Moxos est la capitale culturelle des Llanos de Moxos, ces immenses
+    plaines inondables du Beni. L'ancienne mission jésuite a gardé une forte tradition de
+    musique baroque et de danses. Chaque 31 juillet, pour la fête de saint Ignace,
+    l'Ichapekene Piesta, classée par l'UNESCO, rassemble les macheteros aux coiffes de
+    plumes dans une fête unique en Amérique du Sud.
+  todo:
+    - Ichapekene Piesta et les macheteros (31 juillet)
+    - Église de la mission et musique baroque de Moxos
+    - Laguna Isirere et oiseaux des plaines
+  tips: >-
+    À 2 ou 3 h de Trinidad par une route de terre, souvent difficile en saison des pluies.
+    Pour la fête, réservez très tôt.
+en:
+  name: San Ignacio de Moxos
+  label: San Ignacio de Moxos
+  short: A former Jesuit mission on the Beni plains, famous for the Ichapekene Piesta (UNESCO).
+  story: >-
+    San Ignacio de Moxos is the cultural capital of the Llanos de Moxos, the vast flood
+    plains of the Beni. The former Jesuit mission has kept a strong tradition of baroque
+    music and dance. Every 31 July, for the feast of Saint Ignatius, the UNESCO-listed
+    Ichapekene Piesta brings out the macheteros in their feather headdresses for a festival
+    unlike any other in South America.
+  todo:
+    - Ichapekene Piesta and the macheteros (31 July)
+    - Mission church and the baroque music of Moxos
+    - Isirere lagoon and the birds of the plains
+  tips: >-
+    2 to 3 h from Trinidad on a dirt road, often hard going in the rainy season. For the
+    festival, book well ahead.
+es:
+  name: San Ignacio de Moxos
+  label: San Ignacio de Moxos
+  short: >-
+    Antigua misión jesuítica de las llanuras del Beni, famosa por la Ichapekene Piesta
+    (UNESCO).
+  story: >-
+    San Ignacio de Moxos es la capital cultural de los Llanos de Moxos, las inmensas
+    llanuras inundables del Beni. La antigua misión jesuítica conserva una fuerte tradición
+    de música barroca y danzas. Cada 31 de julio, en la fiesta de San Ignacio, la Ichapekene
+    Piesta, Patrimonio de la UNESCO, saca a los macheteros con sus tocados de plumas en una
+    fiesta única en Sudamérica.
+  todo:
+    - Ichapekene Piesta y los macheteros (31 de julio)
+    - Templo misional y música barroca de Moxos
+    - Laguna Isirere y aves de la llanura
+  tips: >-
+    A 2 o 3 h de Trinidad por camino de tierra, a menudo difícil en época de lluvias. Para
+    la fiesta, reserva con mucha anticipación.

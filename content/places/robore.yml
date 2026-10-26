@@ -1,0 +1,92 @@
+# Roboré
+department: Santa Cruz
+category: nature
+lat: -18.3297
+lng: -59.7603
+altitude: 280
+days: [1, 2]
+climate: chiquitania
+major: true
+dishes: [majadito, locro, cunape, tropical]
+photos:
+  - file: robore-1.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Torre_de_Choch%C3%ADs_y_la_Ruta_4_-_Chiquitos,_Bolivia.jpg
+  - file: robore-2.jpg
+    author: Leogomezr
+    licence: CC BY-SA 3.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Desde_la_plaza,_iglesia_de_Santiago_de_Chiquitos.jpg
+  - file: robore-3.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Plaza_%C3%81ngel_Sand%C3%B3val_de_Robor%C3%A9_-_Chiquitos,_Bolivia.jpg
+  - file: robore-4.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Chorro_San_Luis_(de_frente)_-_Robor%C3%A9,_Bolivia.jpg
+  - file: robore-5.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Chorro_San_Luis_en_Robor%C3%A9_-_Chiquitos,_Bolivia.jpg
+  - file: robore-6.jpg
+    author: Pietro4wd
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Chochis_sierra_VSO.jpg
+  - file: robore-7.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Formaciones_rocosas_en_la_Serran%C3%ADa_de_Santiago_-_Santiago_de_Chiquitos,_Robor%C3%A9.jpg
+fr:
+  name: Roboré
+  label: Roboré
+  short: >-
+    Petite ville tranquille de la Chiquitanía, base pour Santiago de Chiquitos, Chochís et
+    Aguas Calientes.
+  story: >-
+    Roboré est une petite ville tranquille de la Chiquitanía, sur la ligne de train qui va
+    vers le Brésil. On y vient surtout pour les merveilles naturelles alentour, Santiago,
+    Chochís et la rivière chaude d'Aguas Calientes, et on profite au retour de ses piscines
+    naturelles et de sa cuisine chiquitana.
+  todo:
+    - Balnéaire Los Hoyos (piscines naturelles)
+    - Point de départ des excursions dans la serranía
+    - Manger un majadito ou un locro de gallina
+  tips: Sur la ligne de train Santa Cruz – Puerto Quijarro, et sur la Ruta 4 asphaltée.
+en:
+  name: Roboré
+  label: Roboré
+  short: >-
+    A quiet small town in the Chiquitanía, a base for Santiago de Chiquitos, Chochís and
+    Aguas Calientes.
+  story: >-
+    Roboré is a quiet small town in the Chiquitanía, on the railway to Brazil. People come
+    mainly for the natural wonders around it, Santiago, Chochís and the hot river of Aguas
+    Calientes, and enjoy its natural pools and Chiquitano food on the way back.
+  todo:
+    - Los Hoyos (natural pools)
+    - Starting point for trips into the hills
+    - Eat a majadito or a locro de gallina
+  tips: On the Santa Cruz to Puerto Quijarro railway, and on the paved Ruta 4.
+es:
+  name: Roboré
+  label: Roboré
+  short: >-
+    Pueblo tranquilo de la Chiquitanía, base para Santiago de Chiquitos, Chochís y Aguas
+    Calientes.
+  story: >-
+    Roboré es un pueblo tranquilo de la Chiquitanía, en la línea del tren que va a Brasil.
+    Se viene sobre todo por las maravillas naturales de alrededor, Santiago, Chochís y el
+    río caliente de Aguas Calientes, y a la vuelta se disfrutan sus pozas naturales y su
+    comida chiquitana.
+  todo:
+    - Balneario Los Hoyos (pozas naturales)
+    - Punto de partida de excursiones a la serranía
+    - Comer un majadito o un locro de gallina
+  tips: En la línea de tren Santa Cruz – Puerto Quijarro y en la Ruta 4 asfaltada.

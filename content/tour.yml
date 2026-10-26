@@ -1,0 +1,67 @@
+# Stops of the Salar d'Uyuni and Sud Lípez 4x4 tour, shown on the map.
+- id: trains
+  lat: -20.481
+  lng: -66.835
+  fr: Cimetière de trains
+  en: Train cemetery
+  es: Cementerio de trenes
+- id: colchani
+  lat: -20.3
+  lng: -66.94
+  fr: Colchani (sel)
+  en: Colchani (salt)
+  es: Colchani (sal)
+- id: incahuasi
+  lat: -20.2422
+  lng: -67.6258
+  fr: Isla Incahuasi
+  en: Isla Incahuasi
+  es: Isla Incahuasi
+- id: sanjuan
+  lat: -21
+  lng: -67.72
+  fr: San Juan
+  en: San Juan
+  es: San Juan
+- id: arbol
+  lat: -22.05
+  lng: -67.89
+  fr: Árbol de Piedra
+  en: Árbol de Piedra
+  es: Árbol de Piedra
+- id: colorada
+  lat: -22.2
+  lng: -67.78
+  fr: Laguna Colorada
+  en: Laguna Colorada
+  es: Laguna Colorada
+- id: geysers
+  lat: -22.433
+  lng: -67.758
+  fr: Geysers Sol de Mañana
+  en: Sol de Mañana geysers
+  es: Géiseres Sol de Mañana
+- id: polques
+  lat: -22.54
+  lng: -67.65
+  fr: Termas de Polques
+  en: Termas de Polques
+  es: Termas de Polques
+- id: verde
+  lat: -22.79
+  lng: -67.83
+  fr: Laguna Verde
+  en: Laguna Verde
+  es: Laguna Verde
+- id: villamar
+  lat: -21.77
+  lng: -67.49
+  fr: Villa Mar
+  en: Villa Mar
+  es: Villa Mar
+- id: sancristobal
+  lat: -21.09
+  lng: -67.21
+  fr: San Cristóbal
+  en: San Cristóbal
+  es: San Cristóbal

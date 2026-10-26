@@ -1,0 +1,62 @@
+# Huatajata
+department: La Paz
+category: culture
+lat: -16.21
+lng: -68.69
+altitude: 3820
+days: [0, 1]
+climate: titicaca
+dishes: [trucha, pejerrey]
+photos:
+  - file: huatajata-1.jpg
+    author: giggel
+    licence: CC BY 3.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Bolivien_%E2%80%93_Museum_in_Huatajata_am_Titicacasee_%E2%80%93_Die_Br%C3%BCder_Limachi,_Erbauer_der_RA_II_von_Thor_Heyerdal_bauen_hier_heute_noch_Schilfboote_-_panoramio.jpg
+  - file: huatajata-2.jpg
+    author: giggel
+    licence: CC BY 3.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Bolivien_-_Titicacasee_-_Huatajata_-Die_Br%C3%BCder_Limachi,_Erbauer_der_RA_II_von_Thor_Heyerdal_-_panoramio.jpg
+fr:
+  name: Huatajata
+  label: Huatajata
+  short: Village du lac Titicaca, berceau des bateaux de roseau (totora).
+  story: >-
+    Huatajata, au bord du Lago Menor du Titicaca, est réputé pour ses constructeurs de
+    bateaux en totora, le roseau du lac. Les artisans aymaras de la région ont même
+    construit les bateaux de l'explorateur Thor Heyerdahl. C'est aussi un point de départ
+    pour les petites îles du lac et une étape agréable sur la route de Copacabana.
+  todo:
+    - Ateliers de bateaux en totora
+    - Départ des barques vers Pariti et les îles du Lago Menor
+    - Truite du lac face aux montagnes
+  tips: Sur la route La Paz – Copacabana, environ 1 h 30 de La Paz.
+en:
+  name: Huatajata
+  label: Huatajata
+  short: A Lake Titicaca village, home of the totora reed boats.
+  story: >-
+    Huatajata, on the shore of Titicaca's Lago Menor, is known for its builders of boats
+    made of totora, the lake's reed. Aymara craftsmen from the area even built the boats of
+    explorer Thor Heyerdahl. It's also a starting point for the lake's small islands and a
+    pleasant stop on the road to Copacabana.
+  todo:
+    - Totora reed boat workshops
+    - Boats to Pariti and the Lago Menor islands
+    - Lake trout facing the mountains
+  tips: On the La Paz – Copacabana road, about 1 h 30 from La Paz.
+es:
+  name: Huatajata
+  label: Huatajata
+  short: Pueblo del lago Titicaca, cuna de las balsas de totora.
+  story: >-
+    Huatajata, a orillas del Lago Menor del Titicaca, es conocido por sus constructores de
+    balsas de totora, la caña del lago. Artesanos aymaras de la zona incluso construyeron
+    las embarcaciones del explorador Thor Heyerdahl. También es punto de partida hacia las
+    islitas del lago y una parada agradable camino a Copacabana.
+  todo:
+    - Talleres de balsas de totora
+    - Lanchas hacia Pariti y las islas del Lago Menor
+    - Trucha del lago frente a los nevados
+  tips: En la carretera La Paz – Copacabana, a 1 h 30 de La Paz.

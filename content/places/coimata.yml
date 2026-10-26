@@ -1,0 +1,61 @@
+# Coimata
+department: Tarija
+category: nature
+lat: -21.5
+lng: -64.79
+altitude: 2050
+days: [0, 1]
+climate: tarija
+dishes: [saice, cangrejitos]
+photos:
+  - file: coimata-1.jpg
+    author: Carlillasa
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Cascadas_en_Coimata,_Tarija.jpg
+  - file: coimata-2.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Cascadas_de_Coimata_(parte_superior)_-_San_Lorenzo,_Bolivia.jpg
+fr:
+  name: Coimata
+  label: Coimata
+  short: Rivière, piscines naturelles et grande cascade, à 20 minutes de Tarija.
+  story: >-
+    Coimata est l'endroit préféré des gens de Tarija pour se rafraîchir : une rivière claire
+    avec des piscines naturelles, des petits restaurants au bord de l'eau et, en remontant
+    le sentier, une grande cascade au milieu des rochers. Une sortie facile et agréable
+    d'une demi-journée.
+  todo:
+    - Baignade dans les piscines naturelles
+    - Marche jusqu'à la grande cascade
+    - Déjeuner au bord de la rivière
+  tips: "Taxi ou minibus depuis Tarija. Monde le week-end : en semaine, c'est plus tranquille."
+en:
+  name: Coimata
+  label: Coimata
+  short: A river, natural pools and a tall waterfall, 20 minutes from Tarija.
+  story: >-
+    Coimata is where Tarija's people go to cool off: a clear river with natural pools, small
+    restaurants by the water and, further up the path, a tall waterfall among the rocks. An
+    easy, pleasant half-day outing.
+  todo:
+    - Swim in the natural pools
+    - Walk up to the big waterfall
+    - Lunch by the river
+  tips: "Taxi or minibus from Tarija. Busy at weekends: weekdays are quieter."
+es:
+  name: Coimata
+  label: Coimata
+  short: Río, pozas naturales y una gran cascada, a 20 minutos de Tarija.
+  story: >-
+    Coimata es el lugar preferido de los tarijeños para refrescarse: un río claro con pozas
+    naturales, pequeños restaurantes a la orilla y, subiendo por el sendero, una gran
+    cascada entre las rocas. Una salida fácil y agradable de medio día.
+  todo:
+    - Baño en las pozas naturales
+    - Caminata hasta la gran cascada
+    - Almuerzo a orillas del río
+  tips: >-
+    Taxi o minibús desde Tarija. Mucha gente los fines de semana: entre semana es más
+    tranquilo.

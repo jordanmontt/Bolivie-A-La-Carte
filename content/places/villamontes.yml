@@ -1,0 +1,79 @@
+# Villamontes (Gran Chaco)
+department: Tarija
+category: nature
+lat: -21.26
+lng: -63.47
+altitude: 400
+days: [1, 2]
+climate: chaco
+dishes: [pescado, carne_beni, tropical]
+photos:
+  - file: villamontes-1.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Llanura_chaque%C3%B1a_desde_Villa_Montes_-_Gran_Chaco,_Bolivia.jpg
+  - file: villamontes-2.jpg
+    author: josue-Flores
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Puente-ferroviario-de-villa-montes.jpg
+  - file: villamontes-3.jpg
+    author: Lapachal
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Iglesia_San_Francisco_Solano_en_Villa_Montes,_Tarija,_Bolivia.jpg
+  - file: villamontes-4.jpg
+    author: Lapachal
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Monumento_de_la_plaza_civica_Villamontes,Tarija_,Bolivia.jpg
+  - file: villamontes-5.jpg
+    author: Jimmy Sanabria
+    licence: CC BY 3.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Nueva_plaza_central_en_Villamontes_-_panoramio.jpg
+fr:
+  name: Villamontes (Gran Chaco)
+  label: Villamontes
+  short: La porte du Gran Chaco, au bord du Pilcomayo et de son canyon, El Angosto.
+  story: >-
+    Villamontes est la ville du Gran Chaco bolivien, une région de forêts sèches et de
+    chaleur, au bord du grand río Pilcomayo. À quelques kilomètres, la rivière traverse la
+    montagne dans le canyon d'El Angosto. La région garde aussi la mémoire de la guerre du
+    Chaco contre le Paraguay. Un coin de Bolivie très différent, encore peu visité.
+  todo:
+    - Canyon d'El Angosto sur le Pilcomayo
+    - Sources chaudes près de la ville
+    - Histoire de la guerre du Chaco
+    - Pêche sur le Pilcomayo (mai à septembre)
+  tips: Très chaud d'octobre à février. Bus depuis Tarija ou Santa Cruz, environ 8 h.
+en:
+  name: Villamontes (Gran Chaco)
+  label: Villamontes
+  short: Gateway to the Gran Chaco, on the Pilcomayo river and its canyon, El Angosto.
+  story: >-
+    Villamontes is the town of the Bolivian Gran Chaco, a hot region of dry forest, on the
+    great Pilcomayo river. A few kilometres away the river cuts through the mountains in the
+    El Angosto canyon. The region also keeps the memory of the Chaco War with Paraguay. A
+    very different, still little-visited corner of Bolivia.
+  todo:
+    - El Angosto canyon on the Pilcomayo
+    - Hot springs near town
+    - History of the Chaco War
+    - Fishing on the Pilcomayo (May to September)
+  tips: Very hot from October to February. Buses from Tarija or Santa Cruz, about 8 h.
+es:
+  name: Villamontes (Gran Chaco)
+  label: Villamontes
+  short: La puerta del Gran Chaco, a orillas del Pilcomayo y su cañón, El Angosto.
+  story: >-
+    Villamontes es la ciudad del Gran Chaco boliviano, una región calurosa de bosque seco, a
+    orillas del gran río Pilcomayo. A pocos kilómetros, el río cruza la montaña por el cañón
+    de El Angosto. La región también guarda la memoria de la Guerra del Chaco con el
+    Paraguay. Un rincón de Bolivia muy distinto y todavía poco visitado.
+  todo:
+    - Cañón de El Angosto en el Pilcomayo
+    - Aguas termales cerca de la ciudad
+    - Historia de la Guerra del Chaco
+    - Pesca en el Pilcomayo (mayo a septiembre)
+  tips: Mucho calor de octubre a febrero. Buses desde Tarija o Santa Cruz, unas 8 h.

@@ -1,0 +1,210 @@
+# The practical tips page (en).
+intro: >-
+  What you'd like to know before your first trip: how to pay, how to catch a bus, and the
+  small rules that make life easier in Bolivia.
+sections:
+  - id: money
+    title: "Money: always carry cash"
+    lead: In Bolivia you mostly pay in cash, in bolivianos (Bs). Cards are the exception.
+    points:
+      - >-
+        Foreign cards only work in hotels, some restaurants and supermarkets in the big
+        cities, often with a surcharge. Markets, buses, taxis, villages and national park
+        entrances: cash only.
+      - >-
+        You'll see QR codes everywhere, even at street stalls. They are transfers between
+        Bolivian banks: without an account at a Bolivian bank you can't use them. Just ask
+        “¿En efectivo?”.
+      - >-
+        Withdraw money in the cities: there are ATMs (cajeros) in La Paz, Santa Cruz,
+        Cochabamba, Sucre and Uyuni. In villages (Torotoro, Sorata, the Titicaca islands,
+        the Sud Lípez) there are none, or they are often empty. Leave with enough bolivianos
+        for the whole stage.
+      - >-
+        Withdrawing from an ATM with a foreign card works, but every withdrawal is charged
+        and capped: it's better to travel with cash. Bring US dollars or euros (both change
+        easily) in clean, untorn notes, and change them at a casa de cambio, where notes get
+        a better rate.
+      - >-
+        Keep small notes and coins: drivers, markets and public toilets (1 to 2 Bs) often
+        can't change a 100 or 200 Bs note.
+  - id: city
+    title: "In town: micros, minibuses and trufis"
+    lead: >-
+      Public transport is very cheap and goes everywhere, but it doesn't work like in Europe
+      or North America. And don't count on Google Maps: most lines aren't on it.
+    points:
+      - >-
+        Micros (small buses), minibuses and trufis (shared cars or minibuses) follow fixed
+        routes, with a number or a letter. The main streets on the route are written on the
+        windscreen and often shouted from the door.
+      - >-
+        There are almost no stops: the minibus stops wherever someone asks. To catch one,
+        wave your hand at the side of the street.
+      - >-
+        If in doubt, ask the driver before getting on: “¿Pasa por la plaza principal?”.
+        Bolivians are used to it and happy to help.
+      - >-
+        To get off, say it out loud a little before: “¡Me quedo en la esquina!” (I'm getting
+        off at the corner).
+      - >-
+        You pay the driver in cash, when you get on or off. A ride costs a few bolivianos,
+        so have the change ready.
+      - >-
+        In La Paz and El Alto, Mi Teleférico, the cable car network, is the exception: clear
+        lines, real stations and the best view of the city.
+  - id: bus
+    title: "Between cities: buses and terminals"
+    lead: The bus is the most common way to travel, by day or by night.
+    points:
+      - >-
+        Long-distance buses leave from each city's Terminal de Buses. Buy your ticket at the
+        company's counter, the day before for the busiest night buses.
+      - >-
+        Before boarding, you pay a small terminal fee (tasa de uso de terminal) of a few
+        bolivianos. Keep the ticket: they'll ask for it when you board.
+      - >-
+        For night journeys, choose “cama” or “semi-cama”: seats that recline much further,
+        for a few bolivianos more.
+      - >-
+        On the Altiplano, buses are rarely heated: keep a warm layer with you. In the
+        lowlands, it's the air conditioning that can be freezing.
+      - Luggage goes in the hold with a tag. Keep your papers, money and devices with you.
+      - >-
+        To villages (Torotoro, Sorata, the Valle Alto…), it's often minibuses that leave
+        when they're full, from a particular street rather than a station. Ask your hotel
+        where they leave from.
+      - >-
+        As in town, the bus stops anywhere along the road. Tell the driver where you want to
+        get off, for example “me deja en el cruce a…” (drop me at the turn-off to…).
+  - id: taxi
+    title: Taxis and apps
+    lead: "Taxis are cheap: a ride across town costs about 15 Bs, roughly one euro (about US$1.30)."
+    points:
+      - >-
+        The easiest option: the InDrive or Yango apps. They are taxis whose price is shown
+        in the app before the ride, and you pay the driver in cash.
+      - >-
+        Street taxis have no meter: agree on the price before you get in. That's the custom
+        here, and everyone is at ease.
+      - >-
+        At night, avoid hailing a taxi in the street: take one from a radio taxi stand, have
+        your hotel or a restaurant call one, or use the app.
+      - >-
+        For a site with no public transport (Incallajta, some lagoons), you can hire a car
+        with a driver for the day: agree on a total price, including the return trip and
+        waiting time.
+  - id: safety
+    title: Travelling with peace of mind
+    lead: >-
+      Bolivia is a welcoming country. A few simple precautions, as in any big city, are
+      enough.
+    points:
+      - >-
+        In the evening, avoid walking alone late in quiet streets: after dark, an app taxi
+        or a radio taxi is easier and costs next to nothing.
+      - In markets, bus terminals and crowds, keep your bag and phone close.
+      - >-
+        When crossing the street, take your time: cars don't always stop at crossings. Look
+        both ways and cross with the locals.
+  - id: blockades
+    title: Blockades and the unexpected
+    lead: "Leave some slack: in Bolivia a journey doesn't always go to plan."
+    points:
+      - >-
+        Road blockades (bloqueos) and strikes are part of Bolivian life. A road can be cut
+        for a day or a week: keep one or two free days in your trip.
+      - >-
+        The day before a long journey, ask at the terminal, at your hotel or check the local
+        press (“¿Hay bloqueo?”).
+      - >-
+        In the rainy season (December to March), roads in the lowlands and the Yungas can be
+        cut by mud or landslides. Flying is then often the best option.
+  - id: health
+    title: Altitude, water and health
+    lead: A few habits to enjoy the trip without getting sick.
+    points:
+      - >-
+        Don't drink tap water: bottled or filtered water only. Be careful with ice and raw
+        vegetables in small restaurants.
+      - >-
+        Go up in stages: a few days around 2,500 m (Cochabamba, Sucre) before La Paz or
+        Uyuni help a lot. Drink plenty, eat light and avoid alcohol for the first days.
+      - "The sun at altitude burns fast, even when it's cold: sunscreen, a hat and sunglasses."
+      - >-
+        For the Amazon and the lowlands, check before you leave about the yellow fever
+        vaccine and mosquitoes (dengue).
+  - id: phone
+    title: Phone and internet
+    lead: Staying reachable and finding your way.
+    points:
+      - >-
+        A Bolivian SIM card (Entel, Tigo or Viva) is cheap and sold in shops with your
+        passport. Entel has the best coverage in the countryside.
+      - >-
+        In the Sud Lípez, on some islands and in the jungle there's no signal at all. Let
+        your family know before you go.
+      - >-
+        Download offline maps before you go (Google Maps, Organic Maps…): the buses aren't
+        on them, but the streets are.
+  - id: customs
+    title: Language and customs
+    lead: What helps you feel welcome.
+    points:
+      - >-
+        Spanish is spoken everywhere, along with Quechua, Aymara or Guaraní depending on the
+        region. Away from tourist spots few people speak English: a few words of Spanish
+        change everything.
+      - Always ask before taking someone's photo, especially cholitas and in markets.
+      - Bargaining is normal at craft markets, much less for food or transport.
+      - "Public toilets cost 1 to 2 Bs and often have no paper: always carry some."
+  - id: arrival
+    title: Getting to Bolivia
+    lead: By air or overland.
+    points:
+      - >-
+        Most international flights land in Santa Cruz (Viru Viru) and La Paz (El Alto, at
+        4,000 m).
+      - >-
+        Overland, you can come in from Peru, Chile, Argentina, Brazil or Paraguay: every
+        crossing is described below, under “Border crossings”.
+      - "Depending on your nationality you may need a visa: check the rules before you leave."
+  - id: documents
+    title: Documents and visas
+    lead: >-
+      The rules depend on your nationality and sometimes change: always check before you
+      leave.
+    points:
+      - >-
+        A passport valid for at least six months after you arrive. Keep a photo of it on
+        your phone.
+      - >-
+        Many nationalities, including European Union citizens, don't need a visa for a
+        tourist stay: you usually get 30 days on arrival, extendable up to 90 days a year at
+        the Migración office.
+      - >-
+        Other nationalities need a visa, before leaving or on arrival. The up-to-date list
+        is on the official site of the Dirección General de Migración (migracion.gob.bo) or
+        at a Bolivian consulate.
+      - >-
+        On entry, check the stamp and the number of days granted: each day of overstay is
+        fined when you leave.
+      - >-
+        A yellow fever vaccination certificate may be asked for in some tropical areas: keep
+        it with your passport.
+phrases:
+  - [¿En efectivo o con QR?, Cash or QR? (You'll hear this one a lot.)]
+  - [¿Tiene cambio?, Do you have change?]
+  - [¿Este micro pasa por…?, Does this bus go past…?]
+  - [¡Me quedo en la esquina!, I'm getting off at the corner!]
+  - [¿A qué hora sale el bus a…?, What time does the bus to… leave?]
+  - [¿Hay bloqueo?, Is the road blocked?]
+  - [¿Cuánto es?, How much is it?]
+chapare:
+  title: Why the Chapare isn't on the site (yet)
+  text: >-
+    The Chapare, the Cochabamba tropics, is a beautiful region of forests, rivers and
+    waterfalls. For now we'd rather not suggest staying there: around Villa Tunari and in a
+    few nearby areas the situation is somewhat tense and road blockades are frequent. That
+    isn't true of the whole region, and we hope to add it soon.
+  road: "The bus between Cochabamba and Santa Cruz crosses the Chapare: that journey is no problem."

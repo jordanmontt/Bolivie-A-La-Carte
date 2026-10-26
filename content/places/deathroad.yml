@@ -1,0 +1,86 @@
+# Route de la Mort (vélo)
+department: La Paz
+category: aventure
+lat: -16.29
+lng: -67.8
+altitude: 3000
+days: [1, 1]
+climate: yungas
+dishes: [cafe, tropical]
+photos:
+  - file: deathroad-1.jpg
+    author: PsamatheM
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:03-Yungas_Rd_North-nX-15.jpg
+  - file: deathroad-2.jpg
+    author: PsamatheM
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:03-Yungas_Rd_North-nX-12.jpg
+  - file: deathroad-3.jpg
+    author: Vaido Otsar
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Yungas_road_2017.jpg
+  - file: deathroad-4.jpg
+    author: Alicia Nijdam from Cordoba, Argentina
+    licence: CC BY 2.0
+    source: https://commons.wikimedia.org/wiki/File:Yungas_road-Death_road_(8264757023).jpg
+  - file: deathroad-5.jpg
+    author: PsamatheM
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:03-Yungas_Rd_North-nX-22.jpg
+  - file: deathroad-6.jpg
+    author: JERRYE AND ROY KLOTZ MD
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:YUNGAS_VALLEY_BOLIVIA.jpg
+  - file: deathroad-7.jpg
+    author: PsamatheM
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:03-Yungas_Rd_North-nX-25.jpg
+fr:
+  name: Route de la Mort (vélo)
+  label: Route de la Mort
+  short: "La descente en VTT la plus célèbre du monde : de 4 650 m à 1 200 m en une journée."
+  story: >-
+    La « Route de la Mort » était autrefois la route la plus dangereuse du monde, taillée à
+    flanc de falaise. Aujourd'hui presque fermée aux voitures, elle se descend à VTT avec
+    une agence : 64 km de descente, des glaciers jusqu'à la jungle, avec des cascades qui
+    tombent sur la piste. Adrénaline et paysages extraordinaires.
+  todo:
+    - Départ à La Cumbre (4 650 m)
+    - 64 km de descente sur l'ancienne route des Yungas
+    - Arrivée à Yolosa, possibilité de rester à Coroico
+  tips: >-
+    Choisir une agence avec bon matériel (freins hydrauliques). Possibilité de finir la
+    journée à Coroico au lieu de remonter.
+en:
+  name: Death Road (bike)
+  label: Death Road
+  short: "The world's most famous mountain bike descent: from 4,650 m to 1,200 m in a day."
+  story: >-
+    The “Death Road” was once the most dangerous road in the world, carved into the
+    cliffside. Now almost closed to cars, it's ridden downhill by mountain bike with an
+    agency: 64 km of descent from glaciers to jungle, with waterfalls pouring onto the
+    track. Adrenaline and extraordinary scenery.
+  todo:
+    - Start at La Cumbre (4,650 m)
+    - 64 km downhill on the old Yungas road
+    - Finish in Yolosa, with the option to stay in Coroico
+  tips: >-
+    Choose an agency with good equipment (hydraulic brakes). You can end the day in Coroico
+    instead of going back up.
+es:
+  name: Camino de la Muerte (bici)
+  label: Camino de la Muerte
+  short: "La bajada en bicicleta más famosa del mundo: de 4650 m a 1200 m en un día."
+  story: >-
+    El «Camino de la Muerte» fue la carretera más peligrosa del mundo, tallada en el borde
+    del precipicio. Hoy casi cerrado a los autos, se baja en bicicleta de montaña con una
+    agencia: 64 km de bajada, de los glaciares a la selva, con cascadas que caen sobre el
+    camino. Adrenalina y paisajes extraordinarios.
+  todo:
+    - Salida en La Cumbre (4650 m)
+    - 64 km de bajada por el antiguo camino a los Yungas
+    - Llegada a Yolosa, con opción de quedarse en Coroico
+  tips: >-
+    Elige una agencia con buen equipo (frenos hidráulicos). Se puede terminar el día en
+    Coroico en vez de volver a subir.

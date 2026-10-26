@@ -1,0 +1,98 @@
+# Cobija
+department: Pando
+category: ville
+lat: -11.0267
+lng: -68.7692
+altitude: 280
+days: [1, 2]
+climate: amazonie
+dishes: [pescado_beni, masaco, tropical]
+photos:
+  - file: cobija-1.jpg
+    author: Parallelepiped09
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Ciudad_de_Cobija,_Bol.jpg
+  - file: cobija-2.jpg
+    author: Carlillasa
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:R%C3%ADo_Acre_en_la_frontera_entre_Brasil_y_Bolivia.jpg
+  - file: cobija-3.jpg
+    author: Grullab
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Cobija_border.JPG
+  - file: cobija-4.jpg
+    author: Grullab
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Square_in_Cobija,_Bolivia1.JPG
+  - file: cobija-5.jpg
+    author: Webysther Nunes
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:2013-02-23_Cobija_-_Bol%C3%ADvia_e_Brasil%C3%A9ia_-_AC_037.jpg
+  - file: cobija-6.jpg
+    author: Luisandresantander
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:COBIJA_140_Pileta_Plaza_Potos%C3%AD.JPG
+  - file: cobija-7.jpg
+    author: Elingesanta
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Mercado_abasto_cobija.jpg
+fr:
+  name: Cobija
+  label: Cobija
+  short: "La capitale du Pando, au bord du río Acre, face au Brésil : porte de l'Amazonie du nord."
+  story: >-
+    Tout au nord du pays, Cobija est la petite capitale du département du Pando, au bord du
+    río Acre, face à la ville brésilienne de Brasiléia. C'est une ville tranquille et verte,
+    qui vit de la noix du Brésil (la castaña) et du commerce avec le pays voisin. On y vient
+    pour l'Amazonie la moins visitée de Bolivie : la réserve de Manuripi, ses lacs et ses
+    forêts, où l'on observe une faune remarquable loin des circuits classiques.
+  todo:
+    - Promenade au bord du río Acre et passage vers Brasiléia (Brésil)
+    - "Réserve amazonienne de Manuripi : lacs, forêt et faune"
+    - Places et vie de la ville frontière
+    - La castaña (noix du Brésil), richesse de la région
+  tips: >-
+    On y arrive surtout en avion depuis La Paz (environ 1 h). La route est très longue et
+    souvent difficile en saison des pluies. Peu d'infrastructures touristiques : organisez
+    la visite de Manuripi à l'avance.
+en:
+  name: Cobija
+  label: Cobija
+  short: "The capital of Pando, on the Acre river facing Brazil: gateway to the northern Amazon."
+  story: >-
+    At the very north of the country, Cobija is the small capital of Pando department, on
+    the Acre river across from the Brazilian town of Brasiléia. It's a quiet, green town
+    that lives from Brazil nuts (castaña) and trade with its neighbour. People come for
+    Bolivia's least-visited Amazon: the Manuripi reserve, with its lakes and forests and
+    remarkable wildlife, far from the usual routes.
+  todo:
+    - Walk along the Acre river and cross to Brasiléia (Brazil)
+    - "Manuripi Amazon reserve: lakes, forest and wildlife"
+    - Squares and border-town life
+    - Brazil nuts (castaña), the region's treasure
+  tips: >-
+    Most people fly in from La Paz (about 1 h). The road is very long and often hard going
+    in the rainy season. Little tourist infrastructure: arrange a Manuripi visit in advance.
+es:
+  name: Cobija
+  label: Cobija
+  short: >-
+    La capital de Pando, a orillas del río Acre, frente a Brasil: puerta de la Amazonía del
+    norte.
+  story: >-
+    En el extremo norte del país, Cobija es la pequeña capital del departamento de Pando, a
+    orillas del río Acre, frente a la ciudad brasileña de Brasiléia. Es una ciudad tranquila
+    y verde que vive de la castaña y del comercio con el país vecino. Se viene por la
+    Amazonía menos visitada de Bolivia: la reserva de Manuripi, con sus lagos, bosques y una
+    fauna notable, lejos de los circuitos clásicos.
+  todo:
+    - Paseo a orillas del río Acre y paso a Brasiléia (Brasil)
+    - "Reserva amazónica Manuripi: lagos, bosque y fauna"
+    - Plazas y vida de ciudad fronteriza
+    - La castaña, riqueza de la región
+  tips: >-
+    Se llega sobre todo en avión desde La Paz (alrededor de 1 h). El camino es muy largo y
+    suele complicarse en época de lluvias. Poca infraestructura turística: organiza la
+    visita a Manuripi con anticipación.

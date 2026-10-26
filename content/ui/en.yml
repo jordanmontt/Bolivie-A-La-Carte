@@ -1,0 +1,363 @@
+# Interface texts (en). {name} parts are filled in by the site; one/other are singular/plural.
+brand: Bolivia à la carte
+skip: Skip to content
+lang.label: Language
+nav.label: Main navigation
+nav.home: Discover
+nav.map: Map
+nav.routes: Routes
+nav.trip: My trip
+nav.guide: Tips
+nav.tripCount:
+  one: "{n} stop"
+  other: "{n} stops"
+days:
+  one: "{d} day"
+  other: "{d} days"
+daysRange: "{a} to {b}"
+dayOne: Day {a}
+dayRange: Days {a} to {b}
+alt: "{a} m"
+km: "{k} km"
+h: "{h} h"
+hm: "{h} h {m}"
+min: "{m} min"
+places:
+  one: "{n} place"
+  other: "{n} places"
+results:
+  one: "{n} place"
+  other: "{n} places"
+fromStart: "{h} from {place}"
+undo: Undo
+home.title: Bolivia, where to go?
+home.kicker: A travel guide to Bolivia
+home.titleShort: travel guide to Bolivia
+home.lead: >-
+  {n} places, from glaciers to the Amazon: colonial towns, salt deserts, sacred lakes and
+  jungle. Explore the map, then put together your own trip, with or without dates.
+home.explore: Explore the map
+home.plan: Plan my trip
+home.regions: By region
+home.regionsLead: Bolivia is twice the size of France. Each region has its own altitude, climate and food.
+home.themes: By interest
+home.themesLead: "Inca ruins, hikes, 6,000 m peaks or pink river dolphins: pick what draws you."
+ideas.title: Itinerary ideas
+ideas.lead: Routes that work on the ground. Use them as they are or change them.
+ideas.other: Start from an itinerary idea
+ideas.meta: About {days}, starting in {start}
+ideas.use: Use this itinerary
+tips.title: Good to know
+tips.altitude: Altitude
+tips.altitude.text: >-
+  La Paz, Lake Titicaca, Potosí and Uyuni are above 3,500 m. Go up in stages, drink plenty
+  and keep your first day there quiet. Coca tea helps.
+tips.seasons: Seasons
+tips.seasons.text: >-
+  Dry season from May to October: blue skies and freezing nights at altitude. Rainy season
+  from November to March: green landscapes, the mirror effect on the Salar, and some lowland
+  roads cut off.
+tips.money: Cash first
+tips.money.text: >-
+  You pay for almost everything in cash, in bolivianos (Bs). Foreign cards are rarely
+  accepted, and the QR codes you'll see everywhere only work with a Bolivian bank account.
+tips.transport: Buses
+tips.transport.text: >-
+  Minibuses have almost no stops: you wave one down and get off wherever you like. Most
+  lines aren't on Google Maps, so ask the driver.
+tips.more: All practical tips
+foot.about: >-
+  A free travel guide to discovering Bolivia: where to go, what to do, what to eat and how
+  to get there.
+foot.createdBy: Created by
+foot.credits: >-
+  Photos: Wikimedia Commons, with author and licence under each photo. Map: Natural Earth,
+  SRTM, OpenStreetMap, Esri.
+foot.contact: "Contact:"
+foot.rights: >-
+  © {year} jordanmontt. All rights reserved. Photos keep their own licence, shown under each
+  photo.
+rates.title: Official exchange rate
+rates.eur: for 1 euro
+rates.usd: for 1 US dollar
+rates.source: Central Bank of Bolivia, {date}
+rates.note: Exchange houses (casas de cambio) use their own rate, close to this one.
+rates.line: "Official rate on {date}: €1 = {eur} Bs, US$1 = {usd} Bs."
+dept.named: "{d} Department"
+dept.short: "{d} Dept."
+dept.named.Oruro: Oruro Department
+dept.short.Oruro: Oruro Dept.
+group.label: Group by
+group.region: Region
+group.dept: Department
+guide.title: Practical tips
+guide.kicker: Before you go
+guide.toc: On this page
+guide.phrases: A few useful phrases
+guide.phrasesLead: In Spanish, the way people say them in Bolivia.
+guide.link: "Before you go: money, buses and road blockades."
+guide.linkCta: Practical tips
+cat.ville: Cities
+cat.culture: Culture and history
+cat.nature: Nature and hiking
+cat.altiplano: Altiplano, lakes and salt flats
+cat.jungle: Jungle and tropics
+cat.aventure: Adventure and peaks
+catDesc.ville: Markets, colonial squares and street life.
+catDesc.culture: Pre-Inca sites, missions and living traditions.
+catDesc.nature: Canyons, waterfalls and mountain villages.
+catDesc.altiplano: Salt, lagoons and horizons at 4,000 m.
+catDesc.jungle: Forests, rivers and tropical wildlife.
+catDesc.aventure: Glaciers, 6,000 m peaks and a downhill bike ride.
+mode.bus: Road (bus, car)
+mode.train: Train
+mode.avion: Flight
+mode.bateau: Boat
+mode.tour: 4x4 tour or excursion
+mode.velo: Bike
+modeShort.bus: Bus
+modeShort.train: Train
+modeShort.avion: Flight
+modeShort.bateau: Boat
+modeShort.tour: Tour
+modeShort.velo: Bike
+road.national: Ruta {n}
+road.dept: Departmental road {n}
+map.title: All places
+map.intro: Tap a place to read about it. The + button adds it to your trip, if you are planning one.
+map.search: Uyuni, dinosaurs, hot springs…
+map.searchLabel: Search for a place
+map.basemap: Base map
+map.relief: Relief
+map.detailed: Detailed
+map.detailedFail: The detailed map didn't load. Back to relief.
+map.loadFail: The map didn't load. Check your connection and reload the page.
+map.legend: Route lines
+map.lines: Show routes
+map.tipWx: "In {month}: {max}° by day, {min}° at night"
+filter.region: Region
+filter.allRegions: All regions
+filter.month: Month of travel
+filter.anyMonth: Any time of year
+filter.cats: Types of place
+filter.allCats: All types
+filter.reset: Clear filters
+noResults: No place matches this search.
+showMap: Map
+showList: List
+showPlace: Details
+showOnMap: Show on map
+back.places: All places
+back.routes: All routes
+back.map: Back to the map
+preview.open: See details
+close: Close
+photos.label: Photos of {name}
+photos.alt: "{name}, photo {i}"
+photos.by: "Photo:"
+fact.alt: altitude
+fact.days: to spend there
+fact.from: from {place}
+fact.duration: duration
+fact.distance: distance
+fact.climb: height change
+alt.warnTitle: High altitude.
+alt.warn: >-
+  Above 3,500 m, altitude sickness (soroche) is common. Arrive gradually, drink plenty and
+  take it slow on the first day.
+place.todo: Things to do
+place.food: What to eat
+place.weather: Weather
+place.tip: Tip.
+place.tourStops: Tour stops
+place.getThere: Routes from here
+wx.title: Weather
+wx.in: In {month}
+wx.day: by day
+wx.dry: Dry season (July)
+wx.wet: Rainy season (January)
+wx.max: max
+wx.min: min
+wx.rain: rain
+wx.pack: "What to pack:"
+wx.pickMonth: Pick a month to see the weather and what to pack.
+wx.chartLabel: Temperatures and rainfall by month
+wx.tempsTitle: Temperatures in {month}
+wx.d.vhot: very hot
+wx.d.hot: hot
+wx.d.mild: mild
+wx.d.cool: cool
+wx.d.cold: cold
+wx.d.vcold: very cold
+wx.n.warm: warm nights
+wx.n.mild: mild nights
+wx.n.cool: cool nights
+wx.n.cold: cold nights
+wx.n.frost: frost at night
+wx.n.freezing: freezing nights
+wx.r.vwet: very wet
+wx.r.wet: rainy season
+wx.r.showers: some showers
+wx.r.dry: dry
+pack.down: down jacket, hat, gloves
+pack.bag: warm sleeping bag
+pack.fleece: down jacket or thick fleece
+pack.hat: warm hat
+pack.sweater: a sweater for the evening
+pack.light: light clothes
+pack.sun: sunscreen and sunglasses (very strong sun)
+pack.sunhat: sun hat and sunscreen
+pack.rain: rain jacket
+pack.mosquito: insect repellent
+pack.sleeves: long sleeves, closed shoes
+pack.swim: swimsuit
+routes.title: Routes
+routes.intro: >-
+  How to travel between places: buses, trains, flights, boats and tours, with the roads to
+  take.
+routes.all: All routes
+routes.disclaimer: >-
+  Typical durations, without waiting time. Train and flight schedules change often: check
+  before you book.
+calc.title: From… to…
+calc.from: From
+calc.to: To
+calc.swap: Swap start and destination
+calc.go: Find the route
+calc.none: No route found.
+calc.tryFly: Allow flights to connect these two places.
+calc.total: About {h} of travel
+calc.airport: (including airport time)
+calc.plan: Count {d} in your plan
+pref.label: How to travel
+pref.route: By road
+pref.fly: Fly when faster
+route.roads: Roads to take
+route.way: Route
+route.how: How
+route.note: Good to know
+route.gmaps: Directions in Google Maps
+trip.title: My trip
+trip.intro: "Optional: build an itinerary and we work out the journeys and the number of days."
+trip.emptyLead: Your trip is empty. Where are you starting from?
+trip.emptyOr: You can also add places from the map with the + button, or start from an itinerary idea.
+trip.browse: Browse places
+trip.start: Starting point
+trip.pickStart: Choose a place
+trip.byAir: By air
+trip.byLand: Overland
+trip.otherPlaces: Other places
+trip.border.copacabana: "{place} (from Peru)"
+trip.border.uyuni: "{place} (from Chile)"
+trip.border.tupiza: "{place} (from Argentina)"
+trip.length: Length in days
+trip.noLength: No fixed length
+trip.end: End of the trip
+trip.endStart: Back to the starting point
+trip.endLast: End at the last stop
+trip.endAt: End in {place}
+trip.backTo: Back to {place}
+trip.month: Month of travel
+trip.ofDays:
+  one: of {d} day
+  other: of {d} days
+trip.daysTotal:
+  one: day
+  other: days
+trip.tooMany: "{d} too many"
+trip.free: "{d} to spare"
+trip.exact: Exactly the right length
+trip.stay: "{d} in places"
+trip.travel: "{d} travelling"
+trip.startTag: Start
+trip.passing: Passing through
+trip.lessDay: One day less in {name}
+trip.moreDay: One more day in {name}
+trip.up: Move {name} up
+trip.down: Move {name} down
+trip.add: Add to my trip
+trip.inTrip: In my trip
+trip.addNamed: Add {name} to my trip
+trip.removeNamed: Remove {name} from my trip
+trip.via: to {place}
+trip.noLeg: No route found
+trip.legShow: Show the {a} – {b} journey on the map
+trip.legTime: about {h}
+trip.legDays: "{d} of travel"
+trip.legSameDay: same day
+trip.jumpTitle: Steep climb.
+trip.jump: >-
+  You go straight from the lowlands to above 3,500 m for: {places}. Add a stop in between or
+  plan a rest day on arrival.
+trip.addMore: Add more stops from the map.
+trip.optimize: Reorder by distance
+trip.share: Share link
+trip.copy: Copy summary
+trip.clear: Clear all
+trip.altTitle: Altitude of each stop
+trip.altChart: Altitude of each stop of the trip
+sum.title: My trip to Bolivia
+sum.total: "Total: {stay} in places + {travel} travelling = {total}"
+copy.manual: "Copy this text:"
+toast.added: "{name} added to your trip."
+toast.firstStop: "{name} is the starting point of your trip."
+toast.removed: "{name} removed from your trip."
+toast.seeTrip: View
+toast.ideaLoaded: Itinerary “{name}” loaded.
+toast.sharedLoaded: Shared trip loaded.
+toast.optimized: Stops reordered by distance.
+toast.cleared: Trip cleared.
+toast.linkCopied: Link copied. Anyone who opens it will see this trip.
+toast.summaryCopied: Summary copied.
+geo.peru: PERU
+geo.brazil: BRAZIL
+geo.chile: CHILE
+geo.argentina: ARGENTINA
+geo.paraguay: PARAGUAY
+geo.titicaca: Lake Titicaca
+geo.uyuni: Salar de Uyuni
+geo.coipasa: Salar de Coipasa
+geo.poopo: Lake Poopó
+geo.altiplano: ALTIPLANO
+geo.amazon: AMAZON
+geo.chaco: CHACO
+geo.chiquitania: CHIQUITANÍA
+geo.moxos: LLANOS DE MOXOS
+geo.cordillera: CORDILLERA REAL
+nav.culture: Culture
+home.culture: Culture and traditions
+home.cultureLead: "Festivals, food, heritage, crafts and legends: what brings Bolivia to life."
+culture.title: Culture and traditions
+culture.lead: Five ways to discover Bolivia beyond its landscapes.
+culture.festivals: Festivals
+culture.festivals.lead: >-
+  The country's great festivals, from the next one onwards. Movable dates are worked out for
+  this year.
+culture.food: Food
+culture.food.lead: Dishes to try, region by region, and where to find them.
+culture.unesco: UNESCO heritage
+culture.unesco.lead: Bolivian sites and traditions listed by UNESCO.
+culture.crafts: Crafts and markets
+culture.crafts.lead: Weaving, carved wood, silver, and the markets where everything is sold.
+culture.legends: Myths and legends
+culture.legends.lead: The stories told in Bolivia, and the places where they happen.
+culture.back: Culture and traditions
+culture.where: "Where:"
+festival.nationwide: All over the country
+festival.month: "{month} {year}"
+festival.even: even-numbered years
+festival.all: All festivals
+festival.none: No big festival this month in our list.
+unesco.world: World Heritage
+unesco.intangible: Intangible Cultural Heritage
+unesco.year: Listed in {year}
+place.here: Also here
+place.unesco: UNESCO
+place.border: Border
+borders.title: Border crossings
+borders.lead: "The most used crossings, country by country. Hours and rules change: check before you go."
+country.peru: Peru
+country.chile: Chile
+country.argentina: Argentina
+country.brazil: Brazil
+country.paraguay: Paraguay

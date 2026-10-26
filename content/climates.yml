@@ -1,0 +1,382 @@
+# Climate profiles. data: [max January, max July, min January, min July, rain January mm, rain July mm].
+valles:
+  data: [26, 24, 13, 3, 120, 2]
+  fr:
+    title: Vallée andine tempérée
+    text: >-
+      Le « printemps éternel » : soleil presque toute l'année, nuits fraîches de juin à
+      août. Pluies d'orage l'après-midi de décembre à mars.
+  en:
+    title: Temperate Andean valley
+    text: >-
+      “Eternal spring”: sunshine almost all year, cool nights from June to August. Afternoon
+      thunderstorms from December to March.
+  es:
+    title: Valle andino templado
+    text: >-
+      La «eterna primavera»: sol casi todo el año, noches frescas de junio a agosto.
+      Tormentas por la tarde de diciembre a marzo.
+valles_haut:
+  data: [24, 22, 12, 3, 130, 3]
+  fr:
+    title: Vallée andine
+    text: >-
+      Journées agréables et ensoleillées, nuits fraîches en hiver (juin-août). Pistes
+      parfois coupées par les pluies de janvier-février.
+  en:
+    title: Andean valley
+    text: >-
+      Pleasant sunny days, cool nights in winter (June to August). Tracks sometimes cut by
+      the January and February rains.
+  es:
+    title: Valle andino
+    text: >-
+      Días agradables y soleados, noches frescas en invierno (junio a agosto). Caminos a
+      veces cortados por las lluvias de enero y febrero.
+sucre:
+  data: [22, 21, 11, 4, 140, 3]
+  fr:
+    title: Vallée andine
+    text: >-
+      Climat doux toute l'année. Il fait vite frais dès que le soleil se couche : prévoir
+      une petite laine.
+  en:
+    title: Andean valley
+    text: "Mild all year round. It gets cool as soon as the sun goes down: bring a light sweater."
+  es:
+    title: Valle andino
+    text: "Clima templado todo el año. Refresca en cuanto se pone el sol: lleva una chompa."
+tarija:
+  data: [27, 22, 15, 2, 150, 1]
+  fr:
+    title: Vallée chaude
+    text: Climat méditerranéen, le plus doux du pays. Vendanges et fêtes du vin en février-mars.
+  en:
+    title: Warm valley
+    text: >-
+      A Mediterranean climate, the mildest in the country. Grape harvest and wine festivals
+      in February and March.
+  es:
+    title: Valle cálido
+    text: >-
+      Clima mediterráneo, el más templado del país. Vendimia y fiestas del vino en febrero y
+      marzo.
+tupiza:
+  data: [26, 22, 12, -3, 80, 0]
+  fr:
+    title: Vallée sèche
+    text: Très sec et ensoleillé. Chaud le jour, mais les nuits d'hiver peuvent geler.
+  en:
+    title: Dry valley
+    text: Very dry and sunny. Hot by day, but winter nights can freeze.
+  es:
+    title: Valle seco
+    text: Muy seco y soleado. Calor de día, pero las noches de invierno pueden helar.
+lapaz:
+  data: [17, 15, 6, 0, 120, 8]
+  fr:
+    title: Ville d'altitude
+    text: >-
+      Le soleil tape fort mais l'air est frais, et il fait froid dès la tombée du soir. El
+      Alto est encore plus froid (gel fréquent la nuit).
+  en:
+    title: High-altitude city
+    text: >-
+      The sun is strong but the air is cool, and it gets cold as soon as evening falls. El
+      Alto is colder still (frequent frost at night).
+  es:
+    title: Ciudad de altura
+    text: >-
+      El sol pega fuerte pero el aire es fresco, y hace frío en cuanto cae la tarde. El Alto
+      es todavía más frío (heladas frecuentes de noche).
+altiplano:
+  data: [19, 15, 5, -7, 90, 2]
+  fr:
+    title: Altiplano
+    text: >-
+      Ciel bleu, vent, et grand écart de température : on peut avoir 18 °C l'après-midi et
+      -7 °C la nuit en hiver.
+  en:
+    title: Altiplano
+    text: >-
+      Blue skies, wind and big temperature swings: it can be 18 °C in the afternoon and −7
+      °C at night in winter.
+  es:
+    title: Altiplano
+    text: >-
+      Cielo azul, viento y mucha diferencia de temperatura: puede hacer 18 °C en la tarde y
+      −7 °C de noche en invierno.
+potosi:
+  data: [16, 13, 4, -5, 100, 2]
+  fr:
+    title: Haute ville andine
+    text: >-
+      L'une des villes les plus hautes du monde : froid sec, surtout le soir. Les hôtels
+      sont rarement chauffés.
+  en:
+    title: High Andean city
+    text: >-
+      One of the highest cities in the world: dry cold, especially in the evening. Hotels
+      are rarely heated.
+  es:
+    title: Ciudad de alta montaña
+    text: >-
+      Una de las ciudades más altas del mundo: frío seco, sobre todo en la noche. Los
+      hoteles rara vez tienen calefacción.
+uyuni:
+  data: [20, 13, 5, -9, 70, 0]
+  fr:
+    title: Altiplano sud
+    text: >-
+      Désert d'altitude : très sec, soleil brûlant et vent. De janvier à mars, l'eau sur le
+      salar fait l'effet miroir.
+  en:
+    title: Southern Altiplano
+    text: >-
+      High desert: very dry, with burning sun and wind. From January to March, water on the
+      salt flat creates the mirror effect.
+  es:
+    title: Altiplano sur
+    text: >-
+      Desierto de altura: muy seco, sol que quema y viento. De enero a marzo, el agua sobre
+      el salar crea el efecto espejo.
+lipez:
+  data: [15, 7, -2, -17, 50, 0]
+  fr:
+    title: Désert de haute altitude
+    text: >-
+      Le plus froid du pays : nuits entre -10 et -20 °C en juin-août, dans des refuges sans
+      chauffage. Sac de couchage chaud indispensable.
+  en:
+    title: High-altitude desert
+    text: >-
+      The coldest place in the country: nights between −10 and −20 °C from June to August,
+      in unheated refuges. A warm sleeping bag is essential.
+  es:
+    title: Desierto de gran altura
+    text: >-
+      Lo más frío del país: noches entre −10 y −20 °C de junio a agosto, en refugios sin
+      calefacción. La bolsa de dormir abrigada es indispensable.
+titicaca:
+  data: [16, 14, 4, -3, 120, 8]
+  fr:
+    title: Bord du lac Titicaca
+    text: >-
+      Le lac adoucit un peu le climat, mais les soirées sont froides. Soleil très fort sur
+      l'eau : crème et chapeau.
+  en:
+    title: Lake Titicaca shore
+    text: >-
+      The lake softens the climate a little, but evenings are cold. Very strong sun on the
+      water: sunscreen and a hat.
+  es:
+    title: Orillas del lago Titicaca
+    text: >-
+      El lago suaviza un poco el clima, pero las noches son frías. Sol muy fuerte sobre el
+      agua: bloqueador y sombrero.
+haute_montagne:
+  data: [6, 3, -3, -12, 120, 8]
+  fr:
+    title: Haute montagne (plus de 4 500 m)
+    text: >-
+      Neige et glace possibles toute l'année. Seulement avec de bons vêtements chauds et
+      après plusieurs jours d'acclimatation.
+  en:
+    title: High mountains (above 4,500 m)
+    text: >-
+      Snow and ice possible all year. Only with good warm clothing and after several days of
+      acclimatisation.
+  es:
+    title: Alta montaña (más de 4500 m)
+    text: >-
+      Nieve y hielo posibles todo el año. Solo con buena ropa abrigada y después de varios
+      días de aclimatación.
+sajama:
+  data: [15, 11, 0, -15, 80, 1]
+  fr:
+    title: Altiplano de haute altitude
+    text: >-
+      Très sec en hiver, avec des nuits parmi les plus froides de Bolivie. Les sources
+      chaudes font du bien !
+  en:
+    title: High Altiplano
+    text: >-
+      Very dry in winter, with some of the coldest nights in Bolivia. The hot springs are a
+      welcome treat!
+  es:
+    title: Altiplano de gran altura
+    text: >-
+      Muy seco en invierno, con algunas de las noches más frías de Bolivia. ¡Las aguas
+      termales hacen bien!
+tunari:
+  data: [13, 11, 1, -8, 140, 3]
+  fr:
+    title: Montagne au-dessus de Cochabamba
+    text: >-
+      En montant de 2 500 m à plus de 4 000 m, on perd 10 à 15 °C. Coupe-vent et pull même
+      s'il fait beau en ville.
+  en:
+    title: Mountains above Cochabamba
+    text: >-
+      Climbing from 2,500 m to over 4,000 m, you lose 10 to 15 °C. Bring a windbreaker and a
+      sweater even if it's sunny in town.
+  es:
+    title: Montaña encima de Cochabamba
+    text: >-
+      Al subir de 2500 m a más de 4000 m se pierden de 10 a 15 °C. Rompevientos y chompa
+      aunque haga sol en la ciudad.
+yungas:
+  data: [26, 22, 16, 11, 250, 40]
+  fr:
+    title: Yungas (forêt subtropicale)
+    text: >-
+      Chaud et humide, souvent dans les nuages. Pluies fréquentes de novembre à mars,
+      glissements de terrain possibles sur les routes.
+  en:
+    title: Yungas (subtropical forest)
+    text: >-
+      Hot and humid, often in the clouds. Frequent rain from November to March, with
+      possible landslides on the roads.
+  es:
+    title: Yungas (bosque subtropical)
+    text: >-
+      Cálido y húmedo, a menudo entre las nubes. Lluvias frecuentes de noviembre a marzo,
+      con posibles derrumbes en los caminos.
+sorata:
+  data: [21, 19, 10, 5, 160, 10]
+  fr:
+    title: Vallée de montagne
+    text: Plus doux que La Paz. Pour les treks au-dessus, il faut des vêtements de haute montagne.
+  en:
+    title: Mountain valley
+    text: Milder than La Paz. For treks higher up, you need high-mountain clothing.
+  es:
+    title: Valle de montaña
+    text: >-
+      Más templado que La Paz. Para los trekkings de más arriba hace falta ropa de alta
+      montaña.
+chapare:
+  data: [30, 26, 22, 16, 600, 150]
+  fr:
+    title: Tropiques très humides
+    text: >-
+      L'une des régions les plus pluvieuses du pays : averses tropicales même en saison
+      sèche. Chaud et moite, beaucoup de moustiques.
+  en:
+    title: Very humid tropics
+    text: >-
+      One of the wettest regions in the country: tropical downpours even in the dry season.
+      Hot and sticky, with lots of mosquitoes.
+  es:
+    title: Trópico muy húmedo
+    text: >-
+      Una de las regiones más lluviosas del país: aguaceros tropicales incluso en época
+      seca. Caluroso y bochornoso, con muchos mosquitos.
+santacruz:
+  data: [31, 25, 22, 14, 190, 30]
+  fr:
+    title: Plaines tropicales
+    text: >-
+      Chaud toute l'année. En hiver, le « surazo » (vent froid du sud) peut faire tomber à
+      10 °C en une journée. Août-octobre : fumées des brûlis agricoles.
+  en:
+    title: Tropical lowlands
+    text: >-
+      Hot all year. In winter the “surazo” (cold southern wind) can drop the temperature to
+      10 °C in a day. August to October: smoke from agricultural burning.
+  es:
+    title: Llanos tropicales
+    text: >-
+      Calor todo el año. En invierno el surazo (viento frío del sur) puede bajar la
+      temperatura a 10 °C en un día. De agosto a octubre, humo de los chaqueos.
+samaipata:
+  data: [25, 22, 15, 7, 150, 15]
+  fr:
+    title: Piémont andin
+    text: >-
+      Climat doux de moyenne montagne : chaud le jour, frais la nuit. Brumes fréquentes dans
+      les forêts d'Amboró.
+  en:
+    title: Andean foothills
+    text: >-
+      A mild mid-mountain climate: warm by day, cool at night. Frequent mist in the Amboró
+      forests.
+  es:
+    title: Pie de monte andino
+    text: >-
+      Clima templado de media montaña: calor de día y fresco de noche. Neblina frecuente en
+      los bosques de Amboró.
+vallegrande:
+  data: [24, 21, 12, 4, 130, 10]
+  fr:
+    title: Vallée de moyenne montagne
+    text: >-
+      Journées douces, nuits fraîches en hiver. Les pistes vers La Higuera sont difficiles
+      après la pluie.
+  en:
+    title: Mid-mountain valley
+    text: Mild days, cool nights in winter. The tracks to La Higuera are difficult after rain.
+  es:
+    title: Valle de media montaña
+    text: >-
+      Días templados y noches frescas en invierno. Los caminos a La Higuera son difíciles
+      después de la lluvia.
+chiquitania:
+  data: [31, 28, 21, 14, 180, 15]
+  fr:
+    title: Chiquitanía (forêt sèche)
+    text: >-
+      Chaud, surtout de septembre à novembre (35 °C et plus). Saison sèche de mai à octobre,
+      avec des fumées de brûlis en août-septembre. Le surazo peut rafraîchir brutalement.
+  en:
+    title: Chiquitanía (dry forest)
+    text: >-
+      Hot, especially from September to November (35 °C and above). Dry season from May to
+      October, with smoke from burning in August and September. The surazo can bring a
+      sudden chill.
+  es:
+    title: Chiquitanía (bosque seco)
+    text: >-
+      Caluroso, sobre todo de septiembre a noviembre (35 °C o más). Época seca de mayo a
+      octubre, con humo de chaqueos en agosto y septiembre. El surazo puede enfriar de
+      golpe.
+chaco:
+  data: [35, 26, 22, 10, 150, 3]
+  fr:
+    title: Gran Chaco
+    text: >-
+      L'une des régions les plus chaudes d'Amérique du Sud : plus de 40 °C possibles
+      d'octobre à février. L'hiver est doux le jour et frais la nuit, et le vent du sud peut
+      faire chuter la température d'un coup.
+  en:
+    title: Gran Chaco
+    text: >-
+      One of the hottest regions in South America: over 40 °C is possible from October to
+      February. Winter is mild by day and cool at night, and the southern wind can make the
+      temperature drop suddenly.
+  es:
+    title: Gran Chaco
+    text: >-
+      Una de las regiones más calurosas de Sudamérica: puede pasar de 40 °C de octubre a
+      febrero. El invierno es templado de día y fresco de noche, y el surazo puede bajar la
+      temperatura de golpe.
+amazonie:
+  data: [31, 30, 23, 17, 300, 40]
+  fr:
+    title: Amazonie
+    text: >-
+      Chaud et humide toute l'année. De juin à août, un surazo peut faire descendre à 10 °C
+      quelques jours. En saison des pluies (décembre-mars), routes inondées et plus de
+      moustiques, mais beaucoup d'animaux en saison sèche.
+  en:
+    title: Amazon
+    text: >-
+      Hot and humid all year. From June to August a surazo can bring temperatures down to 10
+      °C for a few days. In the rainy season (December to March) roads flood and there are
+      more mosquitoes; the dry season is best for wildlife.
+  es:
+    title: Amazonía
+    text: >-
+      Cálido y húmedo todo el año. De junio a agosto un surazo puede bajar la temperatura a
+      10 °C unos días. En época de lluvias (diciembre a marzo) los caminos se inundan y hay
+      más mosquitos; la época seca es la mejor para ver fauna.

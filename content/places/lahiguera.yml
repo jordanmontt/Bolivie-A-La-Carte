@@ -1,0 +1,68 @@
+# La Higuera
+department: Santa Cruz
+category: culture
+lat: -18.79
+lng: -64.2
+altitude: 1950
+days: [1, 1]
+climate: vallegrande
+dishes: [majadito, fricase]
+photos:
+  - file: lahiguera-1.jpg
+    author: Its author is Augusto Starita.
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Che_Guevara_school.jpg
+  - file: vallegrande-1.jpg
+    author: Its author is Augusto Starita.
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Che_Guevara_statue.jpg
+  - file: lahiguera-2.jpg
+    author: ConyJaro
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Statueduchelahiguera.jpg
+  - file: lahiguera-3.jpg
+    author: Ebayenet
+    licence: CC0
+    source: https://commons.wikimedia.org/wiki/File:Che_La_Higuera_Buste_1994_(cropped).jpg
+fr:
+  name: La Higuera
+  label: La Higuera
+  short: Le hameau où le Che a été exécuté en 1967, devenu lieu de mémoire.
+  story: >-
+    La Higuera est un tout petit village de montagne, resté presque tel qu'il était en
+    octobre 1967, quand Ernesto « Che » Guevara y a été exécuté dans l'école. L'ancienne
+    école est devenue un petit musée, et le village est couvert de fresques et de monuments.
+    On peut marcher jusqu'à la Quebrada del Yuro, où il a été capturé.
+  todo:
+    - Musée de l'ancienne école
+    - Monuments et fresques du village
+    - Marche jusqu'à la Quebrada del Yuro
+  tips: Piste de terre depuis Vallegrande (environ 60 km). Hébergement très simple au village.
+en:
+  name: La Higuera
+  label: La Higuera
+  short: The hamlet where Che was executed in 1967, now a place of memory.
+  story: >-
+    La Higuera is a tiny mountain village, still almost as it was in October 1967 when
+    Ernesto “Che” Guevara was executed in its school. The old school is now a small museum,
+    and the village is covered in murals and monuments. You can walk to the Quebrada del
+    Yuro, where he was captured.
+  todo:
+    - The old school museum
+    - The village's monuments and murals
+    - Walk to the Quebrada del Yuro
+  tips: Dirt track from Vallegrande (about 60 km). Very simple lodging in the village.
+es:
+  name: La Higuera
+  label: La Higuera
+  short: El caserío donde fue ejecutado el Che en 1967, hoy lugar de memoria.
+  story: >-
+    La Higuera es un pueblito de montaña que sigue casi igual que en octubre de 1967, cuando
+    Ernesto «Che» Guevara fue ejecutado en su escuela. La antigua escuela es hoy un pequeño
+    museo, y el pueblo está lleno de murales y monumentos. Se puede caminar hasta la
+    Quebrada del Yuro, donde fue capturado.
+  todo:
+    - Museo de la antigua escuela
+    - Monumentos y murales del pueblo
+    - Caminata a la Quebrada del Yuro
+  tips: Camino de tierra desde Vallegrande (unos 60 km). Alojamiento muy sencillo en el pueblo.

@@ -1,0 +1,84 @@
+# Tiwanaku
+department: La Paz
+category: culture
+lat: -16.5547
+lng: -68.6733
+altitude: 3870
+days: [1, 1]
+climate: altiplano
+dishes: [chuno, sajta, plato_paceno]
+photos:
+  - file: tiwanaku-1.jpg
+    author: Mhwater
+    licence: Public domain
+    source: https://commons.wikimedia.org/wiki/File:Zonnepoort_tiwanaku.jpg
+  - file: tiwanaku-2.jpg
+    author: LBM1948
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Tiwanaku_09.jpg
+  - file: tiwanaku-3.jpg
+    author: Mhwater at Dutch Wikipedia
+    licence: Public domain
+    source: https://commons.wikimedia.org/wiki/File:Plein_Tiwanaku.jpg
+  - file: tiwanaku-4.jpg
+    author: Dennis G. Jarvis
+    licence: CC BY-SA 2.0
+    source: https://commons.wikimedia.org/wiki/File:Flickr_-_archer10_(Dennis)_-_Bolivia-72.jpg
+  - file: tiwanaku-5.jpg
+    author: Keyan Alejandro
+    licence: CC BY 4.0
+    source: https://commons.wikimedia.org/wiki/File:INGRESO_AL_TEMPLO_DE_KALASASAYA.jpg
+  - file: tiwanaku-6.jpg
+    author: Dennis G. Jarvis
+    licence: CC BY-SA 2.0
+    source: https://commons.wikimedia.org/wiki/File:Flickr_-_archer10_(Dennis)_-_Bolivia-33.jpg
+  - file: tiwanaku-7.jpg
+    author: Marc Davis
+    licence: CC BY 2.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Bolivia_-_Gate_of_the_Sun_detail_-_Tiwanaku_or_Tiahuanaco_02.jpg
+fr:
+  name: Tiwanaku
+  label: Tiwanaku
+  short: "Site préinca classé UNESCO : Porte du Soleil, temple de Kalasasaya."
+  story: >-
+    Bien avant les Incas, Tiwanaku était la capitale d'un empire qui dominait les Andes. On
+    y voit la célèbre Porte du Soleil, des statues monumentales et les pierres
+    incroyablement bien taillées de Puma Punku. Un incontournable pour comprendre l'histoire
+    des Andes, à une heure et demie de La Paz.
+  todo:
+    - Porte du Soleil et Kalasasaya
+    - Pyramide d'Akapana et temple semi-souterrain
+    - Les deux musées sur place
+    - Puma Punku et ses pierres taillées
+  tips: Journée depuis La Paz. Un guide sur place rend la visite bien plus intéressante.
+en:
+  name: Tiwanaku
+  label: Tiwanaku
+  short: "UNESCO-listed pre-Inca site: the Gate of the Sun and the Kalasasaya temple."
+  story: >-
+    Long before the Incas, Tiwanaku was the capital of an empire that ruled the Andes.
+    You'll see the famous Gate of the Sun, monumental statues and the astonishingly precise
+    stonework of Puma Punku. A must for understanding Andean history, an hour and a half
+    from La Paz.
+  todo:
+    - Gate of the Sun and Kalasasaya
+    - Akapana pyramid and the semi-subterranean temple
+    - The two on-site museums
+    - Puma Punku and its cut stones
+  tips: Day trip from La Paz. A local guide makes the visit much more interesting.
+es:
+  name: Tiwanaku
+  label: Tiwanaku
+  short: "Sitio preinca Patrimonio de la UNESCO: la Puerta del Sol y el templo de Kalasasaya."
+  story: >-
+    Mucho antes de los incas, Tiwanaku fue la capital de un imperio que dominaba los Andes.
+    Ahí están la famosa Puerta del Sol, estatuas monumentales y las piedras increíblemente
+    bien talladas de Puma Punku. Imprescindible para entender la historia andina, a una hora
+    y media de La Paz.
+  todo:
+    - Puerta del Sol y Kalasasaya
+    - Pirámide de Akapana y templo semisubterráneo
+    - Los dos museos del sitio
+    - Puma Punku y sus piedras talladas
+  tips: Un día desde La Paz. Con un guía local la visita es mucho más interesante.

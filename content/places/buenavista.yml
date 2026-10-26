@@ -1,0 +1,77 @@
+# Buena Vista (Amboró nord)
+department: Santa Cruz
+category: jungle
+lat: -17.458
+lng: -63.668
+altitude: 350
+days: [2, 3]
+climate: santacruz
+dishes: [majadito, sonso, tropical]
+photos:
+  - file: buenavista-1.jpg
+    author: Ruditaly
+    licence: CC BY 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Iglesia_de_los_Santos_Desposorios_in_Buena_Vista,_Bolivia.png
+  - file: buenavista-2.jpg
+    author: Ruditaly
+    licence: CC BY 4.0
+    source: https://commons.wikimedia.org/wiki/File:Surut%C3%BA_River_in_Buena_Vista,_Bolivia.png
+  - file: buenavista-3.jpg
+    author: Ruditaly
+    licence: CC BY 4.0
+    source: https://commons.wikimedia.org/wiki/File:Square_in_Buena_Vista,_Bolivia.png
+  - file: buenavista-4.jpg
+    author: Ruditaly
+    licence: CC BY 4.0
+    source: https://commons.wikimedia.org/wiki/File:Street_in_Buena_Vista,_Bolivia.png
+fr:
+  name: Buena Vista (Amboró nord)
+  label: Buena Vista
+  short: "Petit village au pied du parc Amboró, côté forêt tropicale : rivières, oiseaux et café."
+  story: >-
+    Buena Vista est une ancienne mission posée face aux montagnes du parc Amboró, du côté
+    des basses terres. C'est la porte d'entrée vers la partie tropicale du parc : rivières
+    claires, forêts pleines d'oiseaux, papillons et, avec de la chance, singes et pécaris.
+    Le village produit aussi un bon café. Une très belle escapade nature à deux heures de
+    Santa Cruz.
+  todo:
+    - Excursions dans le parc Amboró avec guide
+    - Rivières et baignade
+    - Oiseaux, papillons et forêt tropicale
+    - Café de Buena Vista
+  tips: >-
+    Bus ou minibus depuis Santa Cruz, environ 2 h. Prévoir répulsif et vêtements légers à
+    manches longues.
+en:
+  name: Buena Vista (northern Amboró)
+  label: Buena Vista
+  short: >-
+    A small village at the foot of Amboró park, on the rainforest side: rivers, birds and
+    coffee.
+  story: >-
+    Buena Vista is a former mission facing the mountains of Amboró park, on the lowland
+    side. It's the gateway to the tropical part of the park: clear rivers, forests full of
+    birds, butterflies and, with luck, monkeys and peccaries. The village also grows good
+    coffee. A great nature escape two hours from Santa Cruz.
+  todo:
+    - Trips into Amboró park with a guide
+    - Rivers and swimming
+    - Birds, butterflies and rainforest
+    - Buena Vista coffee
+  tips: Bus or minibus from Santa Cruz, about 2 h. Bring repellent and light long-sleeved clothes.
+es:
+  name: Buena Vista (Amboró norte)
+  label: Buena Vista
+  short: "Pueblito al pie del parque Amboró, del lado del bosque tropical: ríos, aves y café."
+  story: >-
+    Buena Vista es una antigua misión frente a las montañas del parque Amboró, del lado de
+    las tierras bajas. Es la puerta de entrada a la parte tropical del parque: ríos claros,
+    bosques llenos de aves, mariposas y, con suerte, monos y chanchos de monte. El pueblo
+    también produce buen café. Una linda escapada de naturaleza a dos horas de Santa Cruz.
+  todo:
+    - Excursiones al parque Amboró con guía
+    - Ríos y baño
+    - Aves, mariposas y bosque tropical
+    - Café de Buena Vista
+  tips: Bus o minibús desde Santa Cruz, unas 2 h. Lleva repelente y ropa liviana de manga larga.

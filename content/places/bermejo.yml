@@ -1,0 +1,78 @@
+# Bermejo
+department: Tarija
+category: ville
+lat: -22.733
+lng: -64.338
+altitude: 415
+days: [0, 1]
+climate: santacruz
+dishes: [pescado, tropical]
+photos:
+  - file: bermejo-1.jpg
+    author: Carlosfiengo
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Vista_panoramica_de_bermejo.jpg
+  - file: bermejo-2.jpg
+    author: Claudiooooooooooooo
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Puente_Libertad_(r%C3%ADo_Bermejo).jpg
+  - file: bermejo-3.jpg
+    author: José Luis Fernández
+    licence: CC BY 3.0
+    source: https://commons.wikimedia.org/wiki/File:Iglesia_Bermejo_-_panoramio.jpg
+  - file: bermejo-4.jpg
+    author: Sean Mulry
+    licence: CC BY 2.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:R%C3%ADo_Bermejo_frontera_Bolivia_(izq.)_y_Argentina_(dcha).jpg
+  - file: bermejo-5.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:R%C3%ADo_Bermejo_y_la_Ruta_7_cerca_a_Bermejo_-_Florida,_Bolivia.jpg
+  - file: bermejo-6.jpg
+    author: José Luis Fernández
+    licence: CC BY 3.0
+    source: https://commons.wikimedia.org/wiki/File:Monumento_General_Bolivar_-_panoramio.jpg
+fr:
+  name: Bermejo
+  label: Bermejo
+  short: Ville frontière tropicale au bord du río Bermejo, face à l'Argentine.
+  story: >-
+    Bermejo est une ville chaude et commerçante, posée au bord de la rivière du même nom,
+    qui fait la frontière avec Aguas Blancas, en Argentine. On la traverse par le pont
+    international ou en petite barque. Pour la plupart des voyageurs, c'est un passage vers
+    le nord de l'Argentine, au bout d'une belle route de montagne depuis Tarija.
+  todo:
+    - Traversée du río Bermejo vers Aguas Blancas
+    - Marchés et rues commerçantes
+    - Route de montagne depuis Tarija
+  tips: Climat chaud et humide. Route asphaltée depuis Tarija (environ 4 h).
+en:
+  name: Bermejo
+  label: Bermejo
+  short: A tropical border town on the Bermejo river, facing Argentina.
+  story: >-
+    Bermejo is a hot, busy trading town on the river of the same name, which forms the
+    border with Aguas Blancas in Argentina. You cross by the international bridge or in a
+    small boat. For most travellers it's the way into northern Argentina, at the end of a
+    beautiful mountain road from Tarija.
+  todo:
+    - Cross the Bermejo river to Aguas Blancas
+    - Markets and shopping streets
+    - The mountain road from Tarija
+  tips: Hot and humid. Paved road from Tarija (about 4 h).
+es:
+  name: Bermejo
+  label: Bermejo
+  short: Ciudad fronteriza tropical a orillas del río Bermejo, frente a Argentina.
+  story: >-
+    Bermejo es una ciudad calurosa y comercial a orillas del río del mismo nombre, que hace
+    frontera con Aguas Blancas, en Argentina. Se cruza por el puente internacional o en
+    chalana. Para la mayoría de los viajeros es el paso hacia el norte argentino, al final
+    de una linda carretera de montaña desde Tarija.
+  todo:
+    - Cruzar el río Bermejo a Aguas Blancas
+    - Mercados y calles comerciales
+    - La carretera de montaña desde Tarija
+  tips: Clima cálido y húmedo. Carretera asfaltada desde Tarija (unas 4 h).

@@ -1,0 +1,74 @@
+# Valle de la Luna
+department: La Paz
+category: nature
+lat: -16.5683
+lng: -68.0936
+altitude: 3300
+days: [1, 1]
+climate: lapaz
+dishes: [saltena, plato_paceno]
+photos:
+  - file: valleluna-1.jpg
+    author: Nicole Acosta Cabero
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Valle_de_La_Luna_La_Paz_Bolivia_NAC.jpg
+  - file: valleluna-2.jpg
+    author: PsamatheM
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:03-Valle_de_la_Luna_(La_Paz)-14.jpg
+  - file: valleluna-3.jpg
+    author: PsamatheM
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:03-Valle_de_la_Luna_(La_Paz)-10.jpg
+  - file: valleluna-4.jpg
+    author: PsamatheM
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:03-Valle_de_la_Luna_(La_Paz)-2.jpg
+  - file: valleluna-5.jpg
+    author: PsamatheM
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:03-Valle_de_la_Luna_(La_Paz)-36.jpg
+  - file: valleluna-6.jpg
+    author: wallygrom
+    licence: CC BY-SA 2.0
+    source: https://commons.wikimedia.org/wiki/File:Evening_over_Valle_de_la_Luna.jpg
+  - file: valleluna-7.jpg
+    author: PsamatheM
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:03-Valle_de_la_Luna_(La_Paz)-3.jpg
+fr:
+  name: Valle de la Luna
+  label: Valle de la Luna
+  short: Formations d'argile lunaires dans la banlieue sud de La Paz.
+  story: >-
+    À vingt minutes du centre de La Paz, l'érosion a sculpté des centaines de pics et de
+    cheminées d'argile qui donnent l'impression de marcher sur une autre planète. Une balade
+    facile d'une heure, parfaite pour une demi-journée.
+  todo:
+    - Sentiers de 15 à 45 min
+    - Combinable avec la Muela del Diablo
+  tips: Demi-journée depuis La Paz (minibus ou taxi).
+en:
+  name: Valle de la Luna
+  label: Valle de la Luna
+  short: Moon-like clay formations in the southern suburbs of La Paz.
+  story: >-
+    Twenty minutes from central La Paz, erosion has carved hundreds of clay spires and
+    chimneys that make you feel you're walking on another planet. An easy one-hour stroll,
+    perfect for half a day.
+  todo:
+    - Trails of 15 to 45 minutes
+    - Combine with the Muela del Diablo
+  tips: Half a day from La Paz (minibus or taxi).
+es:
+  name: Valle de la Luna
+  label: Valle de la Luna
+  short: Formaciones de arcilla lunares en la zona sur de La Paz.
+  story: >-
+    A veinte minutos del centro de La Paz, la erosión esculpió cientos de picos y chimeneas
+    de arcilla que dan la impresión de caminar en otro planeta. Un paseo fácil de una hora,
+    perfecto para medio día.
+  todo:
+    - Senderos de 15 a 45 minutos
+    - Combinable con la Muela del Diablo
+  tips: Medio día desde La Paz (minibús o taxi).

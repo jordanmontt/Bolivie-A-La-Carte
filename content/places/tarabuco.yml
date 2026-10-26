@@ -1,0 +1,79 @@
+# Tarabuco
+department: Chuquisaca
+category: culture
+lat: -19.1817
+lng: -64.9156
+altitude: 3280
+days: [1, 1]
+climate: sucre
+dishes: [sopa_puchero, chicha]
+photos:
+  - file: tarabuco-1.jpg
+    author: Carlillasa
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Bailarinas_de_pujllay.jpg
+  - file: tarabuco-2.jpg
+    author: François Bianco
+    licence: CC BY-SA 2.0
+    source: https://commons.wikimedia.org/wiki/File:Colorfull_material_(14279442344).jpg
+  - file: tarabuco-3.jpg
+    author: UNESCO
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Bailando_en_tarabuco.jpg
+  - file: tarabuco-4.jpg
+    author: Alesarcastic
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Ni%C3%B1os_con_trajes_t%C3%ADpicos_de_Tarabuco.jpg
+  - file: tarabuco-5.jpg
+    author: Alesarcastic
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Comerciante_en_la_feria_textil_de_Tarabuco.jpg
+  - file: tarabuco-6.jpg
+    author: Alesarcastic
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Pobladores_con_vestimenta_de_Pujllay_en_espera_del_recorrido_de_la_Gran_Pukara.jpg
+  - file: tarabuco-7.jpg
+    author: Alesarcastic
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Gente_alrededor_de_la_Pukara_en_Tarabuco.jpg
+fr:
+  name: Tarabuco
+  label: Tarabuco
+  short: Grand marché du dimanche des communautés yampara, textiles remarquables.
+  story: >-
+    Chaque dimanche, les communautés yampara descendent à Tarabuco pour le marché, dans
+    leurs costumes traditionnels avec leurs drôles de casques en cuir. On y trouve les plus
+    beaux tissages de la région. Une sortie très colorée, en aller-retour depuis Sucre.
+  todo:
+    - Marché du dimanche
+    - Tissages et costumes traditionnels
+    - Fête du Pujllay (mars)
+  tips: À faire un dimanche, en aller-retour depuis Sucre.
+en:
+  name: Tarabuco
+  label: Tarabuco
+  short: Big Sunday market of the Yampara communities, with remarkable textiles.
+  story: >-
+    Every Sunday the Yampara communities come to Tarabuco for the market, in traditional
+    dress with their curious leather helmets. You'll find the finest weavings of the region.
+    A very colourful day trip from Sucre.
+  todo:
+    - Sunday market
+    - Traditional weavings and costumes
+    - Pujllay festival (March)
+  tips: Go on a Sunday, as a return trip from Sucre.
+es:
+  name: Tarabuco
+  label: Tarabuco
+  short: Gran feria dominical de las comunidades yampara, con tejidos notables.
+  story: >-
+    Cada domingo, las comunidades yampara bajan a Tarabuco para la feria, con su ropa
+    tradicional y sus curiosas monteras de cuero. Ahí se encuentran los mejores tejidos de
+    la región. Una salida muy colorida, ida y vuelta desde Sucre.
+  todo:
+    - Feria dominical
+    - Tejidos y trajes tradicionales
+    - Fiesta del Pujllay (marzo)
+  tips: Ve un domingo, ida y vuelta desde Sucre.

@@ -1,0 +1,82 @@
+# Parc national Tunari
+department: Cochabamba
+category: nature
+lat: -17.283
+lng: -66.37
+altitude: 4200
+days: [1, 1]
+climate: tunari
+dishes: [silpancho, sopa_quinua]
+photos:
+  - file: tunari-1.jpg
+    author: Luis UBB
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Laguna_El_Toro_nevada.jpg
+  - file: tunari-3.jpg
+    author: Leon fabio
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Parque_Tunari_CBBA._02.jpg
+  - file: tunari-4.jpg
+    author: JDeybyMontenegroS
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Reflejos_de_las_monta%C3%B1as_Parque_Nacional_Tunari.jpg
+  - file: tunari-5.jpg
+    author: Lilian Mendoza Tancara
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Cerro_nevado_de_la_serran%C3%ADa_del_Tunari.jpg
+  - file: tunari-6.jpg
+    author: Bernardo Band Florido
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Altas_monta%C3%B1as.jpg
+  - file: tunari-7.jpg
+    author: Lilian Mendoza Tancara
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:La_laguna_de_la_serran%C3%ADa_del_Tunari.jpg
+fr:
+  name: Parc national Tunari
+  label: Parc Tunari
+  short: >-
+    Les montagnes juste au-dessus de la ville : lagunes d'altitude et le sommet du Tunari (5
+    035 m).
+  story: >-
+    Juste au-dessus de la ville, la cordillère du Tunari grimpe à plus de 5 000 m. En une
+    journée, on passe des eucalyptus de la vallée à des lagunes d'altitude entourées de
+    lamas, avec toute la vallée de Cochabamba à ses pieds. Une belle première randonnée pour
+    tester ses jambes en altitude.
+  todo:
+    - Randonnée aux lagunes (Laguna Wara Wara, Lagunas de Tunari)
+    - Ascension du Cerro Tunari pour les plus motivés (journée longue)
+    - Vue sur toute la vallée de Cochabamba
+  tips: >-
+    Excursion à la journée depuis Cochabamba, mieux avec un guide ou un véhicule 4x4. Bon
+    test d'acclimatation.
+en:
+  name: Tunari National Park
+  label: Tunari Park
+  short: "The mountains right above the city: high lagoons and the Tunari summit (5,035 m)."
+  story: >-
+    Right above the city, the Tunari range climbs past 5,000 m. In a single day you go from
+    the eucalyptus of the valley to high-altitude lagoons with grazing llamas, with the
+    whole Cochabamba valley at your feet. A great first hike to test your legs at altitude.
+  todo:
+    - Hike to the lagoons (Laguna Wara Wara, Lagunas de Tunari)
+    - Climb Cerro Tunari if you're keen (long day)
+    - Views over the whole Cochabamba valley
+  tips: Day trip from Cochabamba, best with a guide or a 4x4. A good acclimatisation test.
+es:
+  name: Parque Nacional Tunari
+  label: Parque Tunari
+  short: "Las montañas justo encima de la ciudad: lagunas de altura y la cumbre del Tunari (5035 m)."
+  story: >-
+    Justo encima de la ciudad, la cordillera del Tunari sube a más de 5000 m. En un día se
+    pasa de los eucaliptos del valle a lagunas de altura rodeadas de llamas, con todo el
+    valle de Cochabamba a los pies. Una buena primera caminata para probar las piernas en la
+    altura.
+  todo:
+    - Caminata a las lagunas (Laguna Wara Wara, Lagunas de Tunari)
+    - Subida al Cerro Tunari para los más motivados (día largo)
+    - Vista de todo el valle de Cochabamba
+  tips: >-
+    Excursión de un día desde Cochabamba, mejor con guía o en 4x4. Buena prueba de
+    aclimatación.

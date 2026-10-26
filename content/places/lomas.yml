@@ -1,0 +1,59 @@
+# Lomas de Arena
+department: Santa Cruz
+category: nature
+lat: -17.92
+lng: -63.14
+altitude: 400
+days: [1, 1]
+climate: santacruz
+dishes: [sonso, tropical]
+photos:
+  - file: lomas-1.jpg
+    author: Gabriel Millos
+    licence: CC BY-SA 2.0
+    source: https://commons.wikimedia.org/wiki/File:Lomas_de_Arena_-_Santa_Cruz,_Bolivia.jpg
+  - file: lomas-2.jpg
+    author: Eaparicio
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:SC_LomasArena.JPG
+  - file: lomas-3.jpg
+    author: Borochirebelde
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Paisaje_de_la_Lomas_de_Arena,_Santa_Cruz_de_la_Sierra,_dic-2025.jpg
+fr:
+  name: Lomas de Arena
+  label: Lomas de Arena
+  short: Dunes de sable blanc et lagunes au sud de Santa Cruz.
+  story: >-
+    Juste au sud de Santa Cruz, des dunes de sable blanc surgissent au milieu de la
+    végétation tropicale, avec des lagunes où l'on peut se baigner. On y fait du sandboard
+    et on se croirait dans un petit désert en pleine forêt.
+  todo:
+    - Sandboard
+    - Baignade dans les lagunes
+  tips: Demi-journée en 4x4 depuis Santa Cruz.
+en:
+  name: Lomas de Arena
+  label: Lomas de Arena
+  short: White sand dunes and lagoons south of Santa Cruz.
+  story: >-
+    Just south of Santa Cruz, white sand dunes rise out of tropical vegetation, with lagoons
+    you can swim in. You can go sandboarding and feel like you're in a little desert in the
+    middle of the forest.
+  todo:
+    - Sandboarding
+    - Swimming in the lagoons
+  tips: Half a day by 4x4 from Santa Cruz.
+es:
+  name: Lomas de Arena
+  label: Lomas de Arena
+  short: Dunas de arena blanca y lagunas al sur de Santa Cruz.
+  story: >-
+    Justo al sur de Santa Cruz, dunas de arena blanca aparecen en medio de la vegetación
+    tropical, con lagunas para bañarse. Se hace sandboard y uno se siente en un pequeño
+    desierto en pleno bosque.
+  todo:
+    - Sandboard
+    - Baño en las lagunas
+  tips: Medio día en 4x4 desde Santa Cruz.

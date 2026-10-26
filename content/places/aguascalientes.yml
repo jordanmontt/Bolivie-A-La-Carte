@@ -1,0 +1,79 @@
+# Aguas Calientes (rivière chaude)
+department: Santa Cruz
+category: nature
+lat: -18.4527
+lng: -59.5038
+altitude: 200
+days: [1, 1]
+climate: chiquitania
+major: true
+dishes: [pescado, majadito, tropical]
+photos:
+  - file: aguascalientes-1.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:R%C3%ADo_Aguas_Calientes_y_los_balnearios_-_Robor%C3%A9,_Bolivia.jpg
+  - file: aguascalientes-2.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Aguas_Calientes_-_Robor%C3%A9,_Bolivia.jpg
+  - file: aguascalientes-3.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:R%C3%ADo_Aguas_Calientes_(SE)_-_Robor%C3%A9,_Bolivia.jpg
+fr:
+  name: Aguas Calientes (rivière chaude)
+  label: Aguas Calientes
+  short: >-
+    Une rivière d'eau chaude naturelle (autour de 38 °C) au milieu de la forêt : on s'y
+    baigne avec les petits poissons.
+  story: >-
+    Aguas Calientes, c'est une rivière d'eau chaude naturelle qui coule au milieu de la
+    forêt sèche. L'eau est à environ 38 °C, claire, et le fond de sable fait des bulles. On
+    s'y baigne pendant des heures, entouré de petits poissons, et le soir on dîne au bord de
+    l'eau. Une expérience vraiment unique, et très relaxante après les longs trajets.
+  todo:
+    - Baignade dans le río termal (le fond de sable fait des bulles)
+    - Rester jusqu'à la nuit, l'eau reste chaude
+    - Campings et petits restaurants au bord de l'eau
+  tips: >-
+    À environ 30 km de Roboré. Éviter les week-ends fériés, très fréquentés par les gens de
+    Santa Cruz.
+en:
+  name: Aguas Calientes (hot river)
+  label: Aguas Calientes
+  short: >-
+    A natural hot-water river (around 38 °C) in the middle of the forest, where you swim
+    among small fish.
+  story: >-
+    Aguas Calientes is a natural river of hot water flowing through the dry forest. The
+    water is clear and around 38 °C, and the sandy bottom bubbles. You can soak for hours
+    surrounded by small fish, then have dinner by the water in the evening. A truly unique
+    experience, and very relaxing after long journeys.
+  todo:
+    - Swim in the río termal (the sandy bottom bubbles)
+    - Stay until nightfall, the water stays warm
+    - Campsites and small restaurants by the water
+  tips: >-
+    About 30 km from Roboré. Avoid public holiday weekends, when it's packed with people
+    from Santa Cruz.
+es:
+  name: Aguas Calientes (río termal)
+  label: Aguas Calientes
+  short: >-
+    Un río de agua caliente natural (unos 38 °C) en medio del bosque, para bañarse entre
+    pececitos.
+  story: >-
+    Aguas Calientes es un río de agua caliente natural que corre en medio del bosque seco.
+    El agua es clara, está a unos 38 °C y el fondo de arena burbujea. Uno se baña durante
+    horas rodeado de pececitos y de noche cena a la orilla. Una experiencia única y muy
+    relajante después de los largos viajes.
+  todo:
+    - Bañarse en el río termal (el fondo de arena burbujea)
+    - Quedarse hasta la noche, el agua sigue caliente
+    - Campings y pequeños restaurantes a la orilla
+  tips: >-
+    A unos 30 km de Roboré. Evita los fines de semana largos, cuando se llena de gente de
+    Santa Cruz.

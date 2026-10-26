@@ -1,0 +1,255 @@
+# Border crossings, shown on the practical tips page and on the page of the nearest place.
+# country: peru, chile, argentina, brazil or paraguay. place: nearest place on the site (optional).
+# Hours and rules change: the texts say to check them, and never give exact opening times.
+
+- id: desaguadero
+  country: peru
+  place: tiwanaku
+  fr:
+    name: Desaguadero (vers Puno)
+    text: >-
+      La route la plus directe entre La Paz et Puno : environ 3 h de bus jusqu'à la frontière,
+      puis 3 h côté Pérou. Ville marchande très animée : gardez vos affaires près de vous.
+  en:
+    name: Desaguadero (to Puno)
+    text: >-
+      The most direct road between La Paz and Puno: about 3 h by bus to the border, then 3 h
+      on the Peruvian side. A very busy market town: keep your things close.
+  es:
+    name: Desaguadero (hacia Puno)
+    text: >-
+      La ruta más directa entre La Paz y Puno: unas 3 h de bus hasta la frontera y luego 3 h
+      del lado peruano. Pueblo comercial muy movido: cuida tus cosas.
+- id: kasani
+  country: peru
+  place: copacabana
+  fr:
+    name: Kasani – Yunguyo (par Copacabana)
+    text: >-
+      À 10 minutes de Copacabana, le passage le plus agréable vers le Pérou, au bord du lac.
+      Des bus relient Copacabana à Puno en 3 h environ.
+  en:
+    name: Kasani – Yunguyo (via Copacabana)
+    text: >-
+      Ten minutes from Copacabana, the most pleasant crossing into Peru, by the lake. Buses
+      link Copacabana and Puno in about 3 h.
+  es:
+    name: Kasani – Yunguyo (por Copacabana)
+    text: >-
+      A diez minutos de Copacabana, el paso más agradable hacia el Perú, a orillas del lago.
+      Hay buses de Copacabana a Puno en unas 3 h.
+- id: tambo-quemado
+  country: chile
+  place: sajama
+  fr:
+    name: Tambo Quemado – Chungará (vers Arica)
+    text: >-
+      Sur la route La Paz – Arica, à 4 660 m, au pied des volcans du parc Sajama. Bus directs
+      La Paz – Arica en 8 à 10 h. Il y fait très froid : gardez une couche chaude.
+  en:
+    name: Tambo Quemado – Chungará (to Arica)
+    text: >-
+      On the La Paz – Arica road, at 4,660 m, below the volcanoes of Sajama park. Direct buses
+      La Paz – Arica in 8 to 10 h. It's very cold up there: keep a warm layer.
+  es:
+    name: Tambo Quemado – Chungará (hacia Arica)
+    text: >-
+      En la carretera La Paz – Arica, a 4660 m, al pie de los volcanes del parque Sajama.
+      Buses directos La Paz – Arica en 8 a 10 h. Hace mucho frío: lleva abrigo.
+- id: hito-cajon
+  country: chile
+  place: salar
+  fr:
+    name: Hito Cajón (vers San Pedro de Atacama)
+    text: >-
+      À la fin du tour du Sud Lípez, près de la Laguna Verde : beaucoup de tours déposent les
+      voyageurs ici, avec un transfert vers San Pedro de Atacama (environ 1 h). À réserver
+      avec le tour.
+  en:
+    name: Hito Cajón (to San Pedro de Atacama)
+    text: >-
+      At the end of the Sud Lípez tour, near Laguna Verde: many tours drop travellers here,
+      with a transfer to San Pedro de Atacama (about 1 h). Book it with the tour.
+  es:
+    name: Hito Cajón (hacia San Pedro de Atacama)
+    text: >-
+      Al final del tour del Sud Lípez, cerca de la Laguna Verde: muchos tours dejan a los
+      viajeros aquí, con traslado a San Pedro de Atacama (cerca de 1 h). Resérvalo con el tour.
+- id: pisiga
+  country: chile
+  place: coipasa
+  fr:
+    name: Pisiga – Colchane (vers Iquique)
+    text: >-
+      Le passage de la route Oruro – Iquique, près du Salar de Coipasa. Bus depuis Oruro.
+      Région isolée et froide : partez avec de l'eau et des espèces.
+  en:
+    name: Pisiga – Colchane (to Iquique)
+    text: >-
+      The crossing on the Oruro – Iquique road, near the Coipasa salt flat. Buses from Oruro.
+      A remote, cold area: bring water and cash.
+  es:
+    name: Pisiga – Colchane (hacia Iquique)
+    text: >-
+      El paso de la carretera Oruro – Iquique, cerca del Salar de Coipasa. Buses desde Oruro.
+      Zona aislada y fría: lleva agua y efectivo.
+- id: ollague
+  country: chile
+  place: uyuni
+  fr:
+    name: Ollagüe (vers Calama)
+    text: >-
+      Entre Uyuni et Calama, au milieu des volcans. Quelques bus par semaine depuis Uyuni :
+      vérifiez les jours avant de partir.
+  en:
+    name: Ollagüe (to Calama)
+    text: >-
+      Between Uyuni and Calama, among the volcanoes. A few buses a week from Uyuni: check the
+      days before you go.
+  es:
+    name: Ollagüe (hacia Calama)
+    text: >-
+      Entre Uyuni y Calama, en medio de los volcanes. Algunos buses por semana desde Uyuni:
+      revisa los días antes de viajar.
+- id: villazon-laquiaca
+  country: argentina
+  place: villazon
+  fr:
+    name: Villazón – La Quiaca
+    text: >-
+      Le passage le plus utilisé vers l'Argentine, à pied par le pont. De La Quiaca, bus vers
+      Jujuy et Salta. Les formalités ne se font pas toute la nuit : arrivez de jour.
+  en:
+    name: Villazón – La Quiaca
+    text: >-
+      The most used crossing into Argentina, on foot over the bridge. From La Quiaca, buses
+      to Jujuy and Salta. Formalities don't run all night: arrive in daytime.
+  es:
+    name: Villazón – La Quiaca
+    text: >-
+      El paso más usado hacia la Argentina, a pie por el puente. Desde La Quiaca, buses a
+      Jujuy y Salta. Migración no atiende toda la noche: llega de día.
+- id: bermejo-aguasblancas
+  country: argentina
+  place: bermejo
+  fr:
+    name: Bermejo – Aguas Blancas
+    text: >-
+      Par le pont international ou en petite barque sur le río Bermejo. D'Aguas Blancas, bus
+      vers Orán et Salta.
+  en:
+    name: Bermejo – Aguas Blancas
+    text: >-
+      Over the international bridge or by small boat across the Bermejo river. From Aguas
+      Blancas, buses to Orán and Salta.
+  es:
+    name: Bermejo – Aguas Blancas
+    text: >-
+      Por el puente internacional o en chalana por el río Bermejo. Desde Aguas Blancas, buses
+      a Orán y Salta.
+- id: yacuiba-pocitos
+  country: argentina
+  place: yacuiba
+  fr:
+    name: Yacuiba – Salvador Mazza
+    text: >-
+      Le passage du Chaco, sur la route de Santa Cruz à Salta. Bus directs depuis Santa Cruz,
+      et bus internationaux vers Buenos Aires.
+  en:
+    name: Yacuiba – Salvador Mazza
+    text: >-
+      The Chaco crossing, on the road from Santa Cruz to Salta. Direct buses from Santa Cruz,
+      and international buses to Buenos Aires.
+  es:
+    name: Yacuiba – Salvador Mazza
+    text: >-
+      El paso del Chaco, en la ruta de Santa Cruz a Salta. Buses directos desde Santa Cruz y
+      buses internacionales a Buenos Aires.
+- id: quijarro-corumba
+  country: brazil
+  place: robore
+  fr:
+    name: Puerto Quijarro – Corumbá (vers le Pantanal)
+    text: >-
+      Au bout de la ligne de train et de la route de Santa Cruz, par Roboré. Taxi jusqu'à la
+      frontière, puis Corumbá, porte du Pantanal brésilien.
+  en:
+    name: Puerto Quijarro – Corumbá (to the Pantanal)
+    text: >-
+      At the end of the railway and road from Santa Cruz, via Roboré. Taxi to the border,
+      then Corumbá, gateway to the Brazilian Pantanal.
+  es:
+    name: Puerto Quijarro – Corumbá (hacia el Pantanal)
+    text: >-
+      Al final de la línea de tren y de la carretera desde Santa Cruz, por Roboré. Taxi hasta
+      la frontera y luego Corumbá, puerta del Pantanal brasileño.
+- id: guayaramerin-guajara
+  country: brazil
+  place: guayaramerin
+  fr:
+    name: Guayaramerín – Guajará-Mirim
+    text: >-
+      En bateau à travers le río Mamoré, en quelques minutes. Les formalités se font de chaque
+      côté du fleuve.
+  en:
+    name: Guayaramerín – Guajará-Mirim
+    text: >-
+      By boat across the Mamoré river, in a few minutes. Formalities are done on each side of
+      the river.
+  es:
+    name: Guayaramerín – Guajará-Mirim
+    text: >-
+      En lancha a través del río Mamoré, en pocos minutos. Los trámites se hacen a cada lado
+      del río.
+- id: cobija-brasileia
+  country: brazil
+  place: cobija
+  fr:
+    name: Cobija – Brasiléia
+    text: >-
+      Par le pont sur le río Acre. De Brasiléia, bus vers Rio Branco et le reste du Brésil.
+  en:
+    name: Cobija – Brasiléia
+    text: >-
+      Over the bridge across the Acre river. From Brasiléia, buses to Rio Branco and the rest
+      of Brazil.
+  es:
+    name: Cobija – Brasiléia
+    text: >-
+      Por el puente sobre el río Acre. Desde Brasiléia, buses a Rio Branco y al resto del
+      Brasil.
+- id: san-matias
+  country: brazil
+  fr:
+    name: San Matías – Cáceres
+    text: >-
+      Un passage isolé à l'est de la Chiquitanía, vers le Mato Grosso. Peu de transports :
+      plutôt pour les voyageurs en voiture.
+  en:
+    name: San Matías – Cáceres
+    text: >-
+      A remote crossing east of the Chiquitanía, towards Mato Grosso. Little transport: mainly
+      for travellers with their own vehicle.
+  es:
+    name: San Matías – Cáceres
+    text: >-
+      Un paso aislado al este de la Chiquitanía, hacia el Mato Grosso. Poco transporte: más
+      bien para viajeros en vehículo propio.
+- id: chaco-paraguay
+  country: paraguay
+  place: villamontes
+  fr:
+    name: Cañada Oruro – Infante Rivarola (vers Asunción)
+    text: >-
+      La route du Chaco, par Villamontes. Des bus de nuit relient Santa Cruz à Asunción en
+      environ 20 h. Région très chaude et peu peuplée : eau et espèces indispensables.
+  en:
+    name: Cañada Oruro – Infante Rivarola (to Asunción)
+    text: >-
+      The Chaco road, via Villamontes. Night buses link Santa Cruz and Asunción in about
+      20 h. A very hot, sparsely populated region: water and cash are essential.
+  es:
+    name: Cañada Oruro – Infante Rivarola (hacia Asunción)
+    text: >-
+      La ruta del Chaco, por Villamontes. Buses nocturnos unen Santa Cruz y Asunción en unas
+      20 h. Región muy calurosa y poco poblada: agua y efectivo indispensables.

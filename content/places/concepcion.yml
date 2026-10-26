@@ -1,0 +1,77 @@
+# Missions : Concepción
+department: Santa Cruz
+category: culture
+lat: -16.1361
+lng: -62.0247
+altitude: 500
+days: [1, 1]
+climate: chiquitania
+dishes: [locro, cunape, masaco]
+photos:
+  - file: concepcion-1.jpg
+    author: Bamse
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Concepcion_church.JPG
+  - file: concepcion-2.jpg
+    author: Bamse
+    licence: CC BY-SA 2.5
+    source: https://commons.wikimedia.org/wiki/File:Concepcion_church_interior.JPG
+  - file: concepcion-3.jpg
+    author: Daan de Wikipedia en neerlandés
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Kerk_Conception_Exterieur.jpg
+  - file: concepcion-4.jpg
+    author: Geoffrey Groesbeck
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Concepci%C3%B3n_003.JPG
+  - file: concepcion-5.jpg
+    author: Miguel Alejandro Flores Rioja
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Iglesia_de_Concepci%C3%B3n_en_Santa_Cruz.jpg
+  - file: concepcion-6.jpg
+    author: Jery Dino Méndez H.
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Concepci%C3%B3n_-_Santa_Cruz,_Bolivia.jpg
+  - file: concepcion-7.jpg
+    author: Montserrat Boix
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Claustro_de_la_Iglesia_de_la_Concepci%C3%B3n.jpg
+fr:
+  name: "Missions : Concepción"
+  label: Concepción
+  short: La plus belle place des missions, atelier de restauration et musée.
+  story: >-
+    Concepción a sans doute la plus belle église de toutes les missions, avec sa façade
+    peinte et ses colonnes en bois sculpté. Le village vit au rythme de la musique baroque,
+    encore jouée par les jeunes de la région, et accueille un festival renommé.
+  todo:
+    - Cathédrale et place à arcades
+    - Musée misional
+    - Concerts de musique baroque (festival international les années paires, en avril)
+  tips: Bonne base pour dormir sur le circuit.
+en:
+  name: "Missions: Concepción"
+  label: Concepción
+  short: The most beautiful square of the missions, with a restoration workshop and a museum.
+  story: >-
+    Concepción probably has the most beautiful church of all the missions, with its painted
+    façade and carved wooden columns. The village lives to the rhythm of baroque music,
+    still played by young people from the region, and hosts a renowned festival.
+  todo:
+    - Cathedral and arcaded square
+    - Mission museum
+    - Baroque music concerts (international festival in even-numbered years, in April)
+  tips: A good place to spend the night on the circuit.
+es:
+  name: "Misiones: Concepción"
+  label: Concepción
+  short: La plaza más linda de las misiones, con taller de restauración y museo.
+  story: >-
+    Concepción tiene quizás el templo más bello de todas las misiones, con su fachada
+    pintada y sus columnas de madera tallada. El pueblo vive al ritmo de la música barroca,
+    que todavía tocan los jóvenes de la región, y recibe un festival reconocido.
+  todo:
+    - Catedral y plaza con galerías
+    - Museo misional
+    - Conciertos de música barroca (festival internacional en años pares, en abril)
+  tips: Buena base para dormir en el circuito.

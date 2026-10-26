@@ -1,0 +1,56 @@
+# Sources chaudes d'Obrajes et Capachos
+department: Oruro
+category: nature
+lat: -17.84
+lng: -66.97
+altitude: 3780
+days: [0, 1]
+climate: altiplano
+dishes: [charque, sajta]
+photos:
+  - file: obrajes-1.jpg
+    author: Parallelepiped09
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Piscina_de_Capachos.jpg
+fr:
+  name: Sources chaudes d'Obrajes et Capachos
+  label: Obrajes
+  short: Piscines d'eau chaude naturelle sur l'Altiplano, à moins d'une heure d'Oruro.
+  story: >-
+    Au nord d'Oruro, la terre de l'Altiplano laisse sortir des eaux chaudes que l'on a
+    captées dans des piscines et des bains privés. À Obrajes comme à Capachos, plus proche
+    de la ville, on se baigne au chaud face aux collines, même quand l'air est glacé. Une
+    sortie simple et très appréciée des Orureños le week-end.
+  todo:
+    - Piscines et bains privés d'Obrajes
+    - Balnéaire de Capachos, tout près d'Oruro
+    - Se réchauffer après une nuit froide sur l'Altiplano
+  tips: Minibus depuis Oruro. Prévoir serviette et maillot ; plus calme en semaine.
+en:
+  name: Obrajes and Capachos hot springs
+  label: Obrajes
+  short: Natural hot-water pools on the Altiplano, less than an hour from Oruro.
+  story: >-
+    North of Oruro, the Altiplano lets out warm water that has been channelled into pools
+    and private baths. At Obrajes, and at Capachos closer to town, you soak in hot water
+    facing the hills, even when the air is freezing. A simple outing that people from Oruro
+    love at weekends.
+  todo:
+    - Obrajes pools and private baths
+    - Capachos baths, right next to Oruro
+    - Warming up after a cold Altiplano night
+  tips: Minibus from Oruro. Bring a towel and swimsuit; quieter on weekdays.
+es:
+  name: Aguas termales de Obrajes y Capachos
+  label: Obrajes
+  short: Piscinas de agua caliente natural en el Altiplano, a menos de una hora de Oruro.
+  story: >-
+    Al norte de Oruro, el Altiplano deja salir aguas calientes que se aprovechan en piscinas
+    y baños privados. En Obrajes, y en Capachos más cerca de la ciudad, uno se baña en agua
+    caliente frente a los cerros, aunque el aire esté helado. Una salida sencilla y muy
+    querida por los orureños los fines de semana.
+  todo:
+    - Piscinas y baños privados de Obrajes
+    - Balneario de Capachos, muy cerca de Oruro
+    - Calentarse después de una noche fría en el Altiplano
+  tips: Minibús desde Oruro. Lleva toalla y traje de baño; más tranquilo entre semana.

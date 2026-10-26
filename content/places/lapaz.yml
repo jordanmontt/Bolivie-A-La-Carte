@@ -1,0 +1,96 @@
+# La Paz
+department: La Paz
+category: ville
+lat: -16.4955
+lng: -68.1336
+altitude: 3640
+days: [2, 3]
+climate: lapaz
+major: true
+dishes: [api_saltenas_lp, anticucho, plato_paceno, apiPastel]
+photos:
+  - file: lapaz-1.jpg
+    author: Parallelepiped09
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Ciudad_de_La_Paz_en_Bolivia.jpg
+  - file: lapaz-2.jpg
+    author: PsamatheM
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:04-Feria_de_las_Alasitas_(La_Paz)-1.jpg
+  - file: lapaz-3.jpg
+    author: EEJCC
+    licence: CC0
+    source: https://commons.wikimedia.org/wiki/File:Calle_Linares,_La_Paz.jpg
+  - file: lapaz-4.jpg
+    author: ""
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:La_Paz-center.jpg
+  - file: lapaz-5.jpg
+    author: Qhanaaru
+    licence: CC0
+    source: https://commons.wikimedia.org/wiki/File:Chifleras,_El_Alto,_bolivia..jpg
+  - file: lapaz-6.jpg
+    author: Gogh'snight
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Venta_de_naranjas.jpg
+  - file: lapaz-7.jpg
+    author: Olga Lidia Paredes Alcoreza
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:La_Ceja_perspectiva.jpg
+fr:
+  name: La Paz
+  label: La Paz
+  short: Le siège du gouvernement le plus haut du monde, dans une cuvette au pied de l'Illimani.
+  story: >-
+    La Paz est une ville qui ne ressemble à aucune autre : posée dans une cuvette à 3 600 m,
+    dominée par l'Illimani enneigé, elle se visite en téléphérique au-dessus des toits. On y
+    croise des cholitas en chapeau melon et des sorcières qui vendent des fœtus de lama
+    porte-bonheur, entre églises coloniales et marchés qui débordent sur les trottoirs.
+    Fascinante, chaotique, à couper le souffle (au sens propre).
+  todo:
+    - "Mi Teleférico : le réseau de téléphériques urbains"
+    - Mercado de las Brujas et calle Jaén
+    - Plaza Murillo et l'église San Francisco
+    - Le marché Rodríguez et les saveurs paceñas
+    - Mirador Killi Killi au coucher du soleil
+  tips: >-
+    Arriver par la route depuis une ville plus basse (Cochabamba, Sucre) aide à
+    s'acclimater. Monter doucement le premier jour, maté de coca.
+en:
+  name: La Paz
+  label: La Paz
+  short: The world's highest seat of government, in a bowl at the foot of Illimani.
+  story: >-
+    La Paz is like nowhere else: set in a bowl at 3,600 m below the snowy peak of Illimani,
+    it's best seen from cable cars gliding over the rooftops. You'll pass cholitas in bowler
+    hats and witches selling dried llama foetuses for good luck, between colonial churches
+    and markets spilling onto the pavements. Fascinating, chaotic and breathtaking, in every
+    sense.
+  todo:
+    - Mi Teleférico, the urban cable car network
+    - Witches' Market and Calle Jaén
+    - Plaza Murillo and San Francisco church
+    - Rodríguez market and the flavours of La Paz
+    - Killi Killi viewpoint at sunset
+  tips: >-
+    Arriving by road from a lower city (Cochabamba, Sucre) helps you acclimatise. Take the
+    first day slowly, with coca tea.
+es:
+  name: La Paz
+  label: La Paz
+  short: La sede de gobierno más alta del mundo, en una hoyada al pie del Illimani.
+  story: >-
+    La Paz no se parece a ninguna otra ciudad: metida en una hoyada a 3600 m, con el
+    Illimani nevado de fondo, se recorre en teleférico por encima de los techos. Te cruzas
+    con cholitas de sombrero y con yatiris que venden fetos de llama para la suerte, entre
+    iglesias coloniales y mercados que desbordan las veredas. Fascinante, caótica y que
+    quita el aliento, en todos los sentidos.
+  todo:
+    - Mi Teleférico, la red de teleféricos urbanos
+    - Mercado de las Brujas y calle Jaén
+    - Plaza Murillo y la iglesia de San Francisco
+    - El mercado Rodríguez y los sabores paceños
+    - Mirador Killi Killi al atardecer
+  tips: >-
+    Llegar por tierra desde una ciudad más baja (Cochabamba, Sucre) ayuda a aclimatarse. El
+    primer día con calma y mate de coca.

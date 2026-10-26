@@ -1,0 +1,242 @@
+# Crafts and markets, shown on the Culture > Crafts and markets page and on their places' pages.
+# places: where to find them (place ids).
+
+- id: tarabuco-weaving
+  places: [tarabuco, candelaria]
+  fr:
+    name: Tissages yampara de Tarabuco
+    text: >-
+      Des tissus aux motifs très fins, souvent des scènes de la vie quotidienne et des
+      animaux, tissés à la main au métier. Le marché du dimanche est le meilleur endroit pour
+      en trouver.
+  en:
+    name: Yampara weaving from Tarabuco
+    text: >-
+      Finely patterned cloth, often showing everyday life and animals, hand-woven on the loom.
+      The Sunday market is the best place to find it.
+  es:
+    name: Tejidos yampara de Tarabuco
+    text: >-
+      Telas con motivos muy finos, a menudo escenas de la vida cotidiana y animales, tejidas a
+      mano en telar. La feria del domingo es el mejor lugar para encontrarlas.
+- id: jalqa-weaving
+  places: [maragua]
+  fr:
+    name: Textiles jalq'a
+    text: >-
+      Rouges et noirs, peuplés de créatures fantastiques du monde souterrain : les tissages
+      des communautés jalq'a, autour de Maragua, sont parmi les plus étonnants des Andes.
+  en:
+    name: Jalq'a textiles
+    text: >-
+      Red and black, full of fantastic creatures from the underworld: the weavings of the
+      Jalq'a communities around Maragua are among the most striking in the Andes.
+  es:
+    name: Textiles jalq'a
+    text: >-
+      Rojos y negros, poblados de criaturas fantásticas del mundo de abajo: los tejidos de las
+      comunidades jalq'a, alrededor de Maragua, están entre los más sorprendentes de los Andes.
+- id: kallawaya-weaving
+  places: [charazani]
+  fr:
+    name: Tissages kallawaya
+    text: >-
+      Dans la région de Charazani, les tissages accompagnent la médecine traditionnelle :
+      sacs à feuilles de coca et ponchos aux couleurs vives, faits dans les communautés.
+  en:
+    name: Kallawaya weaving
+    text: >-
+      Around Charazani, weaving goes hand in hand with traditional medicine: coca-leaf bags
+      and brightly coloured ponchos, made in the communities.
+  es:
+    name: Tejidos kallawaya
+    text: >-
+      En la región de Charazani, los tejidos acompañan a la medicina tradicional: chuspas para
+      la coca y ponchos de colores vivos, hechos en las comunidades.
+- id: woodcarving
+  places: [sanmiguel]
+  fr:
+    name: Sculpture sur bois de Chiquitos
+    text: >-
+      Anges, saints et retables : les ateliers de San Miguel perpétuent la sculpture des
+      missions jésuites, et restaurent encore les églises de la région.
+  en:
+    name: Chiquitos woodcarving
+    text: >-
+      Angels, saints and altarpieces: San Miguel's workshops carry on the carving of the
+      Jesuit missions, and still restore the region's churches.
+  es:
+    name: Tallado en madera de Chiquitos
+    text: >-
+      Ángeles, santos y retablos: los talleres de San Miguel siguen el tallado de las misiones
+      jesuíticas y todavía restauran los templos de la región.
+- id: charangos
+  places: [aiquile]
+  fr:
+    name: Charangos d'Aiquile
+    text: >-
+      La petite guitare à dix cordes des Andes, fabriquée par les luthiers d'Aiquile. On peut
+      en commander un sur mesure.
+  en:
+    name: Aiquile charangos
+    text: >-
+      The small ten-string Andean guitar, made by Aiquile's luthiers. You can order one made
+      to measure.
+  es:
+    name: Charangos de Aiquile
+    text: >-
+      La pequeña guitarra andina de diez cuerdas, hecha por los luthiers de Aiquile. Se puede
+      encargar uno a medida.
+- id: totora-boats
+  places: [huatajata]
+  fr:
+    name: Bateaux en totora
+    text: >-
+      Sur le lac Titicaca, on construit encore des barques avec le roseau du lac. Les
+      artisans de Huatajata en font aussi des modèles réduits.
+  en:
+    name: Totora reed boats
+    text: >-
+      On Lake Titicaca, boats are still built from the lake's reed. Huatajata's craftsmen
+      also make small models.
+  es:
+    name: Balsas de totora
+    text: >-
+      En el lago Titicaca todavía se construyen balsas con la caña del lago. Los artesanos de
+      Huatajata también hacen maquetas.
+- id: potosi-silver
+  places: [potosi]
+  fr:
+    name: Argent de Potosí
+    text: >-
+      Bijoux et petits objets en argent, dans la ville qui a frappé la monnaie de l'empire
+      espagnol. Achetez en boutique, avec un poinçon.
+  en:
+    name: Potosí silver
+    text: >-
+      Silver jewellery and small objects, in the town that minted the Spanish empire's coins.
+      Buy in shops, with a hallmark.
+  es:
+    name: Plata de Potosí
+    text: >-
+      Joyas y pequeños objetos de plata, en la ciudad que acuñó la moneda del imperio español.
+      Compra en tiendas, con sello.
+- id: alpaca
+  places: [lapaz]
+  fr:
+    name: Laine d'alpaga et de lama
+    text: >-
+      Pulls, écharpes et ponchos chauds pour l'Altiplano. À La Paz, les rues Sagárnaga et
+      Linares en sont pleines ; vérifiez qu'il s'agit bien de laine.
+  en:
+    name: Alpaca and llama wool
+    text: >-
+      Warm jumpers, scarves and ponchos for the Altiplano. In La Paz, Sagárnaga and Linares
+      streets are full of them; check that it really is wool.
+  es:
+    name: Lana de alpaca y llama
+    text: >-
+      Chompas, chalinas y ponchos abrigados para el Altiplano. En La Paz, las calles Sagárnaga
+      y Linares están llenas; verifica que sea lana de verdad.
+- id: tiwanaku-ceramics
+  places: [tiwanaku]
+  fr:
+    name: Céramiques et pierre de Tiwanaku
+    text: >-
+      Au village, des artisans reproduisent les céramiques et les sculptures de la culture
+      tiwanaku. De belles copies, à ne pas confondre avec des pièces anciennes.
+  en:
+    name: Tiwanaku ceramics and stone
+    text: >-
+      In the village, craftsmen reproduce Tiwanaku ceramics and sculptures. Fine copies, not
+      to be confused with ancient pieces.
+  es:
+    name: Cerámica y piedra de Tiwanaku
+    text: >-
+      En el pueblo, artesanos reproducen la cerámica y las esculturas de la cultura tiwanaku.
+      Lindas copias, que no hay que confundir con piezas antiguas.
+- id: feria16
+  places: [elalto]
+  fr:
+    name: Feria 16 de Julio
+    text: >-
+      Le jeudi et le dimanche, des kilomètres d'étals à El Alto : on y trouve de tout, des
+      pièces de voiture aux vêtements de cholita. À visiter sans rien de précieux.
+  en:
+    name: Feria 16 de Julio
+    text: >-
+      On Thursdays and Sundays, miles of stalls in El Alto selling everything from car parts
+      to cholita clothes. Visit without anything valuable.
+  es:
+    name: Feria 16 de Julio
+    text: >-
+      Los jueves y domingos, kilómetros de puestos en El Alto: de todo, desde repuestos de
+      auto hasta ropa de cholita. Ve sin nada de valor.
+- id: witches-market
+  places: [lapaz]
+  fr:
+    name: Marché des sorcières
+    text: >-
+      Rues Linares et Jiménez, à La Paz : herbes, amulettes, fœtus de lama et offrandes pour la
+      Pachamama, préparées par les yatiris.
+  en:
+    name: Witches' Market
+    text: >-
+      Linares and Jiménez streets in La Paz: herbs, amulets, llama foetuses and offerings for
+      Pachamama, prepared by the yatiris.
+  es:
+    name: Mercado de las Brujas
+    text: >-
+      Calles Linares y Jiménez, en La Paz: hierbas, amuletos, fetos de llama y mesas para la
+      Pachamama, preparadas por los yatiris.
+- id: la-cancha
+  places: [cbba]
+  fr:
+    name: La Cancha
+    text: >-
+      L'un des plus grands marchés à ciel ouvert d'Amérique du Sud, à Cochabamba : fruits,
+      épices, artisanat, tout se vend dans un labyrinthe de rues.
+  en:
+    name: La Cancha
+    text: >-
+      One of the largest open-air markets in South America, in Cochabamba: fruit, spices,
+      crafts, everything is sold in a maze of streets.
+  es:
+    name: La Cancha
+    text: >-
+      Uno de los mercados al aire libre más grandes de Sudamérica, en Cochabamba: frutas,
+      especias, artesanía, todo se vende en un laberinto de calles.
+- id: los-pozos
+  places: [santacruz]
+  fr:
+    name: Marché Los Pozos
+    text: >-
+      Le marché de Santa Cruz pour les fruits tropicaux, les jus frais et la cuisine
+      cruceña : idéal pour goûter un majadito ou un cuñapé.
+  en:
+    name: Los Pozos market
+    text: >-
+      Santa Cruz's market for tropical fruit, fresh juices and local food: ideal for trying a
+      majadito or a cuñapé.
+  es:
+    name: Mercado Los Pozos
+    text: >-
+      El mercado de Santa Cruz para frutas tropicales, jugos frescos y comida cruceña: ideal
+      para probar un majadito o un cuñapé.
+- id: cotoca-pottery
+  places: [cotoca]
+  fr:
+    name: Céramique de Cotoca
+    text: >-
+      Cruches, pots et figurines en terre cuite, faits par les potiers de Cotoca, juste à côté
+      de Santa Cruz. On les trouve autour du sanctuaire.
+  en:
+    name: Cotoca pottery
+    text: >-
+      Jugs, pots and terracotta figures made by Cotoca's potters, right next to Santa Cruz.
+      You'll find them around the sanctuary.
+  es:
+    name: Cerámica de Cotoca
+    text: >-
+      Cántaros, ollas y figuras de barro hechas por los alfareros de Cotoca, al lado de Santa
+      Cruz. Se encuentran alrededor del santuario.

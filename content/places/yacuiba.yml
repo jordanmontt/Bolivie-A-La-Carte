@@ -1,0 +1,79 @@
+# Yacuiba
+department: Tarija
+category: ville
+lat: -22.016
+lng: -63.677
+altitude: 640
+days: [0, 1]
+climate: chaco
+dishes: [pescado, carne_beni]
+photos:
+  - file: yacuiba-1.jpg
+    author: Julitatwa
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Plaza_principal_del_municipio_de_Yacuiba,_Tarija.jpg
+  - file: yacuiba-2.jpg
+    author: N1ny4 t
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Feria_Barrio_Nuevo,_Yacuiba,_Tarija_2.jpg
+  - file: yacuiba-3.jpg
+    author: Julitatwa
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Sector_de_frutas_en_la_Feria_Barrio_Nuevo,_en_el_municipio_de_Yacuiba_(Tarija-Bolivia).jpg
+  - file: yacuiba-4.jpg
+    author: Jlcarpediem
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:OBELISCO_DE_YACUIBA.JPG
+  - file: yacuiba-5.jpg
+    author: Santamaj
+    licence: CC BY-SA 3.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Monumento_en_honor_a_los_combatientes_de_la_guerra_del_chaco.jpg
+  - file: yacuiba-6.jpg
+    author: self
+    licence: Public domain
+    source: https://commons.wikimedia.org/wiki/File:P7260383_Yacuiba_estaci%C3%B3n.JPG
+fr:
+  name: Yacuiba
+  label: Yacuiba
+  short: La grande ville frontière du Chaco, face à l'Argentine.
+  story: >-
+    Yacuiba, avec sa voisine San José de Pocitos, est la principale ville frontière du Chaco
+    bolivien, face à Salvador Mazza en Argentine. C'est une ville animée, très commerçante,
+    et un point de passage vers Salta. On y passe surtout en voyage entre Santa Cruz, Tarija
+    et l'Argentine.
+  todo:
+    - Passage de la frontière vers Salvador Mazza (Argentine)
+    - Marchés et commerce frontalier
+    - Étape entre Santa Cruz et l'Argentine
+  tips: Très chaud en été. Bus depuis Santa Cruz, Tarija et Villamontes.
+en:
+  name: Yacuiba
+  label: Yacuiba
+  short: The Chaco's big border town, facing Argentina.
+  story: >-
+    Yacuiba, with its neighbour San José de Pocitos, is the main border town of the Bolivian
+    Chaco, facing Salvador Mazza in Argentina. It's a lively trading town and a crossing
+    point towards Salta. Most people pass through on journeys between Santa Cruz, Tarija and
+    Argentina.
+  todo:
+    - Cross the border to Salvador Mazza (Argentina)
+    - Markets and border trade
+    - A stop between Santa Cruz and Argentina
+  tips: Very hot in summer. Buses from Santa Cruz, Tarija and Villamontes.
+es:
+  name: Yacuiba
+  label: Yacuiba
+  short: La gran ciudad fronteriza del Chaco, frente a Argentina.
+  story: >-
+    Yacuiba, junto con San José de Pocitos, es la principal ciudad fronteriza del Chaco
+    boliviano, frente a Salvador Mazza en Argentina. Es una ciudad animada y muy comercial,
+    y un paso hacia Salta. Casi todos pasan por aquí viajando entre Santa Cruz, Tarija y
+    Argentina.
+  todo:
+    - Cruzar la frontera a Salvador Mazza (Argentina)
+    - Mercados y comercio fronterizo
+    - Parada entre Santa Cruz y Argentina
+  tips: Mucho calor en verano. Buses desde Santa Cruz, Tarija y Villamontes.

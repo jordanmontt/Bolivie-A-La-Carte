@@ -1,0 +1,83 @@
+# Trek du Takesi (chemin inca)
+department: La Paz
+category: aventure
+lat: -16.43
+lng: -67.84
+altitude: 3500
+days: [2, 2]
+climate: yungas
+dishes: [cafe, sopa_quinua]
+photos:
+  - file: takesi-1.jpg
+    author: Horacio Saire
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Climbing_the_Takesi%27s_trail_summit_4570_meters_above_sea_level.jpg
+  - file: takesi-2.jpg
+    author: Saidalefotografia
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Vista_de_la_Laguna_en_el_Takesi.jpg
+  - file: takesi-3.jpg
+    author: Saidalefotografia
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Laguna_en_la_ruta_del_Takesi.jpg
+  - file: takesi-4.jpg
+    author: Saidalefotografia
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Viajeros_en_la_ruta_del_Takesi.jpg
+  - file: takesi-5.jpg
+    author: Saidalefotografia
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Punto_de_descanso_en_el_takesi.jpg
+  - file: takesi-6.jpg
+    author: China Supay md
+    licence: CC BY 4.0
+    source: https://commons.wikimedia.org/wiki/File:Municipio_de_Yanacachi.jpg
+fr:
+  name: Trek du Takesi (chemin inca)
+  label: Trek du Takesi
+  short: Deux jours sur l'un des chemins incas les mieux conservés de Bolivie, jusqu'à Yanacachi.
+  story: >-
+    Le Takesi est un chemin préhispanique pavé, parmi les mieux conservés du pays. En deux
+    jours, il franchit un col à plus de 4 600 m puis plonge vers les vallées des Yungas,
+    jusqu'au village de Yanacachi. Plus court et moins fréquenté que le Choro, c'est un très
+    beau trek pour découvrir la cordillère et les Yungas.
+  todo:
+    - Col à plus de 4 600 m
+    - Long passage pavé, très bien conservé
+    - Arrivée au village de Yanacachi
+  tips: >-
+    Trek de 2 jours, avec une agence de La Paz ou en autonomie. Meilleure saison : mai à
+    septembre. Bien acclimaté avant de partir.
+en:
+  name: Takesi trek (Inca trail)
+  label: Takesi trek
+  short: Two days on one of Bolivia's best-preserved Inca trails, down to Yanacachi.
+  story: >-
+    The Takesi is a paved pre-Hispanic trail, among the best preserved in the country. In
+    two days it crosses a pass above 4,600 m then plunges into the Yungas valleys to the
+    village of Yanacachi. Shorter and quieter than the Choro, it's a beautiful trek through
+    the cordillera and the Yungas.
+  todo:
+    - Pass above 4,600 m
+    - Long, very well-preserved paved sections
+    - Arrival at the village of Yanacachi
+  tips: >-
+    2-day trek, with a La Paz agency or on your own. Best season: May to September. Be well
+    acclimatised before you go.
+es:
+  name: Trekking del Takesi (camino inca)
+  label: Trekking del Takesi
+  short: Dos días por uno de los caminos incas mejor conservados de Bolivia, hasta Yanacachi.
+  story: >-
+    El Takesi es un camino prehispánico empedrado, de los mejor conservados del país. En dos
+    días cruza un paso a más de 4600 m y baja hacia los valles de los Yungas, hasta el
+    pueblo de Yanacachi. Más corto y menos transitado que el Choro, es un trekking precioso
+    entre la cordillera y los Yungas.
+  todo:
+    - Paso a más de 4600 m
+    - Largos tramos empedrados muy bien conservados
+    - Llegada al pueblo de Yanacachi
+  tips: >-
+    Trekking de 2 días, con agencia de La Paz o por cuenta propia. Mejor época: mayo a
+    septiembre. Ve bien aclimatado.

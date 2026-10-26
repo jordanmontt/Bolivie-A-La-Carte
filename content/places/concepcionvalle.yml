@@ -1,0 +1,77 @@
+# Valle de la Concepción
+department: Tarija
+category: culture
+lat: -21.7
+lng: -64.63
+altitude: 1700
+days: [1, 1]
+climate: tarija
+dishes: [vino, singani, saice]
+photos:
+  - file: concepcionvalle-1.jpg
+    author: Aldrihe
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:A_wine_and_singani_cellar.jpg
+  - file: concepcionvalle-2.jpg
+    author: Suomi 1973
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Vi%C3%B1edos_Kohlberg.jpg
+  - file: concepcionvalle-3.jpg
+    author: Andres MacLean
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Vi%C3%B1edos_de_Bolivia_(cropped).jpg
+  - file: concepcionvalle-4.jpg
+    author: Aldrihe
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Vineyards_in_Tarija.jpg
+  - file: concepcionvalle-5.jpg
+    author: Aldrihe
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Wine_fermentation_tanks_in_a_winery_in_Tarija.jpg
+  - file: concepcionvalle-6.jpg
+    author: Carlillasa
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Calle_en_Uriondo,_Tarija.jpg
+  - file: concepcionvalle-7.jpg
+    author: Suomi 1973
+    licence: CC BY-SA 3.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Parroquia_San_Lorenzo_-_Valle_de_la_Concepci%C3%B3n,_Tarija.jpg
+fr:
+  name: Valle de la Concepción
+  label: Bodegas de Tarija
+  short: Les caves à vin et à singani de Tarija.
+  story: >-
+    Autour de Tarija, et surtout dans la vallée de la Concepción (Uriondo), les bodegas
+    ouvrent leurs portes pour faire goûter vins et singani. Certaines sont de grandes caves
+    modernes, d'autres de petites maisons familiales. Une journée parfaite pour les amateurs
+    de vin.
+  todo:
+    - Dégustations dans les bodegas de la région (Kohlberg, Aranjuez, Campos de Solana…)
+    - Village de Concepción
+  tips: Journée depuis Tarija, en tour ou en taxi.
+en:
+  name: Valle de la Concepción
+  label: Tarija wineries
+  short: Tarija's wine and singani cellars.
+  story: >-
+    Around Tarija, and especially in the Concepción valley (Uriondo), the bodegas open their
+    doors for wine and singani tastings. Some are large modern wineries, others small family
+    houses. A perfect day for wine lovers.
+  todo:
+    - Tastings at the region's bodegas (Kohlberg, Aranjuez, Campos de Solana…)
+    - The village of Concepción
+  tips: Day trip from Tarija, on a tour or by taxi.
+es:
+  name: Valle de la Concepción
+  label: Bodegas de Tarija
+  short: Las bodegas de vino y singani de Tarija.
+  story: >-
+    Alrededor de Tarija, y sobre todo en el valle de la Concepción (Uriondo), las bodegas
+    abren sus puertas para degustar vinos y singani. Algunas son grandes bodegas modernas,
+    otras pequeñas casas familiares. Un día perfecto para los amantes del vino.
+  todo:
+    - Degustaciones en las bodegas de la región (Kohlberg, Aranjuez, Campos de Solana…)
+    - El pueblo de Concepción
+  tips: Un día desde Tarija, en tour o en taxi.

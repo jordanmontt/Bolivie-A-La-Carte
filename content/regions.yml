@@ -1,0 +1,197 @@
+# Travel regions, in the order shown on the site. Each lists its places, in display order.
+# To add a place: create content/places/<id>.yml and add <id> to a region below.
+- id: lapaz
+  cover: lapaz
+  places:
+    - lapaz
+    - elalto
+    - valleluna
+    - chacaltaya
+    - huayna
+    - condoriri
+    - tiwanaku
+    - iruito
+    - jesusdemachaca
+    - comanche
+    - viscachani
+    - sorata
+    - charazani
+    - deathroad
+    - choro
+    - takesi
+    - yungacruz
+    - coroico
+    - chulumani
+  fr:
+    name: La Paz, Cordillère et Yungas
+    desc: >-
+      La ville la plus haute du monde, les glaciers de la Cordillère Royale et la descente
+      vers les forêts des Yungas.
+  en:
+    name: La Paz, the Cordillera and the Yungas
+    desc: >-
+      The world's highest city, the glaciers of the Cordillera Real and the drop into the
+      Yungas forests.
+  es:
+    name: La Paz, Cordillera y Yungas
+    desc: >-
+      La ciudad más alta del mundo, los glaciares de la Cordillera Real y la bajada a los
+      bosques de los Yungas.
+- id: titicaca
+  cover: isladelsol
+  places: [copacabana, isladelsol, isladelaluna, huatajata, suriki, pariti]
+  fr:
+    name: Lac Titicaca
+    desc: "Le lac sacré des Incas : Copacabana, l'Isla del Sol et l'Isla de la Luna, à 3 800 m."
+  en:
+    name: Lake Titicaca
+    desc: "The sacred lake of the Incas: Copacabana, Isla del Sol and Isla de la Luna, at 3,800 m."
+  es:
+    name: Lago Titicaca
+    desc: >-
+      El lago sagrado de los incas: Copacabana, la Isla del Sol y la Isla de la Luna, a 3800
+      m.
+- id: south
+  cover: salar
+  places: [sajama, curahuara, oruro, obrajes, machacamarca, uruuru, chipaya, coipasa, uyuni, salar, tupiza, cotagaita, villazon]
+  fr:
+    name: Salar d'Uyuni et Altiplano
+    desc: >-
+      Le plus grand désert de sel du monde, des lagunes rouges, le volcan Sajama et les
+      canyons de Tupiza.
+  en:
+    name: Uyuni Salt Flat and the Altiplano
+    desc: The world's largest salt flat, red lagoons, Sajama volcano and the canyons of Tupiza.
+  es:
+    name: Salar de Uyuni y Altiplano
+    desc: El salar más grande del mundo, lagunas rojas, el volcán Sajama y los cañones de Tupiza.
+- id: colonial
+  cover: sucre
+  places: [potosi, tarapaya, sucre, tarabuco, candelaria, zudanez, maragua]
+  fr:
+    name: Sucre et Potosí
+    desc: La ville blanche de Sucre, les mines d'argent de Potosí et les tisserands de Tarabuco.
+  en:
+    name: Sucre and Potosí
+    desc: The white city of Sucre, Potosí's silver mines and the weavers of Tarabuco.
+  es:
+    name: Sucre y Potosí
+    desc: La ciudad blanca de Sucre, las minas de plata de Potosí y los tejedores de Tarabuco.
+- id: tarija
+  cover: tarija
+  places:
+    - tarija
+    - concepcionvalle
+    - sanlorenzo
+    - coimata
+    - sanjacinto
+    - padcaya
+    - bermejo
+    - tajzara
+    - tariquia
+    - camargo
+    - villamontes
+    - yacuiba
+    - camiri
+  fr:
+    name: Tarija, vignobles et Chaco
+    desc: >-
+      Le sud doux et ensoleillé : vignobles d'altitude, singani, forêts de Tariquía et
+      chaleur du Gran Chaco.
+  en:
+    name: Tarija, wine country and the Chaco
+    desc: >-
+      The mild, sunny south: high-altitude vineyards, singani, the Tariquía forests and the
+      heat of the Gran Chaco.
+  es:
+    name: Tarija, viñedos y Chaco
+    desc: >-
+      El sur templado y soleado: viñedos de altura, singani, los bosques de Tariquía y el
+      calor del Gran Chaco.
+- id: cbba
+  cover: torotoro
+  places: [cbba, alalay, tunari, valle, incarakay, torotoro, incallajta, totora, aiquile, mizque]
+  fr:
+    name: Cochabamba et ses vallées
+    desc: >-
+      Le grenier du pays : marchés, chicha, ruines incas et empreintes de dinosaures de
+      Torotoro.
+  en:
+    name: Cochabamba and its valleys
+    desc: >-
+      The country's breadbasket: markets, chicha, Inca ruins and the dinosaur tracks of
+      Torotoro.
+  es:
+    name: Cochabamba y sus valles
+    desc: >-
+      El granero del país: mercados, chicha, ruinas incas y las huellas de dinosaurio de
+      Torotoro.
+- id: santacruz
+  cover: samaipata
+  places: [santacruz, cotoca, lomas, espejillos, lagunavolcan, samaipata, amboro, buenavista, vallegrande, lahiguera]
+  fr:
+    name: Santa Cruz, Samaipata et Amboró
+    desc: Les basses terres tropicales, le village de Samaipata et les forêts de nuages d'Amboró.
+  en:
+    name: Santa Cruz, Samaipata and Amboró
+    desc: Tropical lowlands, the village of Samaipata and the cloud forests of Amboró.
+  es:
+    name: Santa Cruz, Samaipata y Amboró
+    desc: Tierras bajas tropicales, el pueblo de Samaipata y los bosques de nubes de Amboró.
+- id: chiquitania
+  cover: sanjavier
+  places: [sanjavier, concepcion, sanignacio, sanmiguel, santana, sanrafael, sanjose, noelkempff]
+  fr:
+    name: Missions de Chiquitos
+    desc: >-
+      Missions jésuites en bois peint, toujours vivantes, et plus au nord le parc Noel
+      Kempff Mercado.
+  en:
+    name: Chiquitos Jesuit Missions
+    desc: >-
+      Painted wooden Jesuit missions, still in use, and further north Noel Kempff Mercado
+      park.
+  es:
+    name: Misiones de Chiquitos
+    desc: >-
+      Misiones jesuíticas de madera pintada, todavía vivas, y más al norte el parque Noel
+      Kempff Mercado.
+- id: serrania
+  cover: chochis
+  places: [chochis, robore, santiago, aguascalientes]
+  fr:
+    name: Roboré et la Serranía de Chiquitos
+    desc: >-
+      Falaises rouges, cascades, une rivière d'eau chaude et le train de la mort vers le
+      Brésil.
+  en:
+    name: Roboré and the Chiquitos hills
+    desc: Red cliffs, waterfalls, a river of hot water and the 'death train' towards Brazil.
+  es:
+    name: Roboré y la Serranía de Chiquitos
+    desc: Farallones rojos, cascadas, un río de agua caliente y el tren de la muerte hacia Brasil.
+- id: amazon
+  cover: pampas
+  places:
+    - rurrenabaque
+    - madidi
+    - pampas
+    - barbaazul
+    - ebb
+    - trinidad
+    - lagunasuarez
+    - sanignaciomoxos
+    - cobija
+    - porvenir
+    - puertorico
+    - riberalta
+    - guayaramerin
+  fr:
+    name: Amazonie
+    desc: "Jungle de Madidi et pampas du Yacuma : singes, caïmans et dauphins roses."
+  en:
+    name: Amazon
+    desc: "Madidi jungle and the Yacuma pampas: monkeys, caimans and pink dolphins."
+  es:
+    name: Amazonía
+    desc: "La selva de Madidi y las pampas del Yacuma: monos, caimanes y delfines rosados."

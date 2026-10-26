@@ -1,0 +1,81 @@
+# Curahuara de Carangas
+department: Oruro
+category: culture
+lat: -17.84
+lng: -68.41
+altitude: 3900
+days: [0, 1]
+climate: sajama
+dishes: [llama, chuno, sopa_quinua]
+photos:
+  - file: curahuara-1.jpg
+    author: Rodrigo Sandoval
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Templo_de_Curahuara_de_Carangas_-_frontis.jpg
+  - file: curahuara-2.jpg
+    author: José Ignacio Camacho
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Campanario_1_Curahuara_de_Carangas.jpg
+  - file: curahuara-3.jpg
+    author: Josig93
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Interior_2_Curahuara_de_Carangas.jpg
+  - file: curahuara-4.jpg
+    author: Nayraherreraj
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Bautismo_de_sangre.jpg
+  - file: curahuara-5.jpg
+    author: Miguel Soliz
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Techo_del_Templo_de_Curahuara_de_Carangas.jpg
+  - file: curahuara-6.jpg
+    author: Luis Fernando Troncoso Joffré
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:19-04-20_DSC_0852.jpg
+fr:
+  name: Curahuara de Carangas
+  label: Curahuara
+  short: "La « chapelle Sixtine de l'Altiplano » : une église en adobe couverte de fresques."
+  story: >-
+    Au milieu de l'Altiplano, sur la route du parc Sajama, le petit village de Curahuara de
+    Carangas cache un trésor : une église en adobe du début du XVIIe siècle dont tous les
+    murs sont couverts de peintures, des scènes bibliques aux couleurs encore vives. On
+    l'appelle la « chapelle Sixtine de l'Altiplano ». Autour, des chullpas, ces tours
+    funéraires préincas, parsèment la plaine.
+  todo:
+    - Église de Curahuara et ses peintures murales
+    - Chullpas (tours funéraires) autour du village
+    - Étape sur la route du parc Sajama
+  tips: Demandez au village qui a la clé de l'église. Se combine facilement avec le parc Sajama.
+en:
+  name: Curahuara de Carangas
+  label: Curahuara
+  short: "The “Sistine Chapel of the Altiplano”: an adobe church covered in murals."
+  story: >-
+    In the middle of the Altiplano, on the way to Sajama park, the small village of
+    Curahuara de Carangas hides a treasure: an early 17th-century adobe church whose walls
+    are entirely covered in paintings, biblical scenes in still-vivid colours. It's known as
+    the “Sistine Chapel of the Altiplano”. Around it, chullpas, pre-Inca burial towers, dot
+    the plain.
+  todo:
+    - Curahuara church and its murals
+    - Chullpas (burial towers) around the village
+    - A stop on the way to Sajama park
+  tips: Ask in the village who has the church key. Easy to combine with Sajama park.
+es:
+  name: Curahuara de Carangas
+  label: Curahuara
+  short: "La «Capilla Sixtina del Altiplano»: un templo de adobe cubierto de pinturas murales."
+  story: >-
+    En medio del Altiplano, camino al parque Sajama, el pueblito de Curahuara de Carangas
+    guarda un tesoro: un templo de adobe de inicios del siglo XVII con todas sus paredes
+    cubiertas de pinturas, escenas bíblicas de colores todavía vivos. Lo llaman la «Capilla
+    Sixtina del Altiplano». Alrededor, las chullpas, torres funerarias preincaicas, salpican
+    la llanura.
+  todo:
+    - Templo de Curahuara y sus pinturas murales
+    - Chullpas (torres funerarias) alrededor del pueblo
+    - Parada camino al parque Sajama
+  tips: >-
+    Pregunta en el pueblo quién tiene la llave del templo. Se combina fácil con el parque
+    Sajama.

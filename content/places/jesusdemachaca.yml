@@ -1,0 +1,76 @@
+# Jesús de Machaca
+department: La Paz
+category: culture
+lat: -16.75
+lng: -68.83
+altitude: 3850
+days: [0, 1]
+climate: altiplano
+dishes: [chuno, sajta]
+photos:
+  - file: jesusdemachaca-1.jpg
+    author: Grecia Mabel
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Iglesia_Jesus_de_Machaca_GREC_2.jpg
+  - file: jesusdemachaca-2.jpg
+    author: Grecia Mabel
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Iglesia_Jesus_de_Machaca_GREC_3.jpg
+  - file: jesusdemachaca-3.jpg
+    author: Grecia Mabel
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Iglesia_Jesus_de_Machaca_GREC_4.jpg
+  - file: jesusdemachaca-4.jpg
+    author: HijaDelChuño
+    licence: CC BY 4.0
+    source: https://commons.wikimedia.org/wiki/File:Ayllu_Jes%C3%BAs_de_Machaca_01.jpg
+  - file: jesusdemachaca-5.jpg
+    author: HijaDelChuño
+    licence: CC BY 4.0
+    source: https://commons.wikimedia.org/wiki/File:Ayllu_Jes%C3%BAs_de_Machaca_02.jpg
+  - file: jesusdemachaca-6.jpg
+    author: Oriana Chávez Flores
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:El_kusillo_en_Jes%C3%BAs_de_Machaca.jpg
+fr:
+  name: Jesús de Machaca
+  label: Jesús de Machaca
+  short: Village aymara de l'Altiplano et son église de 1706, au sud du lac Titicaca.
+  story: >-
+    Jesús de Machaca est un village aymara de l'Altiplano, organisé en ayllus, les
+    communautés traditionnelles. Son église de 1706, avec sa façade sculptée et son grand
+    portail, est l'une des belles églises coloniales de la région. Un village où la vie
+    andine suit encore le rythme des saisons.
+  todo:
+    - Église coloniale de 1706
+    - Vie des ayllus aymaras
+    - Excursion vers les Urus d'Iruito
+  tips: Bus depuis El Alto (environ 3 h, par Viacha). Hébergement très simple.
+en:
+  name: Jesús de Machaca
+  label: Jesús de Machaca
+  short: An Aymara Altiplano village and its 1706 church, south of Lake Titicaca.
+  story: >-
+    Jesús de Machaca is an Aymara village on the Altiplano, organised in ayllus, the
+    traditional communities. Its 1706 church, with a carved façade and grand doorway, is one
+    of the region's fine colonial churches. A village where Andean life still follows the
+    seasons.
+  todo:
+    - Colonial church of 1706
+    - Life in the Aymara ayllus
+    - Trip to the Urus of Iruito
+  tips: Bus from El Alto (about 3 h, via Viacha). Very simple lodging.
+es:
+  name: Jesús de Machaca
+  label: Jesús de Machaca
+  short: Pueblo aymara del Altiplano y su templo de 1706, al sur del lago Titicaca.
+  story: >-
+    Jesús de Machaca es un pueblo aymara del Altiplano, organizado en ayllus, las
+    comunidades tradicionales. Su templo de 1706, con fachada tallada y gran portada, es uno
+    de los lindos templos coloniales de la región. Un pueblo donde la vida andina sigue el
+    ritmo de las estaciones.
+  todo:
+    - Templo colonial de 1706
+    - Vida de los ayllus aymaras
+    - Excursión a los urus de Iruito
+  tips: Bus desde El Alto (unas 3 h, por Viacha). Alojamiento muy sencillo.

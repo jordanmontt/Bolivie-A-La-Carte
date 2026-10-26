@@ -1,0 +1,585 @@
+# Every dish once. Places list their dishes by id (dishes: in content/places/*.yml).
+silpancho:
+  fr:
+    name: Silpancho
+    text: >-
+      Fine escalope de bœuf panée, sur du riz et des pommes de terre, avec un œuf au plat et
+      une salade de tomates et d'oignons. LE plat de Cochabamba.
+  en:
+    name: Silpancho
+    text: >-
+      A thin breaded beef cutlet on rice and potatoes, topped with a fried egg and a tomato
+      and onion salad. THE Cochabamba dish.
+  es:
+    name: Silpancho
+    text: >-
+      Carne de res apanada y bien delgada sobre arroz y papas, con huevo frito y una
+      ensalada de tomate y cebolla. EL plato de Cochabamba.
+piquemacho:
+  fr:
+    name: Pique macho
+    text: >-
+      Grand plat à partager : bœuf et saucisses en morceaux, frites, oignons, tomates,
+      piments locotos et œufs durs. Copieux et un peu piquant.
+  en:
+    name: Pique macho
+    text: >-
+      A big sharing plate: chopped beef and sausages, fries, onions, tomatoes, locoto
+      chillies and boiled eggs. Hearty and a little spicy.
+  es:
+    name: Pique macho
+    text: >-
+      Gran plato para compartir: carne y salchicha en trozos, papas fritas, cebolla, tomate,
+      locoto y huevo duro. Abundante y un poco picante.
+chicharron:
+  fr:
+    name: Chicharrón
+    text: >-
+      Morceaux de porc confits dans leur graisse puis dorés, servis avec du mote (gros maïs)
+      et du chuño. Le plat du dimanche.
+  en:
+    name: Chicharrón
+    text: >-
+      Pork cooked slowly in its own fat until golden, served with mote (big corn kernels)
+      and chuño. A Sunday dish.
+  es:
+    name: Chicharrón
+    text: Cerdo cocido en su propia grasa hasta dorarse, con mote y chuño. El plato del domingo.
+chicha:
+  fr:
+    name: Chicha
+    text: >-
+      Bière de maïs fermentée, légèrement acide, servie dans des calebasses (tutumas). On la
+      trouve dans les chicherías signalées par un drapeau blanc.
+  en:
+    name: Chicha
+    text: >-
+      Fermented corn beer, slightly sour, served in gourds (tutumas). Look for chicherías
+      marked with a white flag.
+  es:
+    name: Chicha
+    text: >-
+      Bebida fermentada de maíz, algo ácida, servida en tutumas. Se encuentra en las
+      chicherías marcadas con una bandera blanca.
+apiPastel:
+  fr:
+    name: Api con pastel
+    text: >-
+      Boisson chaude et épaisse de maïs violet, à la cannelle, avec un beignet au fromage
+      saupoudré de sucre. Le petit-déjeuner des marchés.
+  en:
+    name: Api con pastel
+    text: >-
+      A thick hot drink of purple corn and cinnamon, with a cheese pastry dusted with sugar.
+      The market breakfast.
+  es:
+    name: Api con pastel
+    text: >-
+      Bebida caliente y espesa de maíz morado con canela, con un pastel de queso
+      espolvoreado con azúcar. El desayuno de los mercados.
+saltena:
+  fr:
+    name: Salteña
+    text: >-
+      Le chausson bolivien : pâte légèrement sucrée, farce juteuse de viande, pomme de terre
+      et olives. Se mange le matin, sans en faire couler le jus !
+  en:
+    name: Salteña
+    text: >-
+      Bolivia's pastry: slightly sweet dough with a juicy filling of meat, potato and
+      olives. Eaten in the morning, without spilling the juice!
+  es:
+    name: Salteña
+    text: >-
+      La empanada boliviana: masa algo dulce y un relleno jugoso de carne, papa y aceituna.
+      Se come en la mañana, ¡sin derramar el jugo!
+sopaMani:
+  fr:
+    name: Sopa de maní
+    text: >-
+      Soupe crémeuse aux cacahuètes, avec des pâtes et des frites dessus. Réconfortante et
+      très bolivienne.
+  en:
+    name: Sopa de maní
+    text: Creamy peanut soup topped with pasta and fries. Comforting and very Bolivian.
+  es:
+    name: Sopa de maní
+    text: Sopa cremosa de maní con fideos y papas fritas encima. Reconfortante y muy boliviana.
+trucha:
+  fr:
+    name: Truite du Titicaca
+    text: >-
+      Truite du lac, frite ou « a la plancha », avec riz, frites et salade. On la mange sur
+      la plage de Copacabana.
+  en:
+    name: Titicaca trout
+    text: >-
+      Lake trout, fried or “a la plancha”, with rice, fries and salad. Eaten on the beach in
+      Copacabana.
+  es:
+    name: Trucha del Titicaca
+    text: >-
+      Trucha del lago, frita o a la plancha, con arroz, papas fritas y ensalada. Se come en
+      la playa de Copacabana.
+pejerrey:
+  fr:
+    name: Ispi et pejerrey
+    text: Petits poissons du lac frits et croustillants, à manger entiers avec un peu de citron.
+  en:
+    name: Ispi and pejerrey
+    text: Small lake fish, fried and crispy, eaten whole with a squeeze of lime.
+  es:
+    name: Ispi y pejerrey
+    text: Pescaditos del lago fritos y crocantes, para comer enteros con un poco de limón.
+plato_paceno:
+  fr:
+    name: Plato paceño
+    text: "Assiette typique de La Paz : maïs, fèves, pommes de terre et fromage frit."
+  en:
+    name: Plato paceño
+    text: "A typical La Paz plate: corn, broad beans, potatoes and fried cheese."
+  es:
+    name: Plato paceño
+    text: "El plato típico de La Paz: choclo, habas, papas y queso frito."
+anticucho:
+  fr:
+    name: Anticuchos
+    text: >-
+      Brochettes de cœur de bœuf marinées et grillées dans la rue le soir, avec pomme de
+      terre et sauce de cacahuète piquante.
+  en:
+    name: Anticuchos
+    text: >-
+      Marinated beef heart skewers grilled on the street at night, with potato and a spicy
+      peanut sauce.
+  es:
+    name: Anticuchos
+    text: >-
+      Brochetas de corazón de res marinadas y asadas en la calle de noche, con papa y salsa
+      picante de maní.
+api_saltenas_lp:
+  fr:
+    name: Salteñas de La Paz
+    text: >-
+      À La Paz, on fait la queue le matin devant les salteñerías célèbres. À accompagner
+      d'un jus de fruit.
+  en:
+    name: La Paz salteñas
+    text: >-
+      In La Paz, people queue in the morning at famous salteñerías. Have one with a fruit
+      juice.
+  es:
+    name: Salteñas paceñas
+    text: >-
+      En La Paz se hace fila en la mañana en las salteñerías famosas. Acompáñala con un jugo
+      de fruta.
+sajta:
+  fr:
+    name: Sajta de pollo
+    text: >-
+      Poulet en sauce jaune au piment amarillo, avec chuño et pomme de terre. Typique de
+      l'Altiplano.
+  en:
+    name: Sajta de pollo
+    text: >-
+      Chicken in a yellow ají amarillo chilli sauce, with chuño and potato. Typical of the
+      Altiplano.
+  es:
+    name: Sajta de pollo
+    text: Pollo en salsa amarilla de ají, con chuño y papa. Típico del Altiplano.
+chuno:
+  fr:
+    name: Chuño
+    text: >-
+      Pommes de terre gelées puis séchées au soleil, une technique andine millénaire. Goût
+      surprenant, à tester au moins une fois.
+  en:
+    name: Chuño
+    text: >-
+      Potatoes freeze-dried in the sun, an Andean technique thousands of years old. A
+      surprising taste, worth trying at least once.
+  es:
+    name: Chuño
+    text: >-
+      Papas congeladas y secadas al sol, una técnica andina milenaria. Sabor sorprendente,
+      hay que probarlo al menos una vez.
+quinoa:
+  fr:
+    name: Quinoa royal
+    text: >-
+      La meilleure quinoa du monde pousse autour du Salar : en soupe, en galettes ou en
+      accompagnement.
+  en:
+    name: Quinoa real
+    text: "The world's best quinoa grows around the Salar: in soups, patties or as a side."
+  es:
+    name: Quinua real
+    text: >-
+      La mejor quinua del mundo crece alrededor del Salar: en sopa, en tortillas o de
+      acompañamiento.
+llama:
+  fr:
+    name: Viande de lama
+    text: >-
+      Viande maigre et goûteuse, souvent grillée ou en « charque » (séchée). Très courante à
+      Uyuni et sur l'Altiplano.
+  en:
+    name: Llama meat
+    text: >-
+      Lean and tasty meat, often grilled or as “charque” (dried). Very common in Uyuni and
+      on the Altiplano.
+  es:
+    name: Carne de llama
+    text: >-
+      Carne magra y sabrosa, a menudo a la parrilla o como charque. Muy común en Uyuni y el
+      Altiplano.
+charque:
+  fr:
+    name: Charque
+    text: Viande de lama ou de bœuf séchée et effilochée, frite, servie avec maïs, œuf et fromage.
+  en:
+    name: Charque
+    text: Dried, shredded llama or beef, fried and served with corn, egg and cheese.
+  es:
+    name: Charque
+    text: Carne de llama o de res seca y deshilachada, frita, con mote, huevo y queso.
+rostro:
+  fr:
+    name: Calapurca
+    text: >-
+      À Potosí, soupe épicée au maïs dans laquelle on plonge une pierre brûlante pour la
+      faire bouillir à table.
+  en:
+    name: Calapurca
+    text: A spicy corn soup from Potosí, brought to the boil at the table with a red-hot stone.
+  es:
+    name: Calapurca
+    text: En Potosí, sopa picante de maíz que hierve en la mesa gracias a una piedra al rojo vivo.
+kalapurka:
+  fr:
+    name: Kalapurka
+    text: >-
+      Soupe de maïs épicée de Potosí, servie bouillante grâce à une pierre volcanique
+      chauffée au feu.
+  en:
+    name: Kalapurka
+    text: Potosí's spicy corn soup, served bubbling thanks to a volcanic stone heated in the fire.
+  es:
+    name: Kalapurka
+    text: >-
+      La sopa picante de maíz de Potosí, servida hirviendo con una piedra volcánica
+      calentada en el fuego.
+chorizoChuqui:
+  fr:
+    name: Chorizo chuquisaqueño
+    text: >-
+      Saucisse de porc parfumée de Sucre, grillée et servie dans un petit pain ou avec des
+      pommes de terre.
+  en:
+    name: Chorizo chuquisaqueño
+    text: Sucre's fragrant pork sausage, grilled and served in a bread roll or with potatoes.
+  es:
+    name: Chorizo chuquisaqueño
+    text: El chorizo de cerdo perfumado de Sucre, a la parrilla, en pan o con papas.
+chocolate:
+  fr:
+    name: Chocolats de Sucre
+    text: >-
+      Sucre est la capitale du chocolat bolivien (Para Ti, Taboada) : tablettes au cacao
+      d'Amazonie à rapporter.
+  en:
+    name: Sucre chocolate
+    text: >-
+      Sucre is the capital of Bolivian chocolate (Para Ti, Taboada): bars made with
+      Amazonian cacao to take home.
+  es:
+    name: Chocolates de Sucre
+    text: >-
+      Sucre es la capital del chocolate boliviano (Para Ti, Taboada): tabletas de cacao
+      amazónico para llevar.
+mondongo:
+  fr:
+    name: Mondongo
+    text: Ragoût de porc au piment rouge, avec mote, typique de Sucre lors des fêtes.
+  en:
+    name: Mondongo
+    text: Pork stew in red chilli sauce with mote, typical of Sucre at festival time.
+  es:
+    name: Mondongo
+    text: Guiso de cerdo en ají colorado, con mote, típico de Sucre en las fiestas.
+sopa_puchero:
+  fr:
+    name: Puchero
+    text: Pot-au-feu andin, servi pendant le carnaval à Tarabuco et Sucre.
+  en:
+    name: Puchero
+    text: An Andean meat-and-vegetable stew, served during carnival in Tarabuco and Sucre.
+  es:
+    name: Puchero
+    text: Cocido andino que se sirve en el carnaval de Tarabuco y Sucre.
+vino:
+  fr:
+    name: Vin de Tarija
+    text: >-
+      Vins d'altitude (jusqu'à 2 000 m) : tannat, malbec, muscat. Dégustation dans les
+      bodegas de la vallée.
+  en:
+    name: Tarija wine
+    text: >-
+      High-altitude wines (up to 2,000 m): tannat, malbec, muscat. Tastings at the valley's
+      bodegas.
+  es:
+    name: Vino de Tarija
+    text: >-
+      Vinos de altura (hasta 2000 m): tannat, malbec, moscatel. Degustación en las bodegas
+      del valle.
+singani:
+  fr:
+    name: Singani
+    text: >-
+      Eau-de-vie de raisin muscat, fierté nationale. Se boit en « chuflay » (avec du ginger
+      ale).
+  en:
+    name: Singani
+    text: A muscat grape brandy and a national pride. Drunk as a “chuflay” (with ginger ale).
+  es:
+    name: Singani
+    text: Aguardiente de uva moscatel, orgullo nacional. Se toma en chuflay (con ginger ale).
+cangrejitos:
+  fr:
+    name: Cangrejitos
+    text: Petits beignets de Tarija en forme de crabe, fourrés à la crème. Dessert local.
+  en:
+    name: Cangrejitos
+    text: Small crab-shaped pastries from Tarija, filled with cream. A local dessert.
+  es:
+    name: Cangrejitos
+    text: Masitas tarijeñas con forma de cangrejo, rellenas de crema. Postre local.
+saice:
+  fr:
+    name: Saice
+    text: >-
+      Ragoût épicé de bœuf haché et petits pois, servi avec riz et pommes de terre. Le plat
+      emblématique de Tarija.
+  en:
+    name: Saice
+    text: >-
+      A spicy stew of minced beef and peas, served with rice and potatoes. Tarija's
+      signature dish.
+  es:
+    name: Saice
+    text: >-
+      Guiso picante de carne molida y arvejas, con arroz y papas. El plato emblemático de
+      Tarija.
+sonso:
+  fr:
+    name: Sonso de yuca
+    text: >-
+      Galette de manioc et fromage grillée en brochette. Spécialité de l'Orient, à manger
+      chaude.
+  en:
+    name: Sonso de yuca
+    text: Cassava and cheese dough grilled on a skewer. A speciality of the east, eaten hot.
+  es:
+    name: Sonso de yuca
+    text: Masa de yuca y queso asada en un palito. Especialidad del Oriente, para comer caliente.
+majadito:
+  fr:
+    name: Majadito
+    text: >-
+      Riz cuisiné avec du charque ou du poulet, servi avec un œuf au plat et de la banane
+      frite. Le plat de Santa Cruz et du Beni.
+  en:
+    name: Majadito
+    text: >-
+      Rice cooked with charque or chicken, served with a fried egg and fried plantain. The
+      dish of Santa Cruz and the Beni.
+  es:
+    name: Majadito
+    text: >-
+      Arroz cocido con charque o pollo, con huevo frito y plátano frito. El plato de Santa
+      Cruz y el Beni.
+locro:
+  fr:
+    name: Locro de gallina
+    text: Soupe de riz épaisse au poulet fermier, réconfortante, typique de l'Orient.
+  en:
+    name: Locro de gallina
+    text: A thick rice soup with free-range chicken, comforting and typical of the east.
+  es:
+    name: Locro de gallina
+    text: Sopa espesa de arroz con gallina criolla, reconfortante, típica del Oriente.
+cunape:
+  fr:
+    name: Cuñapé et pan de arroz
+    text: Petits pains au fromage et au manioc, ou au riz, servis chauds avec un café le matin.
+  en:
+    name: Cuñapé and pan de arroz
+    text: >-
+      Little cheese breads made with cassava or rice flour, served warm with coffee in the
+      morning.
+  es:
+    name: Cuñapé y pan de arroz
+    text: Panecitos de queso con almidón de yuca o con arroz, calientes con un café en la mañana.
+masaco:
+  fr:
+    name: Masaco
+    text: Banane plantain ou manioc écrasés avec du charque ou du fromage. Riche et nourrissant.
+  en:
+    name: Masaco
+    text: Mashed plantain or cassava with charque or cheese. Rich and filling.
+  es:
+    name: Masaco
+    text: Plátano o yuca machacados con charque o queso. Contundente y nutritivo.
+pacu:
+  fr:
+    name: Pacú et surubí
+    text: >-
+      Poissons de rivière grillés ou frits, avec riz, manioc et banane. Délicieux au bord de
+      l'eau.
+  en:
+    name: Pacú and surubí
+    text: River fish, grilled or fried, with rice, cassava and plantain. Delicious by the water.
+  es:
+    name: Pacú y surubí
+    text: >-
+      Pescados de río a la parrilla o fritos, con arroz, yuca y plátano. Deliciosos a la
+      orilla del agua.
+pescado:
+  fr:
+    name: Poisson de rivière
+    text: Surubí, pacú ou dorado grillés, avec manioc et banane frite.
+  en:
+    name: River fish
+    text: Grilled surubí, pacú or dorado, with cassava and fried plantain.
+  es:
+    name: Pescado de río
+    text: Surubí, pacú o dorado a la parrilla, con yuca y plátano frito.
+tropical:
+  fr:
+    name: Fruits tropicaux
+    text: >-
+      Mangues, ananas, papayes, achachairú (petit fruit acidulé) et jus frais partout pour
+      quelques bolivianos.
+  en:
+    name: Tropical fruit
+    text: >-
+      Mangoes, pineapples, papayas, achachairú (a small tangy fruit) and fresh juices
+      everywhere for a few bolivianos.
+  es:
+    name: Frutas tropicales
+    text: >-
+      Mangos, piñas, papayas, achachairú (una frutita ácida) y jugos frescos por todas
+      partes por pocos bolivianos.
+cafe:
+  fr:
+    name: Café des Yungas
+    text: Café cultivé sur place, à boire dans les petits cafés de Coroico ou à rapporter.
+  en:
+    name: Yungas coffee
+    text: Locally grown coffee, to drink in Coroico's little cafés or to take home.
+  es:
+    name: Café de los Yungas
+    text: Café cultivado en la zona, para tomar en los cafecitos de Coroico o para llevar.
+sopa_quinua:
+  fr:
+    name: Soupe de quinoa
+    text: >-
+      Soupe chaude de quinoa et légumes, servie dans les refuges et les comedores
+      d'altitude. Parfaite quand il fait froid.
+  en:
+    name: Quinoa soup
+    text: >-
+      A hot soup of quinoa and vegetables, served in refuges and high-altitude comedores.
+      Perfect when it's cold.
+  es:
+    name: Sopa de quinua
+    text: >-
+      Sopa caliente de quinua y verduras, servida en refugios y comedores de altura.
+      Perfecta cuando hace frío.
+picante:
+  fr:
+    name: Picante mixto
+    text: >-
+      Assiette de plusieurs viandes (poulet, langue, bœuf) en sauce pimentée, avec chuño et
+      riz. Pour les amateurs de piment.
+  en:
+    name: Picante mixto
+    text: >-
+      A plate of several meats (chicken, tongue, beef) in chilli sauce, with chuño and rice.
+      For chilli lovers.
+  es:
+    name: Picante mixto
+    text: >-
+      Plato con varias carnes (pollo, lengua, res) en salsa de ají, con chuño y arroz. Para
+      los que aman el picante.
+fricase:
+  fr:
+    name: Fricasé
+    text: Soupe de porc épicée au piment jaune et au mote, réputée guérir les lendemains de fête.
+  en:
+    name: Fricasé
+    text: A spicy pork soup with yellow chilli and mote, said to cure hangovers.
+  es:
+    name: Fricasé
+    text: Sopa de cerdo picante con ají amarillo y mote, famosa por curar la resaca.
+queso:
+  fr:
+    name: Fromages de Chiquitos
+    text: Fromages frais de vache produits dans les villages des missions, avec du pain maison.
+  en:
+    name: Chiquitos cheeses
+    text: Fresh cow's milk cheeses made in the mission villages, with homemade bread.
+  es:
+    name: Quesos de Chiquitos
+    text: Quesos frescos de vaca hechos en los pueblos misionales, con pan casero.
+pescado_beni:
+  fr:
+    name: Pescado del Beni
+    text: Poissons de grande rivière (surubí, pacú) grillés au feu de bois, avec manioc.
+  en:
+    name: Pescado del Beni
+    text: Big-river fish (surubí, pacú) grilled over a wood fire, with cassava.
+  es:
+    name: Pescado del Beni
+    text: Pescados de río grande (surubí, pacú) asados a la leña, con yuca.
+carne_beni:
+  fr:
+    name: Viande du Beni
+    text: "Le Beni est terre d'élevage : grandes grillades (churrasco) et viande séchée."
+  en:
+    name: Beni beef
+    text: "The Beni is cattle country: big grills (churrasco) and dried meat."
+  es:
+    name: Carne del Beni
+    text: "El Beni es tierra ganadera: grandes churrascos y carne seca."
+trucha_sorata:
+  fr:
+    name: Truite de montagne
+    text: >-
+      Truites des rivières de la Cordillère, grillées, dans les petits restaurants des
+      villages.
+  en:
+    name: Mountain trout
+    text: Trout from the rivers of the Cordillera, grilled in small village restaurants.
+  es:
+    name: Trucha de montaña
+    text: >-
+      Truchas de los ríos de la Cordillera, a la parrilla, en los restaurantitos de los
+      pueblos.
+pizza_samaipata:
+  fr:
+    name: Cuisine du monde à Samaipata
+    text: >-
+      Le village accueille beaucoup d'étrangers installés : bons restaurants, pain au
+      levain, fromages artisanaux et vins locaux.
+  en:
+    name: World food in Samaipata
+    text: >-
+      Many foreigners have settled in the village: good restaurants, sourdough bread,
+      artisan cheeses and local wines.
+  es:
+    name: Cocina del mundo en Samaipata
+    text: >-
+      En el pueblo viven muchos extranjeros: buenos restaurantes, pan de masa madre, quesos
+      artesanales y vinos locales.

@@ -1,0 +1,67 @@
+# Padcaya et Chaguaya
+department: Tarija
+category: culture
+lat: -21.886
+lng: -64.718
+altitude: 2041
+days: [0, 1]
+climate: tarija
+dishes: [vino, saice]
+photos:
+  - file: padcaya-1.jpg
+    author: Ministerio de Medio Ambiente y Agua
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Plaza_Principal_de_Padcaya.jpg
+  - file: padcaya-2.jpg
+    author: Freesia Alba
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Mural_en_Padcaya_(Tarija),_Bolivia.jpg
+  - file: padcaya-3.jpg
+    author: Carlillasa
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Virgen_de_Chaguaya_en_la_catedral_de_Tarija.jpg
+fr:
+  name: Padcaya et Chaguaya
+  label: Padcaya
+  short: Village de vallée au sud de Tarija, et le grand sanctuaire de la Vierge de Chaguaya.
+  story: >-
+    Padcaya est un village tranquille au milieu des collines, sur la route entre Tarija et
+    Bermejo. Tout près, le sanctuaire de Chaguaya accueille chaque année, entre la mi-août
+    et la mi-septembre, des milliers de pèlerins venus à pied de Tarija et même du nord de
+    l'Argentine. C'est aussi une porte d'entrée vers la réserve de Tariquía.
+  todo:
+    - Sanctuaire de la Vierge de Chaguaya
+    - Pèlerinage d'août à septembre
+    - Place et église de Padcaya
+    - Départ vers la réserve de Tariquía
+  tips: À 1 h de Tarija en bus ou minibus, route asphaltée.
+en:
+  name: Padcaya and Chaguaya
+  label: Padcaya
+  short: A valley village south of Tarija, and the great sanctuary of the Virgin of Chaguaya.
+  story: >-
+    Padcaya is a quiet village among the hills, on the road between Tarija and Bermejo.
+    Nearby, the Chaguaya sanctuary welcomes thousands of pilgrims every year between
+    mid-August and mid-September, walking from Tarija and even northern Argentina. It's also
+    a gateway to the Tariquía reserve.
+  todo:
+    - Sanctuary of the Virgin of Chaguaya
+    - Pilgrimage from August to September
+    - Padcaya square and church
+    - Starting point for the Tariquía reserve
+  tips: 1 h from Tarija by bus or minibus, on a paved road.
+es:
+  name: Padcaya y Chaguaya
+  label: Padcaya
+  short: Pueblo de valle al sur de Tarija, y el gran santuario de la Virgen de Chaguaya.
+  story: >-
+    Padcaya es un pueblo tranquilo entre cerros, en el camino entre Tarija y Bermejo. Muy
+    cerca, el santuario de Chaguaya recibe cada año, entre mediados de agosto y mediados de
+    septiembre, a miles de peregrinos que llegan a pie desde Tarija e incluso desde el norte
+    argentino. También es puerta de entrada a la reserva de Tariquía.
+  todo:
+    - Santuario de la Virgen de Chaguaya
+    - Peregrinación de agosto a septiembre
+    - Plaza e iglesia de Padcaya
+    - Salida hacia la reserva de Tariquía
+  tips: A 1 h de Tarija en bus o minibús, por carretera asfaltada.

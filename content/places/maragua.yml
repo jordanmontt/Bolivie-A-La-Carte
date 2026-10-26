@@ -1,0 +1,78 @@
+# Cratère de Maragua
+department: Chuquisaca
+category: nature
+lat: -18.96
+lng: -65.43
+altitude: 2900
+days: [1, 2]
+climate: sucre
+dishes: [sopa_quinua, chicha]
+photos:
+  - file: maragua-1.jpg
+    author: François Bianco
+    licence: CC BY-SA 2.0
+    source: https://commons.wikimedia.org/wiki/File:Maragua_crater%27s_local_house_(14277812952).jpg
+  - file: maragua-2.jpg
+    author: Yulacha
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Mar%C3%A1gua_-_Sucre.jpg
+  - file: maragua-3.jpg
+    author: François Bianco
+    licence: CC BY-SA 2.0
+    source: https://commons.wikimedia.org/wiki/File:Handicraft_in_Maragua_(14256764806).jpg
+  - file: maragua-4.jpg
+    author: William Seager
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Frailes_3360.jpg
+  - file: maragua-5.jpg
+    author: William Seager
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Frailes_3362.jpg
+  - file: maragua-6.jpg
+    author: François Bianco
+    licence: CC BY-SA 2.0
+    source: https://commons.wikimedia.org/wiki/File:Handicraft_making_in_Maragua_(14093254810).jpg
+  - file: maragua-7.jpg
+    author: Freddy Bayo from Sucre, Bolivia
+    licence: CC BY-SA 2.0
+    source: https://commons.wikimedia.org/wiki/File:DSC2381_(35638457252).jpg
+fr:
+  name: Cratère de Maragua
+  label: Maragua
+  short: Synclinal géant aux couleurs rouges et violettes, villages de tisserands jalq'a.
+  story: >-
+    Le cratère de Maragua n'est pas un volcan mais un immense pli géologique aux couleurs
+    rouges, violettes et ocres. On y arrive par un ancien chemin inca, on traverse des
+    villages de tisserands et on peut même voir des empreintes de dinosaures. Un trek
+    magnifique et très authentique depuis Sucre.
+  todo:
+    - Trek Chataquila → chemin inca → Maragua
+    - Empreintes de dinosaures de Niñu Mayu
+    - Textiles jalq'a
+  tips: Trek de 1 à 3 jours avec guide depuis Sucre, ou journée en 4x4.
+en:
+  name: Maragua Crater
+  label: Maragua
+  short: A giant syncline in reds and purples, with Jalq'a weaving villages.
+  story: >-
+    The Maragua crater isn't a volcano but a huge geological fold in shades of red, purple
+    and ochre. You get there along an old Inca trail, pass through weaving villages and can
+    even see dinosaur footprints. A beautiful and very authentic trek from Sucre.
+  todo:
+    - Trek from Chataquila along the Inca trail to Maragua
+    - Niñu Mayu dinosaur footprints
+    - Jalq'a textiles
+  tips: 1 to 3-day trek with a guide from Sucre, or a day trip by 4x4.
+es:
+  name: Cráter de Maragua
+  label: Maragua
+  short: Un sinclinal gigante en rojos y violetas, con pueblos de tejedores jalq'a.
+  story: >-
+    El cráter de Maragua no es un volcán sino un enorme pliegue geológico en tonos rojos,
+    violetas y ocres. Se llega por un antiguo camino inca, se pasa por pueblos de tejedores
+    y hasta se ven huellas de dinosaurio. Un trekking precioso y muy auténtico desde Sucre.
+  todo:
+    - Trekking de Chataquila por el camino inca hasta Maragua
+    - Huellas de dinosaurio de Niñu Mayu
+    - Tejidos jalq'a
+  tips: Trekking de 1 a 3 días con guía desde Sucre, o un día en 4x4.

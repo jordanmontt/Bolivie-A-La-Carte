@@ -1,0 +1,73 @@
+# Camargo (vallée de Cinti)
+department: Chuquisaca
+category: culture
+lat: -20.64
+lng: -65.21
+altitude: 2400
+days: [1, 1]
+climate: tarija
+dishes: [vino, singani, picante]
+photos:
+  - file: camargo-1.jpg
+    author: Edgar Claure
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Plaza_principal_de_Camargo.jpg
+  - file: camargo-2.jpg
+    author: Viejecillo
+    licence: CC BY 3.0
+    source: https://commons.wikimedia.org/wiki/File:Camargo.JPG
+  - file: camargo-3.jpg
+    author: Edgar Claure
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Iglesia_de_Camargo.jpg
+  - file: camargo-4.jpg
+    author: LuOtondo
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Vendedora_de_miracielos_en_el_mercado_de_Camargo_-_Chuquisaca.jpg
+  - file: camargo-5.jpg
+    author: Lalof3
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Camargo_Reloj.jpg
+fr:
+  name: Camargo (vallée de Cinti)
+  label: Camargo
+  short: Vieux vignobles et falaises rouges de la vallée de Cinti, entre Potosí et Tarija.
+  story: >-
+    Camargo est la petite ville de la vallée de Cinti, l'une des plus anciennes régions
+    viticoles d'Amérique du Sud. Entre de hautes falaises rouges, on cultive la vigne depuis
+    l'époque coloniale pour le vin et le singani. Les bodegas familiales et les paysages
+    font de cette vallée une belle étape sur la route entre Potosí et Tarija.
+  todo:
+    - Bodegas familiales de vin et de singani
+    - Falaises rouges de la vallée de Cinti
+    - Étape sur la route Potosí – Tarija
+  tips: "Sur la route Potosí – Tarija : une nuit permet de couper le trajet."
+en:
+  name: Camargo (Cinti valley)
+  label: Camargo
+  short: Old vineyards and red cliffs in the Cinti valley, between Potosí and Tarija.
+  story: >-
+    Camargo is the small town of the Cinti valley, one of the oldest wine regions in South
+    America. Between tall red cliffs, vines have been grown since colonial times for wine
+    and singani. The family bodegas and the scenery make the valley a lovely stop on the
+    road between Potosí and Tarija.
+  todo:
+    - Family wine and singani bodegas
+    - Red cliffs of the Cinti valley
+    - A stop on the Potosí – Tarija road
+  tips: "On the Potosí – Tarija road: a night here splits the journey."
+es:
+  name: Camargo (valle de Cinti)
+  label: Camargo
+  short: Viñedos antiguos y farallones rojos del valle de Cinti, entre Potosí y Tarija.
+  story: >-
+    Camargo es el pueblo del valle de Cinti, una de las regiones vitivinícolas más antiguas
+    de Sudamérica. Entre altos farallones rojos se cultiva la vid desde la colonia para el
+    vino y el singani. Las bodegas familiares y el paisaje hacen del valle una linda parada
+    en el camino entre Potosí y Tarija.
+  todo:
+    - Bodegas familiares de vino y singani
+    - Farallones rojos del valle de Cinti
+    - Parada en el camino Potosí – Tarija
+  tips: "En el camino Potosí – Tarija: una noche aquí corta el viaje."

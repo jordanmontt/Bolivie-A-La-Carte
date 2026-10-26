@@ -1,0 +1,78 @@
+# Missions : San Javier
+department: Santa Cruz
+category: culture
+lat: -16.2747
+lng: -62.507
+altitude: 600
+days: [1, 1]
+climate: chiquitania
+dishes: [queso, cunape, locro]
+photos:
+  - file: sanjavier-1.jpg
+    author: Edward_wong_IV
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Iglesia_San_Xavier_.jpg
+  - file: sanjavier-2.jpg
+    author: Bamse
+    licence: CC BY-SA 2.5
+    source: https://commons.wikimedia.org/wiki/File:San_Javier_church.JPG
+  - file: sanjavier-3.jpg
+    author: Daan at Dutch Wikipedia
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Church_San_Javier_Interior.jpg
+  - file: sanjavier-4.jpg
+    author: AriomPardo
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Iglesia_Jesu%C3%ADtica_de_San_Xavier.jpg
+  - file: sanjavier-5.jpg
+    author: Bamse
+    licence: CC BY-SA 2.5
+    source: https://commons.wikimedia.org/wiki/File:San_Javier_church_porch.JPG
+  - file: sanjavier-6.jpg
+    author: Bamse
+    licence: CC BY-SA 2.5
+    source: https://commons.wikimedia.org/wiki/File:San_Javier_church_interior.JPG
+  - file: sanjavier-7.jpg
+    author: Maria Cristina Tajima
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:TemplodeSanJavier.jpg
+fr:
+  name: "Missions : San Javier"
+  label: San Javier
+  short: Première des missions jésuites de Chiquitos (UNESCO), églises en bois peint.
+  story: >-
+    San Javier est la première des missions jésuites de Chiquitos, classées par l'UNESCO :
+    des églises en bois peint du XVIIIe siècle, construites par les Jésuites et les peuples
+    chiquitanos au milieu de la forêt. Un village paisible et une belle introduction au
+    circuit des missions.
+  todo:
+    - Église de 1752 restaurée
+    - Village paisible, fromageries
+  tips: Premier arrêt du circuit des missions depuis Santa Cruz.
+en:
+  name: "Missions: San Javier"
+  label: San Javier
+  short: The first of the Jesuit missions of Chiquitos (UNESCO), with painted wooden churches.
+  story: >-
+    San Javier is the first of the UNESCO-listed Jesuit missions of Chiquitos: 18th-century
+    painted wooden churches built by the Jesuits and the Chiquitano peoples in the middle of
+    the forest. A peaceful village and a lovely introduction to the missions circuit.
+  todo:
+    - Restored church from 1752
+    - Peaceful village and cheese makers
+  tips: First stop on the missions circuit from Santa Cruz.
+es:
+  name: "Misiones: San Javier"
+  label: San Javier
+  short: >-
+    La primera de las misiones jesuíticas de Chiquitos (UNESCO), con templos de madera
+    pintada.
+  story: >-
+    San Javier es la primera de las misiones jesuíticas de Chiquitos, Patrimonio de la
+    UNESCO: templos de madera pintada del siglo XVIII, construidos por los jesuitas y los
+    pueblos chiquitanos en medio del bosque. Un pueblo apacible y una linda introducción al
+    circuito de las misiones.
+  todo:
+    - Templo de 1752 restaurado
+    - Pueblo tranquilo, queserías
+  tips: Primera parada del circuito de misiones desde Santa Cruz.

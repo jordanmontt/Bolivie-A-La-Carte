@@ -1,0 +1,84 @@
+# Missions : San Miguel de Velasco
+department: Santa Cruz
+category: culture
+lat: -16.6997
+lng: -60.9711
+altitude: 400
+days: [1, 1]
+climate: chiquitania
+dishes: [queso, locro]
+photos:
+  - file: sanmiguel-1.jpg
+    author: Bamse
+    licence: CC BY-SA 2.5
+    source: https://commons.wikimedia.org/wiki/File:San_Miguel_church.JPG
+  - file: sanmiguel-4.jpg
+    author: Jery Dino Méndez H.
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:San_Miguel_-_Santa_Cruz,_Bolivia.jpg
+  - file: sanmiguel-5.jpg
+    author: Geoffrey Groesbeck
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:San_Miguel_de_Velasco_003.JPG
+  - file: sanmiguel-6.jpg
+    author: Gloriliz
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Templo_de_San_Miguel_Santa_Cruz.jpg
+  - file: sanmiguel-7.jpg
+    author: Geoffrey Groesbeck
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:San_Miguel_de_Velasco_005.JPG
+  - file: sanmiguel-8.jpg
+    author: Maria Cristina Tajima
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Templo_de_San_Miguel_(Santa_Cruz).jpg
+  - file: sanmiguel-9.jpg
+    author: Geoffrey Groesbeck
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:San_Miguel_de_Velasco_011.JPG
+  - file: sanmiguel-10.jpg
+    author: Bamse
+    licence: CC BY-SA 2.5
+    source: https://commons.wikimedia.org/wiki/File:San_Miguel_church_altar.JPG
+fr:
+  name: "Missions : San Miguel de Velasco"
+  label: San Miguel
+  short: Mission chiquitana aux ateliers de sculpture sur bois, toujours très vivants.
+  story: >-
+    San Miguel de Velasco est un village de mission paisible, au sud de San Ignacio. Son
+    église du XVIIIe siècle, en bois peint, est l'une des plus belles du circuit, et le
+    village est réputé pour ses ateliers de sculpture : on y voit les artisans tailler
+    anges, saints et retables, comme au temps des Jésuites.
+  todo:
+    - Église de mission en bois peint
+    - Ateliers de sculpture sur bois
+    - Place du village et vie locale
+  tips: Se combine en une journée avec Santa Ana et San Rafael depuis San Ignacio.
+en:
+  name: "Missions: San Miguel de Velasco"
+  label: San Miguel
+  short: A Chiquitano mission with woodcarving workshops that are still very much alive.
+  story: >-
+    San Miguel de Velasco is a peaceful mission village south of San Ignacio. Its
+    18th-century church of painted wood is one of the finest on the circuit, and the village
+    is known for its carving workshops: you can watch craftsmen shape angels, saints and
+    altarpieces, just as in Jesuit times.
+  todo:
+    - Painted wooden mission church
+    - Woodcarving workshops
+    - Village square and local life
+  tips: Combine with Santa Ana and San Rafael in a day from San Ignacio.
+es:
+  name: "Misiones: San Miguel de Velasco"
+  label: San Miguel
+  short: Misión chiquitana con talleres de tallado en madera todavía muy vivos.
+  story: >-
+    San Miguel de Velasco es un pueblo misional tranquilo, al sur de San Ignacio. Su templo
+    del siglo XVIII, de madera pintada, es uno de los más bellos del circuito, y el pueblo
+    es famoso por sus talleres de tallado: se ve a los artesanos tallar ángeles, santos y
+    retablos, como en tiempos de los jesuitas.
+  todo:
+    - Templo misional de madera pintada
+    - Talleres de tallado en madera
+    - Plaza del pueblo y vida local
+  tips: Se combina en un día con Santa Ana y San Rafael desde San Ignacio.

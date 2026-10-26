@@ -1,0 +1,88 @@
+# Potosí
+department: Potosí
+category: culture
+lat: -19.5836
+lng: -65.7531
+altitude: 4067
+days: [1, 2]
+climate: potosi
+major: true
+dishes: [kalapurka, saltena, sopa_quinua]
+photos:
+  - file: potosi-1.jpg
+    author: Christophe Meneboeuf
+    licence: CC BY-SA 2.5
+    source: https://commons.wikimedia.org/wiki/File:Cerro_Rico_Potosi_(pixinn.net).jpg
+  - file: potosi-2.jpg
+    author: Dan Lundberg
+    licence: CC BY-SA 2.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:20170808_Bolivia_1409_crop_Potos%C3%AD_sRGB_(26204037299).jpg
+  - file: potosi-3.jpg
+    author: EEJCC
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Calle_principal_de_Potos%C3%AD.jpg
+  - file: potosi-4.jpg
+    author: rodoluca
+    licence: CC BY-SA 3.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Calle_y_al_fondo_el_Cerro_Rico,_Potos%C3%AD,_Bolivia_-_panoramio.jpg
+  - file: potosi-5.jpg
+    author: Eduardo Manchon
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Spanish_balconies_in_Potosi_-_panoramio.jpg
+  - file: potosi-6.jpg
+    author: EEJCC
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:T%C3%ADpica_calle_Potosina.jpg
+  - file: potosi-7.jpg
+    author: Burkhard Schroeder
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:El_Minero.jpg
+fr:
+  name: Potosí
+  label: Potosí
+  short: L'ancienne ville la plus riche du monde grâce à l'argent du Cerro Rico. Classée UNESCO.
+  story: >-
+    Au XVIIe siècle, Potosí était l'une des plus grandes villes du monde, aussi peuplée que
+    Londres à la même époque, grâce à l'argent du Cerro Rico qui a enrichi l'Espagne. Il en
+    reste une ville coloniale superbe, des églises baroques et la Casa de la Moneda, où l'on
+    frappait la monnaie. La visite d'une mine, encore exploitée dans des conditions très
+    dures, est un moment fort et bouleversant.
+  todo:
+    - Casa Nacional de Moneda (la Monnaie royale)
+    - Visite d'une mine coopérative du Cerro Rico (dure mais marquante)
+    - Églises baroques et couvent de Santa Teresa
+  tips: "À 4 070 m, l'une des villes les plus hautes du monde : s'acclimater avant."
+en:
+  name: Potosí
+  label: Potosí
+  short: Once the richest city in the world thanks to the silver of Cerro Rico. UNESCO-listed.
+  story: >-
+    In the 17th century Potosí was one of the largest cities in the world, as populous as
+    London at the time, thanks to the silver of Cerro Rico that made Spain rich. What
+    remains is a superb colonial town, baroque churches and the Casa de la Moneda, where
+    coins were minted. Visiting a mine, still worked in very harsh conditions, is a powerful
+    and moving experience.
+  todo:
+    - Casa Nacional de Moneda (the royal mint)
+    - Visit a cooperative mine in Cerro Rico (tough but unforgettable)
+    - Baroque churches and the Santa Teresa convent
+  tips: "At 4,070 m it's one of the highest cities in the world: acclimatise first."
+es:
+  name: Potosí
+  label: Potosí
+  short: >-
+    La que fue la ciudad más rica del mundo gracias a la plata del Cerro Rico. Patrimonio de
+    la UNESCO.
+  story: >-
+    En el siglo XVII, Potosí era una de las ciudades más grandes del mundo, tan poblada como
+    Londres en esa época, gracias a la plata del Cerro Rico que enriqueció a España. Queda
+    una ciudad colonial magnífica, iglesias barrocas y la Casa de la Moneda, donde se
+    acuñaba la plata. Visitar una mina, todavía trabajada en condiciones muy duras, es una
+    experiencia fuerte y conmovedora.
+  todo:
+    - Casa Nacional de Moneda
+    - Visita a una mina cooperativa del Cerro Rico (dura pero inolvidable)
+    - Iglesias barrocas y convento de Santa Teresa
+  tips: "A 4070 m, es una de las ciudades más altas del mundo: aclimátate antes."

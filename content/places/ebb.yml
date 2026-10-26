@@ -1,0 +1,85 @@
+# Réserve de biosphère du Beni
+department: Beni
+category: jungle
+lat: -14.8
+lng: -66.3
+altitude: 200
+days: [2, 3]
+climate: amazonie
+dishes: [carne_beni]
+photos:
+  - file: ebb-1.jpg
+    author: Sam Beebe/Ecotrust
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Estacion_Biologica_del_Beni_-_panoramio.jpg
+  - file: ebb-2.jpg
+    author: Luis Enrique Poggi Montalvo
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Laguna_Urukupi%C3%B1a-EBB.jpg
+  - file: ebb-3.jpg
+    author: PamJCB
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Guardaparques_EBB.jpg
+  - file: ebb-4.jpg
+    author: PedroLaguna
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:PLV4204_ebb.jpg
+  - file: ebb-5.jpg
+    author: PedroLaguna
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:PLV4340_ebb.jpg
+  - file: ebb-6.jpg
+    author: Sam Beebe Camera location15° 56′ 23.4″ S, 65° 05′ 40.2″ W View this an
+    licence: CC BY-SA 2.0
+    source: https://commons.wikimedia.org/wiki/File:Sabana_del_Beni_-_Bolivia.jpg
+fr:
+  name: Réserve de biosphère du Beni
+  label: Réserve du Beni
+  short: >-
+    Savanes, forêts et lagunes près de San Borja : une réserve très riche en faune, encore
+    peu visitée.
+  story: >-
+    Près de San Borja, la réserve de biosphère du Beni et sa station biologique protègent
+    des savanes inondées, des îlots de forêt et des lagunes. On y observe des centaines
+    d'espèces d'oiseaux, des singes et des caïmans, avec des gardes du parc ou des guides
+    locaux. Une Amazonie très sauvage, pour voyageurs patients.
+  todo:
+    - Observation des oiseaux dans les savanes
+    - Lagunes, caïmans et singes
+    - Sorties avec les gardes du parc
+  tips: >-
+    Accès par San Borja, à organiser sur place (voiture avec chauffeur ou guide). Plutôt en
+    saison sèche.
+en:
+  name: Beni Biosphere Reserve
+  label: Beni reserve
+  short: >-
+    Savannas, forests and lagoons near San Borja: a reserve rich in wildlife, still rarely
+    visited.
+  story: >-
+    Near San Borja, the Beni Biosphere Reserve and its biological station protect flooded
+    savannas, forest islands and lagoons. You can see hundreds of bird species, monkeys and
+    caimans, with park rangers or local guides. A very wild Amazon, for patient travellers.
+  todo:
+    - Birdwatching in the savannas
+    - Lagoons, caimans and monkeys
+    - Outings with the park rangers
+  tips: >-
+    Reached via San Borja, to arrange there (car with driver or guide). Best in the dry
+    season.
+es:
+  name: Reserva de la Biosfera del Beni
+  label: Reserva del Beni
+  short: >-
+    Sabanas, bosques y lagunas cerca de San Borja: una reserva muy rica en fauna, todavía
+    poco visitada.
+  story: >-
+    Cerca de San Borja, la Reserva de la Biosfera del Beni y su estación biológica protegen
+    sabanas inundables, islas de bosque y lagunas. Se ven cientos de especies de aves, monos
+    y caimanes, con guardaparques o guías locales. Una Amazonía muy salvaje, para viajeros
+    pacientes.
+  todo:
+    - Observación de aves en las sabanas
+    - Lagunas, caimanes y monos
+    - Salidas con los guardaparques
+  tips: Se llega por San Borja, a organizar allí (auto con chofer o guía). Mejor en época seca.

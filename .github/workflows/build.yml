@@ -1,0 +1,43 @@
+# Rebuilds the site files from content/ whenever content or photos change, so a text or a
+# photo can be edited directly on github.com. If the build finds a problem (missing
+# translation, unknown place, missing photo...), this run fails and lists it.
+name: Build site
+
+on:
+  push:
+    branches: [main]
+    paths: ["content/**", "photos/**", "tools/build.mjs", "tools/yaml.mjs"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow
+      - name: Build data and texts from content/
+        run: node tools/build.mjs
+      - name: Make the 640 px copies of new photos
+        run: python tools/make-small-photos.py
+      - name: Commit the generated files if they changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add data locales photos/sm
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Reconstruction du site depuis content/"
+          git push
+          # Pushes made by this workflow don't start a Pages build on their own: ask for one.
+          gh api -X POST "repos/${{ github.repository }}/pages/builds" || true

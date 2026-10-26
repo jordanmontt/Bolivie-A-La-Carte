@@ -1,0 +1,72 @@
+# Comanche et ses Puya raimondii
+department: La Paz
+category: nature
+lat: -17
+lng: -68.42
+altitude: 3950
+days: [0, 1]
+climate: altiplano
+dishes: [chuno]
+photos:
+  - file: comanche-1.jpg
+    author: Carlillasa
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Puyas_raimondii_en_Comanche.jpg
+  - file: comanche-2.jpg
+    author: Carlillasa
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Puyas_raimondii_muertas_en_pie_en_Comanche_(3).jpg
+  - file: comanche-3.jpg
+    author: Carlillasa
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Cerro_de_Comanche.jpg
+  - file: comanche-4.jpg
+    author: Carlillasa
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Iglesia_de_Comanche_(2).jpg
+  - file: comanche-5.jpg
+    author: Carlillasa
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Antigua_estaci%C3%B3n_de_tren_de_Comanche.jpg
+fr:
+  name: Comanche et ses Puya raimondii
+  label: Comanche
+  short: Une forêt de Puya raimondii, la plus grande broméliacée du monde, sur l'Altiplano.
+  story: >-
+    Près du village de Comanche, sur les collines de l'Altiplano, pousse une forêt de Puya
+    raimondii, la « reine des Andes ». Cette plante géante peut dépasser 10 m quand elle
+    fleurit, une seule fois, après plusieurs dizaines d'années. Un paysage unique, à une
+    demi-journée de La Paz.
+  todo:
+    - Forêt de Puya raimondii
+    - Village et carrières de pierre de Comanche
+    - Vue sur l'Altiplano et les sommets
+  tips: "Pas de transport direct pratique : en voiture avec chauffeur ou en tour depuis La Paz."
+en:
+  name: Comanche and its Puya raimondii
+  label: Comanche
+  short: A forest of Puya raimondii, the world's largest bromeliad, on the Altiplano.
+  story: >-
+    Near the village of Comanche, on the Altiplano hills, grows a forest of Puya raimondii,
+    the "queen of the Andes". This giant plant can grow over 10 m tall when it flowers, just
+    once, after several decades. A unique landscape, half a day from La Paz.
+  todo:
+    - Puya raimondii forest
+    - Comanche village and its stone quarries
+    - Views over the Altiplano and the peaks
+  tips: "No convenient direct transport: by car with a driver or on a tour from La Paz."
+es:
+  name: Comanche y sus Puya raimondii
+  label: Comanche
+  short: Un bosque de Puya raimondii, la bromelia más grande del mundo, en el Altiplano.
+  story: >-
+    Cerca del pueblo de Comanche, en los cerros del Altiplano, crece un bosque de Puya
+    raimondii, la «reina de los Andes». Esta planta gigante puede pasar los 10 m cuando
+    florece, una sola vez, después de varias décadas. Un paisaje único, a medio día de La
+    Paz.
+  todo:
+    - Bosque de Puya raimondii
+    - Pueblo y canteras de piedra de Comanche
+    - Vista del Altiplano y los nevados
+  tips: "Sin transporte directo práctico: en auto con chofer o en tour desde La Paz."

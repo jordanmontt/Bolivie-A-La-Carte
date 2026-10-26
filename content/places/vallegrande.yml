@@ -1,0 +1,76 @@
+# Vallegrande
+department: Santa Cruz
+category: culture
+lat: -18.49
+lng: -64.1072
+altitude: 2030
+days: [1, 2]
+climate: vallegrande
+dishes: [majadito, fricase, cunape]
+photos:
+  - file: vallegrande-2.jpg
+    author: Rubenvalluno
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Lavanderia_donde_se_expuso_el_che.jpg
+  - file: vallegrande-3.jpg
+    author: Grullab
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Ruta38,_Bolivia.jpg
+  - file: vallegrande-5.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Vista_de_Vallegrande_(NE)_-_Bolivia.jpg
+  - file: vallegrande-6.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Torre_de_la_Catedral_de_Vallegrande_-_Bolivia.jpg
+  - file: vallegrande-7.jpg
+    author: Ruditaly
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Vista_de_la_Represa_de_Guadalupe_-_Vallegrande,_Bolivia.jpg
+fr:
+  name: Vallegrande
+  label: Vallegrande
+  short: Petite ville coloniale de montagne, au cœur de la Route du Che.
+  story: >-
+    Vallegrande est une petite ville coloniale tranquille, perchée dans les montagnes à
+    l'ouest de Santa Cruz. C'est ici que le corps d'Ernesto « Che » Guevara a été exposé en
+    1967, dans le lavoir de l'hôpital, puis enterré en secret près de la piste
+    d'atterrissage, où il a été retrouvé en 1997. On y visite ces lieux de mémoire, et la
+    ville est la base pour continuer vers La Higuera.
+  todo:
+    - Lavoir de l'hôpital Señor de Malta
+    - Mausolée du Che et fosse commune
+    - Centre colonial et place principale
+  tips: "À 3 h de Samaipata. Base pour La Higuera : on y trouve guides et taxis."
+en:
+  name: Vallegrande
+  label: Vallegrande
+  short: A small colonial mountain town at the heart of the Che Route.
+  story: >-
+    Vallegrande is a quiet little colonial town high in the mountains west of Santa Cruz. It
+    was here that Ernesto “Che” Guevara's body was displayed in 1967, in the hospital
+    laundry, then secretly buried near the airstrip, where it was found in 1997. You can
+    visit these places of memory, and the town is the base for going on to La Higuera.
+  todo:
+    - The laundry of Señor de Malta hospital
+    - Che mausoleum and the mass grave
+    - Colonial centre and main square
+  tips: "3 h from Samaipata. Base for La Higuera: guides and taxis available."
+es:
+  name: Vallegrande
+  label: Vallegrande
+  short: Pueblo colonial de montaña, en el corazón de la Ruta del Che.
+  story: >-
+    Vallegrande es un pueblo colonial tranquilo, en las montañas al oeste de Santa Cruz.
+    Aquí se exhibió en 1967 el cuerpo de Ernesto «Che» Guevara, en la lavandería del
+    hospital, y luego fue enterrado en secreto junto a la pista de aterrizaje, donde se
+    encontró en 1997. Se visitan estos lugares de memoria, y el pueblo es la base para
+    seguir a La Higuera.
+  todo:
+    - Lavandería del hospital Señor de Malta
+    - Mausoleo del Che y fosa común
+    - Centro colonial y plaza principal
+  tips: "A 3 h de Samaipata. Base para La Higuera: hay guías y taxis."

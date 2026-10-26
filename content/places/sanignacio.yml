@@ -1,0 +1,71 @@
+# Missions : San Ignacio de Velasco
+department: Santa Cruz
+category: culture
+lat: -16.3667
+lng: -60.95
+altitude: 420
+days: [1, 2]
+climate: chiquitania
+major: true
+dishes: [majadito, locro, masaco]
+photos:
+  - file: sanignacio-1.jpg
+    author: Geoffrey Groesbeck
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:San_Ignacio_de_Velasco_001.JPG
+  - file: sanignacio-2.jpg
+    author: Geoffrey Groesbeck
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Santa_Ana_de_Velasco_002.JPG
+  - file: sanignacio-3.jpg
+    author: Jery Dino Méndez H.
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:San_Ignacio_-_Santa_Cruz,_Bolivia.jpg
+  - file: sanignacio-4.jpg
+    author: Original by Dirnein, lightened up and cleaned a tad by Jaakobou
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:File-San_ingancia_de_valasco2.JPG
+  - file: sanignacio-5.jpg
+    author: Geoffrey Groesbeck
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:San_Ignacio_de_Velasco_005.JPG
+  - file: sanignacio-6.jpg
+    author: Geoffrey Groesbeck
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:San_Ignacio_de_Velasco_002.JPG
+fr:
+  name: "Missions : San Ignacio de Velasco"
+  label: San Ignacio
+  short: Le carrefour du circuit des missions, avec sa lagune.
+  story: >-
+    San Ignacio de Velasco est la plus grande ville de la Chiquitanía et le carrefour du
+    circuit des missions. Sa lagune et son ambiance de petite ville de province en font une
+    bonne base pour rayonner vers les autres villages.
+  todo:
+    - Laguna Guapomó
+    - Base pour Santa Ana, San Rafael et San Miguel
+  tips: Le circuit complet des missions demande 5 à 7 jours.
+en:
+  name: "Missions: San Ignacio de Velasco"
+  label: San Ignacio
+  short: The hub of the missions circuit, with its lagoon.
+  story: >-
+    San Ignacio de Velasco is the largest town in the Chiquitanía and the hub of the
+    missions circuit. Its lagoon and small-town feel make it a good base for exploring the
+    other villages.
+  todo:
+    - Laguna Guapomó
+    - Base for Santa Ana, San Rafael and San Miguel
+  tips: The full missions circuit takes 5 to 7 days.
+es:
+  name: "Misiones: San Ignacio de Velasco"
+  label: San Ignacio
+  short: El cruce del circuito de las misiones, con su laguna.
+  story: >-
+    San Ignacio de Velasco es la ciudad más grande de la Chiquitanía y el cruce del circuito
+    de las misiones. Su laguna y su ambiente de pueblo de provincia la hacen una buena base
+    para visitar los otros pueblos.
+  todo:
+    - Laguna Guapomó
+    - Base para Santa Ana, San Rafael y San Miguel
+  tips: El circuito completo de las misiones toma de 5 a 7 días.

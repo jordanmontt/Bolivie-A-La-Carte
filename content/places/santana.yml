@@ -1,0 +1,89 @@
+# Missions : Santa Ana de Velasco
+department: Santa Cruz
+category: culture
+lat: -16.583
+lng: -60.689
+altitude: 400
+days: [0, 1]
+climate: chiquitania
+dishes: [locro, queso, cunape]
+photos:
+  - file: santana-1.jpg
+    author: Jery Dino Méndez H.
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Santa_Ana_-_Santa_Cruz,_Bolivia.jpg
+  - file: santana-2.jpg
+    author: Maria Cristina Tajima
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Templo_de_Santa_Ana_Bolivia.jpg
+  - file: santana-3.jpg
+    author: Geoffrey Groesbeck
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Santa_Ana_de_Velasco_004.JPG
+  - file: santana-4.jpg
+    author: Geoffrey Groesbeck
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Santa_Ana_de_Velasco_005.JPG
+  - file: santana-5.jpg
+    author: Bamse
+    licence: CC BY-SA 2.5
+    source: https://commons.wikimedia.org/wiki/File:Santa_Ana_church_altar.JPG
+  - file: santana-6.jpg
+    author: Geoffrey Groesbeck
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Santa_Ana_de_Velasco_001.JPG
+  - file: sanmiguel-3.jpg
+    author: Bamse
+    licence: CC BY-SA 2.5
+    source: https://commons.wikimedia.org/wiki/File:Santa_Ana_church.JPG
+fr:
+  name: "Missions : Santa Ana de Velasco"
+  label: Santa Ana
+  short: La plus authentique des missions de Chiquitos, avec son orgue d'origine.
+  story: >-
+    Santa Ana de Velasco est un tout petit village de mission, posé autour d'une grande
+    place herbeuse. Son église, construite par les Chiquitanos après le départ des Jésuites,
+    a gardé son toit de tuiles, ses colonnes de bois et un orgue d'origine du XVIIIe siècle.
+    Moins restaurée que les autres, c'est souvent celle qui émeut le plus : on a
+    l'impression d'entrer dans la mission telle qu'elle était.
+  todo:
+    - Église et son orgue du XVIIIe siècle
+    - Grande place herbeuse et maisons à galeries
+    - Demander au gardien d'ouvrir l'église
+  tips: >-
+    À environ 1 h de San Ignacio. Pas d'hébergement touristique : en aller-retour ou en
+    boucle avec San Rafael et San Miguel.
+en:
+  name: "Missions: Santa Ana de Velasco"
+  label: Santa Ana
+  short: The most authentic of the Chiquitos missions, with its original organ.
+  story: >-
+    Santa Ana de Velasco is a tiny mission village set around a big grassy square. Its
+    church, built by the Chiquitano people after the Jesuits left, has kept its tiled roof,
+    wooden columns and an original 18th-century organ. Less restored than the others, it's
+    often the one that moves visitors most: it feels like stepping into the mission as it
+    was.
+  todo:
+    - The church and its 18th-century organ
+    - Big grassy square and houses with verandas
+    - Ask the caretaker to open the church
+  tips: >-
+    About 1 h from San Ignacio. No tourist lodging: go as a return trip or a loop with San
+    Rafael and San Miguel.
+es:
+  name: "Misiones: Santa Ana de Velasco"
+  label: Santa Ana
+  short: La más auténtica de las misiones de Chiquitos, con su órgano original.
+  story: >-
+    Santa Ana de Velasco es un pueblito misional alrededor de una gran plaza de pasto. Su
+    templo, construido por los chiquitanos después de la salida de los jesuitas, conserva su
+    techo de tejas, sus columnas de madera y un órgano original del siglo XVIII. Menos
+    restaurado que los demás, suele ser el que más emociona: es como entrar a la misión tal
+    como era.
+  todo:
+    - El templo y su órgano del siglo XVIII
+    - Gran plaza de pasto y casas con galerías
+    - Pedir al cuidador que abra el templo
+  tips: >-
+    A cerca de 1 h de San Ignacio. Sin alojamiento turístico: ida y vuelta o en circuito con
+    San Rafael y San Miguel.

@@ -1,0 +1,61 @@
+# Île de Suriki
+department: La Paz
+category: culture
+lat: -16.3
+lng: -68.76
+altitude: 3815
+days: [0, 1]
+climate: titicaca
+dishes: [trucha]
+photos:
+  - file: suriki-1.jpg
+    author: Dr. Claudia Koch
+    licence: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Isla_Suriqui.JPG
+  - file: suriki-2.jpg
+    author: Sansón con cabello largo
+    licence: CC BY-SA 4.0
+    source: >-
+      https://commons.wikimedia.org/wiki/File:Artesano_de_la_isla_Suriqui_lago_Titicaca,_Bolivia_cesteria.jpg
+fr:
+  name: Île de Suriki
+  label: Suriki
+  short: L'île des constructeurs de bateaux en roseau, dont ceux de l'expédition Ra II.
+  story: >-
+    Sur la petite île de Suriki, dans le Lago Menor, les familles aymaras construisent
+    depuis des générations des bateaux en totora. Des artisans de l'île ont aidé
+    l'explorateur Thor Heyerdahl à construire le Ra II, qui a traversé l'Atlantique en 1970.
+    Un petit musée et des ateliers racontent cette histoire étonnante.
+  todo:
+    - Ateliers de bateaux en totora
+    - Petit musée de l'expédition Ra II
+    - Tour de l'île et vue sur la cordillère
+  tips: En barque depuis Huatajata ou les villages voisins. Se combine avec Pariti.
+en:
+  name: Suriki Island
+  label: Suriki
+  short: The island of reed-boat builders, including those of the Ra II expedition.
+  story: >-
+    On the small island of Suriki, in the Lago Menor, Aymara families have built totora reed
+    boats for generations. Craftsmen from the island helped explorer Thor Heyerdahl build Ra
+    II, which crossed the Atlantic in 1970. A small museum and workshops tell this
+    remarkable story.
+  todo:
+    - Totora boat workshops
+    - Small museum of the Ra II expedition
+    - Walk around the island, view of the cordillera
+  tips: By boat from Huatajata or nearby villages. Combine with Pariti.
+es:
+  name: Isla Suriqui
+  label: Suriqui
+  short: La isla de los constructores de balsas de totora, entre ellas las de la expedición Ra II.
+  story: >-
+    En la pequeña isla de Suriqui, en el Lago Menor, las familias aymaras construyen balsas
+    de totora desde hace generaciones. Artesanos de la isla ayudaron al explorador Thor
+    Heyerdahl a construir el Ra II, que cruzó el Atlántico en 1970. Un pequeño museo y
+    talleres cuentan esta historia sorprendente.
+  todo:
+    - Talleres de balsas de totora
+    - Pequeño museo de la expedición Ra II
+    - Vuelta a la isla y vista a la cordillera
+  tips: En lancha desde Huatajata o pueblos cercanos. Se combina con Pariti.
