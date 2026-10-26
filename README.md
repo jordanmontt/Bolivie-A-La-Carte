@@ -17,6 +17,7 @@ No build step: open `index.html` in a browser (it also works from the file syste
 | `data/places.js` | Places (travel region and department), travel links, climates and dishes per place (no text) |
 | `data/itineraries.js` | Ready-made itinerary ideas |
 | `data/photos.js`, `photos/` | Wikimedia Commons photos with author and licence |
+| `data/rates.js` | Official dollar and euro rates, copied daily from the Banco Central de Bolivia |
 | `data/geo.js`, `assets/relief.jpg` | Base map vectors, road geometry and relief image |
 | `locales/<lang>.js` | Interface strings |
 | `locales/<lang>.content.js` | Place descriptions, route details, dishes, climates, practical tips page |
@@ -35,6 +36,13 @@ after adding photos); place pages show the full photos.
 download. Pages, code, data and texts are always fetched fresh. If you replace a photo
 while keeping its file name, bump `VERSION` in `sw.js` so visitors get the new one. On each
 release, bump the `?v=` number in `index.html` and `RELEASE` in `js/i18n.js`.
+
+## Exchange rates
+
+The central bank's page can't be read from the visitor's browser, so
+`.github/workflows/rates.yml` runs `node tools/update-rates.mjs` every morning (Bolivian
+time) and commits `data/rates.js` when the rates change. It can also be started by hand
+from the Actions tab (Exchange rates, Run workflow).
 
 ## Languages
 

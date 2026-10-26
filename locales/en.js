@@ -75,6 +75,12 @@ BOL.locales.en = Object.assign(BOL.locales.en || {}, {ui: {
   "regionDesc.serrania": "Red cliffs, waterfalls, a river of hot water and the 'death train' towards Brazil.",
   "regionDesc.amazon": "Madidi jungle and the Yacuma pampas: monkeys, caimans and pink dolphins.",
 
+  "rates.title": "Official exchange rate",
+  "rates.eur": "for 1 euro",
+  "rates.usd": "for 1 US dollar",
+  "rates.source": "Central Bank of Bolivia, {date}",
+  "rates.note": "Exchange houses (casas de cambio) use their own rate, close to this one.",
+  "rates.line": "Official rate on {date}: €1 = {eur} Bs, US$1 = {usd} Bs.",
   "dept.named": "{d} Department",
   "dept.short": "{d} Dept.",
   "dept.named.Oruro": "Oruro Department",

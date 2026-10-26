@@ -235,7 +235,7 @@ BOL.locales.en = Object.assign(BOL.locales.en || {}, {
      "Foreign cards only work in hotels, some restaurants and supermarkets in the big cities, often with a surcharge. Markets, buses, taxis, villages and national park entrances: cash only.",
      "You'll see QR codes everywhere, even at street stalls. They are transfers between Bolivian banks: without an account at a Bolivian bank you can't use them. Just ask “¿En efectivo?”.",
      "Withdraw money in the cities: there are ATMs (cajeros) in La Paz, Santa Cruz, Cochabamba, Sucre and Uyuni. In villages (Torotoro, Sorata, the Titicaca islands, the Sud Lípez) there are none, or they are often empty. Leave with enough bolivianos for the whole stage.",
-     "Withdrawing from an ATM with a foreign card works, but every withdrawal is charged and capped: it's better to travel with cash. Bring US dollars or euros (both change easily) in clean, untorn notes, and change them at a casa de cambio, where notes get a better rate. As a guide in October 2026: €1 ≈ 13 Bs, US$1 ≈ 12 Bs.",
+     "Withdrawing from an ATM with a foreign card works, but every withdrawal is charged and capped: it's better to travel with cash. Bring US dollars or euros (both change easily) in clean, untorn notes, and change them at a casa de cambio, where notes get a better rate.",
      "Keep small notes and coins: drivers, markets and public toilets (1 to 2 Bs) often can't change a 100 or 200 Bs note."
     ]
    },

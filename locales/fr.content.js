@@ -235,7 +235,7 @@ BOL.locales.fr = Object.assign(BOL.locales.fr || {}, {
      "Les cartes étrangères ne passent que dans les hôtels, certains restaurants et les supermarchés des grandes villes, souvent avec un supplément. Marchés, bus, taxis, villages et entrées des parcs nationaux : cash uniquement.",
      "Vous verrez des QR codes partout, même chez les vendeuses de rue. Ce sont des virements entre banques boliviennes : sans compte dans une banque bolivienne, impossible de les utiliser. Il suffit de demander « ¿En efectivo? ».",
      "Retirez en ville : il y a des distributeurs (cajeros) à La Paz, Santa Cruz, Cochabamba, Sucre ou Uyuni. Dans les villages (Torotoro, Sorata, les îles du Titicaca, le Sud Lípez), il n'y en a pas ou ils sont souvent vides. Partez avec assez de bolivianos pour toute l'étape.",
-     "Retirer au distributeur avec une carte étrangère fonctionne, mais chaque retrait est facturé et plafonné : mieux vaut voyager avec des espèces. Apportez des dollars ou des euros (les deux se changent bien) en billets propres et pas déchirés, et changez-les dans une casa de cambio : les billets y sont mieux payés. Repère en octobre 2026 : 1 € ≈ 13 Bs, 1 $ ≈ 12 Bs.",
+     "Retirer au distributeur avec une carte étrangère fonctionne, mais chaque retrait est facturé et plafonné : mieux vaut voyager avec des espèces. Apportez des dollars ou des euros (les deux se changent bien) en billets propres et pas déchirés, et changez-les dans une casa de cambio : les billets y sont mieux payés.",
      "Gardez des petites coupures et des pièces : chauffeurs, marchés et toilettes publiques (1 à 2 Bs) n'ont souvent pas la monnaie sur 100 ou 200 Bs."
     ]
    },

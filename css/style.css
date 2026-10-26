@@ -191,6 +191,14 @@ a.tip:hover{background:var(--raise)}
 .gsec .todo{gap:12px}
 .gsec .todo li{font-size:16px;line-height:1.6}
 .gsec .todo li::before{background:var(--saffron)}
+.rates{border:1.5px solid var(--line);border-top:5px solid var(--saffron);border-radius:var(--r-m);padding:14px 16px;margin:0 0 18px;background:var(--panel)}
+.rates-title{font-weight:700;font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
+.rates-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:8px 0 10px}
+.rates-row b{display:block;font:800 26px/1.1 var(--f-display)}
+.rates-row span{font-size:14px;color:var(--muted)}
+.rates-src{font-size:13px;color:var(--muted)}
+.rates-src a{color:var(--muted)}
+.tip-rate{margin-top:8px;font-weight:700;color:var(--ink)!important}
 .phrases{margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr));gap:10px}
 .phrases div{background:var(--panel);border:1.5px solid var(--line);border-radius:var(--r-m);padding:12px 14px}
 .phrases dt{font:700 16px var(--f-display);color:var(--accent)}

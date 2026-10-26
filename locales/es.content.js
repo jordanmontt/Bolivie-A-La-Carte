@@ -235,7 +235,7 @@ BOL.locales.es = Object.assign(BOL.locales.es || {}, {
      "Las tarjetas extranjeras solo funcionan en hoteles, algunos restaurantes y supermercados de las grandes ciudades, muchas veces con recargo. Mercados, buses, taxis, pueblos y entradas a parques nacionales: solo efectivo.",
      "Verás códigos QR por todas partes, hasta en los puestos de la calle. Son transferencias entre bancos bolivianos: sin cuenta en un banco boliviano no puedes usarlos. Basta con preguntar «¿En efectivo?».",
      "Saca dinero en las ciudades: hay cajeros en La Paz, Santa Cruz, Cochabamba, Sucre o Uyuni. En los pueblos (Torotoro, Sorata, las islas del Titicaca, el Sud Lípez) no hay, o suelen estar vacíos. Sal con bolivianos suficientes para toda la etapa.",
-     "Sacar dinero del cajero con una tarjeta extranjera funciona, pero cada retiro tiene comisión y límite: es mejor viajar con efectivo. Trae dólares o euros (los dos se cambian bien) en billetes limpios y sin roturas, y cámbialos en una casa de cambio, donde los billetes se pagan mejor. Como referencia, en octubre de 2026: 1 € ≈ 13 Bs, 1 $ ≈ 12 Bs.",
+     "Sacar dinero del cajero con una tarjeta extranjera funciona, pero cada retiro tiene comisión y límite: es mejor viajar con efectivo. Trae dólares o euros (los dos se cambian bien) en billetes limpios y sin roturas, y cámbialos en una casa de cambio, donde los billetes se pagan mejor.",
      "Ten billetes chicos y monedas: choferes, mercados y baños públicos (1 a 2 Bs) muchas veces no tienen cambio para 100 o 200 Bs."
     ]
    },

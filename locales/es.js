@@ -75,6 +75,12 @@ BOL.locales.es = Object.assign(BOL.locales.es || {}, {ui: {
   "regionDesc.serrania": "Farallones rojos, cascadas, un río de agua caliente y el tren de la muerte hacia Brasil.",
   "regionDesc.amazon": "La selva de Madidi y las pampas del Yacuma: monos, caimanes y delfines rosados.",
 
+  "rates.title": "Tipo de cambio oficial",
+  "rates.eur": "por 1 euro",
+  "rates.usd": "por 1 dólar estadounidense",
+  "rates.source": "Banco Central de Bolivia, {date}",
+  "rates.note": "Las casas de cambio aplican su propio tipo, cercano a este.",
+  "rates.line": "Tipo oficial del {date}: 1 € = {eur} Bs, 1 $ = {usd} Bs.",
   "dept.named": "Departamento de {d}",
   "dept.short": "Depto. de {d}",
   "dept.named.Oruro": "Departamento de Oruro",

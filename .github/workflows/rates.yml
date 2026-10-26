@@ -1,0 +1,34 @@
+# Copies the Banco Central de Bolivia's official dollar and euro rates into data/rates.js
+# every morning (Bolivian time), so the site always shows the rate of the day.
+name: Exchange rates
+
+on:
+  schedule:
+    - cron: "15 11 * * *"   # 07:15 in Bolivia
+    - cron: "15 15 * * *"   # 11:15, in case the table was published late
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node tools/update-rates.mjs
+      - name: Commit if the rates changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet data/rates.js; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Taux de change du $(date -u +%F)" data/rates.js
+          git push
+          # Pushes made by this workflow don't start a Pages build on their own: ask for one.
+          gh api -X POST "repos/${{ github.repository }}/pages/builds" || true

@@ -53,6 +53,17 @@ function fmtH(h){
   if (m === 60) return t("h", {h:H + 1});
   return H ? (m ? t("hm", {h:H, m:String(m).padStart(2, "0")}) : t("h", {h:H})) : t("min", {m});
 }
+// Official dollar and euro rates of the day (data/rates.js, refreshed daily from the central bank).
+const RATES = B.rates;
+const money = v => new Intl.NumberFormat(I.lang, {minimumFractionDigits:2, maximumFractionDigits:2}).format(v);
+const rateDate = style => new Intl.DateTimeFormat(I.lang, style === "short" ? {day:"numeric", month:"short"} : {day:"numeric", month:"long", year:"numeric"}).format(new Date(RATES.date + "T12:00:00"));
+const ratesLine = () => RATES ? t("rates.line", {date:rateDate("short"), eur:money(RATES.eur), usd:money(RATES.usd)}) : "";
+function ratesBox(){
+  if (!RATES) return "";
+  return `<div class="rates"><p class="rates-title">${esc(t("rates.title"))}</p>
+    <div class="rates-row"><div><b>${esc(money(RATES.eur))} Bs</b><span>${esc(t("rates.eur"))}</span></div><div><b>${esc(money(RATES.usd))} Bs</b><span>${esc(t("rates.usd"))}</span></div></div>
+    <p class="rates-src"><a href="${esc(RATES.source)}" target="_blank" rel="noopener">${esc(t("rates.source", {date:rateDate()}))}</a>. ${esc(t("rates.note"))}</p></div>`;
+}
 const edgeText = id => I.c("edges", id) || {};
 const roadName = r => r.startsWith("F") ? t("road.national", {n:r.slice(1)}) : r.startsWith("D") ? t("road.dept", {n:r.slice(1)}) : r;
 
@@ -287,7 +298,7 @@ function renderHome(){
     <div class="ideas">${B.itineraries.map(it => ideaCard(it, false)).join("")}</div>
   </section>
   <section class="section" aria-labelledby="h-tips"><header><div><h2 id="h-tips">${esc(t("tips.title"))}</h2></div><a class="btn" href="#/guide">${icon("info")}${esc(t("tips.more"))}</a></header>
-    <div class="tips">${[["money","money"],["transport","city"],["altitude","health"],["seasons",""]].map(([k, s]) => { const inner = `<h3><span class="dmd"></span>${esc(t("tips." + k))}</h3><p>${esc(t("tips." + k + ".text"))}</p>`; return s ? `<a class="tip" href="#/guide?s=${s}">${inner}</a>` : `<div class="tip">${inner}</div>`; }).join("")}</div>
+    <div class="tips">${[["money","money"],["transport","city"],["altitude","health"],["seasons",""]].map(([k, s]) => { const inner = `<h3><span class="dmd"></span>${esc(t("tips." + k))}</h3><p>${esc(t("tips." + k + ".text"))}</p>${k === "money" && RATES ? `<p class="tip-rate">${esc(ratesLine())}</p>` : ""}`; return s ? `<a class="tip" href="#/guide?s=${s}">${inner}</a>` : `<div class="tip">${inner}</div>`; }).join("")}</div>
   </section>
   ${siteFoot()}`;
 }
@@ -315,7 +326,7 @@ function renderGuide(){
     <div class="gbody">
       ${g.sections.map((s, i) => `<section class="gsec" id="g-${s.id}" aria-labelledby="gh-${s.id}">
         <span class="gnum" aria-hidden="true">${num(i)}</span>
-        <div><h2 id="gh-${s.id}">${esc(s.title)}</h2><p class="glead">${esc(s.lead)}</p>
+        <div><h2 id="gh-${s.id}">${esc(s.title)}</h2><p class="glead">${esc(s.lead)}</p>${s.id === "money" ? ratesBox() : ""}
           <ul class="todo">${s.points.map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>
       </section>`).join("")}
       <section class="gsec" id="g-phrases" aria-labelledby="gh-phrases">
