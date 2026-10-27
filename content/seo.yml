@@ -1,0 +1,51 @@
+# What search engines (Google, Bing) show, and the texts of the simple pages made for them:
+# one page per place and per language (es/<place>/, en/<place>/, fr/<place>/), a home page and
+# a tips page per language. Those pages are built from the places' own texts; only the few
+# texts below are specific to them. {n} = number of places, {name} = the place's name.
+# site: the public address of the site, ending with /. Change it if the site gets its own domain.
+site: https://jordanmontt.github.io/Bolivie-A-La-Carte/
+fr:
+  home.title: "Guide touristique de la Bolivie : que voir, trajets et conseils"
+  home.description: >-
+    Voyager en Bolivie : {n} lieux à visiter, du salar d'Uyuni au lac Titicaca, avec photos,
+    comment y aller, que manger, la météo et des conseils pratiques. Un guide gratuit.
+  home.h1: Guide touristique de la Bolivie
+  home.intro: >-
+    Que voir en Bolivie, région par région : {n} lieux, avec ce qu'il faut y faire, comment y
+    aller et que manger. Pour préparer le voyage, ouvrez la carte interactive.
+  place.title: "{name}, Bolivie : que voir et comment y aller"
+  place.getTo: Comment aller à {name}
+  place.nearby: Autres lieux de la région
+  place.openMap: Voir sur la carte interactive
+  tips.slug: conseils
+  tips.title: "Conseils pour voyager en Bolivie : argent, bus, sécurité, visas"
+en:
+  home.title: "Bolivia travel guide: places to visit, routes and tips"
+  home.description: >-
+    Travel in Bolivia: {n} places to visit, from the Uyuni salt flat to Lake Titicaca, with
+    photos, how to get there, what to eat, the weather and practical tips. A free guide.
+  home.h1: Bolivia travel guide
+  home.intro: >-
+    What to see in Bolivia, region by region: {n} places, with what to do there, how to get
+    there and what to eat. To plan your trip, open the interactive map.
+  place.title: "{name}, Bolivia: things to do and how to get there"
+  place.getTo: How to get to {name}
+  place.nearby: More places in this region
+  place.openMap: Open on the interactive map
+  tips.slug: tips
+  tips.title: "Bolivia travel tips: money, buses, safety and visas"
+es:
+  home.title: "Guía turística de Bolivia: qué ver, rutas y consejos"
+  home.description: >-
+    Turismo en Bolivia: {n} lugares para visitar, del Salar de Uyuni al lago Titicaca, con
+    fotos, cómo llegar, qué comer, el clima y consejos prácticos. Una guía gratuita.
+  home.h1: Guía turística de Bolivia
+  home.intro: >-
+    Qué ver en Bolivia, región por región: {n} lugares, con qué hacer, cómo llegar y qué
+    comer. Para planear el viaje, abre el mapa interactivo.
+  place.title: "{name}, Bolivia: qué ver y cómo llegar"
+  place.getTo: Cómo llegar a {name}
+  place.nearby: Otros lugares de la región
+  place.openMap: Ver en el mapa interactivo
+  tips.slug: consejos
+  tips.title: "Consejos para viajar a Bolivia: dinero, buses, seguridad y visas"

@@ -50,5 +50,5 @@ const contact = () => `<a href="mailto:${MAIL}">${MAIL}</a>`;
 const rights = () => esc(t("foot.rights", {year:new Date().getFullYear()}));
 const siteFoot = () => `<footer class="site-foot"><div class="weave"></div><div class="in">
     <div><b>${esc(t("brand"))}</b><p>${esc(t("foot.about"))}</p></div>
-    <div><p>${esc(t("foot.createdBy"))} <a href="https://github.com/jordanmontt" rel="author">jordanmontt</a> · ${esc(t("foot.contact"))} ${contact()}</p><p class="small">${esc(t("foot.credits"))}</p><p class="small">${rights()}</p></div>
+    <div><p>${esc(t("foot.createdBy"))} <a href="https://github.com/jordanmontt" rel="author">jordanmontt</a> · ${esc(t("foot.contact"))} ${contact()}</p><p class="small">${esc(t("foot.credits"))}</p><p class="small"><a href="${I.lang}/">${esc(t("foot.index"))}</a></p><p class="small">${rights()}</p></div>
   </div></footer>`;

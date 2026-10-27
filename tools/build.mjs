@@ -1,4 +1,5 @@
-// Builds the files the site loads (data/*.js, locales/*.js) from the editable files in content/.
+// Builds the files the site loads (data/*.js, locales/*.js) from the editable files in content/,
+// and the plain pages for search engines (<lang>/…, sitemap.xml, robots.txt; see tools/pages.mjs).
 //   node tools/build.mjs            check everything, then write the files
 //   node tools/build.mjs --check    only check, write nothing
 //   node tools/build.mjs --out DIR  write into DIR instead (used to compare builds)
@@ -7,6 +8,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import {parse} from "./yaml.mjs";
+import {makePages} from "./pages.mjs";
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
 const C = p => path.join(ROOT, "content", p);
@@ -208,6 +210,23 @@ for (const f of codeFiles){
   for (const m of src.matchAll(/\bt\(\s*"([\w.]+)"/g)) if (!m[1].endsWith(".") && !(m[1] in ref)) problem(`${path.relative(ROOT, f)} uses the unknown text "${m[1]}"`);
 }
 
+/* ───── Pages for search engines ───── */
+const seo = read("seo.yml") || {};
+const site = str(seo.site);
+if (!/^https:\/\/.+\/$/.test(site)) problem(`content/seo.yml: "site" must be the site's address, starting with https:// and ending with /`);
+for (const l of LANGS){
+  if (!seo[l]) { problem(`content/seo.yml: the "${l}" texts are missing`); seo[l] = {}; }
+  Object.keys(seo.en || {}).filter(k => !(k in seo[l])).forEach(k => problem(`content/seo.yml (${l}): "${k}" is missing (it exists in English)`));
+}
+// The release number of index.html (?v=…), so the pages load the current stylesheet, and the logo.
+const release = (fs.readFileSync(path.join(ROOT, "index.html"), "utf8").match(/\?v=(\d+)/) || [])[1] || "1";
+const logo = (fs.readFileSync(path.join(ROOT, "js/core.js"), "utf8").match(/const LOGO = '(.*?)';/) || [])[1] || "";
+let pages = {files:{}};
+if (!problems.length){
+  pages = makePages({LANGS, site, seo, ui, regions, places, placeText, photos, food, dishText, edges, edgeText, culture, cultureText, guide, release, logo});
+  pages.problems.forEach(problem);
+}
+
 if (problems.length){
   console.log(`${problems.length} problem(s), nothing written:\n- ` + problems.join("\n- "));
   process.exit(1);
@@ -244,4 +263,10 @@ for (const l of LANGS){
     + Object.entries(cultureText[l]).map(([k, v]) => ` ${k}: ${dict(v)},\n`).join("")
     + ` guide: ${JSON.stringify(guide[l])}\n});\n`);
 }
-console.log(`Built ${places.length} places, ${edges.length} routes, ${Object.keys(dishes).length} dishes in ${LANGS.length} languages.`);
+// The language folders hold only generated pages: clear them so renamed places leave no old page.
+LANGS.forEach(l => fs.rmSync(path.join(outDir, l), {recursive:true, force:true}));
+for (const [rel, text] of Object.entries(pages.files)) write(rel, text);
+// Reminders, not errors: what still needs work (see technical.md, "Known gaps").
+const noPhoto = places.filter(p => !(photos[p.id] || []).length).map(p => p.id);
+if (noPhoto.length) console.log(`Places without photos: ${noPhoto.join(", ")}`);
+console.log(`Built ${places.length} places, ${edges.length} routes, ${Object.keys(dishes).length} dishes in ${LANGS.length} languages, and ${Object.keys(pages.files).length - 2} pages for search engines.`);

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jordanmontt.github.io/Bolivie-A-La-Carte/sitemap.xml

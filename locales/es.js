@@ -54,6 +54,7 @@ BOL.locales.es = Object.assign(BOL.locales.es || {}, {ui: {
  "foot.createdBy":"Creado por",
  "foot.credits":"Fotos: Wikimedia Commons, con autor y licencia debajo de cada foto. Mapa: Natural Earth, SRTM, OpenStreetMap, Esri.",
  "foot.contact":"Contacto:",
+ "foot.index":"Todos los lugares, página por página",
  "foot.rights":"© {year} jordanmontt. Todos los derechos reservados. Las fotos conservan su propia licencia, indicada debajo de cada una.",
  "rates.title":"Tipo de cambio oficial",
  "rates.eur":"por 1 euro",

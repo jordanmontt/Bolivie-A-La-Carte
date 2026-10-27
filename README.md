@@ -1,108 +1,65 @@
 # Bolivia à la carte
 
-Guide touristique de la Bolivie : une carte interactive de 103 lieux avec photos, cuisine,
-météo et trajets, des conseils pratiques (argent, bus, blocages) et un planificateur de
-voyage facultatif. En français, anglais et espagnol.
+A free travel guide to Bolivia: 103 places on an interactive map, with photos, food, weather
+and routes, practical tips (money, buses, safety, visas, border crossings), culture pages and
+an optional trip planner. In French, English and Spanish.
 
-Site : https://jordanmontt.github.io/Bolivie-A-La-Carte/
+Site: https://jordanmontt.github.io/Bolivie-A-La-Carte/
 
-Créé par [jordanmontt](https://github.com/jordanmontt) · sebastian.jordan.m@proton.me
+Made by [jordanmontt](https://github.com/jordanmontt) · sebastian.jordan.m@proton.me
 
-## Modifier le site (sans programmer)
+## Editing the site (no programming needed)
 
-Tout le contenu est dans le dossier `content/`, en fichiers texte simples (format YAML).
-Chaque information n'est écrite qu'une seule fois ; le site l'affiche partout où elle sert.
-Par exemple, une fête est écrite une fois dans `content/festivals.yml` : elle apparaît sur la
-page Fêtes et sur la fiche de son lieu ; un plat est décrit une fois dans `content/dishes.yml` et
-la page Saveurs se construit à partir des plats cités par chaque lieu.
+All the content is in the `content/` folder, in simple text files (YAML). Each piece of
+information is written once, and the site shows it everywhere it is needed.
 
-| Je veux… | Fichier à modifier |
+| I want to… | File to edit |
 | --- | --- |
-| changer la description, les choses à faire ou les conseils d'un lieu | `content/places/<lieu>.yml` (parties `fr:`, `en:`, `es:`) |
-| ajouter ou retirer une photo d'un lieu | déposer l'image dans `photos/`, puis l'ajouter sous `photos:` dans `content/places/<lieu>.yml` |
-| changer un trajet (durée, comment y aller) | `content/routes.yml` |
-| changer un plat | `content/dishes.yml` (les lieux citent leurs plats sous `dishes:`) |
-| changer le nom ou la description d'une région, l'ordre des lieux | `content/regions.yml` |
-| changer la page Conseils | `content/guide/fr.yml`, `en.yml`, `es.yml` |
-| changer un texte de l'interface (boutons, titres) | `content/ui/fr.yml`, `en.yml`, `es.yml` |
-| changer une idée d'itinéraire | `content/itineraries.yml` |
-| changer une fête (date, texte) | `content/festivals.yml` |
-| changer le patrimoine UNESCO, l'artisanat, les légendes | `content/unesco.yml`, `content/crafts.yml`, `content/legends.yml` |
-| changer un passage de frontière | `content/borders.yml` |
+| change a place's description, things to do or tip | `content/places/<place>.yml` (`fr:`, `en:`, `es:` parts) |
+| add or remove a photo of a place | put the image in `photos/`, then list it under `photos:` in `content/places/<place>.yml` |
+| change a route (duration, how to travel) | `content/routes.yml` |
+| change a dish | `content/dishes.yml` (places list their dishes under `dishes:`) |
+| change a region's name or description, or the order of places | `content/regions.yml` |
+| change the practical tips page | `content/guide/fr.yml`, `en.yml`, `es.yml` |
+| change a button or title of the site | `content/ui/fr.yml`, `en.yml`, `es.yml` |
+| change an itinerary idea | `content/itineraries.yml` |
+| change a festival (date, text) | `content/festivals.yml` |
+| change UNESCO heritage, crafts, legends | `content/unesco.yml`, `content/crafts.yml`, `content/legends.yml` |
+| change a border crossing | `content/borders.yml` |
+| change what Google shows (titles, descriptions) | `content/seo.yml` |
 
-**Ajouter un lieu** : copier `content/places/_modele.yml` en `content/places/<id>.yml`
-(un identifiant court, sans espace ni accent, par exemple `sorata`), le remplir, puis
-ajouter `<id>` dans la liste `places:` de sa région dans `content/regions.yml`.
+**Add a place:** copy `content/places/_template.yml` to `content/places/<id>.yml` (a short
+id with no spaces or accents, e.g. `sorata`), fill it in, then add `<id>` to its region's
+`places:` list in `content/regions.yml`.
 
-**Quelques règles du format** :
-- l'indentation se fait avec des espaces (pas de tabulation) ;
-- un texte long peut s'écrire après `>-` sur plusieurs lignes, elles seront jointes ;
-- si un texte commence par un signe spécial (`«`, `"`, `[`, `-`) ou contient `: `, mettez-le
-  entre guillemets `"…"` ; à l'intérieur, écrivez `\"` pour un guillemet ;
-- une ligne qui commence par `#` est un commentaire.
+**A few rules of the format:**
+- indent with spaces, never tabs;
+- a long text can go on several lines after `>-`; they are joined;
+- if a text starts with a special sign (`«`, `"`, `[`, `-`) or contains `: `, put it between
+  quotes `"…"`, and write `\"` for a quote inside;
+- a line starting with `#` is a comment.
 
-**Publier** : modifiez le fichier directement sur github.com (bouton crayon) et validez.
-L'action « Build site » reconstruit le site en une minute ou deux. S'il manque quelque
-chose (une traduction, une photo introuvable, un lieu inconnu), l'action échoue et dit
-précisément quoi et où, et le site en ligne n'est pas modifié.
+**Publishing:** edit the file directly on github.com (pencil button) and commit. The
+"Build site" action rebuilds the site in a minute or two. If something is wrong (a missing
+translation, a photo that isn't there, an unknown place), the action fails, says exactly
+what and where, and the live site is not changed.
 
-Sur un ordinateur, la même vérification se lance avec :
+## On a computer
+
+Open `index.html` in a browser: it works without a server. To check and rebuild after
+editing `content/`, then run the tests (Node.js 22 or newer):
 
 ```
 node tools/build.mjs
+node --test tests/
 ```
 
-## Organisation technique
+How the code works is explained in [technical.md](technical.md).
 
-Pas de framework : ouvrir `index.html` suffit (cela marche aussi depuis le disque).
+## Copyright
 
-| Chemin | Contenu |
-| --- | --- |
-| `content/` | **La source** : lieux, trajets, plats, climats, régions, textes (à modifier) |
-| `data/*.js`, `locales/*.js` | Générés par `tools/build.mjs` depuis `content/` (ne pas modifier) |
-| `data/geo.js`, `assets/relief.jpg` | Fond de carte, tracé des routes et relief |
-| `data/rates.js` | Taux du dollar et de l'euro, copiés chaque matin depuis la Banque centrale |
-| `photos/`, `photos/sm/` | Photos (Wikimedia Commons) et leurs copies de 640 px |
-| `js/core.js` | Constantes, utilitaires, état (le voyage, les filtres) |
-| `js/views/*.js` | Une page par fichier : accueil, conseils, culture, liste, fiche, trajets, voyage |
-| `js/map.js` | La carte (Leaflet, chargée à la demande) |
-| `js/app.js` | Routeur, cadre de page, événements, démarrage |
-| `js/i18n.js`, `js/model.js` | Langues ; réseau de trajets, plus courts chemins, calculs du voyage |
-| `tools/` | Construction, lecteur YAML, petites photos, taux de change |
+© jordanmontt. All rights reserved: the code, texts, design and logo of this site may not
+be reused without permission. Contact: sebastian.jordan.m@proton.me
 
-Les fichiers `js/` sont des scripts classiques qui partagent leurs noms, chargés dans
-l'ordre de `index.html`. Ajouter une rubrique : un fichier dans `content/`, sa lecture dans
-`tools/build.mjs`, et une vue dans `js/views/`.
-
-## Chargement et cache
-
-La page d'accueil ne charge que la langue active, les données des lieux et ses photos.
-Leaflet et la géométrie de la carte se chargent à la première ouverture de la carte. Les
-listes utilisent les copies de 640 px de `photos/sm/` (`python3 tools/make-small-photos.py`
-les crée ; l'action « Build site » le fait toute seule).
-
-`sw.js` garde en cache photos, relief, tuiles, polices et bibliothèques ; le code, les
-données et les textes sont toujours rechargés. Si une photo est remplacée sous le même nom,
-augmenter `VERSION` dans `sw.js`. À chaque nouvelle version du code, augmenter le `?v=` de
-`index.html` et `RELEASE` dans `js/i18n.js`.
-
-## Taux de change
-
-La page de la Banque centrale ne peut pas être lue depuis le navigateur des visiteurs :
-`.github/workflows/rates.yml` lance `node tools/update-rates.mjs` chaque matin et publie
-`data/rates.js` quand les taux changent (lancement manuel : onglet Actions, « Exchange
-rates », « Run workflow »).
-
-## Langues
-
-La langue vient de `?lang=` dans l'adresse, puis du choix enregistré du visiteur, puis des
-langues du navigateur, et sinon l'anglais. Seule la langue active est téléchargée.
-
-## Droits d'auteur
-
-© jordanmontt. Tous droits réservés : le code, les textes, le design et le logo de ce site
-ne peuvent pas être réutilisés sans autorisation. Contact : sebastian.jordan.m@proton.me
-
-Les photos gardent leur propre licence Creative Commons, indiquée sous chaque photo
-(Wikimedia Commons). Données cartographiques : Natural Earth, SRTM, OpenStreetMap (OSRM),
-Esri.
+The photos keep their own Creative Commons licence, shown under each photo (Wikimedia
+Commons). Map data: Natural Earth, SRTM, OpenStreetMap (OSRM), Esri.

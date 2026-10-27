@@ -3,7 +3,7 @@
 // Each language has two catalogues, loaded only when needed:
 //   locales/<lang>.js          interface strings  -> BOL.locales[lang].ui
 //   locales/<lang>.content.js  destination texts  -> BOL.locales[lang].places, .edges, ...
-// Only the active language is downloaded; tools/check-locales.mjs keeps every language
+// Only the active language is downloaded; tools/build.mjs keeps every language
 // complete. Lookups still fall back to English when it happens to be loaded.
 //
 // Language choice: ?lang= in the URL, then the visitor's saved choice, then the
@@ -12,7 +12,7 @@
 "use strict";
 const SUPPORTED = ["fr", "en", "es"], DEFAULT = "en", STORE = "bolivia-lang";
 // Release number added to files loaded on demand, like the ?v= in index.html: bump both together.
-const RELEASE = "13";
+const RELEASE = "14";
 const NAMES = {fr:"Français", en:"English", es:"Español"};
 window.BOL = window.BOL || {};
 BOL.locales = BOL.locales || {};

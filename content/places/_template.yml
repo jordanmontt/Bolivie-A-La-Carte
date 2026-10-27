@@ -1,0 +1,45 @@
+# Template for a new place. Copy this file to content/places/<id>.yml (e.g. sorata.yml),
+# fill it in, then add <id> to the places: list of its region in content/regions.yml.
+# Files whose name starts with _ are ignored by the build.
+
+department: La Paz            # La Paz, Oruro, Potosí, Chuquisaca, Tarija, Cochabamba, Santa Cruz, Beni or Pando
+category: nature              # ville, culture, nature, altiplano, jungle or aventure
+lat: -16.0                    # coordinates (right-click on Google Maps to copy them)
+lng: -68.0
+altitude: 2700                # in metres
+days: [1, 2]                  # days to spend there: [minimum, ideal]
+climate: lapaz                # one of the climates in content/climates.yml
+dishes: [trucha, sopa_quinua] # dishes from content/dishes.yml
+photos:
+  - file: myplace-1.jpg       # the file, put in photos/
+    author: Author's name
+    licence: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:...
+fr:
+  name: Nom complet du lieu    # also gives the address of the place's page (fr/nom-complet-du-lieu/)
+  label: Nom court             # shown on the map
+  short: Une phrase qui donne envie.
+  story: >-
+    Trois ou quatre phrases pour raconter le lieu.
+  todo:
+    - Première chose à faire
+    - Deuxième chose à faire
+  tips: Un conseil pratique.
+en:
+  name: Full name
+  label: Short name
+  short: One sentence.
+  story: >-
+    Three or four sentences.
+  todo:
+    - First thing to do
+  tips: A practical tip.
+es:
+  name: Nombre completo
+  label: Nombre corto
+  short: Una frase.
+  story: >-
+    Tres o cuatro frases.
+  todo:
+    - Primera cosa
+  tips: Un consejo práctico.

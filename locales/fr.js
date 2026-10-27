@@ -54,6 +54,7 @@ BOL.locales.fr = Object.assign(BOL.locales.fr || {}, {ui: {
  "foot.createdBy":"Créé par",
  "foot.credits":"Photos : Wikimedia Commons, auteurs et licences indiqués sous chaque photo. Carte : Natural Earth, SRTM, OpenStreetMap, Esri.",
  "foot.contact":"Contact :",
+ "foot.index":"Tous les lieux, page par page",
  "foot.rights":"© {year} jordanmontt. Tous droits réservés. Les photos gardent leur propre licence, indiquée sous chaque photo.",
  "rates.title":"Taux de change officiel",
  "rates.eur":"pour 1 euro",
