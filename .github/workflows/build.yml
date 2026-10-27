@@ -31,7 +31,7 @@ jobs:
       - name: Make the 640 px copies of new photos
         run: python tools/make-small-photos.py
       - name: Run the tests
-        run: node --test tests/
+        run: node --test "tests/*.test.mjs"
       - name: Commit the generated files if they changed
         env:
           GH_TOKEN: ${{ github.token }}

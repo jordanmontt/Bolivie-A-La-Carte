@@ -43,7 +43,7 @@ texts on github.com without tools.
 | `tools/make-small-photos.py` | 640 px copies in `photos/sm/` (Pillow) | rarely |
 | `tools/og.html` | Template of the link preview images (how to remake them is in its header) | rarely |
 | `tools/update-rates.mjs` | Fetches the Banco Central de Bolivia rates | rarely |
-| `tests/*.test.mjs` | Tests, run with `node --test tests/` | yes |
+| `tests/*.test.mjs` | Tests, run with `node --test "tests/*.test.mjs"` | yes |
 | `photos/`, `photos/sm/` | Photos (Wikimedia Commons) and their small copies | add only |
 
 ## Data flow
@@ -226,13 +226,13 @@ canonical, `hreflang` and `og:` URLs in `index.html`, and add a `CNAME` file).
 
 - `.github/workflows/build.yml` (on pushes touching content, photos, tools, tests, js,
   index.html): `node tools/build.mjs`, `python tools/make-small-photos.py`,
-  `node --test tests/`, then commits the generated files and asks GitHub Pages to rebuild
+  `node --test "tests/*.test.mjs"`, then commits the generated files and asks GitHub Pages to rebuild
   (pushes made by an Action don't trigger Pages by themselves).
 - `.github/workflows/rates.yml` (twice each morning, Bolivian time): updates `data/rates.js`.
 
 ## Tests
 
-`node --test tests/` (Node.js 22+, no dependencies), about half a second:
+`node --test "tests/*.test.mjs"` (Node.js 22+, no dependencies), about half a second:
 - `yaml.test.mjs`: the YAML reader (maps, lists, folded text, errors with line numbers, round trip);
 - `build.test.mjs`: builds into a temporary folder and checks the committed generated files are
   up to date, the page count, `<lang>.html` = `index.html` body with a head in its language,

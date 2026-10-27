@@ -71,7 +71,7 @@ editing `content/`, then run the tests (Node.js 22 or newer):
 
 ```
 node tools/build.mjs
-node --test tests/
+node --test "tests/*.test.mjs"
 ```
 
 How the code works is explained in [technical.md](technical.md).
