@@ -6,7 +6,7 @@ lng: -65.36
 altitude: 130
 days: [1, 1]
 climate: amazonie
-dishes: [pescado_beni, masaco]
+dishes: [pescado, masaco]
 photos:
   - file: guayaramerin-1.jpg
     author: Aurimaz

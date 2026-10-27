@@ -6,13 +6,14 @@
 // Only the active language is downloaded; tools/build.mjs keeps every language
 // complete. Lookups still fall back to English when it happens to be loaded.
 //
-// Language choice: ?lang= in the URL, then the visitor's saved choice, then the
-// browser languages in order of preference, then English.
+// Language choice: ?lang= in the URL, then the language of the page (es.html, fr.html, en.html
+// are index.html in one language, see tools/pages.mjs), then the visitor's saved choice, then
+// the browser languages in order of preference, then English.
 (function(){
 "use strict";
 const SUPPORTED = ["fr", "en", "es"], DEFAULT = "en", STORE = "bolivia-lang";
 // Release number added to files loaded on demand, like the ?v= in index.html: bump both together.
-const RELEASE = "14";
+const RELEASE = "16";
 const NAMES = {fr:"Français", en:"English", es:"Español"};
 window.BOL = window.BOL || {};
 BOL.locales = BOL.locales || {};
@@ -24,6 +25,7 @@ function match(tag){
   return SUPPORTED.includes(base) ? base : null;
 }
 function fromUrl(){ try { return match(new URLSearchParams(location.search).get("lang")); } catch(e){ return null; } }
+function fromPage(){ return match(document.documentElement.dataset.lang); }
 function fromStore(){ try { return match(localStorage.getItem(STORE)); } catch(e){ return null; } }
 function fromBrowser(){
   const list = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language];
@@ -72,7 +74,7 @@ I.list = items => {
 };
 I.collator = () => new Intl.Collator(I.lang);
 
-I.initial = () => fromUrl() || fromStore() || fromBrowser() || DEFAULT;
+I.initial = () => fromUrl() || fromPage() || fromStore() || fromBrowser() || DEFAULT;
 // Activate a language. persist = the visitor picked it explicitly.
 I.use = async (lang, persist) => {
   lang = match(lang) || DEFAULT;

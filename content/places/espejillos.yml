@@ -7,7 +7,19 @@ altitude: 600
 days: [0, 1]
 climate: santacruz
 dishes: [majadito, tropical]
-photos: []
+photos:
+  - file: espejillos-1.jpg
+    author: "Dennisjustiniano"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Cascada_de_Espejillos.jpg"
+  - file: espejillos-2.jpg
+    author: "Dennisjustiniano"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Poza_Natural.jpg"
+  - file: espejillos-3.jpg
+    author: "Dennisjustiniano"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Rio_Espejillos.jpg"
 fr:
   name: Espejillos
   label: Espejillos

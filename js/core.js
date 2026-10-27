@@ -63,6 +63,7 @@ const roadName = r => r.startsWith("F") ? t("road.national", {n:r.slice(1)}) : r
 
 const ICON = {
   discover:'<path d="M12 3l9 9-9 9-9-9z"/><path d="M12 8l4 4-4 4-4-4z"/>',
+  culture:'<path d="M9 3h6v3h3v3h3v6h-3v3h-3v3H9v-3H6v-3H3V9h3V6h3z"/><circle cx="12" cy="12" r="2.5"/>',
   map:'<path d="M9 4L3 6v14l6-2 6 2 6-2V4l-6 2-6-2z"/><path d="M9 4v14M15 6v14"/>',
   route:'<circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="6" r="2.5"/><path d="M8.5 18H15a3 3 0 000-6H9a3 3 0 010-6h6.5" stroke-dasharray="2 3"/>',
   trip:'<rect x="4" y="7" width="16" height="13" rx="2"/><path d="M9 7V5a1 1 0 011-1h4a1 1 0 011 1v2M4 13h16"/>',
@@ -102,7 +103,6 @@ const S = {
   preview:null,   // place shown in the bottom card on the phone map
   fromMap:false,  // the open place was reached from the phone map, so "back" returns there
   group:"region", // places list grouped by travel region or by department
-  list:null,      // where the places list was scrolled when a place was opened: {panel, win, id}
   canBack:false,  // the open place was reached from the list, so "back" is a history step
   sec:null,      // section to scroll to (#/guide?s=…, #/culture/<topic>?s=…)
   topic:""       // culture page shown ("" = overview)

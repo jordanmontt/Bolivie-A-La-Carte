@@ -2627,3 +2627,116 @@
   es:
     t: 15 min
     how: Taxi o micro desde el centro.
+- id: potosi-casamoneda
+  from: potosi
+  to: casamoneda
+  mode: bus
+  hours: 0.1
+  straight: true
+  fr:
+    t: 5 min à pied
+    how: À une rue de la place principale (10 de Noviembre).
+  en:
+    t: 5 min on foot
+    how: One block from the main square (10 de Noviembre).
+  es:
+    t: 5 min a pie
+    how: A una cuadra de la plaza principal (10 de Noviembre).
+- id: cbba-pairumani
+  from: cbba
+  to: pairumani
+  mode: bus
+  hours: 0.7
+  fr:
+    t: 40 min à 1 h
+    how: Trufi jusqu'à Quillacollo, puis trufi vers Pairumani (arrêt Villa Albina), ou taxi.
+    road: Avenue Blanco Galindo vers l'ouest, puis la route de Pairumani depuis Vinto.
+  en:
+    t: 40 min to 1 h
+    how: Trufi to Quillacollo, then a trufi to Pairumani (Villa Albina stop), or taxi.
+    road: Avenida Blanco Galindo west, then the Pairumani road from Vinto.
+  es:
+    t: 40 min a 1 h
+    how: Trufi a Quillacollo, y luego trufi a Pairumani (parada Villa Albina), o taxi.
+    road: Avenida Blanco Galindo al oeste, y luego el camino a Pairumani desde Vinto.
+- id: cbba-apote
+  from: cbba
+  to: apote
+  mode: bus
+  hours: 0.6
+  fr:
+    t: 30 à 45 min
+    how: Trufi ligne 106 jusqu'au terminus d'Apote, ou taxi.
+    road: Par Tiquipaya, au nord-ouest de la ville.
+  en:
+    t: 30 to 45 min
+    how: Trufi line 106 to the Apote terminus, or taxi.
+    road: Through Tiquipaya, north-west of the city.
+  es:
+    t: 30 a 45 min
+    how: Trufi línea 106 hasta la última parada en Apote, o taxi.
+    road: Por Tiquipaya, al noroeste de la ciudad.
+- id: cbba-yungapampa
+  from: cbba
+  to: yungapampa
+  mode: tour
+  hours: 4
+  straight: true
+  fr:
+    t: 4 h de 4x4 + 1 à 2 jours de marche
+    how: Avec une agence ou un guide local, jusqu'à Huari Pucara, puis à pied avec des mules.
+  en:
+    t: 4 h by 4x4 + 1 to 2 days on foot
+    how: With an agency or a local guide, to Huari Pucara, then on foot with mules.
+  es:
+    t: 4 h en 4x4 + 1 a 2 días a pie
+    how: Con una agencia o un guía local, hasta Huari Pucara, y luego a pie con mulas.
+- id: cbba-corani
+  from: cbba
+  to: corani
+  mode: bus
+  hours: 2
+  fr:
+    t: environ 2 h
+    how: Bus ou minibus vers Colomi, puis taxi jusqu'au lac, ou voiture.
+    road: Route de Santa Cruz par le Chapare (Sacaba, Colomi).
+  en:
+    t: about 2 h
+    how: Bus or minibus to Colomi, then a taxi to the lake, or car.
+    road: The road to Santa Cruz through the Chapare (Sacaba, Colomi).
+  es:
+    t: unas 2 h
+    how: Bus o minibús a Colomi, y luego taxi hasta la laguna, o auto.
+    road: Carretera a Santa Cruz por el Chapare (Sacaba, Colomi).
+- id: corani-incachaca
+  from: corani
+  to: incachaca
+  mode: bus
+  hours: 0.5
+  straight: true
+  fr:
+    t: environ 30 min
+    how: Voiture ou excursion, par la piste qui descend du barrage.
+  en:
+    t: about 30 min
+    how: Car or tour, on the track that goes down from the dam.
+  es:
+    t: unos 30 min
+    how: Auto o excursión, por el camino que baja de la represa.
+- id: lapaz-valleanimas
+  from: lapaz
+  to: valleanimas
+  mode: bus
+  hours: 0.75
+  fr:
+    t: 45 min à 1 h
+    how: Bus Puma Katari ou minibus vers Chasquipampa et Ovejuyo, puis à pied ; ou excursion.
+    road: Zona Sur de La Paz (Calacoto, Chasquipampa, Ovejuyo).
+  en:
+    t: 45 min to 1 h
+    how: Puma Katari bus or minibus to Chasquipampa and Ovejuyo, then on foot; or a tour.
+    road: La Paz's Zona Sur (Calacoto, Chasquipampa, Ovejuyo).
+  es:
+    t: 45 min a 1 h
+    how: Bus Puma Katari o minibús a Chasquipampa y Ovejuyo, y luego a pie; o excursión.
+    road: Zona Sur de La Paz (Calacoto, Chasquipampa, Ovejuyo).

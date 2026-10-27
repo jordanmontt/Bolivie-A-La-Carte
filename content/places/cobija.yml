@@ -6,7 +6,7 @@ lng: -68.7692
 altitude: 280
 days: [1, 2]
 climate: amazonie
-dishes: [pescado_beni, masaco, tropical]
+dishes: [pescado, masaco, tropical]
 photos:
   - file: cobija-1.jpg
     author: Parallelepiped09

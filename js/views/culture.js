@@ -1,7 +1,9 @@
 // Bolivia à la carte: culture pages.
 // #/culture (overview) and #/culture/<topic>: festivals, food, unesco, crafts, legends.
 // Everything is computed from content/ (festivals.yml, dishes.yml and the places' dishes,
-// unesco.yml, crafts.yml, legends.yml), so nothing is written twice.
+// unesco.yml, crafts.yml, legends.yml), so nothing is written twice. Cards show their item's
+// photo (BOL.itemPhotos, small copy, loaded lazily); a UNESCO card borrows its festival's
+// photo or its first place's cover.
 // All js/ files are classic scripts sharing one scope, loaded in the order of index.html.
 "use strict";
 const TOPICS = ["festivals", "food", "unesco", "crafts", "legends"];
@@ -46,12 +48,18 @@ const festivalMonth = f => { const n = nextFestival(f); return n.month !== undef
 const festivalOrder = f => { const n = nextFestival(f); return n.start ? +n.start : +new Date(n.year, n.month, 1); };
 
 /* ───── Small parts ───── */
-const placeChip = id => `<a class="chip" href="#/place/${id}">${esc(label(id))}</a>`;
-const whereLine = ids => ids && ids.length ? `<p class="cwhere"><span>${esc(t("culture.where"))}</span> ${ids.map(placeChip).join(" ")}</p>` : "";
+// Festivals, crafts and legends name the department too ("Tarabuco · Chuquisaca").
+const placeChip = (id, dept) => `<a class="chip" href="#/place/${id}">${esc(dept ? withDept(id) : label(id))}</a>`;
+const whereLine = (ids, dept) => ids && ids.length ? `<p class="cwhere"><span>${esc(t("culture.where"))}</span> ${ids.map(id => placeChip(id, dept)).join(" ")}</p>` : "";
+function cardPhoto(ph, alt){
+  if (!ph) return "";
+  return `<figure class="cimg"><img src="${esc(small(ph.src))}" alt="${esc(alt)}" loading="lazy" decoding="async" width="640" height="427"><figcaption><a href="${esc(ph.page)}" target="_blank" rel="noopener">${esc(ph.artist || "Wikimedia Commons")}</a>${ph.lic ? ", " + esc(ph.lic) : ""}</figcaption></figure>`;
+}
+const itemPhoto = (kind, id) => (B.itemPhotos && B.itemPhotos[kind] || {})[id];
 const unescoOf = (key, id) => B.unesco.find(u => key === "festival" ? u.festival === id : (u.places || []).includes(id));
 const unescoChip = u => u ? `<a class="chip unesco" href="#/culture/unesco?s=${u.id}">UNESCO · ${esc(u.year)}</a>` : "";
-function card(id, title, body, extra){
-  return `<article class="ccard" id="g-${id}"><h3>${esc(title)}</h3>${extra || ""}<p>${esc(body)}</p></article>`;
+function card(id, title, body, extra, ph, after){
+  return `<article class="ccard" id="g-${id}">${cardPhoto(ph, title)}<div class="cbody"><h3>${esc(title)}</h3>${extra || ""}<p>${esc(body)}</p>${after || ""}</div></article>`;
 }
 
 /* ───── Pages ───── */
@@ -66,7 +74,7 @@ function festivalsPage(){
     const m = festivalMonth(f);
     if (m !== month){ html += `${month < 0 ? "" : "</div>"}<h2 class="cmonth">${esc(I.month(m))}</h2><div class="cgrid">`; month = m; }
     const c = ctext("festivals", f.id);
-    html += card(f.id, c.name, c.text, `<p class="cwhen">${esc(festivalWhen(f))}</p><div class="row">${f.place ? placeChip(f.place) : `<span class="chip">${esc(t("festival.nationwide"))}</span>`}${unescoChip(unescoOf("festival", f.id))}</div>`);
+    html += card(f.id, c.name, c.text, `<p class="cwhen">${esc(festivalWhen(f))}</p><div class="row">${f.place ? placeChip(f.place, true) : `<span class="chip">${esc(t("festival.nationwide"))}</span>`}${unescoChip(unescoOf("festival", f.id))}</div>`, itemPhoto("festivals", f.id));
   }
   if (html) html += "</div>";
   return `<div class="cfilter"><label class="field">${esc(t("filter.month"))}<select data-set="month">${monthOptions()}</select></label>${S.month >= 0 ? `<button type="button" class="btn small ghost" data-act="allMonths">${esc(t("festival.all"))}</button>` : ""}</div>
@@ -81,18 +89,19 @@ function foodPage(){
     if (!dishes.length) return "";
     return `<h2 class="cmonth">${esc(t("region." + r))}</h2><div class="cgrid">${dishes.map(d => {
       const x = I.c("dishes", d) || [d, ""];
-      return `<article class="ccard" id="g-${d}"><h3>${esc(x[0])}</h3><p>${esc(x[1])}</p>${whereLine(where[d])}</article>`;
+      return card(d, x[0], x[1], "", itemPhoto("dishes", d), whereLine(where[d]));
     }).join("")}</div>`;
   }).join("");
 }
 function unescoPage(){
   return ["world", "intangible"].map(kind => `<h2 class="cmonth">${esc(t("unesco." + kind))}</h2><div class="cgrid">${B.unesco.filter(u => u.kind === kind).map(u => {
     const f = u.festival && B.festivals.find(x => x.id === u.festival);
-    return `<article class="ccard" id="g-${u.id}"><h3>${esc(I.c("unesco", u.id))}</h3><p class="cwhen">${esc(t("unesco.year", {year:u.year}))}</p>
-      ${f ? `<p><a href="#/culture/festivals?s=${f.id}">${esc(ctext("festivals", f.id).name)}</a> · ${esc(festivalWhen(f))}</p>` : ""}${whereLine(u.places)}</article>`;
+    const ph = f ? itemPhoto("festivals", f.id) : (u.places || []).map(id => photos(id)[0]).find(Boolean);
+    return `<article class="ccard" id="g-${u.id}">${cardPhoto(ph, I.c("unesco", u.id))}<div class="cbody"><h3>${esc(I.c("unesco", u.id))}</h3><p class="cwhen">${esc(t("unesco.year", {year:u.year}))}</p>
+      ${f ? `<p><a href="#/culture/festivals?s=${f.id}">${esc(ctext("festivals", f.id).name)}</a> · ${esc(festivalWhen(f))}</p>` : ""}${whereLine(u.places, true)}</div></article>`;
   }).join("")}</div>`).join("");
 }
-const simplePage = kind => `<div class="cgrid">${B[kind].map(x => { const c = ctext(kind, x.id); return `<article class="ccard" id="g-${x.id}"><h3>${esc(c.name)}</h3><p>${esc(c.text)}</p>${whereLine(x.places)}</article>`; }).join("")}</div>`;
+const simplePage = kind => `<div class="cgrid">${B[kind].map(x => { const c = ctext(kind, x.id); return card(x.id, c.name, c.text, "", itemPhoto(kind, x.id), whereLine(x.places, true)); }).join("")}</div>`;
 
 function renderCulture(){
   const k = S.topic;

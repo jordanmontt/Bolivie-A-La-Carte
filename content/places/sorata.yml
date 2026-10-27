@@ -6,7 +6,7 @@ lng: -68.6497
 altitude: 2700
 days: [2, 3]
 climate: sorata
-dishes: [trucha_sorata, sopaMani]
+dishes: [trucha, sopaMani]
 photos:
   - file: sorata-1.jpg
     author: mark goble

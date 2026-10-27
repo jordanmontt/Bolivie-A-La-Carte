@@ -6,7 +6,7 @@ lng: -67.92
 altitude: 300
 days: [2, 3]
 climate: amazonie
-dishes: [pescado_beni, masaco]
+dishes: [pescado, masaco]
 photos:
   - file: madidi-1.jpg
     author: DanielGuzmanDuchen

@@ -16,9 +16,10 @@ function route(){
   const [path, qs] = raw.split("?");
   const parts = path.split("/").filter(Boolean), q = new URLSearchParams(qs || "");
   const v = parts[0] || "";
-  const prev = S.view;
-  // Leaving the places list for a place: remember the scroll, to come back to the same spot.
-  if (prev === "map" && v === "place") S.list = {panel:$("#panel").scrollTop, win:window.scrollY, id:parts[1]};
+  const prev = S.view, left = S.place;
+  // Back (or reload) on an entry that remembers its scroll: return to that spot (see saveScroll).
+  clearTimeout(scrollTimer);
+  const st = history.state, restore = st && typeof st.win === "number" ? {win:st.win, panel:st.panel || 0, left} : null;
   S.place = null; S.edge = null; S.sec = q.get("s");
   S.canBack = prev === "map" && v === "place";
   if (v === "place" && byId[parts[1]]){ S.view = "place"; S.place = parts[1]; }
@@ -27,7 +28,6 @@ function route(){
   else if (v === "culture"){ S.view = "culture"; S.topic = TOPICS.includes(parts[1]) ? parts[1] : ""; }
   else if (v === "map"){
     S.view = "map";
-    if (prev !== "place" || q.has("region") || q.has("cat")) S.list = null;
     if (q.has("region")) S.region = REGIONS.includes(q.get("region")) ? q.get("region") : "all";
     if (q.has("cat") && CATS.includes(q.get("cat"))) S.cats = new Set([q.get("cat")]);
     if (q.has("region") || q.has("cat")) history.replaceState(null, "", "#/map");
@@ -38,27 +38,26 @@ function route(){
     if (q.has("t")){
       const shared = M.decode(q.get("t"));
       history.replaceState(null, "", "#/trip");
-      if (shared && M.encode(shared) !== M.encode(trip)) replaceTrip(shared, t("toast.sharedLoaded"));
+      if (shared && M.encode(shared) !== M.encode(trip)){ countEvent("trip-open-shared"); replaceTrip(shared, t("toast.sharedLoaded")); }
     }
   }
   else S.view = "home";
   S.preview = null;
   document.body.classList.toggle("show-map", S.view === "map" && S.fromMap && isPhone());
   if (S.view !== "place") S.fromMap = false;
-  render(true);
+  render(true, restore);
+  countView();
 }
 
 /* ───── Chrome: header, tab bar ───── */
 function renderChrome(){
   const n = trip.stops.length;
-  const nav = [["home", "#/", "discover", t("nav.home")], ["map", "#/map", "map", t("nav.map")], ["routes", "#/routes", "route", t("nav.routes")], ["guide", "#/guide", "info", t("nav.guide")], ["trip", "#/trip", "trip", t("nav.trip")]];
-  // Culture is in the desktop menu only; on phones it is reached from the home page (five tabs at most).
-  const desk = [nav[0], ["culture", "#/culture", "discover", t("nav.culture")], ...nav.slice(1)];
+  const nav = [["home", "#/", "discover", t("nav.home")], ["culture", "#/culture", "culture", t("nav.culture")], ["map", "#/map", "map", t("nav.map")], ["routes", "#/routes", "route", t("nav.routes")], ["guide", "#/guide", "info", t("nav.guide")], ["trip", "#/trip", "trip", t("nav.trip")]];
   const cur = {home:"home", map:"map", place:"map", routes:"routes", route:"routes", guide:"guide", culture:"culture", trip:"trip"}[S.view];
   const link = ([k, href, ic, txt], withIcon) => `<a href="${href}" ${cur === k ? 'aria-current="page"' : ""}>${withIcon ? icon(ic) : ""}<span>${esc(txt)}</span>${k === "trip" ? `<span class="count" aria-label="${esc(t("nav.tripCount", {n}))}">${n || ""}</span>` : ""}</a>`;
   $("#head").innerHTML = `<div class="bar">
     <a class="brand" href="#/">${LOGO}<span>${esc(t("brand"))}</span></a>
-    <nav class="mainnav" aria-label="${esc(t("nav.label"))}">${desk.map(x => link(x, false)).join("")}</nav>
+    <nav class="mainnav" aria-label="${esc(t("nav.label"))}">${nav.map(x => link(x, false)).join("")}</nav>
     <label class="lang"><span class="sr-only">${esc(t("lang.label"))}</span><select id="langSel">${I.supported.map(l => `<option value="${l}" ${l === I.lang ? "selected" : ""} lang="${l}">${esc(I.names[l])}</option>`).join("")}</select>${icon("chev")}</label>
   </div><div class="weave thin"></div>`;
   $("#tabbar").innerHTML = nav.map(x => link(x, true)).join("");
@@ -68,19 +67,17 @@ function renderChrome(){
 }
 async function switchLang(lang){
   await I.use(lang, true);
-  if (new URLSearchParams(location.search).has("lang")) history.replaceState(null, "", location.pathname + location.hash);
+  langAddress();
   if (map) relabelMap();
   render(false);
 }
 
 /* ───── Render ───── */
-function render(navigated){
+function render(navigated, restore){
   renderChrome();
   // Home, tips and culture are plain pages; the other views are the list/detail panel next to the map.
   const page = ["home", "guide", "culture"].includes(S.view);
   $("#v-home").hidden = !page; $("#v-app").hidden = page;
-  // Back from a place to the list: return to the spot the visitor left, not to the top.
-  const restore = navigated && S.view === "map" ? S.list : null;
   let title = t("brand");
   if (S.view === "home"){ renderHome(); title = t("brand") + ", " + t("home.titleShort"); }
   else if (S.view === "guide"){ renderGuide(); title = t("guide.title") + " | " + t("brand"); }
@@ -109,7 +106,8 @@ function render(navigated){
   const sec = S.sec && $("#g-" + CSS.escape(S.sec));
   if (restore){
     window.scrollTo(0, restore.win);
-    const a = $(`#results a[href="#/place/${restore.id}"]`); if (a) a.focus({preventScroll:true});
+    requestAnimationFrame(() => window.scrollTo(0, restore.win));   // again once a cold load has laid out
+    const a = restore.left && $(`#results a[href="#/place/${restore.left}"]`); if (a) a.focus({preventScroll:true});
   } else if (sec){
     sec.scrollIntoView();
     requestAnimationFrame(() => sec.scrollIntoView());   // again once a cold load has laid out
@@ -119,6 +117,13 @@ function render(navigated){
     window.scrollTo(0, 0);
     const h = $("#pageTitle"); if (h) h.focus({preventScroll:true});
   }
+}
+// Every history entry keeps where its page was scrolled (in history.state), so going back to any
+// page, or reloading it, returns to the same spot; a link to a new page opens at the top.
+let scrollTimer = 0;
+function saveScroll(){
+  clearTimeout(scrollTimer);
+  history.replaceState({...history.state, win:window.scrollY, panel:$("#panel").scrollTop}, "");
 }
 // Re-render after a state change without moving focus or scroll.
 function update(){ render(false); }
@@ -133,7 +138,7 @@ document.addEventListener("click", ev => {
   const b = ev.target.closest("[data-act]"); if (!b) return;
   const act = b.dataset.act, i = +b.dataset.i, s = trip.stops[i];
   switch (act){
-    case "toggle": toggleStop(b.dataset.id); break;
+    case "toggle": if (!trip.stops.some(x => x.id === b.dataset.id)) countEvent("trip-add/" + b.dataset.id); toggleStop(b.dataset.id); break;
     case "cat": { const k = b.dataset.k; S.cats.has(k) ? S.cats.delete(k) : S.cats.add(k); update(); break; }
     case "allCats": S.cats = new Set(CATS); update(); break;
     case "allMonths": S.month = -1; saveUi(); update(); break;
@@ -153,6 +158,7 @@ document.addEventListener("click", ev => {
       document.body.classList.toggle("show-map"); S.preview = null; update(); if (map) map.invalidateSize(); break;
     case "idea": {
       const it = B.itineraries.find(x => x.id === b.dataset.id);
+      countEvent("idea/" + it.id);
       replaceTrip(ideaTrip(it), t("toast.ideaLoaded", {name:t(`idea.${it.id}.name`)}));
       if (S.view !== "trip") go("#/trip"); else { $("#panel").scrollTop = 0; window.scrollTo(0, 0); focusMap(); }
       break;
@@ -171,11 +177,12 @@ document.addEventListener("click", ev => {
     case "opt": { const before = M.cleanTrip(trip); trip = M.optimize(trip); saveTrip(); update(); toast(t("toast.optimized"), t("undo"), () => { trip = before; saveTrip(); update(); }); break; }
     case "share": {
       const url = shareUrl();
+      countEvent("trip-share");
       if (navigator.share && isPhone()) navigator.share({title:t("sum.title"), url}).catch(() => {});
       else copyText(url, t("toast.linkCopied"));
       break;
     }
-    case "copy": copyText(summaryText(), t("toast.summaryCopied")); break;
+    case "copy": countEvent("trip-copy"); copyText(summaryText(), t("toast.summaryCopied")); break;
     case "clear": {
       const before = M.cleanTrip(trip);
       trip = M.emptyTrip(); saveTrip(); update();
@@ -184,7 +191,7 @@ document.addEventListener("click", ev => {
     }
     case "cpref": S.calc.pref = b.dataset.v; update(); if (S.calc.show) fitCalc(); break;
     case "swap": [S.calc.from, S.calc.to] = [S.calc.to, S.calc.from]; update(); if (S.calc.show) fitCalc(); break;
-    case "calc": S.calc.show = true; update(); fitCalc(); break;
+    case "calc": countEvent(`calc/${S.calc.from}-${S.calc.to}`); S.calc.show = true; update(); fitCalc(); break;
   }
 });
 document.addEventListener("change", ev => {
@@ -206,13 +213,46 @@ document.addEventListener("input", ev => {
 });
 window.addEventListener("storage", ev => { if (ev.key === "bolivia-trip"){ trip = M.cleanTrip(load("bolivia-trip", null)); update(); } });
 
+/* ───── Address and visitor statistics ───── */
+// Keep the address on the page of the current language (es.html, fr.html, en.html: index.html with
+// its title and link preview image in that language), so a copied link previews in that language.
+function langAddress(){
+  if (!location.protocol.startsWith("http")) return;
+  const want = location.pathname.replace(/[^/]*$/, "") + I.lang + ".html";
+  if (location.pathname !== want || location.search) history.replaceState(history.state, "", want + location.hash);
+}
+// GoatCounter (content/seo.yml, stats): one page view per screen, counted as /<lang>/<view>
+// (e.g. /es/place/samaipata), and a few actions as events: calc/<from>-<to> (route calculator),
+// trip-add/<place>, idea/<itinerary>, trip-share, trip-copy, trip-open-shared.
+// No cookies and nothing personal; nothing is counted on a local copy.
+let counted = "", goat = null;
+function stat(hit){
+  const code = B.site && B.site.stats;
+  if (!code || !location.protocol.startsWith("http") || /^(localhost|127\.|\[::1\])/.test(location.hostname)) return;
+  if (!goat){
+    window.goatcounter = {no_onload:true, endpoint:`https://${code}.goatcounter.com/count`};
+    goat = BOL.loadScript("https://gc.zgo.at/count.js");
+  }
+  goat.then(() => window.goatcounter.count(hit)).catch(() => {});
+}
+function countView(){
+  const path = "/" + I.lang + "/" + (location.hash.replace(/^#\/?/, "").split("?")[0] || "home");
+  if (path === counted) return;
+  counted = path;
+  stat({path, title:document.title});
+}
+const countEvent = name => stat({path:name, title:name, event:true});
+
 /* ───── Start ───── */
 async function start(){
   try { await I.use(I.initial(), false); }
   catch(e){ $("#v-home").innerHTML = `<p style="padding:40px">Could not load the site texts. Please reload the page.</p>`; return; }
+  langAddress();
   $("#viewToggle").dataset.act = "toggleView";
-  // The app puts the list back where it was itself (see render).
+  // The app puts each page back where it was itself (see saveScroll).
   if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+  document.addEventListener("scroll", () => { clearTimeout(scrollTimer); scrollTimer = setTimeout(saveScroll, 200); }, true);
+  document.addEventListener("click", saveScroll, true);   // before a link leaves the page
   // Cache for photos, map and libraries (see sw.js). Not available when opened as a file.
   if ("serviceWorker" in navigator && location.protocol.startsWith("http")) navigator.serviceWorker.register("sw.js").catch(() => {});
   window.addEventListener("hashchange", route);

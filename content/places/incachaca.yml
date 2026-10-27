@@ -1,0 +1,90 @@
+# Incachaca
+department: Cochabamba
+category: nature
+lat: -17.2368
+lng: -65.8176
+altitude: 2400
+days: [1, 1]
+climate: yungas
+dishes: [trucha]
+photos:
+  - file: incachaca-1.jpg
+    author: "Aylo240"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Cascada_Velo_de_La_novia_en_Incachaca_Cochabamba.jpg"
+  - file: incachaca-2.jpg
+    author: "Aylo240"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Cascada_%22Garganta_del_diablo%22_En_Incachaca_Bolivia.jpg"
+  - file: incachaca-3.jpg
+    author: "HighVoltage 5576"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Planta_hidroelectrica_Incachaca.jpg"
+  - file: incachaca-4.jpg
+    author: "Wnn"
+    licence: "CC BY-SA 3.0"
+    source: "https://commons.wikimedia.org/wiki/File:Incachaca.jpg"
+  - file: incachaca-5.jpg
+    author: "Gloriacalistri"
+    licence: "CC BY-SA 3.0"
+    source: "https://commons.wikimedia.org/wiki/File:LAGUNA_DE_INCACHACA.jpg"
+fr:
+  name: Incachaca
+  label: Incachaca
+  short: Une forêt de nuages au bord du Chapare, avec un pont inca, des cascades et une vieille centrale électrique.
+  story: >-
+    Incachaca (« le pont de l'Inca » en quechua) se cache dans la forêt humide qui descend
+    de Corani vers le Chapare. Un sentier relie les restes d'un chemin inca, avec ses
+    escaliers et son pont, la cascade du Voile de la mariée et la Fenêtre du Diable, un
+    rocher percé qui donne sur la cascade de la Garganta del Diablo. On passe aussi devant
+    la Casa de Máquinas, l'usine hydroélectrique de 1940 restée dans la végétation. Une
+    cinquantaine de familles entretiennent les sentiers et guident les visiteurs.
+  todo:
+    - Le pont et les escaliers incas
+    - Cascade Velo de Novia et Ventana del Diablo
+    - Les ruines de la centrale hydroélectrique de 1940
+    - Tyrolienne et rappel avec les guides de la communauté
+  tips: >-
+    Environ 80 km de Cochabamba, en voiture ou en excursion, souvent avec Corani le même
+    jour. Il pleut souvent : chaussures qui accrochent et imperméable. La route du Chapare
+    peut être bloquée : se renseigner la veille.
+en:
+  name: Incachaca
+  label: Incachaca
+  short: A cloud forest at the edge of the Chapare, with an Inca bridge, waterfalls and an old power plant.
+  story: >-
+    Incachaca ("the Inca's bridge" in Quechua) hides in the humid forest that drops from
+    Corani towards the Chapare. A trail links the remains of an Inca path, with its steps
+    and bridge, the Velo de Novia (bridal veil) waterfall and the Ventana del Diablo, a
+    pierced rock looking onto the Garganta del Diablo falls. It also passes the Casa de
+    Máquinas, the 1940 hydroelectric plant left in the vegetation. About fifty families
+    look after the trails and guide visitors.
+  todo:
+    - The Inca bridge and steps
+    - Velo de Novia waterfall and Ventana del Diablo
+    - The ruins of the 1940 hydroelectric plant
+    - Zip line and abseiling with the community guides
+  tips: >-
+    About 80 km from Cochabamba, by car or on a tour, often with Corani on the same day. It
+    rains a lot: shoes with grip and a rain jacket. The Chapare road can be blocked, so
+    check the day before.
+es:
+  name: Incachaca
+  label: Incachaca
+  short: Un bosque de nubes al borde del Chapare, con un puente inca, cascadas y una vieja planta eléctrica.
+  story: >-
+    Incachaca («puente del Inca» en quechua) se esconde en el bosque húmedo que baja de
+    Corani hacia el Chapare. Un sendero une los restos de un camino inca, con sus gradas y
+    su puente, la cascada Velo de Novia y la Ventana del Diablo, una roca perforada que da
+    a la cascada de la Garganta del Diablo. También se pasa por la Casa de Máquinas, la
+    planta hidroeléctrica de 1940 que quedó entre la vegetación. Unas cincuenta familias
+    cuidan los senderos y guían a los visitantes.
+  todo:
+    - El puente y las gradas incas
+    - Cascada Velo de Novia y Ventana del Diablo
+    - Las ruinas de la planta hidroeléctrica de 1940
+    - Tirolesa y rápel con los guías de la comunidad
+  tips: >-
+    Unos 80 km desde Cochabamba, en auto o excursión, muchas veces junto con Corani el mismo
+    día. Llueve seguido: zapatos que agarren e impermeable. La carretera al Chapare puede
+    estar bloqueada: averigua el día anterior.

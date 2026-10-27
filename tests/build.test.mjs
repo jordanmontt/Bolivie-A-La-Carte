@@ -12,13 +12,25 @@ execFileSync(process.execPath, [path.join(ROOT, "tools/build.mjs"), "--out", OUT
 const pages = fs.globSync("{fr,en,es}/**/index.html", {cwd:OUT});
 
 test("the generated data matches what is committed (run node tools/build.mjs after editing content/)", () => {
-  for (const f of ["data/places.js", "data/photos.js", "data/culture.js", "locales/es.js", "locales/es.content.js", "sitemap.xml"])
+  for (const f of ["data/places.js", "data/photos.js", "data/site.js", "es.html", "data/culture.js", "locales/es.js", "locales/es.content.js", "sitemap.xml"])
     assert.equal(fs.readFileSync(path.join(OUT, f), "utf8"), fs.readFileSync(path.join(ROOT, f), "utf8"), f);
 });
 
-test("one page per place and language, plus a home and a tips page", () => {
+test("one page per place and language, plus a home, a tips page and five culture pages", () => {
   const places = fs.readdirSync(path.join(ROOT, "content/places")).filter(f => f.endsWith(".yml") && !f.startsWith("_")).length;
-  assert.equal(pages.length, 3 * (places + 2));
+  assert.equal(pages.length, 3 * (places + 7));
+});
+
+test("es.html, fr.html and en.html are index.html with a head in their language", () => {
+  const index = fs.readFileSync(path.join(ROOT, "index.html"), "utf8");
+  const body = html => html.slice(html.indexOf("<body>"));
+  for (const l of ["fr", "en", "es"]){
+    const html = fs.readFileSync(path.join(OUT, l + ".html"), "utf8");
+    assert.equal(body(html), body(index), l);
+    assert.match(html, new RegExp(`<html lang="${l}" data-lang="${l}">`));
+    assert.match(html, new RegExp(`og:image" content="[^"]+/assets/og-${l}\\.png"`));
+    assert.ok(fs.existsSync(path.join(ROOT, `assets/og-${l}.png`)), `assets/og-${l}.png`);
+  }
 });
 
 test("every page has a title, a description, a canonical address and its other languages", () => {

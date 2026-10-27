@@ -6,7 +6,7 @@ lng: -66.1
 altitude: 180
 days: [3, 3]
 climate: amazonie
-dishes: [carne_beni, pescado_beni]
+dishes: [carne_beni, pescado]
 photos:
   - file: barbaazul-1.jpg
     author: Carsten Steger

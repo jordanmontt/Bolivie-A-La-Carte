@@ -8,6 +8,11 @@
 # UNESCO listings are in content/unesco.yml.
 
 - id: alasitas
+  photo:
+    file: festival-alasitas.jpg
+    author: "PsamatheM"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:04-Feria_de_las_Alasitas_(La_Paz)-16.jpg"
   place: lapaz
   date: 01-24
   days: 21
@@ -27,6 +32,11 @@
       La feria de las miniaturas: se compra en pequeño lo que se desea en grande (casa, auto,
       billetes, título) y se hace bendecir para el Ekeko, el dios de la abundancia.
 - id: oruro-carnival
+  photo:
+    file: festival-oruro-carnival.jpg
+    author: "Pame82s"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:DiabladaFerroviariadeOruroBolivia.jpg"
   place: oruro
   easter: -50
   days: 3
@@ -47,6 +57,11 @@
       El carnaval más grande de los Andes: decenas de miles de bailarines enmascarados,
       diabladas y morenadas, desfilan casi veinte horas hasta el santuario del Socavón.
 - id: santacruz-carnival
+  photo:
+    file: festival-santacruz-carnival.jpg
+    author: "Parallelepiped09"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Carnaval_de_Scz.jpg"
   place: santacruz
   easter: -50
   days: 4
@@ -66,6 +81,11 @@
       El carnaval tropical: comparsas disfrazadas, corso, música día y noche, y guerra de agua
       y pintura en toda la ciudad.
 - id: pujllay
+  photo:
+    file: festival-pujllay.jpg
+    author: "Alesarcastic"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Pobladores_con_vestimenta_tradicional_de_Pujllay_listos_para_el_recorrido_de_la_Gran_Pukara.jpg"
   place: tarabuco
   nth: [3, 0, 3]
   fr:
@@ -84,6 +104,11 @@
       Las comunidades yampara bajan a Tarabuco con su ropa de fiesta y sus espuelas marcando
       el ritmo de la danza, para celebrar la cosecha y la victoria de 1816.
 - id: holy-week
+  photo:
+    file: festival-holy-week.jpg
+    author: "Pavel Špindler"
+    licence: "CC BY 3.0"
+    source: "https://commons.wikimedia.org/wiki/File:Copacabana_-_na_vrcholu_Cerro_Calvario_-_panoramio.jpg"
   place: copacabana
   easter: -2
   fr:
@@ -102,6 +127,11 @@
       Miles de peregrinos caminan toda la noche desde La Paz, unos 150 km, para llegar al
       santuario de la Virgen de Copacabana el Viernes Santo.
 - id: chiquitos-festival
+  photo:
+    file: festival-chiquitos-festival.jpg
+    author: "Carlos Correa Loyola from Loja, Ecuador"
+    licence: "CC BY 2.0"
+    source: "https://commons.wikimedia.org/wiki/File:Iglesia_Jesuita_de_Concepcion_Santa_Cruz_Bolivia.jpg"
   place: concepcion
   month: 4
   even: true
@@ -121,6 +151,11 @@
       Durante diez días, más de cien conciertos de música barroca y renacentista en los
       templos misionales y en Santa Cruz, muchas veces gratuitos.
 - id: granpoder
+  photo:
+    file: festival-granpoder.jpg
+    author: "François Bianco"
+    licence: "CC BY-SA 2.0"
+    source: "https://commons.wikimedia.org/wiki/File:Find_Charly_(14429994231).jpg"
   place: lapaz
   easter: 55
   fr:
@@ -139,6 +174,11 @@
       La gran entrada folklórica de La Paz: miles de bailarines de morenada, caporales y
       diablada cruzan la ciudad con trajes bordados en oro.
 - id: andean-new-year
+  photo:
+    file: festival-andean-new-year.jpg
+    author: "Asamblea Legislativa Plurinacional"
+    licence: "CC BY 2.0"
+    source: "https://commons.wikimedia.org/wiki/File:A%C3%B1o_nuevo_aymara.jpg"
   place: tiwanaku
   date: 06-21
   fr:
@@ -157,6 +197,11 @@
       En el solsticio de invierno se espera la salida del sol en Tiwanaku para recibir sus
       primeros rayos con las manos en alto. Feriado en todo el país.
 - id: ichapekene
+  photo:
+    file: festival-ichapekene.jpg
+    author: "Gabvia"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:El_abuelo_y_los_macheteros.jpg"
   place: sanignaciomoxos
   date: 07-31
   fr:
@@ -175,6 +220,11 @@
       La gran fiesta de San Ignacio de Moxos: los macheteros bailan con sus enormes tocados de
       plumas, entre tradiciones mojeñas y herencia misional.
 - id: copacabana-virgin
+  photo:
+    file: festival-copacabana-virgin.jpg
+    author: "Aleale3p"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Vista_general_del_altar_a_la_Virgen_Candelaria_de_Copacabana.jpg"
   place: copacabana
   date: 08-05
   days: 2
@@ -194,6 +244,11 @@
       La patrona de Bolivia se celebra con procesiones, danzas y la bendición de autos frente
       a la basílica. Otra gran fiesta el 2 de febrero, la Candelaria.
 - id: urkupina
+  photo:
+    file: festival-urkupina.jpg
+    author: "Wilmer Rojas Crespo"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Virgen_Mar%C3%ADa_de_Urqupi%C3%B1a,_devotos.JPG"
   place: incarakay
   date: 08-14
   days: 3
@@ -213,6 +268,11 @@
       Cientos de miles de peregrinos y bailarines en Quillacollo. El último día se sube al
       calvario a romper piedras, símbolo de prosperidad.
 - id: chaguaya
+  photo:
+    file: festival-chaguaya.jpg
+    author: "Carlillasa"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Imagen_de_la_Virgen_de_Chaguaya_en_la_catedral_de_Tarija.jpg"
   place: padcaya
   date: 08-15
   fr:
@@ -231,6 +291,11 @@
       Hasta mediados de septiembre, miles de peregrinos caminan desde Tarija, e incluso desde
       el norte argentino, hasta el santuario de la Virgen de Chaguaya.
 - id: sanroque
+  photo:
+    file: festival-sanroque.jpg
+    author: "Ernestopradodiaz"
+    licence: "CC0"
+    source: "https://commons.wikimedia.org/wiki/File:Chunchos_(206708213).jpeg"
   place: tarija
   date: 08-16
   fr:
@@ -268,6 +333,11 @@
       A fines de agosto, Potosí celebra a San Bartolomé y San Ignacio de Loyola con una gran
       entrada de danzas de todo el país, entre tradiciones andinas y coloniales.
 - id: guadalupe
+  photo:
+    file: festival-guadalupe.jpg
+    author: "LuiLZ1993"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Morenada_en_la_Entrada_Virgen_de_Guadalupe_(Sucre)_2025.jpg"
   place: sucre
   date: 09-08
   fr:
@@ -286,6 +356,11 @@
       La patrona de Sucre, celebrada a principios de septiembre con una gran entrada
       folklórica por las calles del centro histórico.
 - id: todos-santos
+  photo:
+    file: festival-todos-santos.jpg
+    author: "Andrefloresok"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Tantawawas_en_la_Festividad_de_Todos_Santos,_La_Paz,_Bolivia_02.jpg"
   date: 11-01
   days: 2
   fr:
@@ -305,6 +380,11 @@
       En todo el país se recibe a las almas de los difuntos con mesas llenas de panes con
       forma de escaleras y personas (t'antawawas), y luego se las despide en el cementerio.
 - id: natitas
+  photo:
+    file: festival-natitas.jpg
+    author: "Autorretrato"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Altar_%C3%91atitas_La_Paz.jpg"
   place: lapaz
   date: 11-08
   fr:
@@ -324,6 +404,11 @@
       En el Cementerio General de La Paz se honra a cráneos adornados con flores y lentes de
       sol, agradeciéndoles su protección. Una tradición sorprendente, a respetar.
 - id: charango
+  photo:
+    file: festival-charango.jpg
+    author: "Alesarcastic"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Presentaci%C3%B3n_de_la_Orquesta_de_Charangos_de_Cochabamba_en_el_Festival_del_Charango_Aiquile_2025.jpg"
   place: aiquile
   month: 11
   fr:
@@ -342,6 +427,11 @@
       A principios de noviembre, músicos y luthiers de toda Bolivia se encuentran en la
       capital del charango para concursos y conciertos.
 - id: cotoca
+  photo:
+    file: festival-cotoca.jpg
+    author: "Aamariscal"
+    licence: "CC0"
+    source: "https://commons.wikimedia.org/wiki/File:Cuadro_de_la_Virgen_de_Cotoca_en_Santa_Cruz_de_la_Sierra_(Bolivia).jpg"
   place: cotoca
   date: 12-08
   fr:

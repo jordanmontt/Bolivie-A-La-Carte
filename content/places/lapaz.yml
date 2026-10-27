@@ -7,7 +7,7 @@ altitude: 3640
 days: [2, 3]
 climate: lapaz
 major: true
-dishes: [api_saltenas_lp, anticucho, plato_paceno, apiPastel]
+dishes: [saltena, anticucho, plato_paceno, apiPastel]
 photos:
   - file: lapaz-1.jpg
     author: Parallelepiped09

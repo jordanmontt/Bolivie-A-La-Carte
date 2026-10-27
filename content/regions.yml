@@ -6,6 +6,7 @@
     - lapaz
     - elalto
     - valleluna
+    - valleanimas
     - chacaltaya
     - huayna
     - condoriri
@@ -67,7 +68,7 @@
     desc: El salar más grande del mundo, lagunas rojas, el volcán Sajama y los cañones de Tupiza.
 - id: colonial
   cover: sucre
-  places: [potosi, tarapaya, sucre, tarabuco, candelaria, zudanez, maragua]
+  places: [potosi, casamoneda, tarapaya, sucre, tarabuco, candelaria, zudanez, maragua]
   fr:
     name: Sucre et Potosí
     desc: La ville blanche de Sucre, les mines d'argent de Potosí et les tisserands de Tarabuco.
@@ -110,7 +111,7 @@
       calor del Gran Chaco.
 - id: cbba
   cover: torotoro
-  places: [cbba, alalay, tunari, valle, incarakay, torotoro, incallajta, totora, aiquile, mizque]
+  places: [cbba, alalay, pairumani, tunari, apote, yungapampa, corani, incachaca, valle, incarakay, torotoro, incallajta, totora, aiquile, mizque]
   fr:
     name: Cochabamba et ses vallées
     desc: >-

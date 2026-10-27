@@ -1,5 +1,10 @@
 # Every dish once. Places list their dishes by id (dishes: in content/places/*.yml).
 silpancho:
+  photo:
+    file: dish-silpancho.jpg
+    author: "Albaro2020"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Silpancho_un_plato_con_historia,_tradici%C3%B3n_y_sabor._01.jpg"
   fr:
     name: Silpancho
     text: >-
@@ -16,6 +21,11 @@ silpancho:
       Carne de res apanada y bien delgada sobre arroz y papas, con huevo frito y una
       ensalada de tomate y cebolla. EL plato de Cochabamba.
 piquemacho:
+  photo:
+    file: dish-piquemacho.jpg
+    author: "PeñayLillo"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:PIQUE_MACHO_plato_t%C3%ADpico_boliviano_COCHABAMBA.jpg"
   fr:
     name: Pique macho
     text: >-
@@ -32,6 +42,11 @@ piquemacho:
       Gran plato para compartir: carne y salchicha en trozos, papas fritas, cebolla, tomate,
       locoto y huevo duro. Abundante y un poco picante.
 chicharron:
+  photo:
+    file: dish-chicharron.jpg
+    author: "Albaro2020"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Chicharr%C3%B3n_Plato_tradicional_de_la_ciudad_de_Cochabamba_06.jpg"
   fr:
     name: Chicharrón
     text: >-
@@ -46,6 +61,11 @@ chicharron:
     name: Chicharrón
     text: Cerdo cocido en su propia grasa hasta dorarse, con mote y chuño. El plato del domingo.
 chicha:
+  photo:
+    file: dish-chicha.jpg
+    author: "Búho Turquesa"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Chicha_en_c%C3%A1ntaro_de_barro.jpg"
   fr:
     name: Chicha
     text: >-
@@ -62,6 +82,11 @@ chicha:
       Bebida fermentada de maíz, algo ácida, servida en tutumas. Se encuentra en las
       chicherías marcadas con una bandera blanca.
 apiPastel:
+  photo:
+    file: dish-apiPastel.jpg
+    author: "Q'orikenti"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Api_con_pastel_orure%C3%B1o.jpg"
   fr:
     name: Api con pastel
     text: >-
@@ -78,6 +103,11 @@ apiPastel:
       Bebida caliente y espesa de maíz morado con canela, con un pastel de queso
       espolvoreado con azúcar. El desayuno de los mercados.
 saltena:
+  photo:
+    file: dish-saltena.jpg
+    author: "Q'orikenti"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Salte%C3%B1as_platillo_boliviano.jpg"
   fr:
     name: Salteña
     text: >-
@@ -94,6 +124,11 @@ saltena:
       La empanada boliviana: masa algo dulce y un relleno jugoso de carne, papa y aceituna.
       Se come en la mañana, ¡sin derramar el jugo!
 sopaMani:
+  photo:
+    file: dish-sopaMani.jpg
+    author: "Albaro"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Sopa_de_man%C3%AD_el_sabor_%C3%BAnico_de_Bolivia_en_tu_mesa._01.jpg"
   fr:
     name: Sopa de maní
     text: >-
@@ -106,22 +141,35 @@ sopaMani:
     name: Sopa de maní
     text: Sopa cremosa de maní con fideos y papas fritas encima. Reconfortante y muy boliviana.
 trucha:
+  photo:
+    file: dish-trucha.jpg
+    author: "Mferjh"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Trucha_frita_con_vista_al_puerto_de_Copacabana.jpg"
   fr:
-    name: Truite du Titicaca
+    name: Truite
     text: >-
-      Truite du lac, frite ou « a la plancha », avec riz, frites et salade. On la mange sur
-      la plage de Copacabana.
+      Truite du lac Titicaca ou des rivières de la Cordillère, frite ou grillée, avec riz,
+      frites et salade. On la mange sur la plage de Copacabana et dans les petits restaurants
+      des villages de montagne.
   en:
-    name: Titicaca trout
+    name: Trout
     text: >-
-      Lake trout, fried or “a la plancha”, with rice, fries and salad. Eaten on the beach in
-      Copacabana.
+      Trout from Lake Titicaca or the Cordillera rivers, fried or grilled, with rice, fries
+      and salad. Eaten on the beach in Copacabana and in the small restaurants of mountain
+      villages.
   es:
-    name: Trucha del Titicaca
+    name: Trucha
     text: >-
-      Trucha del lago, frita o a la plancha, con arroz, papas fritas y ensalada. Se come en
-      la playa de Copacabana.
+      Trucha del lago Titicaca o de los ríos de la Cordillera, frita o a la parrilla, con
+      arroz, papas fritas y ensalada. Se come en la playa de Copacabana y en los
+      restaurantitos de los pueblos de montaña.
 pejerrey:
+  photo:
+    file: dish-pejerrey.jpg
+    author: "Carlillasa"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Pejerrey_frito_en_una_pensi%C3%B3n_en_Copacabana,_Bolivia.jpg"
   fr:
     name: Ispi et pejerrey
     text: Petits poissons du lac frits et croustillants, à manger entiers avec un peu de citron.
@@ -132,6 +180,11 @@ pejerrey:
     name: Ispi y pejerrey
     text: Pescaditos del lago fritos y crocantes, para comer enteros con un poco de limón.
 plato_paceno:
+  photo:
+    file: dish-plato_paceno.jpg
+    author: "Nuklive"
+    licence: "CC BY-SA 3.0"
+    source: "https://commons.wikimedia.org/wiki/File:Plato_pace%C3%B1o_con_carne.jpg"
   fr:
     name: Plato paceño
     text: "Assiette typique de La Paz : maïs, fèves, pommes de terre et fromage frit."
@@ -142,6 +195,11 @@ plato_paceno:
     name: Plato paceño
     text: "El plato típico de La Paz: choclo, habas, papas y queso frito."
 anticucho:
+  photo:
+    file: dish-anticucho.jpg
+    author: "Jan Beck"
+    licence: "CC BY 2.0"
+    source: "https://commons.wikimedia.org/wiki/File:Anticuchos_in_Cochabamba,_Boliva.jpg"
   fr:
     name: Anticuchos
     text: >-
@@ -157,23 +215,12 @@ anticucho:
     text: >-
       Brochetas de corazón de res marinadas y asadas en la calle de noche, con papa y salsa
       picante de maní.
-api_saltenas_lp:
-  fr:
-    name: Salteñas de La Paz
-    text: >-
-      À La Paz, on fait la queue le matin devant les salteñerías célèbres. À accompagner
-      d'un jus de fruit.
-  en:
-    name: La Paz salteñas
-    text: >-
-      In La Paz, people queue in the morning at famous salteñerías. Have one with a fruit
-      juice.
-  es:
-    name: Salteñas paceñas
-    text: >-
-      En La Paz se hace fila en la mañana en las salteñerías famosas. Acompáñala con un jugo
-      de fruta.
 sajta:
+  photo:
+    file: dish-sajta.jpg
+    author: "Caleidoscopic"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Sajta_de_pollo_con_tunta_y_sajta.jpg"
   fr:
     name: Sajta de pollo
     text: >-
@@ -188,6 +235,11 @@ sajta:
     name: Sajta de pollo
     text: Pollo en salsa amarilla de ají, con chuño y papa. Típico del Altiplano.
 chuno:
+  photo:
+    file: dish-chuno.jpg
+    author: "N1ny4 t"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Mercado_Rodr%C3%ADguez_en_La_Paz,_Bolivia_-_2026_05.jpg"
   fr:
     name: Chuño
     text: >-
@@ -204,6 +256,11 @@ chuno:
       Papas congeladas y secadas al sol, una técnica andina milenaria. Sabor sorprendente,
       hay que probarlo al menos una vez.
 quinoa:
+  photo:
+    file: dish-quinoa.jpg
+    author: "Michael Hermann"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Quinoa_diversity,_Uyuni,_Bolivia.JPG"
   fr:
     name: Quinoa royal
     text: >-
@@ -218,6 +275,11 @@ quinoa:
       La mejor quinua del mundo crece alrededor del Salar: en sopa, en tortillas o de
       acompañamiento.
 llama:
+  photo:
+    file: dish-llama.jpg
+    author: "Micah MacAllen from Travel Bums, Latin America"
+    licence: "CC BY-SA 2.0"
+    source: "https://commons.wikimedia.org/wiki/File:Llama_steak.jpg"
   fr:
     name: Viande de lama
     text: >-
@@ -234,6 +296,11 @@ llama:
       Carne magra y sabrosa, a menudo a la parrilla o como charque. Muy común en Uyuni y el
       Altiplano.
 charque:
+  photo:
+    file: dish-charque.jpg
+    author: "Caleidoscopic"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Charquekan.jpg"
   fr:
     name: Charque
     text: Viande de lama ou de bœuf séchée et effilochée, frite, servie avec maïs, œuf et fromage.
@@ -243,19 +310,12 @@ charque:
   es:
     name: Charque
     text: Carne de llama o de res seca y deshilachada, frita, con mote, huevo y queso.
-rostro:
-  fr:
-    name: Calapurca
-    text: >-
-      À Potosí, soupe épicée au maïs dans laquelle on plonge une pierre brûlante pour la
-      faire bouillir à table.
-  en:
-    name: Calapurca
-    text: A spicy corn soup from Potosí, brought to the boil at the table with a red-hot stone.
-  es:
-    name: Calapurca
-    text: En Potosí, sopa picante de maíz que hierve en la mesa gracias a una piedra al rojo vivo.
 kalapurka:
+  photo:
+    file: dish-kalapurka.jpg
+    author: "Sheyla Cordova Nuñez"
+    licence: "CC BY 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Kalapurka_Potos%C3%ADna.jpg"
   fr:
     name: Kalapurka
     text: >-
@@ -270,6 +330,11 @@ kalapurka:
       La sopa picante de maíz de Potosí, servida hirviendo con una piedra volcánica
       calentada en el fuego.
 chorizoChuqui:
+  photo:
+    file: dish-chorizoChuqui.jpg
+    author: "Akizia"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:ChorizoChuquisaque%C3%B1o.jpg"
   fr:
     name: Chorizo chuquisaqueño
     text: >-
@@ -282,6 +347,11 @@ chorizoChuqui:
     name: Chorizo chuquisaqueño
     text: El chorizo de cerdo perfumado de Sucre, a la parrilla, en pan o con papas.
 chocolate:
+  photo:
+    file: dish-chocolate.jpg
+    author: "Elingesanta"
+    licence: "CC BY 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:CACAO_BOLIVIANO_18.jpg"
   fr:
     name: Chocolats de Sucre
     text: >-
@@ -298,6 +368,11 @@ chocolate:
       Sucre es la capital del chocolate boliviano (Para Ti, Taboada): tabletas de cacao
       amazónico para llevar.
 mondongo:
+  photo:
+    file: dish-mondongo.jpg
+    author: "R Iván Mamani Cachi Comida-Boliviana"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Mondongo_Chuquisaque%C3%B1o.jpg"
   fr:
     name: Mondongo
     text: Ragoût de porc au piment rouge, avec mote, typique de Sucre lors des fêtes.
@@ -308,6 +383,11 @@ mondongo:
     name: Mondongo
     text: Guiso de cerdo en ají colorado, con mote, típico de Sucre en las fiestas.
 sopa_puchero:
+  photo:
+    file: dish-sopa_puchero.jpg
+    author: "Ever Lecoña Hilari"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Puchero_carnavalero_Beniano.jpg"
   fr:
     name: Puchero
     text: Pot-au-feu andin, servi pendant le carnaval à Tarabuco et Sucre.
@@ -318,6 +398,11 @@ sopa_puchero:
     name: Puchero
     text: Cocido andino que se sirve en el carnaval de Tarabuco y Sucre.
 vino:
+  photo:
+    file: dish-vino.jpg
+    author: "Aldrihe"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Vineyards_in_Tarija_2.jpg"
   fr:
     name: Vin de Tarija
     text: >-
@@ -334,6 +419,11 @@ vino:
       Vinos de altura (hasta 2000 m): tannat, malbec, moscatel. Degustación en las bodegas
       del valle.
 singani:
+  photo:
+    file: dish-singani.jpg
+    author: "Ruditaly"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Destiler%C3%ADa_de_singani_Casa_Real_en_Tarija_-_Cercado,_Bolivia.jpg"
   fr:
     name: Singani
     text: >-
@@ -346,16 +436,32 @@ singani:
     name: Singani
     text: Aguardiente de uva moscatel, orgullo nacional. Se toma en chuflay (con ginger ale).
 cangrejitos:
+  photo:
+    file: dish-cangrejitos.jpg
+    author: "Carlillasa"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Plato_de_cangrejitos_en_San_Jacinto,_Tarija.jpg"
   fr:
     name: Cangrejitos
-    text: Petits beignets de Tarija en forme de crabe, fourrés à la crème. Dessert local.
+    text: >-
+      Minuscules crabes de rivière frits, que l'on mange entiers avec du mote et du citron.
+      Une spécialité de Tarija, à goûter au bord du lac de San Jacinto.
   en:
     name: Cangrejitos
-    text: Small crab-shaped pastries from Tarija, filled with cream. A local dessert.
+    text: >-
+      Tiny fried river crabs, eaten whole with mote (corn) and lime. A Tarija speciality, best
+      tried by the San Jacinto lake.
   es:
     name: Cangrejitos
-    text: Masitas tarijeñas con forma de cangrejo, rellenas de crema. Postre local.
+    text: >-
+      Cangrejitos de río fritos, que se comen enteros con mote y limón. Una especialidad de
+      Tarija, para probar a orillas del dique de San Jacinto.
 saice:
+  photo:
+    file: dish-saice.jpg
+    author: "recetasdetarija.blogspot.com"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Saice_tarije%C3%B1o.jpg"
   fr:
     name: Saice
     text: >-
@@ -372,6 +478,11 @@ saice:
       Guiso picante de carne molida y arvejas, con arroz y papas. El plato emblemático de
       Tarija.
 sonso:
+  photo:
+    file: dish-sonso.jpg
+    author: "Ever Lecoña Hilari"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Sonso_de_yuca.jpg"
   fr:
     name: Sonso de yuca
     text: >-
@@ -384,6 +495,11 @@ sonso:
     name: Sonso de yuca
     text: Masa de yuca y queso asada en un palito. Especialidad del Oriente, para comer caliente.
 majadito:
+  photo:
+    file: dish-majadito.jpg
+    author: "Ever Lecoña Hilari"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Majadito_o_majau.jpg"
   fr:
     name: Majadito
     text: >-
@@ -400,6 +516,11 @@ majadito:
       Arroz cocido con charque o pollo, con huevo frito y plátano frito. El plato de Santa
       Cruz y el Beni.
 locro:
+  photo:
+    file: dish-locro.jpg
+    author: "Q'orikenti"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Locro_camba,_Bolivia.jpg"
   fr:
     name: Locro de gallina
     text: Soupe de riz épaisse au poulet fermier, réconfortante, typique de l'Orient.
@@ -410,6 +531,11 @@ locro:
     name: Locro de gallina
     text: Sopa espesa de arroz con gallina criolla, reconfortante, típica del Oriente.
 cunape:
+  photo:
+    file: dish-cunape.jpg
+    author: "KQuhen"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Cunape_El_Bosque_Yokohama_01.jpg"
   fr:
     name: Cuñapé et pan de arroz
     text: Petits pains au fromage et au manioc, ou au riz, servis chauds avec un café le matin.
@@ -422,6 +548,11 @@ cunape:
     name: Cuñapé y pan de arroz
     text: Panecitos de queso con almidón de yuca o con arroz, calientes con un café en la mañana.
 masaco:
+  photo:
+    file: dish-masaco.jpg
+    author: "Ever Lecoña Hilari"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Masaco_de_charque.jpg"
   fr:
     name: Masaco
     text: Banane plantain ou manioc écrasés avec du charque ou du fromage. Riche et nourrissant.
@@ -431,31 +562,33 @@ masaco:
   es:
     name: Masaco
     text: Plátano o yuca machacados con charque o queso. Contundente y nutritivo.
-pacu:
-  fr:
-    name: Pacú et surubí
-    text: >-
-      Poissons de rivière grillés ou frits, avec riz, manioc et banane. Délicieux au bord de
-      l'eau.
-  en:
-    name: Pacú and surubí
-    text: River fish, grilled or fried, with rice, cassava and plantain. Delicious by the water.
-  es:
-    name: Pacú y surubí
-    text: >-
-      Pescados de río a la parrilla o fritos, con arroz, yuca y plátano. Deliciosos a la
-      orilla del agua.
 pescado:
+  photo:
+    file: dish-pescado.jpg
+    author: "Ever Lecoña Hilari"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Chicharon_de_Surubi.jpg"
   fr:
     name: Poisson de rivière
-    text: Surubí, pacú ou dorado grillés, avec manioc et banane frite.
+    text: >-
+      Surubí, pacú ou dorado, grillés au feu de bois ou frits, avec riz, manioc et banane.
+      Délicieux au bord de l'eau, dans les Llanos et en Amazonie.
   en:
     name: River fish
-    text: Grilled surubí, pacú or dorado, with cassava and fried plantain.
+    text: >-
+      Surubí, pacú or dorado, grilled over a wood fire or fried, with rice, cassava and
+      plantain. Delicious by the water, in the Llanos and the Amazon.
   es:
     name: Pescado de río
-    text: Surubí, pacú o dorado a la parrilla, con yuca y plátano frito.
+    text: >-
+      Surubí, pacú o dorado, asados a la leña o fritos, con arroz, yuca y plátano. Deliciosos
+      a la orilla del agua, en los Llanos y la Amazonía.
 tropical:
+  photo:
+    file: dish-tropical.jpg
+    author: "Ivar Leidus"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Achacha_fruits_and_seed.jpg"
   fr:
     name: Fruits tropicaux
     text: >-
@@ -472,6 +605,11 @@ tropical:
       Mangos, piñas, papayas, achachairú (una frutita ácida) y jugos frescos por todas
       partes por pocos bolivianos.
 cafe:
+  photo:
+    file: dish-cafe.jpg
+    author: "BrandyHil"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Plantacion_de_cafe.jpg"
   fr:
     name: Café des Yungas
     text: Café cultivé sur place, à boire dans les petits cafés de Coroico ou à rapporter.
@@ -482,6 +620,11 @@ cafe:
     name: Café de los Yungas
     text: Café cultivado en la zona, para tomar en los cafecitos de Coroico o para llevar.
 sopa_quinua:
+  photo:
+    file: dish-sopa_quinua.jpg
+    author: "Robert Luna"
+    licence: "CC BY 2.0"
+    source: "https://commons.wikimedia.org/wiki/File:Sopa_de_Quinoa.jpg"
   fr:
     name: Soupe de quinoa
     text: >-
@@ -498,6 +641,11 @@ sopa_quinua:
       Sopa caliente de quinua y verduras, servida en refugios y comedores de altura.
       Perfecta cuando hace frío.
 picante:
+  photo:
+    file: dish-picante.jpg
+    author: "Dvortygirl"
+    licence: "CC BY-SA 2.0"
+    source: "https://commons.wikimedia.org/wiki/File:Picante_mixto.jpg"
   fr:
     name: Picante mixto
     text: >-
@@ -514,6 +662,11 @@ picante:
       Plato con varias carnes (pollo, lengua, res) en salsa de ají, con chuño y arroz. Para
       los que aman el picante.
 fricase:
+  photo:
+    file: dish-fricase.jpg
+    author: "Anitazalles"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Fricasebol.jpg"
   fr:
     name: Fricasé
     text: Soupe de porc épicée au piment jaune et au mote, réputée guérir les lendemains de fête.
@@ -533,17 +686,12 @@ queso:
   es:
     name: Quesos de Chiquitos
     text: Quesos frescos de vaca hechos en los pueblos misionales, con pan casero.
-pescado_beni:
-  fr:
-    name: Pescado del Beni
-    text: Poissons de grande rivière (surubí, pacú) grillés au feu de bois, avec manioc.
-  en:
-    name: Pescado del Beni
-    text: Big-river fish (surubí, pacú) grilled over a wood fire, with cassava.
-  es:
-    name: Pescado del Beni
-    text: Pescados de río grande (surubí, pacú) asados a la leña, con yuca.
 carne_beni:
+  photo:
+    file: dish-carne_beni.jpg
+    author: "PedroLaguna"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Loreto_hacienda_3_estrellas_(cropped).jpg"
   fr:
     name: Viande du Beni
     text: "Le Beni est terre d'élevage : grandes grillades (churrasco) et viande séchée."
@@ -553,21 +701,12 @@ carne_beni:
   es:
     name: Carne del Beni
     text: "El Beni es tierra ganadera: grandes churrascos y carne seca."
-trucha_sorata:
-  fr:
-    name: Truite de montagne
-    text: >-
-      Truites des rivières de la Cordillère, grillées, dans les petits restaurants des
-      villages.
-  en:
-    name: Mountain trout
-    text: Trout from the rivers of the Cordillera, grilled in small village restaurants.
-  es:
-    name: Trucha de montaña
-    text: >-
-      Truchas de los ríos de la Cordillera, a la parrilla, en los restaurantitos de los
-      pueblos.
 pizza_samaipata:
+  photo:
+    file: dish-pizza_samaipata.jpg
+    author: "vozachudo2004"
+    licence: "CC BY-SA 3.0"
+    source: "https://commons.wikimedia.org/wiki/File:Cafeter%C3%ADa_en_la_plaza_de_Samaipata_-_panoramio.jpg"
   fr:
     name: Cuisine du monde à Samaipata
     text: >-

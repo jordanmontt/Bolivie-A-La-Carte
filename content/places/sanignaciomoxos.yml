@@ -6,7 +6,7 @@ lng: -65.64
 altitude: 160
 days: [1, 2]
 climate: amazonie
-dishes: [carne_beni, pescado_beni, masaco]
+dishes: [carne_beni, pescado, masaco]
 photos:
   - file: sanignaciomoxos-1.jpg
     author: Gabvia

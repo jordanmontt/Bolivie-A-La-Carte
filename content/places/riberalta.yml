@@ -6,7 +6,7 @@ lng: -66.07
 altitude: 140
 days: [1, 2]
 climate: amazonie
-dishes: [pescado_beni, masaco, tropical]
+dishes: [pescado, masaco, tropical]
 photos:
   - file: riberalta-1.jpg
     author: Aurimaz

@@ -2,6 +2,11 @@
 # places: where to find them (place ids).
 
 - id: tarabuco-weaving
+  photo:
+    file: craft-tarabuco-weaving.jpg
+    author: "Aurimaz"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:108_-_Tarabuco_market.jpg"
   places: [tarabuco, candelaria]
   fr:
     name: Tissages yampara de Tarabuco
@@ -20,6 +25,11 @@
       Telas con motivos muy finos, a menudo escenas de la vida cotidiana y animales, tejidas a
       mano en telar. La feria del domingo es el mejor lugar para encontrarlas.
 - id: jalqa-weaving
+  photo:
+    file: craft-jalqa-weaving.jpg
+    author: "LuiLZ1993"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Tejedora_Jalqa.jpg"
   places: [maragua]
   fr:
     name: Textiles jalq'a
@@ -37,6 +47,11 @@
       Rojos y negros, poblados de criaturas fantásticas del mundo de abajo: los tejidos de las
       comunidades jalq'a, alrededor de Maragua, están entre los más sorprendentes de los Andes.
 - id: kallawaya-weaving
+  photo:
+    file: craft-kallawaya-weaving.jpg
+    author: "Noemi Gonzales C."
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Poncho_Kallawaya.jpg"
   places: [charazani]
   fr:
     name: Tissages kallawaya
@@ -54,6 +69,11 @@
       En la región de Charazani, los tejidos acompañan a la medicina tradicional: chuspas para
       la coca y ponchos de colores vivos, hechos en las comunidades.
 - id: woodcarving
+  photo:
+    file: craft-woodcarving.jpg
+    author: "Ruditaly"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Toborochis_tallados_de_madera_en_Artecampo_-_Santa_Cruz_de_la_Sierra,_Bolivia.jpg"
   places: [sanmiguel]
   fr:
     name: Sculpture sur bois de Chiquitos
@@ -71,6 +91,11 @@
       Ángeles, santos y retablos: los talleres de San Miguel siguen el tallado de las misiones
       jesuíticas y todavía restauran los templos de la región.
 - id: charangos
+  photo:
+    file: craft-charangos.jpg
+    author: "Photo taken by Villanueva"
+    licence: "Public domain"
+    source: "https://commons.wikimedia.org/wiki/File:Bolivian_charango_001.jpg"
   places: [aiquile]
   fr:
     name: Charangos d'Aiquile
@@ -88,6 +113,11 @@
       La pequeña guitarra andina de diez cuerdas, hecha por los luthiers de Aiquile. Se puede
       encargar uno a medida.
 - id: totora-boats
+  photo:
+    file: craft-totora-boats.jpg
+    author: "User: (WT-shared) Sylx100 at wts wikivoyage"
+    licence: "Public domain"
+    source: "https://commons.wikimedia.org/wiki/File:Barco_de_totora_titicaca.jpg"
   places: [huatajata]
   fr:
     name: Bateaux en totora
@@ -105,6 +135,11 @@
       En el lago Titicaca todavía se construyen balsas con la caña del lago. Los artesanos de
       Huatajata también hacen maquetas.
 - id: potosi-silver
+  photo:
+    file: craft-potosi-silver.jpg
+    author: "Jbmurray"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:From_Casa_Nacional_de_la_Moneda,_Potos%C3%AD,_Bolivia.jpg"
   places: [potosi]
   fr:
     name: Argent de Potosí
@@ -122,6 +157,11 @@
       Joyas y pequeños objetos de plata, en la ciudad que acuñó la moneda del imperio español.
       Compra en tiendas, con sello.
 - id: alpaca
+  photo:
+    file: craft-alpaca.jpg
+    author: "Deryck Chan"
+    licence: "CC BY-SA 3.0"
+    source: "https://commons.wikimedia.org/wiki/File:Alpaca_wool_scarf.JPG"
   places: [lapaz]
   fr:
     name: Laine d'alpaga et de lama
@@ -139,6 +179,11 @@
       Chompas, chalinas y ponchos abrigados para el Altiplano. En La Paz, las calles Sagárnaga
       y Linares están llenas; verifica que sea lana de verdad.
 - id: tiwanaku-ceramics
+  photo:
+    file: craft-tiwanaku-ceramics.jpg
+    author: "Yastay"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Museo_Nacional_de_Etnograf%C3%ADa_y_Folklore_79.jpg"
   places: [tiwanaku]
   fr:
     name: Céramiques et pierre de Tiwanaku
@@ -156,6 +201,11 @@
       En el pueblo, artesanos reproducen la cerámica y las esculturas de la cultura tiwanaku.
       Lindas copias, que no hay que confundir con piezas antiguas.
 - id: feria16
+  photo:
+    file: craft-feria16.jpg
+    author: "Caleidoscopic"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Feria_16_de_julio_El_Alto_(1)_13.jpg"
   places: [elalto]
   fr:
     name: Feria 16 de Julio
@@ -173,6 +223,11 @@
       Los jueves y domingos, kilómetros de puestos en El Alto: de todo, desde repuestos de
       auto hasta ropa de cholita. Ve sin nada de valor.
 - id: witches-market
+  photo:
+    file: craft-witches-market.jpg
+    author: "PsamatheM"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:05-Mercado_de_las_Brujas_(La_Paz)-5.jpg"
   places: [lapaz]
   fr:
     name: Marché des sorcières
@@ -190,6 +245,11 @@
       Calles Linares y Jiménez, en La Paz: hierbas, amuletos, fetos de llama y mesas para la
       Pachamama, preparadas por los yatiris.
 - id: la-cancha
+  photo:
+    file: craft-la-cancha.jpg
+    author: "BrunoBol"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Calle_lanza_mercado_la_cancha_en_Cochabamba.jpg"
   places: [cbba]
   fr:
     name: La Cancha

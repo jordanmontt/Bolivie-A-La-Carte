@@ -2,6 +2,11 @@
 # places: where the legend is set (optional).
 
 - id: ekeko
+  photo:
+    file: legend-ekeko.jpg
+    author: "Phdela"
+    licence: "Public domain"
+    source: "https://commons.wikimedia.org/wiki/File:Ekeko_Bolivia.JPG"
   places: [lapaz]
   fr:
     name: L'Ekeko
@@ -22,6 +27,11 @@
       Ekeko es el dios aymara de la abundancia. Se le ofrece un cigarrillo y se le confían
       los deseos, sobre todo en la Alasita.
 - id: pachamama
+  photo:
+    file: legend-pachamama.jpg
+    author: "Casi metro y medio"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Mesa_de_khoa,_quema_de_ofrenda_a_la_Pachamama.jpg"
   places: []
   fr:
     name: La Pachamama
@@ -41,6 +51,11 @@
       La Madre Tierra, que da la vida y las cosechas. Se le ch'alla unas gotas de chicha antes
       de beber, y en agosto, cuando la tierra «tiene hambre», se le queman mesas de ofrenda.
 - id: tio
+  photo:
+    file: legend-tio.jpg
+    author: "Xhakanay"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Casa_con_esculturas_del_Tio_de_la_mina,_ubicada_en_la_ciudad_de_El_Alto.jpg"
   places: [potosi]
   fr:
     name: Le Tío de la mine
@@ -61,6 +76,11 @@
       Tío, dueño del mundo de abajo. Los mineros le ofrecen coca, alcohol y cigarrillos para
       que los proteja y les dé mineral.
 - id: manco-capac
+  photo:
+    file: legend-manco-capac.jpg
+    author: "Qhanaaru"
+    licence: "CC0"
+    source: "https://commons.wikimedia.org/wiki/File:Isla_de_Sol,_Lago_Titicaca_3.jpg"
   places: [isladelsol]
   fr:
     name: Manco Cápac et Mama Ocllo
@@ -78,6 +98,11 @@
       Según la leyenda inca, el Sol hizo salir del lago Titicaca, cerca de la Isla del Sol, a
       sus hijos Manco Cápac y Mama Ocllo, para fundar el Cusco y el imperio inca.
 - id: tunupa
+  photo:
+    file: legend-tunupa.jpg
+    author: "CLAUDIOLD"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Tunupa.jpg"
   places: [salar]
   fr:
     name: Tunupa et le Salar
@@ -97,6 +122,11 @@
       lágrimas y su leche habrían formado el Salar de Uyuni, que todavía domina desde el
       norte.
 - id: illimani
+  photo:
+    file: legend-illimani.jpg
+    author: "Hernan Payrumani"
+    licence: "CC BY-SA 3.0"
+    source: "https://commons.wikimedia.org/wiki/File:Illimani_La_Paz_April_2014.jpg"
   places: [lapaz]
   fr:
     name: L'Illimani et le Mururata
@@ -116,6 +146,11 @@
       Los cerros son achachilas, ancestros protectores. Se cuenta que el Illimani, celoso, le
       cortó la cabeza al Mururata de un hondazo: por eso su vecino tiene la cumbre plana.
 - id: wari
+  photo:
+    file: legend-wari.jpg
+    author: "Chiliguanca"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:M%C3%A1scara_de_diablada_del_carnaval_de_Oruro_con_ojos_saltones.jpg"
   places: [oruro]
   fr:
     name: Wari et les fléaux d'Oruro
@@ -134,6 +169,11 @@
       El dios Wari mandó un sapo, un lagarto, una víbora y hormigas para castigar al pueblo de
       Oruro. Una ñusta los convirtió en piedra: todavía se los ve alrededor de la ciudad.
 - id: jichi
+  photo:
+    file: legend-jichi.jpg
+    author: "Jose Antonio Orellana"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:El_tarope_resguardando_el_agua.jpg"
   places: [sanjavier, concepcion]
   fr:
     name: Le Jichi

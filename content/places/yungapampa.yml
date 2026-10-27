@@ -1,0 +1,76 @@
+# Yungapampa
+department: Cochabamba
+category: aventure
+lat: -16.9425
+lng: -66.2558
+altitude: 3630
+days: [2, 3]
+climate: tunari
+dishes: [silpancho, sopa_quinua]
+photos:
+  - file: yungapampa-1.jpg
+    author: "Anngel1usser"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Mirador_Yungapampa.jpg"
+  - file: yungapampa-2.jpg
+    author: "MELISSA REVOLLO P."
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Oso_Andino,_Jukumari._Especie_%C3%BAnica_que_vive_en_las_llanuras_de_Cochabamba.jpg"
+fr:
+  name: Yungapampa
+  label: Yungapampa
+  short: Un refuge au-dessus d'une mer de nuages, sur le versant nord du Tunari, territoire de l'ours andin.
+  story: >-
+    Derrière la cordillère du Tunari, la montagne plonge vers les Yungas de Cochabamba.
+    Yungapampa est un refuge communautaire posé à 3 630 m au bord de ce vide, où l'on voit
+    souvent le soleil se lever sur une mer de nuages. On y arrive à pied ou avec des mules
+    depuis Huari Pucara, en passant par des peintures rupestres, des canyons et la cascade
+    de l'Infiernillo. C'est le territoire du jucumari, l'ours à lunettes, du puma et du
+    condor.
+  todo:
+    - Trek de 2 ou 3 jours depuis Huari Pucara, avec des mules
+    - Lever du soleil sur la mer de nuages
+    - Peintures rupestres de Rumy Plaza et cascade de l'Infiernillo
+    - Observer condors, cerfs andins et peut-être l'ours à lunettes
+  tips: >-
+    Accès difficile : environ 4 h de 4x4 depuis Cochabamba par Tiquipaya, puis la marche.
+    Mieux avec une agence ou un guide local, qui organise transport, mules et refuge. Il
+    fait froid la nuit.
+en:
+  name: Yungapampa
+  label: Yungapampa
+  short: A refuge above a sea of clouds, on the north side of the Tunari, Andean bear country.
+  story: >-
+    Behind the Tunari range, the mountains plunge towards the Yungas of Cochabamba.
+    Yungapampa is a community refuge at 3,630 m on the edge of that drop, where the sun
+    often rises over a sea of clouds. You get there on foot or with mules from Huari
+    Pucara, past rock paintings, canyons and the Infiernillo waterfall. This is the land of
+    the jucumari, the spectacled bear, as well as the puma and the condor.
+  todo:
+    - 2 or 3 day trek from Huari Pucara, with mules
+    - Sunrise over the sea of clouds
+    - Rock paintings of Rumy Plaza and the Infiernillo waterfall
+    - Watch condors, Andean deer and maybe the spectacled bear
+  tips: >-
+    Hard to reach: about 4 h by 4x4 from Cochabamba through Tiquipaya, then the walk. Best
+    with an agency or a local guide, who arranges transport, mules and the refuge. Nights
+    are cold.
+es:
+  name: Yungapampa
+  label: Yungapampa
+  short: Un refugio sobre un mar de nubes, en la cara norte del Tunari, tierra del oso andino.
+  story: >-
+    Detrás de la cordillera del Tunari, la montaña cae hacia los Yungas de Cochabamba.
+    Yungapampa es un refugio comunitario a 3630 m al borde de ese vacío, donde muchas veces
+    el sol sale sobre un mar de nubes. Se llega a pie o con mulas desde Huari Pucara,
+    pasando por pinturas rupestres, cañones y la cascada del Infiernillo. Es la tierra del
+    jucumari, el oso de anteojos, del puma y del cóndor.
+  todo:
+    - Trekking de 2 o 3 días desde Huari Pucara, con mulas
+    - Amanecer sobre el mar de nubes
+    - Pinturas rupestres de Rumy Plaza y cascada del Infiernillo
+    - Ver cóndores, venados andinos y tal vez el oso de anteojos
+  tips: >-
+    Acceso difícil: unas 4 h en 4x4 desde Cochabamba por Tiquipaya, y luego la caminata.
+    Mejor con una agencia o un guía local, que organiza el transporte, las mulas y el
+    refugio. De noche hace frío.

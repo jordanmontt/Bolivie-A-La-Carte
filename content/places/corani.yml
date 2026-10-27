@@ -1,0 +1,80 @@
+# Laguna Corani
+department: Cochabamba
+category: nature
+lat: -17.27
+lng: -65.901
+altitude: 3200
+days: [0, 1]
+climate: tunari
+dishes: [trucha, chicharron]
+photos:
+  - file: corani-1.jpg
+    author: "Gaby condori contreras"
+    licence: "CC BY-SA 3.0"
+    source: "https://commons.wikimedia.org/wiki/File:La_hermosa_laguna_corani.JPG"
+  - file: corani-2.jpg
+    author: "Zorka Ostojic Espinoza from Arica, Chile"
+    licence: "CC BY 2.0"
+    source: "https://commons.wikimedia.org/wiki/File:Laguna_Corani_(Represa)_Chapare_Bolivia.jpg"
+  - file: corani-3.jpg
+    author: "Maya Valentina Davis"
+    licence: "CC BY 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Corani_paisaje.jpg"
+  - file: corani-4.jpg
+    author: "Maya Valentina Davis"
+    licence: "CC BY 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Caba%C3%B1as_de_corani.jpg"
+fr:
+  name: Laguna Corani
+  label: Corani
+  short: Un grand lac de barrage entre forêts de pins et montagnes, connu pour sa truite.
+  story: >-
+    Sur la route du Chapare, après Colomi, le barrage de Corani a créé dans les années 1960
+    un grand lac d'altitude qui alimente une partie de l'électricité du pays. Entouré de
+    forêts de pins et de collines souvent dans la brume, c'est l'une des sorties préférées
+    des Cochabambinos le week-end : tour en barque, petits sentiers et truite grillée dans
+    les restaurants du bord de l'eau.
+  todo:
+    - Tour du lac en barque ou en lancha
+    - Truite frite ou grillée au bord du lac
+    - Balade à pied ou à vélo dans les forêts de pins
+  tips: >-
+    Environ 2 h depuis Cochabamba par la route de Santa Cruz par le Chapare (bus de Colomi,
+    ou voiture). Il fait frais et humide : prendre une veste. Se combine bien avec
+    Incachaca, un peu plus bas.
+en:
+  name: Laguna Corani
+  label: Corani
+  short: A large reservoir among pine forests and mountains, known for its trout.
+  story: >-
+    On the road to the Chapare, past Colomi, the Corani dam created a large high lake in
+    the 1960s that supplies part of the country's electricity. Surrounded by pine forests
+    and hills often in the mist, it is one of the favourite weekend outings of people from
+    Cochabamba: a boat trip, short trails and grilled trout at the restaurants by the
+    water.
+  todo:
+    - Boat trip on the lake
+    - Fried or grilled trout by the lake
+    - Walk or cycle through the pine forests
+  tips: >-
+    About 2 h from Cochabamba on the road to Santa Cruz through the Chapare (Colomi bus, or
+    car). It is cool and damp, so bring a jacket. Goes well with Incachaca, a little lower
+    down.
+es:
+  name: Laguna Corani
+  label: Corani
+  short: Un gran lago de represa entre bosques de pinos y montañas, conocido por su trucha.
+  story: >-
+    En la carretera al Chapare, pasando Colomi, la represa de Corani formó en los años 60 un
+    gran lago de altura que genera parte de la electricidad del país. Rodeado de bosques de
+    pinos y cerros muchas veces en la neblina, es uno de los paseos favoritos de los
+    cochabambinos el fin de semana: vuelta en bote, senderos cortos y trucha a la parrilla
+    en los restaurantes a orillas del agua.
+  todo:
+    - Paseo en bote o lancha por la laguna
+    - Trucha frita o a la parrilla a orillas del lago
+    - Caminata o bicicleta por los bosques de pinos
+  tips: >-
+    Unas 2 h desde Cochabamba por la carretera a Santa Cruz por el Chapare (bus a Colomi, o
+    auto). Hace frío y es húmedo: lleva chamarra. Se combina bien con Incachaca, un poco
+    más abajo.

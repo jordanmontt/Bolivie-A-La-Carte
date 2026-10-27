@@ -6,7 +6,7 @@ lng: -66.79
 altitude: 200
 days: [2, 3]
 climate: amazonie
-dishes: [pescado_beni, masaco]
+dishes: [pescado, masaco]
 photos:
   - file: pampas-1.jpg
     author: PamJCB

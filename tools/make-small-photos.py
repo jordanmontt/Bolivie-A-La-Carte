@@ -17,6 +17,6 @@ for name in sorted(os.listdir(SRC)):
         continue
     im = Image.open(src).convert("RGB")
     im.thumbnail((WIDTH, WIDTH * 2))
-    im.save(dst, quality=80, optimize=True, progressive=True)
+    im.save(dst, quality=72, optimize=True, progressive=True)
     made += 1
 print(f"{made} small photo(s) written to {DST}/")

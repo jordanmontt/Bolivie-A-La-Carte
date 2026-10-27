@@ -7,7 +7,7 @@ altitude: 230
 days: [1, 1]
 climate: amazonie
 major: true
-dishes: [pescado_beni, masaco, tropical]
+dishes: [pescado, masaco, tropical]
 photos:
   - file: rurrenabaque-1.jpg
     author: Milton Lopez

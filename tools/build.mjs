@@ -46,6 +46,14 @@ function texts(obj, where, fields, optional = []){
   }
   return out;
 }
+// A photo: {file, author, licence, source} in content/, {src, artist, lic, page} for the site.
+function photo(x, where){
+  if (!x || !x.file || !fs.existsSync(path.join(ROOT, "photos", str(x.file)))) problem(`${where}: file photos/${str(x && x.file)} not found`);
+  else if (!x.source) problem(`${where}: "source" (the photo's page) is missing`);
+  return {src:"photos/" + str(x && x.file), artist:str(x && x.author), lic:str(x && x.licence), page:str(x && x.source)};
+}
+// Festivals, crafts, legends and dishes have one optional photo each (photo: in their entry).
+const itemPhotos = {festivals:{}, crafts:{}, legends:{}, dishes:{}};
 
 /* ───── Regions and places ───── */
 const regions = read("regions.yml") || [];
@@ -82,12 +90,7 @@ for (const r of regions){
       p.dishes.forEach(d => { if (!dishes[d]) problem(`${where}: unknown dish "${d}" (see content/dishes.yml)`); });
       food[id] = p.dishes;
     }
-    if (p.photos && p.photos.length){
-      photos[id] = p.photos.map((x, k) => {
-        if (!x.file || !fs.existsSync(path.join(ROOT, "photos", str(x.file)))) problem(`${where}: photo ${k + 1}, file photos/${str(x.file)} not found`);
-        return {src:"photos/" + str(x.file), artist:str(x.author), lic:str(x.licence), page:str(x.source)};
-      });
-    }
+    if (p.photos && p.photos.length) photos[id] = p.photos.map((x, k) => photo(x, `${where}: photo ${k + 1}`));
   }
 }
 const byId = Object.fromEntries(places.map(p => [p.id, p]));
@@ -118,7 +121,10 @@ for (const [id, c] of Object.entries(climates)){
   LANGS.forEach(l => { if (t[l]) climateText[l][id] = [t[l].title, t[l].text]; });
 }
 const dishText = Object.fromEntries(LANGS.map(l => [l, {}]));
+const servedDishes = new Set(Object.values(food).flat());
 for (const [id, d] of Object.entries(dishes)){
+  if (!servedDishes.has(id)) problem(`content/dishes.yml (${id}): no place lists this dish (add it to a place's dishes:, or remove it)`);
+  if (d.photo) itemPhotos.dishes[id] = photo(d.photo, `content/dishes.yml (${id}): photo`);
   const t = texts(d, `content/dishes.yml (${id})`, ["name", "text"]);
   LANGS.forEach(l => { if (t[l]) dishText[l][id] = [t[l].name, t[l].text]; });
 }
@@ -151,6 +157,7 @@ function items(file, fields, keep, check){
     const refs = [].concat(x.places || [], x.place ? [x.place] : []);
     refs.forEach(id => { if (!byId[id]) problem(`${where}: unknown place "${id}"`); });
     if (check) check(x, where);
+    if (x.photo && itemPhotos[file]) itemPhotos[file][x.id] = photo(x.photo, `${where}: photo`);
     const o = {id:x.id};
     keep.forEach(k => { if (x[k] !== undefined) o[k] = x[k]; });
     out.push(o);
@@ -212,7 +219,8 @@ for (const f of codeFiles){
 
 /* ───── Pages for search engines ───── */
 const seo = read("seo.yml") || {};
-const site = str(seo.site);
+const site = str(seo.site), stats = str(seo.stats).trim();
+if (stats && !/^[a-z0-9-]+$/.test(stats)) problem(`content/seo.yml: "stats" must be the GoatCounter code only (letters, digits, -), e.g. boliviaalacarta`);
 if (!/^https:\/\/.+\/$/.test(site)) problem(`content/seo.yml: "site" must be the site's address, starting with https:// and ending with /`);
 for (const l of LANGS){
   if (!seo[l]) { problem(`content/seo.yml: the "${l}" texts are missing`); seo[l] = {}; }
@@ -223,7 +231,8 @@ const release = (fs.readFileSync(path.join(ROOT, "index.html"), "utf8").match(/\
 const logo = (fs.readFileSync(path.join(ROOT, "js/core.js"), "utf8").match(/const LOGO = '(.*?)';/) || [])[1] || "";
 let pages = {files:{}};
 if (!problems.length){
-  pages = makePages({LANGS, site, seo, ui, regions, places, placeText, photos, food, dishText, edges, edgeText, culture, cultureText, guide, release, logo});
+  const indexHtml = fs.readFileSync(path.join(ROOT, "index.html"), "utf8");
+  pages = makePages({LANGS, site, seo, ui, regions, places, placeText, photos, itemPhotos, food, dishText, edges, edgeText, culture, cultureText, guide, release, logo, indexHtml, stats});
   pages.problems.forEach(problem);
 }
 
@@ -250,7 +259,9 @@ write("data/places.js", HEAD + NS
   + "BOL.tourStops = " + list(tourStops) + ";\n"
   + "BOL.climates = " + dict(climateData) + ";\n"
   + "BOL.food = " + dict(food) + ";\n");
-write("data/photos.js", HEAD + NS + "BOL.photos = " + dict(photos) + ";\n");
+write("data/photos.js", HEAD + NS + "BOL.photos = " + dict(photos) + ";\n"
+  + "BOL.itemPhotos = " + JSON.stringify(itemPhotos) + ";\n");
+write("data/site.js", HEAD + NS + "BOL.site = " + JSON.stringify({url:site, stats}) + ";\n");
 write("data/itineraries.js", HEAD + NS + "BOL.itineraries = " + list(itineraries) + ";\n");
 write("data/culture.js", HEAD + NS + Object.entries(culture).map(([k, v]) => `BOL.${k} = ${list(v)};\n`).join(""));
 for (const l of LANGS){
@@ -269,4 +280,6 @@ for (const [rel, text] of Object.entries(pages.files)) write(rel, text);
 // Reminders, not errors: what still needs work (see technical.md, "Known gaps").
 const noPhoto = places.filter(p => !(photos[p.id] || []).length).map(p => p.id);
 if (noPhoto.length) console.log(`Places without photos: ${noPhoto.join(", ")}`);
-console.log(`Built ${places.length} places, ${edges.length} routes, ${Object.keys(dishes).length} dishes in ${LANGS.length} languages, and ${Object.keys(pages.files).length - 2} pages for search engines.`);
+const noItemPhoto = Object.entries(itemPhotos).map(([k, ph]) => [k, (k === "dishes" ? Object.keys(dishes) : culture[k].map(x => x.id)).filter(id => !ph[id])]).filter(([, ids]) => ids.length);
+noItemPhoto.forEach(([k, ids]) => console.log(`${k[0].toUpperCase() + k.slice(1)} without a photo: ${ids.join(", ")}`));
+console.log(`Built ${places.length} places, ${edges.length} routes, ${Object.keys(dishes).length} dishes in ${LANGS.length} languages, and ${Object.keys(pages.files).length - 2 - LANGS.length} pages for search engines.`);

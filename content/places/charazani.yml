@@ -6,7 +6,7 @@ lng: -69
 altitude: 3250
 days: [2, 4]
 climate: sorata
-dishes: [chuno, sopa_quinua, trucha_sorata]
+dishes: [chuno, sopa_quinua, trucha]
 photos:
   - file: charazani-1.jpg
     author: Carlillasa

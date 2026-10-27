@@ -1,0 +1,63 @@
+# Apote (Tiquipaya)
+department: Cochabamba
+category: nature
+lat: -17.3298
+lng: -66.2421
+altitude: 2850
+days: [0, 1]
+climate: valles_haut
+dishes: [trucha, chicharron]
+fr:
+  name: Apote et ses cascades jumelles
+  label: Apote
+  short: Une vallée de montagne au-dessus de Tiquipaya, avec deux cascades côte à côte et des sentiers vers le Tunari.
+  story: >-
+    Au-dessus de Tiquipaya, le village d'Apote ouvre une vallée de rochers et d'eucalyptus
+    qui monte vers la cordillère du Tunari. Le sentier le plus connu suit la rivière
+    jusqu'aux cascades jumelles, deux chutes qui tombent côte à côte dans une vasque où
+    l'on se baigne. Plus haut, de petits barrages retiennent l'eau qui irrigue le valle, et
+    plusieurs sentiers de randonnée continuent vers les hauteurs.
+  todo:
+    - Randonnée aux cascades jumelles (10 km aller-retour, 3 à 4 h)
+    - Baignade et pique-nique au pied des cascades
+    - Sentiers vers les barrages et les hauteurs du Tunari
+  tips: >-
+    Trufi ligne 106 jusqu'au terminus d'Apote, ou taxi. Deux passages de rivière et
+    quelques passages où l'on s'aide des mains : bonnes chaussures, eau, chapeau. Plus de
+    débit (et des passages plus délicats) en saison des pluies.
+en:
+  name: Apote and its twin waterfalls
+  label: Apote
+  short: A mountain valley above Tiquipaya, with two waterfalls side by side and trails towards the Tunari.
+  story: >-
+    Above Tiquipaya, the village of Apote opens onto a valley of rocks and eucalyptus that
+    climbs towards the Tunari range. The best-known trail follows the river to the twin
+    waterfalls, two falls side by side dropping into a pool where people swim. Higher up,
+    small dams hold the water that irrigates the valley, and several hiking trails carry
+    on towards the heights.
+  todo:
+    - Hike to the twin waterfalls (10 km return, 3 to 4 h)
+    - Swim and picnic at the foot of the falls
+    - Trails to the dams and the Tunari heights
+  tips: >-
+    Trufi line 106 to the Apote terminus, or taxi. Two river crossings and a few spots where
+    you use your hands: good shoes, water, a hat. More water (and trickier crossings) in
+    the rainy season.
+es:
+  name: Apote y sus cascadas gemelas
+  label: Apote
+  short: Un valle de montaña encima de Tiquipaya, con dos cascadas lado a lado y senderos hacia el Tunari.
+  story: >-
+    Encima de Tiquipaya, el pueblo de Apote abre un valle de rocas y eucaliptos que sube
+    hacia la cordillera del Tunari. El sendero más conocido sigue el río hasta las cascadas
+    gemelas, dos caídas lado a lado sobre una poza donde uno se baña. Más arriba, pequeñas
+    represas guardan el agua que riega el valle, y varios senderos de trekking siguen hacia
+    las alturas.
+  todo:
+    - Caminata a las cascadas gemelas (10 km ida y vuelta, 3 a 4 h)
+    - Bañarse y hacer picnic al pie de las cascadas
+    - Senderos hacia las represas y las alturas del Tunari
+  tips: >-
+    Trufi línea 106 hasta la última parada en Apote, o taxi. Dos cruces de río y algunos
+    tramos donde hay que ayudarse con las manos: buenos zapatos, agua, sombrero. Más
+    caudal (y cruces más delicados) en época de lluvias.

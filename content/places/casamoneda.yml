@@ -1,0 +1,84 @@
+# Casa Nacional de Moneda (Potosí)
+department: Potosí
+category: culture
+lat: -19.5889
+lng: -65.7539
+altitude: 4067
+days: [0, 1]
+climate: potosi
+dishes: [kalapurka, saltena]
+photos:
+  - file: casamoneda-1.jpg
+    author: "Valdiney Pimenta from Campinas - SP, Brazil"
+    licence: "CC BY 2.0"
+    source: "https://commons.wikimedia.org/wiki/File:Casa_de_la_Moneda_de_Potos%C3%AD_(Bolivia).jpg"
+  - file: casamoneda-2.jpg
+    author: "Elemaki"
+    licence: "CC BY 2.5"
+    source: "https://commons.wikimedia.org/wiki/File:Casa_de_la_moneda.jpg"
+  - file: casamoneda-3.jpg
+    author: "Victor (Casa Nacional de Moneda)"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Tejado_de_la_Casa_Nacional_de_Moneda.jpg"
+  - file: casamoneda-4.jpg
+    author: "AldoNuñezC."
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Casa_de_la_moneda_10.jpg"
+  - file: casamoneda-5.jpg
+    author: "P. Hughes"
+    licence: "CC BY 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Potosi_-_Door_knocker,_Casa_de_la_Moneda.jpg"
+fr:
+  name: Casa Nacional de Moneda (Potosí)
+  label: Casa de Moneda
+  short: La Monnaie royale où l'argent du Cerro Rico devenait pièces, aujourd'hui le grand musée de Bolivie.
+  story: >-
+    Construite entre 1753 et 1773 pour frapper l'argent du Cerro Rico, la Monnaie de Potosí
+    est l'un des plus grands édifices civils de l'Amérique coloniale. Ses murs épais
+    abritent encore les laminoirs en bois que faisaient tourner des mules, les fours de
+    fonte et les pièces frappées pendant trois siècles. On y voit aussi de la peinture
+    coloniale (dont la célèbre Vierge du Cerro) et, dans la cour, le mascarón, ce grand
+    visage souriant devenu le symbole de la ville.
+  todo:
+    - Visite guidée des salles de frappe et des laminoirs en bois
+    - La Vierge du Cerro et la peinture de l'école de Potosí
+    - Le mascarón de la cour intérieure
+  tips: >-
+    Visite guidée seulement (environ 2 h, en espagnol ou en anglais selon l'horaire), en
+    général fermé le lundi. Les salles sont froides : garder une veste.
+en:
+  name: Casa Nacional de Moneda (Potosí)
+  label: Casa de Moneda
+  short: The royal mint where Cerro Rico silver became coins, now Bolivia's great museum.
+  story: >-
+    Built between 1753 and 1773 to mint the silver of the Cerro Rico, the Potosí mint is
+    one of the largest civil buildings of colonial America. Its thick walls still hold the
+    wooden rolling mills once turned by mules, the smelting furnaces and three centuries of
+    coins. There is colonial painting too (including the famous Virgin of the Cerro) and,
+    in the courtyard, the mascarón, a large smiling face that became the symbol of the
+    city.
+  todo:
+    - Guided tour of the minting rooms and the wooden rolling mills
+    - The Virgin of the Cerro and the Potosí school of painting
+    - The mascarón in the inner courtyard
+  tips: >-
+    Guided tours only (about 2 h, in Spanish or English depending on the time), usually
+    closed on Mondays. The rooms are cold, so bring a jacket.
+es:
+  name: Casa Nacional de Moneda (Potosí)
+  label: Casa de Moneda
+  short: La ceca real donde la plata del Cerro Rico se volvía monedas, hoy el gran museo de Bolivia.
+  story: >-
+    Construida entre 1753 y 1773 para acuñar la plata del Cerro Rico, la Casa de Moneda de
+    Potosí es uno de los mayores edificios civiles de la América colonial. Sus gruesos
+    muros guardan todavía las laminadoras de madera que movían las mulas, los hornos de
+    fundición y monedas de tres siglos. También hay pintura colonial (como la famosa Virgen
+    del Cerro) y, en el patio, el mascarón, la gran cara sonriente que se volvió el símbolo
+    de la ciudad.
+  todo:
+    - Visita guiada de las salas de acuñación y las laminadoras de madera
+    - La Virgen del Cerro y la pintura de la escuela potosina
+    - El mascarón del patio interior
+  tips: >-
+    Solo con visita guiada (unas 2 h, en español o inglés según el horario), en general
+    cerrado los lunes. Las salas son frías: lleva chamarra.

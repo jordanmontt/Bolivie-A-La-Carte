@@ -1,0 +1,79 @@
+# Valle de las Ánimas
+department: La Paz
+category: nature
+lat: -16.5381
+lng: -68.0193
+altitude: 3965
+days: [0, 1]
+climate: lapaz
+dishes: [saltena, plato_paceno]
+photos:
+  - file: valleanimas-1.jpg
+    author: "Raysa Ramirez"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Valle_de_Las_%C3%81nimas.jpg"
+  - file: valleanimas-2.jpg
+    author: "Casi metro y medio"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Formaciones_rocosas_en_el_Valle_de_las_%C3%81nimas_en_La_Paz.jpg"
+  - file: valleanimas-3.jpg
+    author: "Lila azulacea"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Miradores_desde_el_Valle_de_las_%C3%81nimas.jpg"
+  - file: valleanimas-4.jpg
+    author: "Olga Lidia Paredes Alcoreza"
+    licence: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Valle_de_las_%C3%A1nimas_La_Paz_Bolivia_(3).jpg"
+fr:
+  name: Valle de las Ánimas
+  label: Valle de las Ánimas
+  short: Une forêt d'aiguilles de terre au bord de La Paz, plus grande et plus sauvage que la Vallée de la Lune.
+  story: >-
+    À l'est de la Zona Sur, au-dessus d'Ovejuyo, l'érosion a sculpté une vallée entière de
+    hautes aiguilles et de murailles d'argile, que l'on dit habitées par les âmes. Le
+    sentier suit le fond de la vallée entre ces orgues, avec l'Illimani en face, puis peut
+    continuer jusqu'au canyon de Palca. C'est une aire protégée municipale, et une
+    randonnée d'une demi-journée à une journée, sans quitter la ville ou presque.
+  todo:
+    - Randonnée entre les aiguilles d'argile (2 à 4 h)
+    - Vue sur l'Illimani
+    - Continuer jusqu'au canyon de Palca (journée complète ou excursion)
+  tips: >-
+    Bus Puma Katari ou minibus vers Chasquipampa et Ovejuyo, puis la marche, ou excursion
+    avec le canyon de Palca. Près de 4 000 m, sans ombre : eau, crème solaire, chapeau, et
+    partir tôt.
+en:
+  name: Valle de las Ánimas
+  label: Valle de las Ánimas
+  short: A forest of earth spires on the edge of La Paz, bigger and wilder than the Valley of the Moon.
+  story: >-
+    East of the Zona Sur, above Ovejuyo, erosion has carved a whole valley of tall spires
+    and clay walls, said to be home to the souls of the dead. The trail follows the valley
+    floor between these organ pipes, with Illimani opposite, and can carry on to the Palca
+    canyon. It is a municipal protected area, and a half-day to full-day hike barely
+    outside the city.
+  todo:
+    - Hike among the clay spires (2 to 4 h)
+    - Views of Illimani
+    - Carry on to the Palca canyon (full day or tour)
+  tips: >-
+    Puma Katari bus or minibus to Chasquipampa and Ovejuyo, then walk, or a tour with the
+    Palca canyon. Close to 4,000 m and no shade: water, sunscreen, a hat, and start early.
+es:
+  name: Valle de las Ánimas
+  label: Valle de las Ánimas
+  short: Un bosque de agujas de tierra al borde de La Paz, más grande y más salvaje que el Valle de la Luna.
+  story: >-
+    Al este de la Zona Sur, encima de Ovejuyo, la erosión talló todo un valle de altas
+    agujas y murallas de arcilla, que dicen habitado por las ánimas. El sendero sigue el
+    fondo del valle entre estos órganos, con el Illimani al frente, y puede seguir hasta el
+    cañón de Palca. Es un área protegida municipal, y una caminata de medio día a un día
+    casi sin salir de la ciudad.
+  todo:
+    - Caminata entre las agujas de arcilla (2 a 4 h)
+    - Vista al Illimani
+    - Seguir hasta el cañón de Palca (día completo o excursión)
+  tips: >-
+    Bus Puma Katari o minibús a Chasquipampa y Ovejuyo, y luego a pie, o excursión junto
+    con el cañón de Palca. Casi a 4000 m y sin sombra: agua, bloqueador, sombrero, y salir
+    temprano.

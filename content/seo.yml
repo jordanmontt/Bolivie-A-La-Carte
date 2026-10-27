@@ -1,9 +1,12 @@
 # What search engines (Google, Bing) show, and the texts of the simple pages made for them:
-# one page per place and per language (es/<place>/, en/<place>/, fr/<place>/), a home page and
-# a tips page per language. Those pages are built from the places' own texts; only the few
-# texts below are specific to them. {n} = number of places, {name} = the place's name.
+# one page per place and per language (es/<place>/, en/<place>/, fr/<place>/), and per language
+# a home page, a tips page and five culture pages. Those pages are built from the same texts as
+# the site; only the few texts below are specific to them. {n} = number of places, {name} = the place's name.
 # site: the public address of the site, ending with /. Change it if the site gets its own domain.
 site: https://jordanmontt.github.io/Bolivie-A-La-Carte/
+# Visitor statistics (GoatCounter, free, no cookies): the code of the account, e.g. "boliviaalacarta"
+# for https://boliviaalacarta.goatcounter.com. Leave it empty to count nothing.
+stats: ""
 fr:
   home.title: "Guide touristique de la Bolivie : que voir, trajets et conseils"
   home.description: >-
@@ -19,6 +22,21 @@ fr:
   place.openMap: Voir sur la carte interactive
   tips.slug: conseils
   tips.title: "Conseils pour voyager en Bolivie : argent, bus, sécurité, visas"
+  festivals.slug: fetes-de-bolivie
+  festivals.title: "Fêtes de Bolivie : calendrier des fêtes, carnavals et pèlerinages"
+  festivals.intro: >-
+    Les grandes fêtes de Bolivie, mois par mois : carnavals, entrées folkloriques et
+    pèlerinages, avec où et quand elles ont lieu.
+  food.slug: cuisine-bolivienne
+  food.title: "Cuisine bolivienne : plats typiques et boissons, région par région"
+  unesco.slug: patrimoine-unesco
+  unesco.title: "Patrimoine mondial de l'UNESCO en Bolivie : sites et traditions"
+  crafts.slug: artisanat-et-marches
+  crafts.title: "Artisanat et marchés de Bolivie : tissages, charangos, marchés"
+  legends.slug: mythes-et-legendes
+  legends.title: "Mythes et légendes de Bolivie : Ekeko, Pachamama, le Tío"
+  culture.when: Quand
+  culture.moving: date variable
 en:
   home.title: "Bolivia travel guide: places to visit, routes and tips"
   home.description: >-
@@ -34,6 +52,21 @@ en:
   place.openMap: Open on the interactive map
   tips.slug: tips
   tips.title: "Bolivia travel tips: money, buses, safety and visas"
+  festivals.slug: bolivia-festivals
+  festivals.title: "Bolivia festivals: calendar of festivals, carnivals and pilgrimages"
+  festivals.intro: >-
+    Bolivia's great festivals, month by month: carnivals, folk dance parades and pilgrimages,
+    with where and when they happen.
+  food.slug: bolivian-food
+  food.title: "Bolivian food: typical dishes and drinks, region by region"
+  unesco.slug: unesco-heritage
+  unesco.title: "UNESCO World Heritage in Bolivia: sites and traditions"
+  crafts.slug: crafts-and-markets
+  crafts.title: "Bolivian crafts and markets: weaving, charangos, markets"
+  legends.slug: myths-and-legends
+  legends.title: "Bolivian myths and legends: Ekeko, Pachamama, El Tío"
+  culture.when: When
+  culture.moving: date changes every year
 es:
   home.title: "Guía turística de Bolivia: qué ver, rutas y consejos"
   home.description: >-
@@ -49,3 +82,18 @@ es:
   place.openMap: Ver en el mapa interactivo
   tips.slug: consejos
   tips.title: "Consejos para viajar a Bolivia: dinero, buses, seguridad y visas"
+  festivals.slug: fiestas-de-bolivia
+  festivals.title: "Fiestas de Bolivia: calendario de fiestas, carnavales y peregrinaciones"
+  festivals.intro: >-
+    Las grandes fiestas de Bolivia, mes por mes: carnavales, entradas folklóricas y
+    peregrinaciones, con dónde y cuándo se celebran.
+  food.slug: comida-tipica-boliviana
+  food.title: "Comida típica boliviana: platos y bebidas, región por región"
+  unesco.slug: patrimonio-unesco
+  unesco.title: "Patrimonio de la UNESCO en Bolivia: lugares y tradiciones"
+  crafts.slug: artesania-y-mercados
+  crafts.title: "Artesanía y mercados de Bolivia: tejidos, charangos, mercados"
+  legends.slug: mitos-y-leyendas
+  legends.title: "Mitos y leyendas de Bolivia: Ekeko, Pachamama, el Tío"
+  culture.when: Cuándo
+  culture.moving: fecha variable

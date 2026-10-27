@@ -7,7 +7,7 @@ altitude: 155
 days: [2, 3]
 climate: amazonie
 major: true
-dishes: [carne_beni, pescado_beni, majadito]
+dishes: [carne_beni, pescado, majadito]
 photos:
   - file: trinidad-1.jpg
     author: Parallelepiped09
