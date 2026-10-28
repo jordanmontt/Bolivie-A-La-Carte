@@ -1,5 +1,6 @@
 # Interface texts (fr). {name} parts are filled in by the site; one/other are singular/plural.
-brand: Bolivie à la carte
+brand: Bolivia à la carte
+brand.tagline: Guide touristique de la Bolivie
 skip: Aller au contenu
 lang.label: Langue
 nav.label: Navigation principale
@@ -31,7 +32,6 @@ results:
 fromStart: "{h} depuis {place}"
 undo: Annuler
 home.title: Bolivie, où aller ?
-home.kicker: Guide touristique de la Bolivie
 home.titleShort: guide touristique de la Bolivie
 home.lead: >-
   {n} lieux, des glaciers à l'Amazonie : villes coloniales, déserts de sel, lacs sacrés et

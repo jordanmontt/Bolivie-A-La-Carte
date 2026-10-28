@@ -1,5 +1,6 @@
 # Interface texts (en). {name} parts are filled in by the site; one/other are singular/plural.
 brand: Bolivia à la carte
+brand.tagline: Bolivia travel guide
 skip: Skip to content
 lang.label: Language
 nav.label: Main navigation
@@ -31,7 +32,6 @@ results:
 fromStart: "{h} from {place}"
 undo: Undo
 home.title: Bolivia, where to go?
-home.kicker: A travel guide to Bolivia
 home.titleShort: travel guide to Bolivia
 home.lead: >-
   {n} places, from glaciers to the Amazon: colonial towns, salt deserts, sacred lakes and

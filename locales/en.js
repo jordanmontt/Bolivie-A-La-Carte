@@ -3,6 +3,7 @@ window.BOL = window.BOL || {};
 BOL.locales = BOL.locales || {};
 BOL.locales.en = Object.assign(BOL.locales.en || {}, {ui: {
  "brand":"Bolivia à la carte",
+ "brand.tagline":"Bolivia travel guide",
  "skip":"Skip to content",
  "lang.label":"Language",
  "nav.label":"Main navigation",
@@ -26,7 +27,6 @@ BOL.locales.en = Object.assign(BOL.locales.en || {}, {ui: {
  "fromStart":"{h} from {place}",
  "undo":"Undo",
  "home.title":"Bolivia, where to go?",
- "home.kicker":"A travel guide to Bolivia",
  "home.titleShort":"travel guide to Bolivia",
  "home.lead":"{n} places, from glaciers to the Amazon: colonial towns, salt deserts, sacred lakes and jungle. Explore the map, then put together your own trip, with or without dates.",
  "home.explore":"Explore the map",

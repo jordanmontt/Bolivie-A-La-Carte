@@ -5,7 +5,8 @@ it is meant to save you from reading the whole code base.
 
 ## In one paragraph
 
-A static site served by GitHub Pages from the root of `main`. No framework, no npm
+A static site at https://bolivia-alacarte.jordanmontt.fr/, served by Cloudflare Pages from
+`main` (the repository is private). No framework, no npm
 dependencies, no bundler. The interactive site is one page (`index.html`) with hash routes
 (`#/place/sucre`). All content lives once in `content/*.yml`; `tools/build.mjs` checks it and
 generates the JavaScript data files the page loads (`data/*.js`, `locales/*.js`), one copy
@@ -43,6 +44,7 @@ texts on github.com without tools.
 | `tools/make-small-photos.py` | 640 px copies in `photos/sm/` (Pillow) | rarely |
 | `tools/og.html` | Template of the link preview images (how to remake them is in its header) | rarely |
 | `tools/update-rates.mjs` | Fetches the Banco Central de Bolivia rates | rarely |
+| `tools/publish.mjs` | Copies the files visitors need into `_site/` (not committed) for Cloudflare Pages | when the site loads a new top-level file or folder |
 | `tests/*.test.mjs` | Tests, run with `node --test "tests/*.test.mjs"` | yes |
 | `photos/`, `photos/sm/` | Photos (Wikimedia Commons) and their small copies | add only |
 
@@ -116,10 +118,14 @@ Language order: `?lang=` in the URL, the page's language (`<html data-lang>` in 
 saved choice (localStorage), browser languages, English.
 
 **Address in the language (`langAddress()` in `app.js`):** at start and after a language change
-the app replaces the address with `<lang>.html#…` (same folder, hash kept, `?lang` dropped).
+the app replaces the address with `<lang>#…` (same folder, hash kept, `?lang` dropped).
 `es.html`/`fr.html`/`en.html` are `index.html` with title, description and `og:` image in
 that language, so a link copied from the address bar previews in the visitor's language
-(link previews never run JavaScript and ignore the hash). Not done when opened as a file.
+(link previews never run JavaScript and ignore the hash). On the published site (address
+starting with `site` in `content/seo.yml`) the address has no `.html`: Cloudflare Pages
+serves `es.html` at `/es` and redirects `/es.html` there, so canonical, `hreflang`, `og:url`
+and the sitemap use `/es`. Elsewhere (local preview) it is `es.html`; not done when opened
+as a file. Links inside the site keep the `.html`, which works everywhere.
 
 **Visitor statistics (`countView()` and `countEvent()` in `app.js`):** when `stats` is set in
 `content/seo.yml`, each screen is counted once in GoatCounter as `/<lang>/<hash path>` (e.g.
@@ -203,8 +209,9 @@ load `css/style.css?v=` with the release number read from `index.html`.
 
 The app links to these pages from its footer ("All places, page by page") and from a
 `<noscript>` block in `index.html`. `robots.txt` is only read at a domain root, so it takes
-effect once the site has its own domain (then also change `site:` in `content/seo.yml`, the
-canonical, `hreflang` and `og:` URLs in `index.html`, and add a `CNAME` file).
+effect at the domain root. To change the domain: `site:` in `content/seo.yml`, the
+canonical, `hreflang` and `og:` URLs in `index.html`, the User-Agent in
+`tools/update-rates.mjs`, the README, and the custom domain in Cloudflare Pages.
 
 ## Caching and releases
 
@@ -226,9 +233,19 @@ canonical, `hreflang` and `og:` URLs in `index.html`, and add a `CNAME` file).
 
 - `.github/workflows/build.yml` (on pushes touching content, photos, tools, tests, js,
   index.html): `node tools/build.mjs`, `python tools/make-small-photos.py`,
-  `node --test "tests/*.test.mjs"`, then commits the generated files and asks GitHub Pages to rebuild
-  (pushes made by an Action don't trigger Pages by themselves).
+  `node --test "tests/*.test.mjs"`, then commits the generated files.
+- The repository is private: Actions have 2,000 free minutes a month (the site uses about 60).
 - `.github/workflows/rates.yml` (twice each morning, Bolivian time): updates `data/rates.js`.
+
+## Hosting (Cloudflare Pages)
+
+Cloudflare Pages (free plan: no traffic limit, commercial use allowed) is connected to the
+GitHub repository and publishes every push to `main`, including the Actions' own commits.
+Project settings: production branch `main`, build command `node tools/publish.mjs`, output
+directory `_site`. Only the files listed in `tools/publish.mjs` go online; `content/`,
+`tools/`, `tests/` and the docs stay private. The custom domain
+`bolivia-alacarte.jordanmontt.fr` is a CNAME at the domain's DNS provider pointing to the
+project's `*.pages.dev` address. Cloudflare serves `x.html` at `/x` (see `langAddress()`).
 
 ## Tests
 
@@ -299,4 +316,4 @@ The build prints the current list of places without photos. As of October 2026:
   Candelaria, Zudáñez, Iruito, Viscachani, Yungapampa (access and lodge), Apote (the dams
   above the waterfalls), Casa de Moneda and Villa Albina opening hours.
 - **Search engines:** Google Search Console and Bing Webmaster Tools are not set up yet (needs
-  the owner's account, then submit `sitemap.xml`). The site has no own domain yet.
+  the owner's account, then submit `sitemap.xml`).

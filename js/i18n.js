@@ -13,7 +13,7 @@
 "use strict";
 const SUPPORTED = ["fr", "en", "es"], DEFAULT = "en", STORE = "bolivia-lang";
 // Release number added to files loaded on demand, like the ?v= in index.html: bump both together.
-const RELEASE = "16";
+const RELEASE = "17";
 const NAMES = {fr:"Français", en:"English", es:"Español"};
 window.BOL = window.BOL || {};
 BOL.locales = BOL.locales || {};

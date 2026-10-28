@@ -1,5 +1,6 @@
 # Interface texts (es). {name} parts are filled in by the site; one/other are singular/plural.
-brand: Bolivia a la carta
+brand: Bolivia à la carte
+brand.tagline: Guía turística de Bolivia
 skip: Ir al contenido
 lang.label: Idioma
 nav.label: Navegación principal
@@ -31,7 +32,6 @@ results:
 fromStart: "{h} desde {place}"
 undo: Deshacer
 home.title: Bolivia, ¿adónde ir?
-home.kicker: Guía turística de Bolivia
 home.titleShort: guía turística de Bolivia
 home.lead: >-
   {n} lugares, de los glaciares a la Amazonía: ciudades coloniales, desiertos de sal, lagos

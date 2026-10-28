@@ -2,7 +2,8 @@
 window.BOL = window.BOL || {};
 BOL.locales = BOL.locales || {};
 BOL.locales.es = Object.assign(BOL.locales.es || {}, {ui: {
- "brand":"Bolivia a la carta",
+ "brand":"Bolivia à la carte",
+ "brand.tagline":"Guía turística de Bolivia",
  "skip":"Ir al contenido",
  "lang.label":"Idioma",
  "nav.label":"Navegación principal",
@@ -26,7 +27,6 @@ BOL.locales.es = Object.assign(BOL.locales.es || {}, {ui: {
  "fromStart":"{h} desde {place}",
  "undo":"Deshacer",
  "home.title":"Bolivia, ¿adónde ir?",
- "home.kicker":"Guía turística de Bolivia",
  "home.titleShort":"guía turística de Bolivia",
  "home.lead":"{n} lugares, de los glaciares a la Amazonía: ciudades coloniales, desiertos de sal, lagos sagrados y selva. Explora el mapa y arma tu propio viaje, con o sin fechas.",
  "home.explore":"Explorar el mapa",

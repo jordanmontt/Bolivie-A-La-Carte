@@ -2,7 +2,8 @@
 window.BOL = window.BOL || {};
 BOL.locales = BOL.locales || {};
 BOL.locales.fr = Object.assign(BOL.locales.fr || {}, {ui: {
- "brand":"Bolivie à la carte",
+ "brand":"Bolivia à la carte",
+ "brand.tagline":"Guide touristique de la Bolivie",
  "skip":"Aller au contenu",
  "lang.label":"Langue",
  "nav.label":"Navigation principale",
@@ -26,7 +27,6 @@ BOL.locales.fr = Object.assign(BOL.locales.fr || {}, {ui: {
  "fromStart":"{h} depuis {place}",
  "undo":"Annuler",
  "home.title":"Bolivie, où aller ?",
- "home.kicker":"Guide touristique de la Bolivie",
  "home.titleShort":"guide touristique de la Bolivie",
  "home.lead":"{n} lieux, des glaciers à l'Amazonie : villes coloniales, déserts de sel, lacs sacrés et jungle. Explorez la carte, puis composez votre voyage, avec ou sans dates.",
  "home.explore":"Explorer la carte",

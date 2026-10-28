@@ -56,7 +56,7 @@ function renderChrome(){
   const cur = {home:"home", map:"map", place:"map", routes:"routes", route:"routes", guide:"guide", culture:"culture", trip:"trip"}[S.view];
   const link = ([k, href, ic, txt], withIcon) => `<a href="${href}" ${cur === k ? 'aria-current="page"' : ""}>${withIcon ? icon(ic) : ""}<span>${esc(txt)}</span>${k === "trip" ? `<span class="count" aria-label="${esc(t("nav.tripCount", {n}))}">${n || ""}</span>` : ""}</a>`;
   $("#head").innerHTML = `<div class="bar">
-    <a class="brand" href="#/">${LOGO}<span>${esc(t("brand"))}</span></a>
+    <a class="brand" href="#/">${LOGO}<span class="bname">${esc(t("brand"))}<small>${esc(t("brand.tagline"))}</small></span></a>
     <nav class="mainnav" aria-label="${esc(t("nav.label"))}">${nav.map(x => link(x, false)).join("")}</nav>
     <label class="lang"><span class="sr-only">${esc(t("lang.label"))}</span><select id="langSel">${I.supported.map(l => `<option value="${l}" ${l === I.lang ? "selected" : ""} lang="${l}">${esc(I.names[l])}</option>`).join("")}</select>${icon("chev")}</label>
   </div><div class="weave thin"></div>`;
@@ -216,9 +216,11 @@ window.addEventListener("storage", ev => { if (ev.key === "bolivia-trip"){ trip 
 /* ───── Address and visitor statistics ───── */
 // Keep the address on the page of the current language (es.html, fr.html, en.html: index.html with
 // its title and link preview image in that language), so a copied link previews in that language.
+// On the published site the address has no .html (/es), as Cloudflare Pages serves es.html there.
 function langAddress(){
   if (!location.protocol.startsWith("http")) return;
-  const want = location.pathname.replace(/[^/]*$/, "") + I.lang + ".html";
+  const published = B.site && location.href.startsWith(B.site.url);
+  const want = location.pathname.replace(/[^/]*$/, "") + I.lang + (published ? "" : ".html");
   if (location.pathname !== want || location.search) history.replaceState(history.state, "", want + location.hash);
 }
 // GoatCounter (content/seo.yml, stats): one page view per screen, counted as /<lang>/<view>

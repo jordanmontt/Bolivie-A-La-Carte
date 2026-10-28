@@ -19,7 +19,6 @@ function renderHome(){
   $("#v-home").innerHTML = `
   <section class="hero"><div class="in">
     <div>
-      <p class="kicker">${esc(t("home.kicker"))}</p>
       <h1 tabindex="-1" id="pageTitle">${esc(t("home.title"))}</h1>
       <p class="lead">${esc(t("home.lead", {n:B.places.length}))}</p>
       <div class="row"><a class="btn cta" href="#/map">${icon("map")}${esc(t("home.explore"))}</a><a class="btn on-dark" href="#/trip">${icon("trip")}${esc(t("home.plan"))}</a></div>

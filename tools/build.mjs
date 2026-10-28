@@ -220,7 +220,7 @@ for (const f of codeFiles){
 /* ───── Pages for search engines ───── */
 const seo = read("seo.yml") || {};
 const site = str(seo.site), stats = str(seo.stats).trim();
-if (stats && !/^[a-z0-9-]+$/.test(stats)) problem(`content/seo.yml: "stats" must be the GoatCounter code only (letters, digits, -), e.g. boliviaalacarta`);
+if (stats && !/^[a-z0-9-]+$/.test(stats)) problem(`content/seo.yml: "stats" must be the GoatCounter code only (letters, digits, -), e.g. bolivia-alacarte`);
 if (!/^https:\/\/.+\/$/.test(site)) problem(`content/seo.yml: "site" must be the site's address, starting with https:// and ending with /`);
 for (const l of LANGS){
   if (!seo[l]) { problem(`content/seo.yml: the "${l}" texts are missing`); seo[l] = {}; }

@@ -4,7 +4,7 @@ A free travel guide to Bolivia: 110 places on an interactive map, with photos, f
 and routes, practical tips (money, buses, safety, visas, border crossings), culture pages and
 an optional trip planner. In French, English and Spanish.
 
-Site: https://jordanmontt.github.io/Bolivie-A-La-Carte/
+Site: https://bolivia-alacarte.jordanmontt.fr/
 
 Made by [jordanmontt](https://github.com/jordanmontt) · sebastian.jordan.m@proton.me
 
@@ -46,11 +46,14 @@ id with no spaces or accents, e.g. `sorata`), fill it in, then add `<id>` to its
 translation, a photo that isn't there, an unknown place), the action fails, says exactly
 what and where, and the live site is not changed.
 
+**Hosting:** Cloudflare Pages publishes every change pushed to `main` (settings in
+[technical.md](technical.md), "Hosting").
+
 ## Visitor statistics
 
 The site can count its visitors with [GoatCounter](https://www.goatcounter.com) (free, no
 cookies, so no consent banner). Create an account there, choose a code (for example
-`boliviaalacarta`), and write it after `stats:` in `content/seo.yml`. You then see at
+`bolivia-alacarte`), and write it after `stats:` in `content/seo.yml`. You then see at
 `https://<code>.goatcounter.com` the visits per day, the most viewed pages (e.g.
 `/es/place/sucre` or `/fr/culture/festivals`), where visitors come from (Google, Facebook…),
 their countries and devices (the language is the start of each page address). It also
@@ -61,8 +64,7 @@ numbers to a partner or sponsor.
 
 ## Sharing a link
 
-The address bar shows `…/es.html`, `…/fr.html` or `…/en.html`, depending on the language
-chosen. A link copied from there shows its preview (title and image) in that language.
+The address bar shows `…/es`, `…/fr` or `…/en`, depending on the language chosen. A link copied from there shows its preview (title and image) in that language.
 
 ## On a computer
 

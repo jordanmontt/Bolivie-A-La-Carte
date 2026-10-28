@@ -54,6 +54,8 @@ p{margin:0}
 .site-head .bar{height:var(--head-h);display:flex;align-items:center;gap:20px;padding-left:max(20px,env(safe-area-inset-left));padding-right:max(20px,env(safe-area-inset-right))}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;font:700 18px/1 var(--f-display);white-space:nowrap}
 .brand svg{width:34px;height:34px;flex:none}
+.bname{display:flex;flex-direction:column;gap:4px;min-width:0}
+.bname small{font:600 11px/1 var(--f-body);letter-spacing:.06em;text-transform:uppercase;color:var(--saffron);overflow:hidden;text-overflow:ellipsis}
 .mainnav{display:flex;gap:4px;margin-left:auto}
 .mainnav a{display:flex;align-items:center;gap:8px;padding:8px 14px;border-radius:999px;text-decoration:none;font-weight:600;color:var(--indigo-ink);opacity:.82}
 .mainnav a:hover{opacity:1;background:rgba(255,255,255,.08)}
@@ -72,11 +74,14 @@ p{margin:0}
   :root{--head-h:54px;--tab-h:calc(62px + env(safe-area-inset-bottom))}
   .mainnav{display:none}
   .lang{margin-left:auto}
-  .brand{font-size:16px}
+  .brand{font-size:16px;min-width:0}
+  .lang{flex:none}
   .tabbar{display:grid;grid-template-columns:repeat(6,1fr);position:fixed;left:0;right:0;bottom:0;z-index:1000;height:var(--tab-h);padding-bottom:env(safe-area-inset-bottom);background:var(--indigo);border-top:3px solid var(--saffron)}
   .tabbar a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;text-decoration:none;color:var(--indigo-ink);opacity:.72;font-size:11px;min-width:0;white-space:nowrap;font-weight:600;position:relative}
   .tabbar a span:not(.count){max-width:100%;overflow:hidden;text-overflow:ellipsis;padding:0 2px}
   @media (max-width:390px){.tabbar a{font-size:10px;letter-spacing:-.01em}.tabbar a span:not(.count){padding:0}}
+  @media (max-width:430px){.site-head .bar{padding-left:max(14px,env(safe-area-inset-left));padding-right:max(14px,env(safe-area-inset-right))}.brand{gap:8px}.bname small{font-size:9.5px;letter-spacing:.02em}.lang select{font-size:13px;padding:5px 24px 5px 10px}.lang svg{right:8px}}
+  @media (max-width:360px){.brand{font-size:14px}.brand svg{width:30px;height:30px}}
   .tabbar a svg{width:22px;height:22px}
   .tabbar a[aria-current="page"]{opacity:1;color:var(--saffron)}
   .tabbar .count{position:absolute;top:6px;left:calc(50% + 6px)}

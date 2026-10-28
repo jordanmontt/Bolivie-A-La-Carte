@@ -3,9 +3,9 @@
 # a home page, a tips page and five culture pages. Those pages are built from the same texts as
 # the site; only the few texts below are specific to them. {n} = number of places, {name} = the place's name.
 # site: the public address of the site, ending with /. Change it if the site gets its own domain.
-site: https://jordanmontt.github.io/Bolivie-A-La-Carte/
-# Visitor statistics (GoatCounter, free, no cookies): the code of the account, e.g. "boliviaalacarta"
-# for https://boliviaalacarta.goatcounter.com. Leave it empty to count nothing.
+site: https://bolivia-alacarte.jordanmontt.fr/
+# Visitor statistics (GoatCounter, free, no cookies): the code of the account, e.g. "bolivia-alacarte"
+# for https://bolivia-alacarte.goatcounter.com. Leave it empty to count nothing.
 stats: ""
 fr:
   home.title: "Guide touristique de la Bolivie : que voir, trajets et conseils"

@@ -8,7 +8,7 @@ const URL = "https://www.bcb.gob.bo/librerias/indicadores/otras/ultimo.php";
 const OUT = "data/rates.js";
 const MONTHS = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
 
-const res = await fetch(URL, {headers: {"User-Agent": "BoliviaALaCarte/1.0 (https://jordanmontt.github.io/Bolivie-A-La-Carte/)"}});
+const res = await fetch(URL, {headers: {"User-Agent": "BoliviaALaCarte/1.0 (https://bolivia-alacarte.jordanmontt.fr/)"}});
 if (!res.ok) throw new Error(`BCB answered ${res.status}`);
 const html = (await res.text()).replace(/&nbsp;/g, " ").replace(/&Oacute;/g, "Ó").replace(/&oacute;/g, "ó");
 
